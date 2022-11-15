@@ -14,6 +14,7 @@ class BaseWorker(ABC):
         self.device_common_id = self.device.get_common_id()
         self.logger = Logger(self.device)
         self.exit_thread = False
+        self.started_frida_server = False
 
     def __del__(self):
         self.logger.ilog("Exiting....")
@@ -28,15 +29,28 @@ class BaseWorker(ABC):
             self.logger.ilog("Frida is installed and running")
 
     def install_and_run_frida(self) -> bool:
+        if not self.started_frida_server:
+            abi = self.device.get_abi()
+            path = helpers.get_frida_server(abi)
+            self.device.adb_connection.push(path, FRIDA_SERVER_PATH_ON_DEVICE)
+            self.device.file_chmod(FRIDA_SERVER_PATH_ON_DEVICE, FRIDA_SERVER_EXECUTION_MODE)
+            self.device.start_frida_in_background(FRIDA_SERVER_PATH_ON_DEVICE)
+            self.started_frida_server = True
+
         if self.device.is_frida_running():
             self.logger.ilog("Frida is running!")
             return True
 
         abi = self.device.get_abi()
+        # print("ABI:", abi)
         path = helpers.get_frida_server(abi)
+        # print("pathhhh:", path)
         self.device.adb_connection.push(path, FRIDA_SERVER_PATH_ON_DEVICE)
+        # print("Here1")
         self.device.file_chmod(FRIDA_SERVER_PATH_ON_DEVICE, FRIDA_SERVER_EXECUTION_MODE)
+        # print("Here2")
         self.device.start_frida_in_background(FRIDA_SERVER_PATH_ON_DEVICE)
+        # print("Here3")
 
         time.sleep(2)
 

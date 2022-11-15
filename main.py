@@ -92,7 +92,11 @@ def main(args):
                 sys.exit(-1)
 
         for device_name in connected_devices:
+            # print("here1")
             if selected_device:
+                # print("here2")
+                # print("device_name:", device_name)
+                # print("selected_devices:", selected_device)
                 if device_name != selected_device:
                     print('skipping {}'.format(device_name))
                     continue
@@ -124,13 +128,17 @@ def main(args):
                 locks[device_common_id] = threading.Lock()
 
             # Clean run!
-            """
+            
             device.reboot(wait=True)
             while device.is_booting():
                 print(device.get_common_id(), "still recovering from first reboot...")
                 time.sleep(1)
-            """
+            
 
+            # print("device:", device)
+            # print("locks[device_common_id]", locks[device_common_id])
+            # print("selected_service", selected_service)
+            # print("selected_api:", selected_api)
             worker = Worker(device, locks[device_common_id], selected_service, selected_api)
 
         worker.start()

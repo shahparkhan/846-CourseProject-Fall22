@@ -90,8 +90,10 @@ class Device:
 
     def start_frida_in_background(self, path: str) -> (str, str):
         cmd = '.{}'.format(path)
+        print("cmd:", cmd)
         out, error = self.adb_connection.shell(cmd, background=True)
         time.sleep(2)
+        out, error = self.adb_connection.shell("ps | grep frida-server")
         return out, error
 
     def start_fuzzing_app_main_activity(self, user_id: int = 0) -> (str, str):
@@ -138,7 +140,7 @@ class Device:
     def pull_api_list(self):
         device_path = os.path.join(FUZZER_APP_PRIVATE_FILES_PATH, FUZZER_APP_API_LIST_FILE_NAME)
         local_path = get_local_api_lists_path(self.get_common_id())
-
+        print("local_path:", local_path)
         if file_exists(local_path) and "whoami" in helpers.read_json_file(local_path):
             local_path_tmp = local_path.replace(".json", API_LIST_FILE_NAME_SUFFIX)
             if not file_exists(local_path_tmp):

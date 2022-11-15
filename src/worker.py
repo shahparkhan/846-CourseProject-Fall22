@@ -294,6 +294,7 @@ class Worker(BaseWorker):
         print(self.device.get_device_id(), "invocation_result", invocation_result_summarized)
 
         stacktrace_reported, invocation_succeeded = helpers.stacktrace_was_reported_before(task, self.device.get_common_id())
+        print("What is invocation_result:", invocation_result)
         if len(action['stacktrace']) == 0 and (stacktrace_reported or invocation_succeeded):
             err_msg = "Unlike previous iterations, no traces were reported!"
             self.logger.ilog(err_msg)

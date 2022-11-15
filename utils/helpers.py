@@ -701,6 +701,7 @@ def get_ordered_action_template():
 
 def get_adb_path():
     return os.path.join(get_project_root_path(), "res/android-platform-tools/adb")
+    # return "/usr/lib/android-sdk/platform-tools/adb"
 
 
 def pull_api_task_recursively(device_common_id: str, selected_service_api: str = None, selected_service: str = None):
@@ -716,7 +717,9 @@ def pull_api_task_recursively(device_common_id: str, selected_service_api: str =
     else:
         targeted_service = ""
         targeted_api = ""
-
+    # print("Stat services:", stats['services'])
+    # print("targeted_service:", targeted_service)
+    # print("targeted_api:", targeted_api)
     for service in stats['services']:
         if targeted_service:
             s = stats['services'][targeted_service]
@@ -740,6 +743,7 @@ def pull_api_task_recursively(device_common_id: str, selected_service_api: str =
             if api:
                 s['selected_list'].append(api)
             else:
+                print("Returning empty string")
                 return ""
 
             stats['pending'] = stats['pending'] + 1
@@ -751,7 +755,7 @@ def pull_api_task_recursively(device_common_id: str, selected_service_api: str =
             persist_stats(device_common_id, stats)
 
             return api
-
+    print("Returning empty string")
     return ""
 
 

@@ -104,9 +104,25 @@ class Instrumentor:
                 device = frida.get_device(device_id, 10)
             except frida.TimedOutError:
                 pass
+        # cf_device = frida.get_device(device_id, 10)
+        # print("process_test:", process_test)
+        # process_test = frida.get_usb_device()
+        # print("process_test:", process_test)
         process = frida.get_device(device_id, 10).attach(SERVICE_MANAGER)
-        process.enable_jit()
-        script = process.create_script(js_code)
+        # process = frida.get_usb_device().attach(SERVICE_MANAGER)
+
+        # SM_PID = None
+
+        # for app in cf_device.enumerate_processes():
+        #     print("APP IDENTIFIER:", app.name)
+        #     if app.name == SERVICE_MANAGER:
+        #         SM_PID = app.pid
+
+        # process = cf_device.attach(SM_PID)
+        
+
+        # process.enable_jit()
+        script = process.create_script(js_code, runtime='v8')
         script.on('message', on_message)
         script.load()
 
@@ -602,9 +618,9 @@ class Instrumentor:
                         except frida.TimedOutError:
                             pass
                     process = frida.get_device(device_id, 10).attach(process_id)
-                    process.enable_jit()
+                    # process.enable_jit()
                     #print(new_source)
-                    script = process.create_script(new_source)
+                    script = process.create_script(new_source, runtime='v8')
                     script.on('message', on_message)
                     script.load()
                 except Exception as e:

@@ -1,6 +1,6 @@
 coloredlogs==14.0
-frida==14.2.8
-frida-tools==9.1.0
+frida==16.0.2
+frida-tools==12.0.1
 wget==3.2
 pyzmq==20.0.0
 pytest==6.2.1

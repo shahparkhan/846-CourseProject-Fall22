@@ -35,6 +35,8 @@ class AdbConnection:
             if not self.is_su_c_supported():
                 command = '{} -s {} root'.format(helpers.get_adb_path(), self.device_id)
                 out = helpers.shell_execute(helpers.prepare_command(command))
+                # print("in set_adb_root command:", command)
+                # print("in set_adb_root out:", out)
             return out
         else:
             # @TODO: implement
@@ -77,10 +79,15 @@ class AdbConnection:
 
     def shell(self, command: str, root: bool = True, selinux_permissive: bool = True,
               background: bool = False, timeout: int = 0):
+
+        # print("adb_connection.shell command:", command)
         self.reboot_if_system_server_is_not_ready()
 
         if root:
-            self.set_adb_root()
+            out = self.set_adb_root()
+            # print("adb root out:", out)
+            while("unable" in out[0].split()):
+                out = self.set_adb_root()
 
         if selinux_permissive:
             self.set_selinux_permissive()
@@ -92,6 +99,7 @@ class AdbConnection:
                                                                        self.device_id, command)
                 else:
                     command_str = "{} -s {} shell '{}' &".format(helpers.get_adb_path(), self.device_id, command)
+                # print("command in self.adb_connection.shell:", command_str)
                 os.system(command_str)
                 return None, None
             else:
