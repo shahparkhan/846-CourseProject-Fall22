@@ -1,0 +1,203 @@
+{
+    "telephony.registry.notifyCallForwardingChanged": {
+        "permissions": [
+            "1010148::android.permission.MODIFY_PHONE_STATE"
+        ]
+    },
+    "telephony.registry.notifyPreciseCallState": {
+        "permissions": [
+            "10148::android.permission.INTERACT_ACROSS_USERS_FULL",
+            "10148::android.permission.MODIFY_PHONE_STATE"
+        ]
+    },
+    "telephony.registry.notifyUserMobileDataStateChangedForPhoneId": {
+        "permissions": [
+            "10148::android.permission.MODIFY_PHONE_STATE"
+        ]
+    },
+    "telephony.registry.addOnSubscriptionsChangedListener": {
+        "permissions": [
+            "EXCEPTION::Package com.android.systemui does not belong to 10148 "
+        ]
+    },
+    "telephony.registry.notifyEmergencyNumberList": {
+        "permissions": [
+            "10148::android.permission.MODIFY_PHONE_STATE"
+        ]
+    },
+    "telephony.registry.notifyRadioPowerStateChanged": {
+        "permissions": [
+            "10148::android.permission.MODIFY_PHONE_STATE"
+        ]
+    },
+    "telephony.registry.notifyOtaspChanged": {
+        "permissions": [
+            "10148::android.permission.MODIFY_PHONE_STATE"
+        ]
+    },
+    "telephony.registry.notifyCellInfo": {
+        "permissions": [
+            "10148::android.permission.MODIFY_PHONE_STATE"
+        ]
+    },
+    "telephony.registry.notifyPhoneCapabilityChanged": {
+        "permissions": []
+    },
+    "telephony.registry.notifyServiceStateForPhoneId": {
+        "permissions": [
+            "10148::android.permission.MODIFY_PHONE_STATE"
+        ]
+    },
+    "telephony.registry.notifyOemHookRawEventForSubscriber": {
+        "permissions": [
+            "10148::android.permission.MODIFY_PHONE_STATE"
+        ]
+    },
+    "telephony.registry.notifyCallState": {
+        "permissions": [
+            "10148::android.permission.MODIFY_PHONE_STATE"
+        ]
+    },
+    "telephony.registry.addOnOpportunisticSubscriptionsChangedListener": {
+        "permissions": []
+    },
+    "telephony.registry.notifyCallQualityChanged": {
+        "permissions": [
+            "10148::android.permission.MODIFY_PHONE_STATE"
+        ]
+    },
+    "telephony.registry.notifyDataActivity": {
+        "permissions": [
+            "10148::android.permission.MODIFY_PHONE_STATE"
+        ]
+    },
+    "telephony.registry.notifyDisconnectCause": {
+        "permissions": [
+            "10148::android.permission.MODIFY_PHONE_STATE"
+        ]
+    },
+    "telephony.registry.notifySrvccStateChanged": {
+        "permissions": [
+            "10148::android.permission.MODIFY_PHONE_STATE"
+        ]
+    },
+    "telephony.registry.notifySimActivationStateChangedForPhoneId": {
+        "permissions": [
+            "10148::android.permission.MODIFY_PHONE_STATE"
+        ]
+    },
+    "telephony.registry.notifyMessageWaitingChangedForPhoneId": {
+        "permissions": [
+            "10148::android.permission.MODIFY_PHONE_STATE"
+        ]
+    },
+    "telephony.registry.notifyImsDisconnectCause": {
+        "permissions": [
+            "10148::android.permission.MODIFY_PHONE_STATE"
+        ]
+    },
+    "telephony.registry.notifyCellLocationForSubscriber": {
+        "permissions": [
+            "1010148::android.permission.MODIFY_PHONE_STATE"
+        ]
+    },
+    "telephony.registry.notifyDataActivityForSubscriber": {
+        "permissions": [
+            "10148::android.permission.MODIFY_PHONE_STATE"
+        ]
+    },
+    "telephony.registry.removeOnSubscriptionsChangedListener": {
+        "permissions": []
+    },
+    "telephony.registry.notifyActiveDataSubIdChanged": {
+        "permissions": []
+    },
+    "telephony.registry.notifyDataConnectionFailedForSubscriber": {
+        "permissions": [
+            "10148::android.permission.BROADCAST_STICKY",
+            "10148::android.permission.INTERACT_ACROSS_USERS_FULL",
+            "10148::android.permission.MODIFY_PHONE_STATE"
+        ]
+    },
+    "telephony.registry.notifyDataConnectionForSubscriber": {
+        "permissions": [
+            "10148::android.permission.INTERACT_ACROSS_USERS",
+            "10148::android.permission.MODIFY_PHONE_STATE"
+        ]
+    },
+    "telephony.registry.notifyCallStateForPhoneId": {
+        "permissions": [
+            "10148::android.permission.INTERACT_ACROSS_USERS_FULL",
+            "10148::android.permission.MODIFY_PHONE_STATE"
+        ]
+    },
+    "telephony.registry.notifyDataConnectionFailed": {
+        "permissions": [
+            "10148::android.permission.BROADCAST_STICKY",
+            "10148::android.permission.INTERACT_ACROSS_USERS",
+            "10148::android.permission.MODIFY_PHONE_STATE"
+        ]
+    },
+    "telephony.registry.notifyDataConnection": {
+        "permissions": [
+            "10148::android.permission.BROADCAST_STICKY",
+            "10148::android.permission.INTERACT_ACROSS_USERS_FULL",
+            "10148::android.permission.MODIFY_PHONE_STATE"
+        ]
+    },
+    "telephony.registry.notifyOpportunisticSubscriptionInfoChanged": {
+        "permissions": []
+    },
+    "telephony.registry.notifyPreciseDataConnectionFailed": {
+        "permissions": [
+            "10148::android.permission.INTERACT_ACROSS_USERS_FULL",
+            "10148::android.permission.MODIFY_PHONE_STATE"
+        ]
+    },
+    "telephony.registry.notifySignalStrengthForPhoneId": {
+        "permissions": [
+            "10148::android.permission.BROADCAST_STICKY",
+            "10148::android.permission.INTERACT_ACROSS_USERS_FULL",
+            "10148::android.permission.MODIFY_PHONE_STATE"
+        ]
+    },
+    "telephony.registry.notifyPhysicalChannelConfigurationForSubscriber": {
+        "permissions": [
+            "1010148::android.permission.MODIFY_PHONE_STATE"
+        ]
+    },
+    "telephony.registry.listen": {
+        "permissions": []
+    },
+    "telephony.registry.listenForSubscriber": {
+        "permissions": []
+    },
+    "telephony.registry.notifyCarrierNetworkChange": {
+        "permissions": [
+            "EXCEPTION::notifyCarrierNetworkChange without carrier privilege "
+        ]
+    },
+    "telephony.registry.notifySubscriptionInfoChanged": {
+        "permissions": []
+    },
+    "telephony.registry.notifyCallForwardingChangedForSubscriber": {
+        "permissions": [
+            "10148::android.permission.MODIFY_PHONE_STATE"
+        ]
+    },
+    "telephony.registry.notifyCellInfoForSubscriber": {
+        "permissions": [
+            "10148::android.permission.MODIFY_PHONE_STATE"
+        ]
+    },
+    "telephony.registry.notifyPhysicalChannelConfiguration": {
+        "permissions": [
+            "10148::android.permission.MODIFY_PHONE_STATE"
+        ]
+    },
+    "telephony.registry.notifyCellLocation": {
+        "permissions": [
+            "10148::android.permission.MODIFY_PHONE_STATE"
+        ]
+    }
+}

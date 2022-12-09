@@ -1,0 +1,124 @@
+Name,API Level,Protection Level,Constant Value
+ACCEPT_HANDOVER,28,dangerous,android.permission.ACCEPT_HANDOVER
+ACCESS_BACKGROUND_LOCATION,29,dangerous,android.permission.ACCESS_BACKGROUND_LOCATION
+ACCESS_BLOBS_ACROSS_USERS,31,NA,android.permission.ACCESS_BLOBS_ACROSS_USERS
+ACCESS_CHECKIN_PROPERTIES,1,Not for use by third-party applications.,android.permission.ACCESS_CHECKIN_PROPERTIES
+ACCESS_COARSE_LOCATION,1,dangerous,android.permission.ACCESS_COARSE_LOCATION
+ACCESS_FINE_LOCATION,1,dangerous,android.permission.ACCESS_FINE_LOCATION
+ACCESS_LOCATION_EXTRA_COMMANDS,1,normal,android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ACCESS_MEDIA_LOCATION,29,dangerous,android.permission.ACCESS_MEDIA_LOCATION
+ACCESS_NETWORK_STATE,1,normal,android.permission.ACCESS_NETWORK_STATE
+ACCESS_NOTIFICATION_POLICY,23,normal,android.permission.ACCESS_NOTIFICATION_POLICY
+ACCESS_WIFI_STATE,1,normal,android.permission.ACCESS_WIFI_STATE
+ACCOUNT_MANAGER,5,Not for use by third-party applications.,android.permission.ACCOUNT_MANAGER
+ACTIVITY_RECOGNITION,29,dangerous,android.permission.ACTIVITY_RECOGNITION
+ADD_VOICEMAIL,14,dangerous,com.android.voicemail.permission.ADD_VOICEMAIL
+ANSWER_PHONE_CALLS,26,dangerous,android.permission.ANSWER_PHONE_CALLS
+BATTERY_STATS,1,signature|privileged|development,android.permission.BATTERY_STATS
+BIND_ACCESSIBILITY_SERVICE,16,signature,android.permission.BIND_ACCESSIBILITY_SERVICE
+BIND_APPWIDGET,3,Not for use by third-party applications.,android.permission.BIND_APPWIDGET
+BIND_AUTOFILL_SERVICE,26,signature,android.permission.BIND_AUTOFILL_SERVICE
+BIND_CALL_REDIRECTION_SERVICE,29,signature|privileged,android.permission.BIND_CALL_REDIRECTION_SERVICE
+BIND_CARRIER_MESSAGING_CLIENT_SERVICE,29,signature,android.permission.BIND_CARRIER_MESSAGING_CLIENT_SERVICE
+BIND_CARRIER_MESSAGING_SERVICE,22,NA,android.permission.BIND_CARRIER_MESSAGING_SERVICE
+BIND_CARRIER_SERVICES,23,signature|privileged,android.permission.BIND_CARRIER_SERVICES
+BIND_CHOOSER_TARGET_SERVICE,23,signature,android.permission.BIND_CHOOSER_TARGET_SERVICE
+BIND_COMPANION_DEVICE_SERVICE,31,NA,android.permission.BIND_COMPANION_DEVICE_SERVICE
+BIND_CONDITION_PROVIDER_SERVICE,24,signature,android.permission.BIND_CONDITION_PROVIDER_SERVICE
+BIND_CONTROLS,30,NA,android.permission.BIND_CONTROLS
+BIND_DEVICE_ADMIN,8,signature,android.permission.BIND_DEVICE_ADMIN
+BIND_DREAM_SERVICE,21,signature,android.permission.BIND_DREAM_SERVICE
+BIND_INCALL_SERVICE,23,signature|privileged,android.permission.BIND_INCALL_SERVICE
+BIND_INPUT_METHOD,3,signature,android.permission.BIND_INPUT_METHOD
+BIND_MIDI_DEVICE_SERVICE,23,signature,android.permission.BIND_MIDI_DEVICE_SERVICE
+BIND_NFC_SERVICE,19,signature,android.permission.BIND_NFC_SERVICE
+BIND_NOTIFICATION_LISTENER_SERVICE,18,signature,android.permission.BIND_NOTIFICATION_LISTENER_SERVICE
+BIND_PRINT_SERVICE,19,signature,android.permission.BIND_PRINT_SERVICE
+BIND_QUICK_ACCESS_WALLET_SERVICE,30,signature,android.permission.BIND_QUICK_ACCESS_WALLET_SERVICE
+BIND_QUICK_SETTINGS_TILE,24,NA,android.permission.BIND_QUICK_SETTINGS_TILE
+BIND_REMOTEVIEWS,11,signature|privileged,android.permission.BIND_REMOTEVIEWS
+BIND_SCREENING_SERVICE,24,signature|privileged,android.permission.BIND_SCREENING_SERVICE
+BIND_TELECOM_CONNECTION_SERVICE,23,signature|privileged,android.permission.BIND_TELECOM_CONNECTION_SERVICE
+BIND_TEXT_SERVICE,14,signature,android.permission.BIND_TEXT_SERVICE
+BIND_TV_INPUT,21,signature|privileged,android.permission.BIND_TV_INPUT
+BIND_TV_INTERACTIVE_APP,33,signature|privileged,android.permission.BIND_TV_INTERACTIVE_APP
+BIND_VISUAL_VOICEMAIL_SERVICE,26,signature|privileged,android.permission.BIND_VISUAL_VOICEMAIL_SERVICE
+BIND_VOICE_INTERACTION,21,signature,android.permission.BIND_VOICE_INTERACTION
+BIND_VPN_SERVICE,14,signature,android.permission.BIND_VPN_SERVICE
+BIND_VR_LISTENER_SERVICE,24,signature,android.permission.BIND_VR_LISTENER_SERVICE
+BIND_WALLPAPER,8,signature|privileged,android.permission.BIND_WALLPAPER
+BLUETOOTH,1,normal,android.permission.BLUETOOTH
+BLUETOOTH_ADMIN,1,normal,android.permission.BLUETOOTH_ADMIN
+BLUETOOTH_ADVERTISE,31,dangerous,android.permission.BLUETOOTH_ADVERTISE
+BLUETOOTH_CONNECT,31,dangerous,android.permission.BLUETOOTH_CONNECT
+BLUETOOTH_PRIVILEGED,19,Not for use by third-party applications.,android.permission.BLUETOOTH_PRIVILEGED
+BLUETOOTH_SCAN,31,dangerous,android.permission.BLUETOOTH_SCAN
+BODY_SENSORS,20,dangerous,android.permission.BODY_SENSORS
+BODY_SENSORS_BACKGROUND,33,dangerous,android.permission.BODY_SENSORS_BACKGROUND
+BROADCAST_PACKAGE_REMOVED,1,Not for use by third-party applications.,android.permission.BROADCAST_PACKAGE_REMOVED
+BROADCAST_SMS,2,Not for use by third-party applications.,android.permission.BROADCAST_SMS
+BROADCAST_STICKY,1,normal,android.permission.BROADCAST_STICKY
+BROADCAST_WAP_PUSH,2,Not for use by third-party applications.,android.permission.BROADCAST_WAP_PUSH
+CALL_COMPANION_APP,29,normal,android.permission.CALL_COMPANION_APP
+CALL_PHONE,1,dangerous,android.permission.CALL_PHONE
+CALL_PRIVILEGED,1,Not for use by third-party applications.,android.permission.CALL_PRIVILEGED
+CAMERA,1,dangerous,android.permission.CAMERA
+CAPTURE_AUDIO_OUTPUT,19,Not for use by third-party applications.,android.permission.CAPTURE_AUDIO_OUTPUT
+CHANGE_COMPONENT_ENABLED_STATE,1,Not for use by third-party applications.,android.permission.CHANGE_COMPONENT_ENABLED_STATE
+CHANGE_CONFIGURATION,1,signature|privileged|development,android.permission.CHANGE_CONFIGURATION
+CHANGE_NETWORK_STATE,1,normal,android.permission.CHANGE_NETWORK_STATE
+CHANGE_WIFI_MULTICAST_STATE,4,normal,android.permission.CHANGE_WIFI_MULTICAST_STATE
+CHANGE_WIFI_STATE,1,normal,android.permission.CHANGE_WIFI_STATE
+CLEAR_APP_CACHE,1,signature|privileged,android.permission.CLEAR_APP_CACHE
+CONTROL_LOCATION_UPDATES,1,Not for use by third-party applications.,android.permission.CONTROL_LOCATION_UPDATES
+DELETE_CACHE_FILES,1,signature|privileged,android.permission.DELETE_CACHE_FILES
+DELETE_PACKAGES,1,Not for use by third-party applications.,android.permission.DELETE_PACKAGES
+DELIVER_COMPANION_MESSAGES,33,NA,android.permission.DELIVER_COMPANION_MESSAGES
+DIAGNOSTIC,1,Not for use by third-party applications.,android.permission.DIAGNOSTIC
+DISABLE_KEYGUARD,1,normal,android.permission.DISABLE_KEYGUARD
+DUMP,1,Not for use by third-party applications.,android.permission.DUMP
+EXPAND_STATUS_BAR,1,normal,android.permission.EXPAND_STATUS_BAR
+FACTORY_TEST,1,Not for use by third-party applications.,android.permission.FACTORY_TEST
+FOREGROUND_SERVICE,28,normal,android.permission.FOREGROUND_SERVICE
+GET_ACCOUNTS,1,dangerous,android.permission.GET_ACCOUNTS
+GET_ACCOUNTS_PRIVILEGED,23,signature|privileged,android.permission.GET_ACCOUNTS_PRIVILEGED
+GET_PACKAGE_SIZE,1,normal,android.permission.GET_PACKAGE_SIZE
+GET_TASKS,1,NA,android.permission.GET_TASKS
+GLOBAL_SEARCH,4,signature|privileged,android.permission.GLOBAL_SEARCH
+HIDE_OVERLAY_WINDOWS,31,NA,android.permission.HIDE_OVERLAY_WINDOWS
+HIGH_SAMPLING_RATE_SENSORS,31,normal,android.permission.HIGH_SAMPLING_RATE_SENSORS
+INSTALL_LOCATION_PROVIDER,4,Not for use by third-party applications.,android.permission.INSTALL_LOCATION_PROVIDER
+INSTALL_PACKAGES,1,Not for use by third-party applications.,android.permission.INSTALL_PACKAGES
+INSTALL_SHORTCUT,19,normal,com.android.launcher.permission.INSTALL_SHORTCUT
+INSTANT_APP_FOREGROUND_SERVICE,26,signature|development|instant|appop,android.permission.INSTANT_APP_FOREGROUND_SERVICE
+INTERACT_ACROSS_PROFILES,30,NA,android.permission.INTERACT_ACROSS_PROFILES
+INTERNET,1,normal,android.permission.INTERNET
+KILL_BACKGROUND_PROCESSES,8,normal,android.permission.KILL_BACKGROUND_PROCESSES
+LAUNCH_MULTI_PANE_SETTINGS_DEEP_LINK,32,NA,android.permission.LAUNCH_MULTI_PANE_SETTINGS_DEEP_LINK
+LOADER_USAGE_STATS,30,signature|privileged|appop,android.permission.LOADER_USAGE_STATS
+LOCATION_HARDWARE,18,Not for use by third-party applications.,android.permission.LOCATION_HARDWARE
+MANAGE_DOCUMENTS,19,NA,android.permission.MANAGE_DOCUMENTS
+MANAGE_EXTERNAL_STORAGE,30,signature|appop|preinstalled,android.permission.MANAGE_EXTERNAL_STORAGE
+MANAGE_MEDIA,31,signature|appop|preinstalled,android.permission.MANAGE_MEDIA
+MANAGE_ONGOING_CALLS,31,signature|appop,android.permission.MANAGE_ONGOING_CALLS
+MANAGE_OWN_CALLS,26,normal,android.permission.MANAGE_OWN_CALLS
+MANAGE_WIFI_INTERFACES,33,Not for use by third-party applications.,android.permission.MANAGE_WIFI_INTERFACES
+MANAGE_WIFI_NETWORK_SELECTION,33,Not for use by third-party applications.,android.permission.MANAGE_WIFI_NETWORK_SELECTION
+MASTER_CLEAR,1,Not for use by third-party applications.,android.permission.MASTER_CLEAR
+MEDIA_CONTENT_CONTROL,19,NA,android.permission.MEDIA_CONTENT_CONTROL
+MODIFY_AUDIO_SETTINGS,1,normal,android.permission.MODIFY_AUDIO_SETTINGS
+MODIFY_PHONE_STATE,1,Not for use by third-party applications.,android.permission.MODIFY_PHONE_STATE
+MOUNT_FORMAT_FILESYSTEMS,3,Not for use by third-party applications.,android.permission.MOUNT_FORMAT_FILESYSTEMS
+MOUNT_UNMOUNT_FILESYSTEMS,1,Not for use by third-party applications.,android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+NEARBY_WIFI_DEVICES,33,dangerous,android.permission.NEARBY_WIFI_DEVICES
+NFC,9,normal,android.permission.NFC
+NFC_PREFERRED_PAYMENT_INFO,30,normal,android.permission.NFC_PREFERRED_PAYMENT_INFO
+NFC_TRANSACTION_EVENT,28,normal,android.permission.NFC_TRANSACTION_EVENT
+OVERRIDE_WIFI_CONFIG,33,Not for use by third-party applications.,android.permission.OVERRIDE_WIFI_CONFIG
+PACKAGE_USAGE_STATS,23,signature|privileged|development|appop|retailDemo,android.permission.PACKAGE_USAGE_STATS
+PERSISTENT_ACTIVITY,1,NA,android.permission.PERSISTENT_ACTIVITY
+POST_NOTIFICATIONS,33,dangerous,android.permission.POST_NOTIFICATIONS
+PROCESS_OUTGOING_CALLS,1,dangerous,android.permission.PROCESS_OUTGOING_CALLS
+QUERY_ALL_PACKAGES,30,normal,android.permission.QUERY_ALL_PACKAGES
+READ_ASSISTANT_APP_SEARCH_DATA,33,NA,android.permission.READ_ASSISTANT_APP_SEARCH_DATA
+READ_BASIC_PHONE_STATE,33,NA,android.permission.READ_BASIC_PHONE_STATE

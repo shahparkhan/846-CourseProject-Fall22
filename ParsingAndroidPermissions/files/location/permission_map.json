@@ -1,0 +1,205 @@
+{
+    "location.addGnssBatchingCallback": {
+        "permissions": [
+            "10148::android.permission.LOCATION_HARDWARE"
+        ]
+    },
+    "location.setTestProviderStatus": {
+        "permissions": [
+            "EXCEPTION::fuzzer.permission.uidchanger from uid 10148 not allowed to perform MOCK_LOCATION "
+        ]
+    },
+    "location.getProviderProperties": {
+        "permissions": [
+            "10148::android.permission.ACCESS_FINE_LOCATION"
+        ]
+    },
+    "location.getProviders": {
+        "permissions": [
+            "10148::android.permission.ACCESS_FINE_LOCATION"
+        ]
+    },
+    "location.isProviderEnabledForUser": {
+        "permissions": []
+    },
+    "location.setTestProviderLocation": {
+        "permissions": [
+            "EXCEPTION::com.android.systemui from uid 10148 not allowed to perform MOCK_LOCATION "
+        ]
+    },
+    "location.getGnssCapabilities": {
+        "permissions": [
+            "10148::android.permission.LOCATION_HARDWARE"
+        ]
+    },
+    "location.injectLocation": {
+        "permissions": [
+            "10148::android.permission.LOCATION_HARDWARE"
+        ]
+    },
+    "location.getGnssTimeMillis": {
+        "permissions": []
+    },
+    "location.removeGnssNavigationMessageListener": {
+        "permissions": []
+    },
+    "location.sendNiResponse": {
+        "permissions": [
+            "EXCEPTION::calling sendNiResponse from outside of the system is not allowed "
+        ]
+    },
+    "location.getBackgroundThrottlingWhitelist": {
+        "permissions": []
+    },
+    "location.isLocationEnabledForUser": {
+        "permissions": []
+    },
+    "location.getGnssYearOfHardware": {
+        "permissions": []
+    },
+    "location.getLastLocation": {
+        "permissions": [
+            "10148::android.permission.ACCESS_FINE_LOCATION"
+        ]
+    },
+    "location.locationCallbackFinished": {
+        "permissions": []
+    },
+    "location.addTestProvider": {
+        "permissions": [
+            "EXCEPTION::fuzzer.permission.uidchanger from uid 10148 not allowed to perform MOCK_LOCATION "
+        ]
+    },
+    "location.addGnssNavigationMessageListener": {
+        "permissions": [
+            "10148::android.permission.ACCESS_FINE_LOCATION"
+        ]
+    },
+    "location.getTestProviderCurrentRequests": {
+        "permissions": [
+            "EXCEPTION::fuzzer.permission.uidchanger from uid 10148 not allowed to perform MOCK_LOCATION "
+        ]
+    },
+    "location.removeGnssMeasurementsListener": {
+        "permissions": []
+    },
+    "location.startGnssBatch": {
+        "permissions": [
+            "10148::android.permission.ACCESS_COARSE_LOCATION",
+            "10148::android.permission.LOCATION_HARDWARE"
+        ]
+    },
+    "location.setExtraLocationControllerPackage": {
+        "permissions": [
+            "10148::android.permission.LOCATION_HARDWARE"
+        ]
+    },
+    "location.registerGnssStatusCallback": {
+        "permissions": [
+            "10148::android.permission.ACCESS_FINE_LOCATION"
+        ]
+    },
+    "location.getGnssBatchSize": {
+        "permissions": [
+            "10148::android.permission.ACCESS_FINE_LOCATION",
+            "10148::android.permission.LOCATION_HARDWARE"
+        ]
+    },
+    "location.getAllProviders": {
+        "permissions": []
+    },
+    "location.getIgnoreSettingsWhitelist": {
+        "permissions": []
+    },
+    "location.removeUpdates": {
+        "permissions": [
+            "EXCEPTION::invalid package name: com.android.systemui "
+        ]
+    },
+    "location.injectGnssMeasurementCorrections": {
+        "permissions": [
+            "10148::android.permission.ACCESS_FINE_LOCATION",
+            "10148::android.permission.LOCATION_HARDWARE"
+        ]
+    },
+    "location.requestGeofence": {
+        "permissions": [
+            "10148::android.permission.ACCESS_COARSE_LOCATION"
+        ]
+    },
+    "location.sendExtraCommand": {
+        "permissions": [
+            "10148::android.permission.ACCESS_COARSE_LOCATION"
+        ]
+    },
+    "location.getFromLocation": {
+        "permissions": []
+    },
+    "location.unregisterGnssStatusCallback": {
+        "permissions": []
+    },
+    "location.isProviderPackage": {
+        "permissions": []
+    },
+    "location.isExtraLocationControllerPackageEnabled": {
+        "permissions": []
+    },
+    "location.removeTestProvider": {
+        "permissions": [
+            "EXCEPTION::com.android.systemui from uid 10148 not allowed to perform MOCK_LOCATION "
+        ]
+    },
+    "location.removeGeofence": {
+        "permissions": []
+    },
+    "location.addGnssMeasurementsListener": {
+        "permissions": [
+            "10148::android.permission.ACCESS_FINE_LOCATION"
+        ]
+    },
+    "location.getBestProvider": {
+        "permissions": [
+            "10148::android.permission.ACCESS_COARSE_LOCATION"
+        ]
+    },
+    "location.getFromLocationName": {
+        "permissions": []
+    },
+    "location.getGnssHardwareModelName": {
+        "permissions": []
+    },
+    "location.setExtraLocationControllerPackageEnabled": {
+        "permissions": [
+            "10148::android.permission.LOCATION_HARDWARE"
+        ]
+    },
+    "location.setTestProviderEnabled": {
+        "permissions": [
+            "EXCEPTION::com.android.systemui from uid 10148 not allowed to perform MOCK_LOCATION "
+        ]
+    },
+    "location.geocoderIsPresent": {
+        "permissions": []
+    },
+    "location.removeGnssBatchingCallback": {
+        "permissions": []
+    },
+    "location.flushGnssBatch": {
+        "permissions": [
+            "10148::android.permission.LOCATION_HARDWARE"
+        ]
+    },
+    "location.stopGnssBatch": {
+        "permissions": [
+            "1001::android.permission.LOCATION_HARDWARE"
+        ]
+    },
+    "location.getExtraLocationControllerPackage": {
+        "permissions": []
+    },
+    "location.requestLocationUpdates": {
+        "permissions": [
+            "EXCEPTION::invalid package name: com.android.systemui "
+        ]
+    }
+}
