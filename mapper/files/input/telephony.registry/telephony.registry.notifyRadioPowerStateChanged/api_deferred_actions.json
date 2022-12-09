@@ -1,0 +1,65 @@
+[
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": false,
+      "data": null
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.TelephonyRegistry"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "10148::android.permission.MODIFY_PHONE_STATE"
+      ],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "293b04deb1cfca0a657c54141a24e361",
+      "ignored_permissions": []
+    },
+    "processed": true
+  },
+  {
+    "execution_outcome": {
+      "returns": true,
+      "output": "undefined"
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": false,
+      "data": null
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.TelephonyRegistry",
+      ""
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "10148::android.permission.MODIFY_PHONE_STATE"
+      ],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "f558a39a366b868086534b96e7adc76d",
+      "ignored_permissions": []
+    },
+    "processed": true
+  }
+]

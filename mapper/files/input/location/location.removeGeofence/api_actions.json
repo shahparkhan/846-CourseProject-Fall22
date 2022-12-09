@@ -1,0 +1,110 @@
+{
+  "location": {
+    "removeGeofence": {
+      "ordered_iterations": [
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": null
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [],
+          "stacktrace": [],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "3523719cb46239ce3c2421f9724edbce",
+            "ignored_permissions": []
+          }
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": null
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.LocationManagerService"
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "3523719cb46239ce3c2421f9724edbce",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.LocationManagerService.checkPackageName(LocationManagerService.java:2482)\ncom.android.server.LocationManagerService.removeGeofence(LocationManagerService.java:2864)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:539)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.getPackagesForUid(PackageManagerService.java:6372)\nandroid.app.ApplicationPackageManager.getPackagesForUid(ApplicationPackageManager.java:811)\ncom.android.server.LocationManagerService.checkPackageName(LocationManagerService.java:2483)\ncom.android.server.LocationManagerService.removeGeofence(LocationManagerService.java:2864)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:539)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": null
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.LocationManagerService"
+          ],
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.LocationManagerService.checkPackageName(LocationManagerService.java:2482)\ncom.android.server.LocationManagerService.removeGeofence(LocationManagerService.java:2864)\ncom.android.server.LocationManagerService.removeGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:539)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "3523719cb46239ce3c2421f9724edbce",
+            "ignored_permissions": []
+          }
+        }
+      ]
+    }
+  }
+}

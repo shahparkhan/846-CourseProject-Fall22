@@ -1,0 +1,37 @@
+[
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": false,
+    "exception": {
+      "is_security": true,
+      "data": {
+        "type": "java.lang.SecurityException.<init>(Native Method)",
+        "location": "com.android.server.LocationManagerService.sendNiResponse(LocationManagerService.java:3137)",
+        "message": "calling sendNiResponse from outside of the system is not allowed"
+      }
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.LocationManagerService"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "EXCEPTION::calling sendNiResponse from outside of the system is not allowed "
+      ],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "d8e6d69c9e89becb7f5589b7e16e7327",
+      "ignored_permissions": []
+    },
+    "processed": true
+  }
+]

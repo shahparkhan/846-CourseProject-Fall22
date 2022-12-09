@@ -1,0 +1,174 @@
+[
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": true,
+      "data": {
+        "type": "java.lang.SecurityException.<init>(Native Method)",
+        "location": "com.android.server.LocationManagerService.checkResolutionLevelIsSufficientForProviderUseLocked(LocationManagerService.java:1937)",
+        "message": "\"gps\" location provider requires ACCESS_FINE_LOCATION permission."
+      }
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.LocationManagerService"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "10148::android.permission.ACCESS_FINE_LOCATION"
+      ],
+      "pid": "fuzzer.permission.uidchanger:InvokerService",
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "6c16508104611933de0a7f03423debea",
+      "ignored_permissions": [
+        "10148::android.permission.ACCESS_COARSE_LOCATION"
+      ]
+    },
+    "id": "77cbd142-a596-4034-b9e3-3db1107f0c1a",
+    "processed": true
+  },
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": true,
+      "data": {
+        "type": "java.lang.SecurityException.<init>(Native Method)",
+        "location": "com.android.server.LocationManagerService.checkResolutionLevelIsSufficientForProviderUseLocked(LocationManagerService.java:1937)",
+        "message": "\"gps\" location provider requires ACCESS_FINE_LOCATION permission."
+      }
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.LocationManagerService"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "10148::android.permission.ACCESS_COARSE_LOCATION"
+      ],
+      "pid": "fuzzer.permission.uidchanger:InvokerService",
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "6c16508104611933de0a7f03423debea",
+      "ignored_permissions": [
+        "10148::android.permission.ACCESS_FINE_LOCATION"
+      ]
+    },
+    "id": "77cbd142-a596-4034-b9e3-3db1107f0c1a"
+  },
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": false,
+      "data": null
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.LocationManagerService"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "10148::android.permission.ACCESS_FINE_LOCATION"
+      ],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "6c16508104611933de0a7f03423debea",
+      "ignored_permissions": []
+    },
+    "processed": true
+  },
+  {
+    "execution_outcome": {
+      "returns": true,
+      "output": "true"
+    },
+    "pid_info": {
+      "name": null,
+      "id": null,
+      "pid": 1980
+    },
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": false,
+      "data": null
+    },
+    "appops_operations": [
+      {
+        "method": "checkOperation",
+        "uid": "10148",
+        "op": 1,
+        "pkg": "fuzzer.permission.uidchanger",
+        "result": 0
+      },
+      {
+        "method": "checkOp",
+        "uid": "10148",
+        "op": 1,
+        "pkg": "fuzzer.permission.uidchanger",
+        "result": 0
+      }
+    ],
+    "to_instrument": [
+      "com.android.server.LocationManagerService",
+      ""
+    ],
+    "data": {
+      "appOps": [
+        {
+          "method": "checkOperation",
+          "uid": "10148",
+          "op": 1,
+          "pkg": "fuzzer.permission.uidchanger",
+          "result": 0
+        },
+        {
+          "method": "checkOp",
+          "uid": "10148",
+          "op": 1,
+          "pkg": "fuzzer.permission.uidchanger",
+          "result": 0
+        }
+      ],
+      "methods": [],
+      "permissions": [
+        "10148::android.permission.ACCESS_FINE_LOCATION"
+      ],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "6c16508104611933de0a7f03423debea",
+      "ignored_permissions": []
+    },
+    "processed": true
+  }
+]

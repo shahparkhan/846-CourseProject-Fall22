@@ -1,0 +1,40 @@
+{
+  "api": "notification|applyAdjustmentsFromAssistant|android.service.notification.INotificationListener,java.util.List|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "eaf7dea482fa1f96e896d9342cc65da1": [
+      "OBJ:android.service.notification.INotificationListener",
+      "OBJ:java.util.List"
+    ]
+  },
+  "parameters_done": {
+    "None:eaf7dea482fa1f96e896d9342cc65da1": 1
+  },
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [
+    "com.android.server.notification.NotificationManagerService$10",
+    "com.android.server.notification.NotificationManagerService",
+    "com.android.server.notification.ManagedServices"
+  ],
+  "phase_name": "change_parameters",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 2,
+    "historical_service_not_invoked": 15,
+    "no_traces": 0,
+    "historical_no_traces": 0
+  },
+  "pids": [],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

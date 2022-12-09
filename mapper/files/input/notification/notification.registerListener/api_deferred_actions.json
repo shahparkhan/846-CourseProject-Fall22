@@ -1,0 +1,85 @@
+[
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": {
+      "name": null,
+      "id": null,
+      "pid": 1978
+    },
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": true,
+      "data": {
+        "type": "java.lang.SecurityException.<init>(Native Method)",
+        "location": "android.app.ContextImpl.enforce(ContextImpl.java:1896)",
+        "message": "INotificationManager.registerListener: uid 10148 does not have android.permission.STATUS_BAR_SERVICE."
+      }
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.notification.NotificationManagerService$10",
+      "com.android.server.notification.NotificationManagerService"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "10148::android.permission.STATUS_BAR_SERVICE"
+      ],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "4b2ddf43c57e37414937a901232e6857",
+      "ignored_permissions": []
+    },
+    "processed": true
+  },
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": {
+      "name": null,
+      "id": null,
+      "pid": 1990
+    },
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": true,
+      "data": {
+        "type": "java.lang.SecurityException.<init>(Native Method)",
+        "location": "android.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)",
+        "message": "10148::android.permission.ACCESS_WIFI_STATE"
+      }
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.notification.NotificationManagerService$10",
+      "com.android.server.notification.NotificationManagerService",
+      "com.android.server.notification.ManagedServices",
+      "com.android.server.notification.NotificationManagerService$NotificationListeners"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "10148::android.permission.ACCESS_WIFI_STATE",
+        "10148::android.permission.STATUS_BAR_SERVICE"
+      ],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "4b2ddf43c57e37414937a901232e6857",
+      "ignored_permissions": []
+    },
+    "processed": true
+  }
+]

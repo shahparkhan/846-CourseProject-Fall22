@@ -1,0 +1,129 @@
+{
+  "api": "notification|getPopulatedNotificationChannelGroupForPackage|java.lang.String,I,java.lang.String,Z|android.app.NotificationChannelGroup|",
+  "parameters_count": 16,
+  "parameters": {
+    "a452ca6d1cefac5df651ff3be5c65ad2": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "B:true"
+    ],
+    "e0f3844b6458ad8e0d868935606b58e7": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "B:false"
+    ],
+    "24f70b9f3243590d4761c25cebddf9f9": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "B:true"
+    ],
+    "a518e9fde0c278193be944f679b5314b": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "B:false"
+    ],
+    "ab84dee8c3d85de897cd6af782374515": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "B:true"
+    ],
+    "81d7638521bc07d842d4f8b26ce5264a": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "B:false"
+    ],
+    "ce329ebd23b5b65fbf1ad49125251c95": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "B:true"
+    ],
+    "c1b863dfe61254b5171ca5a7961fa31b": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "B:false"
+    ],
+    "849495e1ff4f49ccc588d368afcb0f20": [
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "B:true"
+    ],
+    "2854568110fec3d1cbd8a4bf77ac58be": [
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "B:false"
+    ],
+    "7a2872c1e9daeedf0dc38237fef9e7a4": [
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "B:true"
+    ],
+    "ef8630249a05d2cbf6bb0c7f1a6bc1be": [
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "B:false"
+    ],
+    "9c70e599cd60ccc9ed1953f41d5d7a67": [
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "B:true"
+    ],
+    "d9e08820e18e63b97fb43985e49f1aac": [
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "B:false"
+    ],
+    "d15a05111e6b88a028f492fa172c01b4": [
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "B:true"
+    ],
+    "377db60a6998bd380b6c29e29120358d": [
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "B:false"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [
+    "com.android.server.notification.NotificationManagerService$10",
+    "com.android.server.notification.NotificationManagerService"
+  ],
+  "phase_name": "clean_start",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 0,
+    "historical_service_not_invoked": 13,
+    "no_traces": 2,
+    "historical_no_traces": 2
+  },
+  "pids": [],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

@@ -1,0 +1,294 @@
+[
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": true,
+      "data": {
+        "type": "java.lang.SecurityException.<init>(Native Method)",
+        "location": "com.android.server.LocationManagerService.checkResolutionLevelIsSufficientForProviderUseLocked(LocationManagerService.java:1937)",
+        "message": "\"fuzzer.permission.uidchanger\" location provider requires ACCESS_FINE_LOCATION permission."
+      }
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.LocationManagerService"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "10148::android.permission.ACCESS_FINE_LOCATION"
+      ],
+      "pid": "fuzzer.permission.uidchanger:InvokerService",
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "1cdb4615987dd4a6d78e7891c0b087d4",
+      "ignored_permissions": [
+        "10148::android.permission.ACCESS_COARSE_LOCATION"
+      ]
+    },
+    "id": "2bf8fe9d-d644-4666-84f3-12753da75f25",
+    "processed": true
+  },
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": true,
+      "data": {
+        "type": "java.lang.SecurityException.<init>(Native Method)",
+        "location": "com.android.server.LocationManagerService.checkResolutionLevelIsSufficientForProviderUseLocked(LocationManagerService.java:1937)",
+        "message": "\"fuzzer.permission.uidchanger\" location provider requires ACCESS_FINE_LOCATION permission."
+      }
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.LocationManagerService"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "10148::android.permission.ACCESS_COARSE_LOCATION"
+      ],
+      "pid": "fuzzer.permission.uidchanger:InvokerService",
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "1cdb4615987dd4a6d78e7891c0b087d4",
+      "ignored_permissions": [
+        "10148::android.permission.ACCESS_FINE_LOCATION"
+      ]
+    },
+    "id": "2bf8fe9d-d644-4666-84f3-12753da75f25",
+    "deferred_action": true,
+    "processed": true
+  },
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": true,
+      "data": {
+        "type": "java.lang.SecurityException.<init>(Native Method)",
+        "location": "com.android.server.LocationManagerService.sendExtraCommand(LocationManagerService.java:3117)",
+        "message": "Requires ACCESS_LOCATION_EXTRA_COMMANDS permission"
+      }
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.LocationManagerService"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "10148::android.permission.ACCESS_FINE_LOCATION",
+        "10148::android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"
+      ],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "1cdb4615987dd4a6d78e7891c0b087d4",
+      "ignored_permissions": []
+    },
+    "processed": true
+  },
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": false,
+      "data": {
+        "type": "java.lang.SecurityException.<init>(Native Method)",
+        "location": "com.android.server.LocationManagerService.checkResolutionLevelIsSufficientForProviderUseLocked(LocationManagerService.java:1937)",
+        "message": "\"fuzzer.permission.uidchanger\" location provider requires ACCESS_FINE_LOCATION permission."
+      }
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.LocationManagerService"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "10148::android.permission.ACCESS_COARSE_LOCATION"
+      ],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "1cdb4615987dd4a6d78e7891c0b087d4",
+      "ignored_permissions": []
+    },
+    "processed": true
+  },
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": true,
+      "data": {
+        "type": "java.lang.SecurityException.<init>(Native Method)",
+        "location": "com.android.server.LocationManagerService.checkResolutionLevelIsSufficientForProviderUseLocked(LocationManagerService.java:1937)",
+        "message": "\"fuzzer.permission.uidchanger\" location provider requires ACCESS_FINE_LOCATION permission."
+      }
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.LocationManagerService"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "10148::android.permission.ACCESS_FINE_LOCATION"
+      ],
+      "pid": "fuzzer.permission.uidchanger:InvokerService",
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "3023e2777bf1c62d40c43f896a0160b8",
+      "ignored_permissions": [
+        "10148::android.permission.ACCESS_COARSE_LOCATION"
+      ]
+    },
+    "id": "bcc52599-0671-4175-a13e-f4e816117e86",
+    "processed": true
+  },
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": true,
+      "data": {
+        "type": "java.lang.SecurityException.<init>(Native Method)",
+        "location": "com.android.server.LocationManagerService.checkResolutionLevelIsSufficientForProviderUseLocked(LocationManagerService.java:1937)",
+        "message": "\"fuzzer.permission.uidchanger\" location provider requires ACCESS_FINE_LOCATION permission."
+      }
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.LocationManagerService"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "10148::android.permission.ACCESS_COARSE_LOCATION"
+      ],
+      "pid": "fuzzer.permission.uidchanger:InvokerService",
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "3023e2777bf1c62d40c43f896a0160b8",
+      "ignored_permissions": [
+        "10148::android.permission.ACCESS_FINE_LOCATION"
+      ]
+    },
+    "id": "bcc52599-0671-4175-a13e-f4e816117e86",
+    "deferred_action": true,
+    "processed": true
+  },
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": false,
+      "data": null
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.LocationManagerService"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "10148::android.permission.ACCESS_FINE_LOCATION"
+      ],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "3023e2777bf1c62d40c43f896a0160b8",
+      "ignored_permissions": []
+    },
+    "processed": true
+  },
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": true,
+      "data": {
+        "type": "java.lang.SecurityException.<init>(Native Method)",
+        "location": "com.android.server.LocationManagerService.sendExtraCommand(LocationManagerService.java:3117)",
+        "message": "Requires ACCESS_LOCATION_EXTRA_COMMANDS permission"
+      }
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.LocationManagerService"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "10148::android.permission.ACCESS_FINE_LOCATION",
+        "10148::android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"
+      ],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "3023e2777bf1c62d40c43f896a0160b8",
+      "ignored_permissions": []
+    },
+    "processed": true
+  }
+]

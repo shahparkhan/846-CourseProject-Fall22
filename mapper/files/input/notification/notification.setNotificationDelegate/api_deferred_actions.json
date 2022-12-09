@@ -1,0 +1,33 @@
+[
+  {
+    "execution_outcome": {
+      "returns": true,
+      "output": "undefined"
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": false,
+      "data": null
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.notification.NotificationManagerService$10",
+      "com.android.server.notification.NotificationManagerService",
+      ""
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "dd8d7c7fb1d14d9d628ed411e5cc2e2a",
+      "ignored_permissions": []
+    },
+    "processed": true
+  }
+]

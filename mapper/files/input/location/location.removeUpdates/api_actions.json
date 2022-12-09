@@ -1,0 +1,602 @@
+{
+  "location": {
+    "removeUpdates": {
+      "ordered_iterations": [
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": null
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [],
+          "stacktrace": [],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "093bd1b036428408d865885625b9d764",
+            "ignored_permissions": []
+          }
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": "null",
+            "exception": "FIRST EXCEPTION CAUGHT\njava.lang.reflect.InvocationTargetException\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat fuzzer.permission.uidchanger.InvokerService.invokeApi(InvokerService.java:318)\n\tat fuzzer.permission.uidchanger.InvokerService.onStartCommand(InvokerService.java:71)\n\tat android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4087)\n\tat android.app.ActivityThread.access$1800(ActivityThread.java:219)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1891)\n\tat android.os.Handler.dispatchMessage(Handler.java:107)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\nCaused by: java.lang.IllegalArgumentException: cannot register both listener and intent\n\tat android.os.Parcel.createException(Parcel.java:2075)\n\tat android.os.Parcel.readException(Parcel.java:2039)\n\tat android.os.Parcel.readException(Parcel.java:1987)\n\tat android.location.ILocationManager$Stub$Proxy.removeUpdates(ILocationManager.java:1178)\n\t... 12 more\nCaused by: android.os.RemoteException: Remote stack trace:\n\tat com.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2616)\n\tat android.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\n\tat android.os.Binder.execTransactInternal(Binder.java:1021)\n\tat android.os.Binder.execTransact(Binder.java:994)\n\n"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": {
+              "type": "java.lang.IllegalArgumentException.<init>(Native Method)",
+              "location": "com.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2616)",
+              "message": "cannot register both listener and intent"
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.LocationManagerService"
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "093bd1b036428408d865885625b9d764",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.LocationManagerService.checkPackageName(LocationManagerService.java:2482)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2608)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.getPackagesForUid(PackageManagerService.java:6372)\nandroid.app.ApplicationPackageManager.getPackagesForUid(ApplicationPackageManager.java:811)\ncom.android.server.LocationManagerService.checkPackageName(LocationManagerService.java:2483)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2608)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2610)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2610)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingPid() = 5371",
+              "callstack": "getCallingPid() = 5371\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2610)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2611)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.IllegalArgumentException.<init>(Native Method)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2616)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(cannot register both listener and intent) = undefined",
+              "callstack": "$init(c, a, n, n, o, t,  , r, e, g, i, s, t, e, r,  , b, o, t, h,  , l, i, s, t, e, n, e, r,  , a, n, d,  , i, n, t, e, n, t) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.IllegalArgumentException.<init>(Native Method)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2616)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": "null",
+            "exception": "FIRST EXCEPTION CAUGHT\njava.lang.reflect.InvocationTargetException\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat fuzzer.permission.uidchanger.InvokerService.invokeApi(InvokerService.java:318)\n\tat fuzzer.permission.uidchanger.InvokerService.onStartCommand(InvokerService.java:71)\n\tat android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4087)\n\tat android.app.ActivityThread.access$1800(ActivityThread.java:219)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1891)\n\tat android.os.Handler.dispatchMessage(Handler.java:107)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\nCaused by: java.lang.IllegalArgumentException: cannot register both listener and intent\n\tat android.os.Parcel.createException(Parcel.java:2075)\n\tat android.os.Parcel.readException(Parcel.java:2039)\n\tat android.os.Parcel.readException(Parcel.java:1987)\n\tat android.location.ILocationManager$Stub$Proxy.removeUpdates(ILocationManager.java:1178)\n\t... 12 more\nCaused by: android.os.RemoteException: Remote stack trace:\n\tat com.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2616)\n\tat com.android.server.LocationManagerService.removeUpdates(Native Method)\n\tat android.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\n\tat android.os.Binder.execTransactInternal(Binder.java:1021)\n\tat android.os.Binder.execTransact(Binder.java:994)\n\n"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": {
+              "type": "java.lang.IllegalArgumentException.<init>(Native Method)",
+              "location": "com.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2616)",
+              "message": "cannot register both listener and intent"
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.LocationManagerService"
+          ],
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.LocationManagerService.checkPackageName(LocationManagerService.java:2482)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2608)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.getPackagesForUid(PackageManagerService.java:6372)\nandroid.app.ApplicationPackageManager.getPackagesForUid(ApplicationPackageManager.java:811)\ncom.android.server.LocationManagerService.checkPackageName(LocationManagerService.java:2483)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2608)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2610)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2610)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingPid() = 5421",
+              "callstack": "getCallingPid() = 5421\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2610)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2611)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.IllegalArgumentException.<init>(Native Method)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2616)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(cannot register both listener and intent) = undefined",
+              "callstack": "$init(c, a, n, n, o, t,  , r, e, g, i, s, t, e, r,  , b, o, t, h,  , l, i, s, t, e, n, e, r,  , a, n, d,  , i, n, t, e, n, t) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.IllegalArgumentException.<init>(Native Method)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2616)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "093bd1b036428408d865885625b9d764",
+            "ignored_permissions": []
+          }
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": "null",
+            "exception": "FIRST EXCEPTION CAUGHT\njava.lang.reflect.InvocationTargetException\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat fuzzer.permission.uidchanger.InvokerService.invokeApi(InvokerService.java:318)\n\tat fuzzer.permission.uidchanger.InvokerService.onStartCommand(InvokerService.java:71)\n\tat android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4087)\n\tat android.app.ActivityThread.access$1800(ActivityThread.java:219)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1891)\n\tat android.os.Handler.dispatchMessage(Handler.java:107)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\nCaused by: java.lang.SecurityException: invalid package name: com.android.systemui\n\tat android.os.Parcel.createException(Parcel.java:2071)\n\tat android.os.Parcel.readException(Parcel.java:2039)\n\tat android.os.Parcel.readException(Parcel.java:1987)\n\tat android.location.ILocationManager$Stub$Proxy.removeUpdates(ILocationManager.java:1178)\n\t... 12 more\nCaused by: android.os.RemoteException: Remote stack trace:\n\tat com.android.server.LocationManagerService.checkPackageName(LocationManagerService.java:2490)\n\tat com.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2608)\n\tat com.android.server.LocationManagerService.removeUpdates(Native Method)\n\tat android.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\n\tat android.os.Binder.execTransactInternal(Binder.java:1021)\n\n"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": false,
+          "exception": {
+            "is_security": true,
+            "data": {
+              "type": "java.lang.SecurityException.<init>(Native Method)",
+              "location": "com.android.server.LocationManagerService.checkPackageName(LocationManagerService.java:2490)",
+              "message": "invalid package name: com.android.systemui"
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.LocationManagerService"
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "EXCEPTION::invalid package name: com.android.systemui "
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "78d4d950a927cb399feb927e468eba70",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.LocationManagerService.checkPackageName(LocationManagerService.java:2482)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2608)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.getPackagesForUid(PackageManagerService.java:6372)\nandroid.app.ApplicationPackageManager.getPackagesForUid(ApplicationPackageManager.java:811)\ncom.android.server.LocationManagerService.checkPackageName(LocationManagerService.java:2483)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2608)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.SecurityException.<init>(Native Method)\ncom.android.server.LocationManagerService.checkPackageName(LocationManagerService.java:2490)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2608)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(invalid package name: com.android.systemui) = undefined",
+              "callstack": "$init(i, n, v, a, l, i, d,  , p, a, c, k, a, g, e,  , n, a, m, e, :,  , c, o, m, ., a, n, d, r, o, i, d, ., s, y, s, t, e, m, u, i) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.SecurityException.<init>(Native Method)\ncom.android.server.LocationManagerService.checkPackageName(LocationManagerService.java:2490)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2608)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": "null",
+            "exception": "FIRST EXCEPTION CAUGHT\njava.lang.reflect.InvocationTargetException\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat fuzzer.permission.uidchanger.InvokerService.invokeApi(InvokerService.java:318)\n\tat fuzzer.permission.uidchanger.InvokerService.onStartCommand(InvokerService.java:71)\n\tat android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4087)\n\tat android.app.ActivityThread.access$1800(ActivityThread.java:219)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1891)\n\tat android.os.Handler.dispatchMessage(Handler.java:107)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\nCaused by: java.lang.SecurityException: invalid package name: com.android.systemui\n\tat android.os.Parcel.createException(Parcel.java:2071)\n\tat android.os.Parcel.readException(Parcel.java:2039)\n\tat android.os.Parcel.readException(Parcel.java:1987)\n\tat android.location.ILocationManager$Stub$Proxy.removeUpdates(ILocationManager.java:1178)\n\t... 12 more\nCaused by: android.os.RemoteException: Remote stack trace:\n\tat com.android.server.LocationManagerService.checkPackageName(LocationManagerService.java:2490)\n\tat com.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2608)\n\tat com.android.server.LocationManagerService.removeUpdates(Native Method)\n\tat android.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\n\tat android.os.Binder.execTransactInternal(Binder.java:1021)\n\n"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": false,
+          "exception": {
+            "is_security": true,
+            "data": {
+              "type": "java.lang.SecurityException.<init>(Native Method)",
+              "location": "com.android.server.LocationManagerService.checkPackageName(LocationManagerService.java:2490)",
+              "message": "invalid package name: com.android.systemui"
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.LocationManagerService"
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "EXCEPTION::invalid package name: com.android.systemui "
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "78d4d950a927cb399feb927e468eba70",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.LocationManagerService.checkPackageName(LocationManagerService.java:2482)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2608)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.getPackagesForUid(PackageManagerService.java:6372)\nandroid.app.ApplicationPackageManager.getPackagesForUid(ApplicationPackageManager.java:811)\ncom.android.server.LocationManagerService.checkPackageName(LocationManagerService.java:2483)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2608)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.SecurityException.<init>(Native Method)\ncom.android.server.LocationManagerService.checkPackageName(LocationManagerService.java:2490)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2608)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(invalid package name: com.android.systemui) = undefined",
+              "callstack": "$init(i, n, v, a, l, i, d,  , p, a, c, k, a, g, e,  , n, a, m, e, :,  , c, o, m, ., a, n, d, r, o, i, d, ., s, y, s, t, e, m, u, i) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.SecurityException.<init>(Native Method)\ncom.android.server.LocationManagerService.checkPackageName(LocationManagerService.java:2490)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2608)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": "null",
+            "exception": "FIRST EXCEPTION CAUGHT\njava.lang.reflect.InvocationTargetException\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat fuzzer.permission.uidchanger.InvokerService.invokeApi(InvokerService.java:318)\n\tat fuzzer.permission.uidchanger.InvokerService.onStartCommand(InvokerService.java:71)\n\tat android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4087)\n\tat android.app.ActivityThread.access$1800(ActivityThread.java:219)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1891)\n\tat android.os.Handler.dispatchMessage(Handler.java:107)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\nCaused by: java.lang.SecurityException: invalid package name: com.android.systemui\n\tat android.os.Parcel.createException(Parcel.java:2071)\n\tat android.os.Parcel.readException(Parcel.java:2039)\n\tat android.os.Parcel.readException(Parcel.java:1987)\n\tat android.location.ILocationManager$Stub$Proxy.removeUpdates(ILocationManager.java:1178)\n\t... 12 more\nCaused by: android.os.RemoteException: Remote stack trace:\n\tat com.android.server.LocationManagerService.checkPackageName(LocationManagerService.java:2490)\n\tat com.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2608)\n\tat com.android.server.LocationManagerService.removeUpdates(Native Method)\n\tat android.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\n\tat android.os.Binder.execTransactInternal(Binder.java:1021)\n\n"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": false,
+          "exception": {
+            "is_security": true,
+            "data": {
+              "type": "java.lang.SecurityException.<init>(Native Method)",
+              "location": "com.android.server.LocationManagerService.checkPackageName(LocationManagerService.java:2490)",
+              "message": "invalid package name: com.android.systemui"
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.LocationManagerService"
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "EXCEPTION::invalid package name: com.android.systemui "
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "78d4d950a927cb399feb927e468eba70",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.LocationManagerService.checkPackageName(LocationManagerService.java:2482)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2608)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.getPackagesForUid(PackageManagerService.java:6372)\nandroid.app.ApplicationPackageManager.getPackagesForUid(ApplicationPackageManager.java:811)\ncom.android.server.LocationManagerService.checkPackageName(LocationManagerService.java:2483)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2608)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.SecurityException.<init>(Native Method)\ncom.android.server.LocationManagerService.checkPackageName(LocationManagerService.java:2490)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2608)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(invalid package name: com.android.systemui) = undefined",
+              "callstack": "$init(i, n, v, a, l, i, d,  , p, a, c, k, a, g, e,  , n, a, m, e, :,  , c, o, m, ., a, n, d, r, o, i, d, ., s, y, s, t, e, m, u, i) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.SecurityException.<init>(Native Method)\ncom.android.server.LocationManagerService.checkPackageName(LocationManagerService.java:2490)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2608)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        },
+        {
+          "callstack": [],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": 1000000,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": null,
+            "ignored_permissions": []
+          },
+          "exception": null,
+          "invocation_result": {},
+          "output": null,
+          "returns": false,
+          "to_instrument": [],
+          "hash": null,
+          "skip": true
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": "null",
+            "exception": "FIRST EXCEPTION CAUGHT\njava.lang.reflect.InvocationTargetException\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat fuzzer.permission.uidchanger.InvokerService.invokeApi(InvokerService.java:318)\n\tat fuzzer.permission.uidchanger.InvokerService.onStartCommand(InvokerService.java:71)\n\tat android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4087)\n\tat android.app.ActivityThread.access$1800(ActivityThread.java:219)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1891)\n\tat android.os.Handler.dispatchMessage(Handler.java:107)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\nCaused by: java.lang.IllegalArgumentException: cannot register both listener and intent\n\tat android.os.Parcel.createException(Parcel.java:2075)\n\tat android.os.Parcel.readException(Parcel.java:2039)\n\tat android.os.Parcel.readException(Parcel.java:1987)\n\tat android.location.ILocationManager$Stub$Proxy.removeUpdates(ILocationManager.java:1178)\n\t... 12 more\nCaused by: android.os.RemoteException: Remote stack trace:\n\tat com.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2616)\n\tat com.android.server.LocationManagerService.removeUpdates(Native Method)\n\tat android.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\n\tat android.os.Binder.execTransactInternal(Binder.java:1021)\n\tat android.os.Binder.execTransact(Binder.java:994)\n\n"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": {
+              "type": "java.lang.IllegalArgumentException.<init>(Native Method)",
+              "location": "com.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2616)",
+              "message": "cannot register both listener and intent"
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.LocationManagerService"
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": 1000000,
+            "userId": 1,
+            "user_restrictions": [],
+            "parameters_hash": "093bd1b036428408d865885625b9d764",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 1010148",
+              "callstack": "getCallingUid() = 1010148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.LocationManagerService.checkPackageName(LocationManagerService.java:2482)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2608)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 1010148",
+              "callstack": "getCallingUid() = 1010148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.getPackagesForUid(PackageManagerService.java:6372)\nandroid.app.ApplicationPackageManager.getPackagesForUid(ApplicationPackageManager.java:811)\ncom.android.server.LocationManagerService.checkPackageName(LocationManagerService.java:2483)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2608)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 1010148",
+              "callstack": "getCallingUid() = 1010148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2610)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 1010148",
+              "callstack": "getCallingUid() = 1010148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2610)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 1010148,
+              "call_ret": "getCallingPid() = 5505",
+              "callstack": "getCallingPid() = 5505\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2610)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 1010148",
+              "callstack": "getCallingUid() = 1010148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2611)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 1010148",
+              "callstack": "getCallingUid() = 1010148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.IllegalArgumentException.<init>(Native Method)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2616)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 1010148,
+              "call_ret": "$init(cannot register both listener and intent) = undefined",
+              "callstack": "$init(c, a, n, n, o, t,  , r, e, g, i, s, t, e, r,  , b, o, t, h,  , l, i, s, t, e, n, e, r,  , a, n, d,  , i, n, t, e, n, t) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.IllegalArgumentException.<init>(Native Method)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2616)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": "null",
+            "exception": "FIRST EXCEPTION CAUGHT\njava.lang.reflect.InvocationTargetException\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat fuzzer.permission.uidchanger.InvokerService.invokeApi(InvokerService.java:318)\n\tat fuzzer.permission.uidchanger.InvokerService.onStartCommand(InvokerService.java:71)\n\tat android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4087)\n\tat android.app.ActivityThread.access$1800(ActivityThread.java:219)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1891)\n\tat android.os.Handler.dispatchMessage(Handler.java:107)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\nCaused by: java.lang.IllegalArgumentException: cannot register both listener and intent\n\tat android.os.Parcel.createException(Parcel.java:2075)\n\tat android.os.Parcel.readException(Parcel.java:2039)\n\tat android.os.Parcel.readException(Parcel.java:1987)\n\tat android.location.ILocationManager$Stub$Proxy.removeUpdates(ILocationManager.java:1178)\n\t... 12 more\n"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": {
+              "type": "java.lang.IllegalArgumentException.<init>(Native Method)",
+              "location": "com.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2616)",
+              "message": "cannot register both listener and intent"
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.LocationManagerService"
+          ],
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 1010148",
+              "callstack": "getCallingUid() = 1010148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.LocationManagerService.checkPackageName(LocationManagerService.java:2482)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2608)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 1010148",
+              "callstack": "getCallingUid() = 1010148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.getPackagesForUid(PackageManagerService.java:6372)\nandroid.app.ApplicationPackageManager.getPackagesForUid(ApplicationPackageManager.java:811)\ncom.android.server.LocationManagerService.checkPackageName(LocationManagerService.java:2483)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2608)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 1010148",
+              "callstack": "getCallingUid() = 1010148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2610)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 1010148",
+              "callstack": "getCallingUid() = 1010148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2610)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 1010148,
+              "call_ret": "getCallingPid() = 5327",
+              "callstack": "getCallingPid() = 5327\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2610)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 1010148",
+              "callstack": "getCallingUid() = 1010148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2611)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 1010148",
+              "callstack": "getCallingUid() = 1010148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.IllegalArgumentException.<init>(Native Method)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2616)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 1010148,
+              "call_ret": "$init(cannot register both listener and intent) = undefined",
+              "callstack": "$init(c, a, n, n, o, t,  , r, e, g, i, s, t, e, r,  , b, o, t, h,  , l, i, s, t, e, n, e, r,  , a, n, d,  , i, n, t, e, n, t) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.IllegalArgumentException.<init>(Native Method)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2616)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": 1000000,
+            "userId": 1,
+            "user_restrictions": [],
+            "parameters_hash": "093bd1b036428408d865885625b9d764",
+            "ignored_permissions": []
+          }
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": "null",
+            "exception": "FIRST EXCEPTION CAUGHT\njava.lang.reflect.InvocationTargetException\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat fuzzer.permission.uidchanger.InvokerService.invokeApi(InvokerService.java:318)\n\tat fuzzer.permission.uidchanger.InvokerService.onStartCommand(InvokerService.java:71)\n\tat android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4087)\n\tat android.app.ActivityThread.access$1800(ActivityThread.java:219)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1891)\n\tat android.os.Handler.dispatchMessage(Handler.java:107)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\nCaused by: java.lang.IllegalArgumentException: cannot register both listener and intent\n\tat android.os.Parcel.createException(Parcel.java:2075)\n\tat android.os.Parcel.readException(Parcel.java:2039)\n\tat android.os.Parcel.readException(Parcel.java:1987)\n\tat android.location.ILocationManager$Stub$Proxy.removeUpdates(ILocationManager.java:1178)\n\t... 12 more\nCaused by: android.os.RemoteException: Remote stack trace:\n\tat com.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2616)\n\tat com.android.server.LocationManagerService.removeUpdates(Native Method)\n\tat android.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\n\tat android.os.Binder.execTransactInternal(Binder.java:1021)\n\tat android.os.Binder.execTransact(Binder.java:994)\n\n"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": {
+              "type": "java.lang.IllegalArgumentException.<init>(Native Method)",
+              "location": "com.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2616)",
+              "message": "cannot register both listener and intent"
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.LocationManagerService"
+          ],
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 1010148",
+              "callstack": "getCallingUid() = 1010148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.LocationManagerService.checkPackageName(LocationManagerService.java:2482)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2608)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 1010148",
+              "callstack": "getCallingUid() = 1010148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.getPackagesForUid(PackageManagerService.java:6372)\nandroid.app.ApplicationPackageManager.getPackagesForUid(ApplicationPackageManager.java:811)\ncom.android.server.LocationManagerService.checkPackageName(LocationManagerService.java:2483)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2608)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 1010148",
+              "callstack": "getCallingUid() = 1010148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2610)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 1010148",
+              "callstack": "getCallingUid() = 1010148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2610)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 1010148,
+              "call_ret": "getCallingPid() = 5412",
+              "callstack": "getCallingPid() = 5412\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2610)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 1010148",
+              "callstack": "getCallingUid() = 1010148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2611)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 1010148",
+              "callstack": "getCallingUid() = 1010148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.IllegalArgumentException.<init>(Native Method)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2616)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 1010148,
+              "call_ret": "$init(cannot register both listener and intent) = undefined",
+              "callstack": "$init(c, a, n, n, o, t,  , r, e, g, i, s, t, e, r,  , b, o, t, h,  , l, i, s, t, e, n, e, r,  , a, n, d,  , i, n, t, e, n, t) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.IllegalArgumentException.<init>(Native Method)\ncom.android.server.LocationManagerService.removeUpdates(LocationManagerService.java:2616)\ncom.android.server.LocationManagerService.removeUpdates(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:486)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": 1000000,
+            "userId": 1,
+            "user_restrictions": [],
+            "parameters_hash": "093bd1b036428408d865885625b9d764",
+            "ignored_permissions": []
+          }
+        }
+      ]
+    }
+  }
+}

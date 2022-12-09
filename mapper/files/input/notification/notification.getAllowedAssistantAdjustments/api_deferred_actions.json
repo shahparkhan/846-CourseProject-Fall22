@@ -1,0 +1,74 @@
+[
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": false,
+    "exception": {
+      "is_security": true,
+      "data": {
+        "type": "java.lang.SecurityException.<init>(Native Method)",
+        "location": "com.android.server.notification.NotificationManagerService$10.getAllowedAssistantAdjustments(NotificationManagerService.java:2900)",
+        "message": "Not currently an assistant"
+      }
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.notification.NotificationManagerService$10",
+      "com.android.server.notification.NotificationManagerService"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "EXCEPTION::Not currently an assistant "
+      ],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "02ec0106cef38c9eddf792963a7a228b",
+      "ignored_permissions": []
+    },
+    "processed": true
+  },
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": false,
+    "exception": {
+      "is_security": true,
+      "data": {
+        "type": "java.lang.SecurityException.<init>(Native Method)",
+        "location": "com.android.server.notification.NotificationManagerService.checkCallerIsSameApp(NotificationManagerService.java:7188)",
+        "message": "Calling uid 10148 gave package com.android.systemui which is owned by uid 10110"
+      }
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.notification.NotificationManagerService$10",
+      "com.android.server.notification.NotificationManagerService"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "EXCEPTION::Calling uid 10148 gave package com.android.systemui which is owned by uid 10110 "
+      ],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "94fe09312b92c4fc013fc7be233bce6d",
+      "ignored_permissions": []
+    },
+    "processed": true
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "api": "location|registerGnssStatusCallback|android.location.IGnssStatusListener,java.lang.String|Z|",
+  "parameters_count": 2,
+  "parameters": {
+    "70c1e164632374b250f0ecdaf018e89b": [
+      "OBJ:android.location.IGnssStatusListener",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "e15b35b4112b668736da6b4ef3bdfa84": [
+      "OBJ:android.location.IGnssStatusListener",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [
+    "com.android.server.LocationManagerService"
+  ],
+  "phase_name": "clean_start",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 1,
+    "historical_service_not_invoked": 15,
+    "no_traces": 0,
+    "historical_no_traces": 0
+  },
+  "pids": [],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

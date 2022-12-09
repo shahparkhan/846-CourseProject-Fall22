@@ -1,0 +1,43 @@
+{
+  "api": "notification|applyRestore|B[],I|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "516e576bf208a1e8bcee5c8b8f2d8227": [
+      "OBJ:B[]",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "2b9b00ab74b16720424219f2cfbe34b8": [
+      "OBJ:B[]",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {
+    "None:516e576bf208a1e8bcee5c8b8f2d8227": 2
+  },
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [
+    "com.android.server.notification.NotificationManagerService$10",
+    "com.android.server.notification.NotificationManagerService"
+  ],
+  "phase_name": "change_parameters",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 2,
+    "historical_service_not_invoked": 13,
+    "no_traces": 0,
+    "historical_no_traces": 2.1000000000000005
+  },
+  "pids": [],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

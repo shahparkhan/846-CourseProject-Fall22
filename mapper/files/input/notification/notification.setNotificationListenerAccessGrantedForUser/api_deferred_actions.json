@@ -1,0 +1,74 @@
+[
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": false,
+    "exception": {
+      "is_security": true,
+      "data": {
+        "type": "java.lang.SecurityException.<init>(Native Method)",
+        "location": "com.android.server.notification.NotificationManagerService.checkCallerIsSystem(NotificationManagerService.java:7102)",
+        "message": "Disallowed call for uid 10148"
+      }
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.notification.NotificationManagerService$10",
+      "com.android.server.notification.NotificationManagerService"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "EXCEPTION::Disallowed call for uid 10148 "
+      ],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "30cb00c4dbd2ed5882ff71a652395d62",
+      "ignored_permissions": []
+    },
+    "processed": true
+  },
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": false,
+    "exception": {
+      "is_security": true,
+      "data": {
+        "type": "java.lang.SecurityException.<init>(Native Method)",
+        "location": "com.android.server.notification.NotificationManagerService.checkCallerIsSystem(NotificationManagerService.java:7102)",
+        "message": "Disallowed call for uid 10148"
+      }
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.notification.NotificationManagerService$10",
+      "com.android.server.notification.NotificationManagerService"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "EXCEPTION::Disallowed call for uid 10148 "
+      ],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "ef4cc4377455014a65dbb9f9c46e9484",
+      "ignored_permissions": []
+    },
+    "processed": true
+  }
+]

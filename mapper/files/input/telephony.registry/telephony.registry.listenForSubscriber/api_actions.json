@@ -1,0 +1,159 @@
+{
+  "telephony.registry": {
+    "listenForSubscriber": {
+      "ordered_iterations": [
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": null
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [],
+          "stacktrace": [],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "2d198a9d69d4462962fd8a11bc3137f7",
+            "ignored_permissions": []
+          }
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": null
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "2d198a9d69d4462962fd8a11bc3137f7",
+            "ignored_permissions": []
+          },
+          "stacktrace": []
+        },
+        {
+          "execution_outcome": {
+            "returns": true,
+            "output": "null",
+            "exception": "null"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.TelephonyRegistry"
+          ],
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.UserHandle.getCallingUserId(UserHandle.java:222)\ncom.android.server.TelephonyRegistry.listen(TelephonyRegistry.java:624)\ncom.android.server.TelephonyRegistry.listenForSubscriber(TelephonyRegistry.java:619)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:417)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.TelephonyRegistry.listen(TelephonyRegistry.java:625)\ncom.android.server.TelephonyRegistry.listenForSubscriber(TelephonyRegistry.java:619)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:417)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.appop.AppOpsService.checkPackage(Native Method)\nandroid.app.AppOpsManager.checkPackage(AppOpsManager.java:5177)\nandroid.app.AppOpsManager.checkPackage(Native Method)\ncom.android.server.TelephonyRegistry.listen(TelephonyRegistry.java:625)\ncom.android.server.TelephonyRegistry.listenForSubscriber(TelephonyRegistry.java:619)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:417)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPackage(10148, fuzzer.permission.uidchanger) = 0",
+              "callstack": "checkPackage(10148, fuzzer.permission.uidchanger) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.appop.AppOpsService.checkPackage(Native Method)\nandroid.app.AppOpsManager.checkPackage(AppOpsManager.java:5177)\nandroid.app.AppOpsManager.checkPackage(Native Method)\ncom.android.server.TelephonyRegistry.listen(TelephonyRegistry.java:625)\ncom.android.server.TelephonyRegistry.listenForSubscriber(TelephonyRegistry.java:619)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:417)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.AppOpsManager.checkPackage(Native Method)\ncom.android.server.TelephonyRegistry.listen(TelephonyRegistry.java:625)\ncom.android.server.TelephonyRegistry.listenForSubscriber(TelephonyRegistry.java:619)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:417)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPackage(10148, fuzzer.permission.uidchanger) = undefined",
+              "callstack": "checkPackage(10148, fuzzer.permission.uidchanger) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.AppOpsManager.checkPackage(Native Method)\ncom.android.server.TelephonyRegistry.listen(TelephonyRegistry.java:625)\ncom.android.server.TelephonyRegistry.listenForSubscriber(TelephonyRegistry.java:619)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:417)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "2d198a9d69d4462962fd8a11bc3137f7",
+            "ignored_permissions": []
+          }
+        },
+        {
+          "execution_outcome": {
+            "returns": true,
+            "output": "undefined"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.TelephonyRegistry",
+            ""
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": 10148,
+            "userId": 0,
+            "user_restrictions": [],
+            "parameters_hash": "01dcbe769ab70a5420fb4c5a1cb59537",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10122,
+              "call_ret": "listenForSubscriber(2147483647, com.google.android.googlequicksearchbox, [object Object], 0, true) = undefined",
+              "callstack": "listenForSubscriber(2147483647, com.google.android.googlequicksearchbox, [object Object], 0, true) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.TelephonyRegistry.listenForSubscriber(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:417)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

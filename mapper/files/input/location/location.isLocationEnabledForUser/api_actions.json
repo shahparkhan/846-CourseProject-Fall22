@@ -1,0 +1,491 @@
+{
+  "location": {
+    "isLocationEnabledForUser": {
+      "ordered_iterations": [
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": null
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [],
+          "stacktrace": [],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "0239d9f4c30ee4350b460c27587d7efe",
+            "ignored_permissions": []
+          }
+        },
+        {
+          "execution_outcome": {
+            "returns": true,
+            "output": "true",
+            "exception": "null"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.LocationManagerService"
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "0239d9f4c30ee4350b460c27587d7efe",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.UserHandle.getCallingUserId(UserHandle.java:222)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(LocationManagerService.java:3215)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        },
+        {
+          "execution_outcome": {
+            "returns": true,
+            "output": "true",
+            "exception": "null"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.LocationManagerService",
+            ""
+          ],
+          "stacktrace": [
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.UserHandle.getCallingUserId(UserHandle.java:222)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(LocationManagerService.java:3215)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "0239d9f4c30ee4350b460c27587d7efe",
+            "ignored_permissions": []
+          }
+        },
+        {
+          "execution_outcome": {
+            "returns": true,
+            "output": "true",
+            "exception": "null"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.LocationManagerService",
+            "",
+            "android.location.LocationManager"
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": 10148,
+            "userId": 0,
+            "user_restrictions": [],
+            "parameters_hash": "19e125f564e13f8bd5dbcaa867444bbf",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 1000,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.LocationManager.isLocationEnabledForUser(LocationManager.java:1281)\ncom.android.server.wifi.util.WifiPermissionsUtil.isLocationModeEnabled(WifiPermissionsUtil.java:439)\ncom.android.server.wifi.util.WifiPermissionsUtil.enforceCanAccessScanResults(WifiPermissionsUtil.java:248)\ncom.android.server.wifi.WifiServiceImpl.getConnectionInfo(WifiServiceImpl.java:2204)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:981)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.UserHandle.getCallingUserId(UserHandle.java:222)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(LocationManagerService.java:3215)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 1001,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 1001,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isLocationEnabledForUser(0) = true",
+              "callstack": "isLocationEnabledForUser(0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isLocationEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:939)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

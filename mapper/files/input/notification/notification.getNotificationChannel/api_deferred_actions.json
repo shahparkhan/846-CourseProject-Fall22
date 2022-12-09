@@ -1,0 +1,64 @@
+[
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": false,
+      "data": null
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.notification.NotificationManagerService$10",
+      "com.android.server.notification.NotificationManagerService",
+      "com.android.server.notification.PreferencesHelper"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "3f33bdb6d4b360f1a7fc5235f3923f82",
+      "ignored_permissions": []
+    },
+    "processed": true
+  },
+  {
+    "execution_outcome": {
+      "returns": true,
+      "output": "NotificationChannel{mId='bugle_default_channel', mName=Other notifications, mDescription=, mImportance=4, mBypassDnd=false, mLockscreenVisibility=-1000, mSound=content://settings/system/notification_sound, mLights=true, mLightColor=0, mVibration=null, mUserLockedFields=0, mFgServiceShown=false, mVibrationEnabled=true, mShowBadge=true, mDeleted=false, mGroup='null', mAudioAttributes=AudioAttributes: usage=USAGE_NOTIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x800 tags"
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": false,
+      "data": null
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.notification.NotificationManagerService$10",
+      "com.android.server.notification.NotificationManagerService",
+      ""
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [],
+      "pid": null,
+      "uid": 10148,
+      "userId": 0,
+      "user_restrictions": [],
+      "parameters_hash": "260692b69f881ec5729254e3b6baf816",
+      "ignored_permissions": []
+    },
+    "processed": true
+  }
+]

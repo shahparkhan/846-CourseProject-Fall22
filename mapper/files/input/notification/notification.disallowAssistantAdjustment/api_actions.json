@@ -1,0 +1,837 @@
+{
+  "notification": {
+    "disallowAssistantAdjustment": {
+      "ordered_iterations": [
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": null
+          },
+          "pid_info": {
+            "name": null,
+            "id": null,
+            "pid": 1992
+          },
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": true,
+            "data": {
+              "type": "java.lang.SecurityException.<init>(Native Method)",
+              "location": "android.app.ContextImpl.enforce(ContextImpl.java:1896)",
+              "message": "uid 10148 does not have android.permission.STATUS_BAR_SERVICE."
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.notification.NotificationManagerService$10",
+            "com.android.server.notification.NotificationManagerService"
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "10148::android.permission.STATUS_BAR_SERVICE"
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "02ec0106cef38c9eddf792963a7a228b",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7106)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.notification.NotificationManagerService.isCallerSystemOrPhone(NotificationManagerService.java:7088)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7109)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1862)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1862)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingPid() = 5084",
+              "callstack": "getCallingPid() = 5084\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1862)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Process.myPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1863)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "myPid() = 1992",
+              "callstack": "myPid() = 1992\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Process.myPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1863)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1864)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.getPackagesForUid(PackageManagerService.java:6372)\ncom.android.server.pm.PackageManagerService.checkUidPermissionImpl(PackageManagerService.java:5639)\ncom.android.server.pm.PackageManagerService.checkUidPermission(PackageManagerService.java:5629)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1864)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermissionImpl(PackageManagerService.java:5645)\ncom.android.server.pm.PackageManagerService.checkUidPermission(PackageManagerService.java:5629)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1864)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1864)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkUidPermission(android.permission.STATUS_BAR_SERVICE, 10148) = -1",
+              "callstack": "checkUidPermission(android.permission.STATUS_BAR_SERVICE, 10148) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1864)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1864)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPermission(android.permission.STATUS_BAR_SERVICE, 5084, 10148) = -1",
+              "callstack": "checkPermission(android.permission.STATUS_BAR_SERVICE, 5084, 10148) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1864)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkCallingPermission(android.permission.STATUS_BAR_SERVICE) = -1",
+              "callstack": "checkCallingPermission(android.permission.STATUS_BAR_SERVICE) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1917)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.SecurityException.<init>(Native Method)\nandroid.app.ContextImpl.enforce(ContextImpl.java:1896)\nandroid.app.ContextImpl.enforce(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1914)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(uid 10148 does not have android.permission.STATUS_BAR_SERVICE.) = undefined",
+              "callstack": "$init(u, i, d,  , 1, 0, 1, 4, 8,  , d, o, e, s,  , n, o, t,  , h, a, v, e,  , a, n, d, r, o, i, d, ., p, e, r, m, i, s, s, i, o, n, ., S, T, A, T, U, S, _, B, A, R, _, S, E, R, V, I, C, E, .) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.SecurityException.<init>(Native Method)\nandroid.app.ContextImpl.enforce(ContextImpl.java:1896)\nandroid.app.ContextImpl.enforce(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1914)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        },
+        {
+          "execution_outcome": {
+            "returns": true,
+            "output": "null",
+            "exception": "null"
+          },
+          "pid_info": {
+            "name": "system_server",
+            "id": "system",
+            "pid": 1981
+          },
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.notification.NotificationManagerService$10",
+            "com.android.server.notification.NotificationManagerService",
+            ""
+          ],
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7106)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.notification.NotificationManagerService.isCallerSystemOrPhone(NotificationManagerService.java:7088)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7109)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1862)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1862)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingPid() = 5225",
+              "callstack": "getCallingPid() = 5225\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1862)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Process.myPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1863)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "myPid() = 1981",
+              "callstack": "myPid() = 1981\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Process.myPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1863)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1864)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1864)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkUidPermission(android.permission.STATUS_BAR_SERVICE, 10148) = 0",
+              "callstack": "checkUidPermission(android.permission.STATUS_BAR_SERVICE, 10148) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1864)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1864)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPermission(android.permission.STATUS_BAR_SERVICE, 5225, 10148) = 0",
+              "callstack": "checkPermission(android.permission.STATUS_BAR_SERVICE, 5225, 10148) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1864)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkCallingPermission(android.permission.STATUS_BAR_SERVICE) = 0",
+              "callstack": "checkCallingPermission(android.permission.STATUS_BAR_SERVICE) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1917)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.enforce(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1914)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "enforce(android.permission.STATUS_BAR_SERVICE, 0, false, 10148, ) = undefined",
+              "callstack": "enforce(android.permission.STATUS_BAR_SERVICE, 0, false, 10148, ) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.enforce(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1914)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "enforceCallingPermission(android.permission.STATUS_BAR_SERVICE, ) = undefined",
+              "callstack": "enforceCallingPermission(android.permission.STATUS_BAR_SERVICE, ) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "disallowAssistantAdjustment(fuzzer.permission.uidchanger) = undefined",
+              "callstack": "disallowAssistantAdjustment(fuzzer.permission.uidchanger) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "10148::android.permission.STATUS_BAR_SERVICE"
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "02ec0106cef38c9eddf792963a7a228b",
+            "ignored_permissions": []
+          }
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": null
+          },
+          "pid_info": {
+            "name": null,
+            "id": null,
+            "pid": 1976
+          },
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.notification.NotificationManagerService$10",
+            "com.android.server.notification.NotificationManagerService"
+          ],
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7106)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.notification.NotificationManagerService.isCallerSystemOrPhone(NotificationManagerService.java:7088)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7109)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1862)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1862)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingPid() = 5136",
+              "callstack": "getCallingPid() = 5136\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1862)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Process.myPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1863)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "myPid() = 1976",
+              "callstack": "myPid() = 1976\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Process.myPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1863)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1864)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "10148::android.permission.STATUS_BAR_SERVICE"
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "02ec0106cef38c9eddf792963a7a228b",
+            "ignored_permissions": []
+          }
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": "null",
+            "exception": "FIRST EXCEPTION CAUGHT\njava.lang.reflect.InvocationTargetException\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat fuzzer.permission.uidchanger.InvokerService.invokeApi(InvokerService.java:318)\n\tat fuzzer.permission.uidchanger.InvokerService.onStartCommand(InvokerService.java:71)\n\tat android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4087)\n\tat android.app.ActivityThread.access$1800(ActivityThread.java:219)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1891)\n\tat android.os.Handler.dispatchMessage(Handler.java:107)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\nCaused by: android.os.DeadObjectException\n\tat android.os.BinderProxy.transactNative(Native Method)\n\tat android.os.BinderProxy.transact(BinderProxy.java:510)\n\tat android.app.INotificationManager$Stub$Proxy.disallowAssistantAdjustment(INotificationManager.java:2988)\n\t... 12 more\n"
+          },
+          "pid_info": {
+            "name": null,
+            "id": null,
+            "pid": 1973
+          },
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": true,
+            "data": {
+              "type": "java.lang.SecurityException.<init>(Native Method)",
+              "location": "android.app.ContextImpl.enforce(ContextImpl.java:1896)",
+              "message": "uid 10148 does not have android.permission.STATUS_BAR_SERVICE."
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.notification.NotificationManagerService$10",
+            "com.android.server.notification.NotificationManagerService"
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "10148::android.permission.STATUS_BAR_SERVICE"
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "94fe09312b92c4fc013fc7be233bce6d",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7106)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.notification.NotificationManagerService.isCallerSystemOrPhone(NotificationManagerService.java:7088)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7109)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1862)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1862)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingPid() = 5248",
+              "callstack": "getCallingPid() = 5248\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1862)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Process.myPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1863)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "myPid() = 1973",
+              "callstack": "myPid() = 1973\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Process.myPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1863)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1864)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.getPackagesForUid(PackageManagerService.java:6372)\ncom.android.server.pm.PackageManagerService.checkUidPermissionImpl(PackageManagerService.java:5639)\ncom.android.server.pm.PackageManagerService.checkUidPermission(PackageManagerService.java:5629)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1864)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermissionImpl(PackageManagerService.java:5645)\ncom.android.server.pm.PackageManagerService.checkUidPermission(PackageManagerService.java:5629)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1864)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1864)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkUidPermission(android.permission.STATUS_BAR_SERVICE, 10148) = -1",
+              "callstack": "checkUidPermission(android.permission.STATUS_BAR_SERVICE, 10148) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1864)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1864)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPermission(android.permission.STATUS_BAR_SERVICE, 5248, 10148) = -1",
+              "callstack": "checkPermission(android.permission.STATUS_BAR_SERVICE, 5248, 10148) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1864)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkCallingPermission(android.permission.STATUS_BAR_SERVICE) = -1",
+              "callstack": "checkCallingPermission(android.permission.STATUS_BAR_SERVICE) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1917)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.SecurityException.<init>(Native Method)\nandroid.app.ContextImpl.enforce(ContextImpl.java:1896)\nandroid.app.ContextImpl.enforce(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1914)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(uid 10148 does not have android.permission.STATUS_BAR_SERVICE.) = undefined",
+              "callstack": "$init(u, i, d,  , 1, 0, 1, 4, 8,  , d, o, e, s,  , n, o, t,  , h, a, v, e,  , a, n, d, r, o, i, d, ., p, e, r, m, i, s, s, i, o, n, ., S, T, A, T, U, S, _, B, A, R, _, S, E, R, V, I, C, E, .) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.SecurityException.<init>(Native Method)\nandroid.app.ContextImpl.enforce(ContextImpl.java:1896)\nandroid.app.ContextImpl.enforce(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1914)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        },
+        {
+          "execution_outcome": {
+            "returns": true,
+            "output": "null",
+            "exception": "null"
+          },
+          "pid_info": {
+            "name": "system_server",
+            "id": "system",
+            "pid": 1977
+          },
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.notification.NotificationManagerService$10",
+            "com.android.server.notification.NotificationManagerService",
+            ""
+          ],
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7106)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.notification.NotificationManagerService.isCallerSystemOrPhone(NotificationManagerService.java:7088)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7109)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1862)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1862)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingPid() = 5204",
+              "callstack": "getCallingPid() = 5204\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1862)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Process.myPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1863)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "myPid() = 1977",
+              "callstack": "myPid() = 1977\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Process.myPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1863)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1864)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1864)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkUidPermission(android.permission.STATUS_BAR_SERVICE, 10148) = 0",
+              "callstack": "checkUidPermission(android.permission.STATUS_BAR_SERVICE, 10148) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1864)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1864)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPermission(android.permission.STATUS_BAR_SERVICE, 5204, 10148) = 0",
+              "callstack": "checkPermission(android.permission.STATUS_BAR_SERVICE, 5204, 10148) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1864)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkCallingPermission(android.permission.STATUS_BAR_SERVICE) = 0",
+              "callstack": "checkCallingPermission(android.permission.STATUS_BAR_SERVICE) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1917)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.enforce(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1914)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "enforce(android.permission.STATUS_BAR_SERVICE, 0, false, 10148, ) = undefined",
+              "callstack": "enforce(android.permission.STATUS_BAR_SERVICE, 0, false, 10148, ) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.enforce(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1914)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "enforceCallingPermission(android.permission.STATUS_BAR_SERVICE, ) = undefined",
+              "callstack": "enforceCallingPermission(android.permission.STATUS_BAR_SERVICE, ) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "disallowAssistantAdjustment(com.android.systemui) = undefined",
+              "callstack": "disallowAssistantAdjustment(com.android.systemui) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "10148::android.permission.STATUS_BAR_SERVICE"
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "94fe09312b92c4fc013fc7be233bce6d",
+            "ignored_permissions": []
+          }
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": null
+          },
+          "pid_info": {
+            "name": null,
+            "id": null,
+            "pid": 1971
+          },
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.notification.NotificationManagerService$10",
+            "com.android.server.notification.NotificationManagerService"
+          ],
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7106)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.notification.NotificationManagerService.isCallerSystemOrPhone(NotificationManagerService.java:7088)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7109)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1862)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1862)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingPid() = 5240",
+              "callstack": "getCallingPid() = 5240\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1862)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Process.myPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1863)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "myPid() = 1971",
+              "callstack": "myPid() = 1971\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Process.myPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1863)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "10148::android.permission.STATUS_BAR_SERVICE"
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "94fe09312b92c4fc013fc7be233bce6d",
+            "ignored_permissions": []
+          }
+        },
+        {
+          "callstack": [],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": "system_server",
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": null,
+            "ignored_permissions": []
+          },
+          "exception": null,
+          "invocation_result": {},
+          "output": null,
+          "returns": false,
+          "to_instrument": [],
+          "hash": null,
+          "skip": true
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": "null",
+            "exception": "FIRST EXCEPTION CAUGHT\njava.lang.reflect.InvocationTargetException\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat fuzzer.permission.uidchanger.InvokerService.invokeApi(InvokerService.java:318)\n\tat fuzzer.permission.uidchanger.InvokerService.onStartCommand(InvokerService.java:71)\n\tat android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4087)\n\tat android.app.ActivityThread.access$1800(ActivityThread.java:219)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1891)\n\tat android.os.Handler.dispatchMessage(Handler.java:107)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\nCaused by: android.os.DeadObjectException\n\tat android.os.BinderProxy.transactNative(Native Method)\n\tat android.os.BinderProxy.transact(BinderProxy.java:510)\n\tat android.app.INotificationManager$Stub$Proxy.disallowAssistantAdjustment(INotificationManager.java:2988)\n\t... 12 more\n"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": false,
+          "exception": {
+            "is_security": true,
+            "data": {
+              "type": "java.lang.SecurityException.<init>(Native Method)",
+              "location": "android.app.ContextImpl.enforce(ContextImpl.java:1896)",
+              "message": "uid 10148 does not have android.permission.STATUS_BAR_SERVICE."
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.notification.NotificationManagerService$10",
+            "com.android.server.notification.NotificationManagerService"
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "EXCEPTION::uid 10148 does not have android.permission.STATUS_BAR_SERVICE. "
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "02ec0106cef38c9eddf792963a7a228b",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7106)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.notification.NotificationManagerService.isCallerSystemOrPhone(NotificationManagerService.java:7088)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7109)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1862)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1862)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingPid() = 1978",
+              "callstack": "getCallingPid() = 1978\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1862)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Process.myPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1863)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "myPid() = 1978",
+              "callstack": "myPid() = 1978\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Process.myPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1863)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkCallingPermission(android.permission.STATUS_BAR_SERVICE) = -1",
+              "callstack": "checkCallingPermission(android.permission.STATUS_BAR_SERVICE) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1915)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1917)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.SecurityException.<init>(Native Method)\nandroid.app.ContextImpl.enforce(ContextImpl.java:1896)\nandroid.app.ContextImpl.enforce(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1914)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(uid 10148 does not have android.permission.STATUS_BAR_SERVICE.) = undefined",
+              "callstack": "$init(u, i, d,  , 1, 0, 1, 4, 8,  , d, o, e, s,  , n, o, t,  , h, a, v, e,  , a, n, d, r, o, i, d, ., p, e, r, m, i, s, s, i, o, n, ., S, T, A, T, U, S, _, B, A, R, _, S, E, R, V, I, C, E, .) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.SecurityException.<init>(Native Method)\nandroid.app.ContextImpl.enforce(ContextImpl.java:1896)\nandroid.app.ContextImpl.enforce(Native Method)\nandroid.app.ContextImpl.enforceCallingPermission(ContextImpl.java:1914)\nandroid.app.ContextImpl.enforceCallingPermission(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSystemUiOrShell(NotificationManagerService.java:7112)\ncom.android.server.notification.NotificationManagerService.access$3800(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(NotificationManagerService.java:2916)\ncom.android.server.notification.NotificationManagerService$10.disallowAssistantAdjustment(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1181)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

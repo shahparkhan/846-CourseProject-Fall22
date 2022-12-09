@@ -1,0 +1,42 @@
+{
+  "api": "location|getBestProvider|android.location.Criteria,Z|java.lang.String|",
+  "parameters_count": 2,
+  "parameters": {
+    "a8e8a987b100ccc5eb9f86d20b418a28": [
+      "OBJ:android.location.Criteria",
+      "B:true"
+    ],
+    "b7b1a0c41269f6786c0bf591125ceba8": [
+      "OBJ:android.location.Criteria",
+      "B:false"
+    ]
+  },
+  "parameters_done": {
+    "None:a8e8a987b100ccc5eb9f86d20b418a28": 1
+  },
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [
+    "com.android.server.LocationManagerService"
+  ],
+  "phase_name": "change_parameters",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 1,
+    "historical_service_not_invoked": 15,
+    "no_traces": 0,
+    "historical_no_traces": 0
+  },
+  "pids": [],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

@@ -1,0 +1,83 @@
+{
+  "api": "telephony.registry|notifyCallQualityChanged|android.telephony.CallQuality,I,I,I|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "db9c94df636c95c36b9e8e1c0a2f3ba8": [
+      "OBJ:android.telephony.CallQuality",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "5f2ccbd40c8a88cb7db66bb65e360ccd": [
+      "OBJ:android.telephony.CallQuality",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "ecbbf51c7fbe2dd4701a64fd47d79cf5": [
+      "OBJ:android.telephony.CallQuality",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "96b7640131d526fbb3c270ff461eb5d2": [
+      "OBJ:android.telephony.CallQuality",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "1b156c2d539d2562a468621828ab749f": [
+      "OBJ:android.telephony.CallQuality",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "a9452282786909e24a0140dd8c298baf": [
+      "OBJ:android.telephony.CallQuality",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "8a178ddc4353d896f0cf3585eaa61755": [
+      "OBJ:android.telephony.CallQuality",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "a4705aa0cd8261150646846757253584": [
+      "OBJ:android.telephony.CallQuality",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {
+    "None:db9c94df636c95c36b9e8e1c0a2f3ba8": 2,
+    "None:5f2ccbd40c8a88cb7db66bb65e360ccd": 2
+  },
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [
+    "com.android.server.TelephonyRegistry"
+  ],
+  "phase_name": "change_parameters",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 1,
+    "historical_service_not_invoked": 15,
+    "no_traces": 0,
+    "historical_no_traces": 0
+  },
+  "pids": [],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

@@ -1,0 +1,865 @@
+{
+  "location": {
+    "requestGeofence": {
+      "ordered_iterations": [
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": null
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": true,
+            "data": {
+              "type": "java.lang.SecurityException.<init>(Native Method)",
+              "location": "com.android.server.LocationManagerService.checkResolutionLevelIsSufficientForGeofenceUse(LocationManagerService.java:1896)",
+              "message": "Geofence usage requires ACCESS_FINE_LOCATION permission"
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.LocationManagerService"
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "10148::android.permission.ACCESS_FINE_LOCATION"
+            ],
+            "pid": "fuzzer.permission.uidchanger:InvokerService",
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "2844b3018d24b34839a0305fae47b558",
+            "ignored_permissions": [
+              "10148::android.permission.ACCESS_COARSE_LOCATION"
+            ]
+          },
+          "id": "ec407004-cf52-43a7-8b6d-f68722d0e459",
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingPid() = 5488",
+              "callstack": "getCallingPid() = 5488\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.getPackagesForUid(PackageManagerService.java:6372)\ncom.android.server.pm.PackageManagerService.checkUidPermissionImpl(PackageManagerService.java:5639)\ncom.android.server.pm.PackageManagerService.checkUidPermission(PackageManagerService.java:5629)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1879)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermissionImpl(PackageManagerService.java:5645)\ncom.android.server.pm.PackageManagerService.checkUidPermission(PackageManagerService.java:5629)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1879)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1879)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkUidPermission(android.permission.ACCESS_FINE_LOCATION, 10148) = -1",
+              "callstack": "checkUidPermission(android.permission.ACCESS_FINE_LOCATION, 10148) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1879)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1879)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPermission(android.permission.ACCESS_FINE_LOCATION, 5488, 10148) = -1",
+              "callstack": "checkPermission(android.permission.ACCESS_FINE_LOCATION, 5488, 10148) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1879)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.getPackagesForUid(PackageManagerService.java:6372)\ncom.android.server.pm.PackageManagerService.checkUidPermissionImpl(PackageManagerService.java:5639)\ncom.android.server.pm.PackageManagerService.checkUidPermission(PackageManagerService.java:5629)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1882)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermissionImpl(PackageManagerService.java:5645)\ncom.android.server.pm.PackageManagerService.checkUidPermission(PackageManagerService.java:5629)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1882)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1882)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkUidPermission(android.permission.ACCESS_COARSE_LOCATION, 10148) = -1",
+              "callstack": "checkUidPermission(android.permission.ACCESS_COARSE_LOCATION, 10148) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1882)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1882)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPermission(android.permission.ACCESS_COARSE_LOCATION, 5488, 10148) = -1",
+              "callstack": "checkPermission(android.permission.ACCESS_COARSE_LOCATION, 5488, 10148) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1882)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.SecurityException.<init>(Native Method)\ncom.android.server.LocationManagerService.checkResolutionLevelIsSufficientForGeofenceUse(LocationManagerService.java:1896)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2809)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(Geofence usage requires ACCESS_FINE_LOCATION permission) = undefined",
+              "callstack": "$init(G, e, o, f, e, n, c, e,  , u, s, a, g, e,  , r, e, q, u, i, r, e, s,  , A, C, C, E, S, S, _, F, I, N, E, _, L, O, C, A, T, I, O, N,  , p, e, r, m, i, s, s, i, o, n) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.SecurityException.<init>(Native Method)\ncom.android.server.LocationManagerService.checkResolutionLevelIsSufficientForGeofenceUse(LocationManagerService.java:1896)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2809)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": null
+          },
+          "pid_info": {
+            "name": null,
+            "id": null,
+            "pid": 1973
+          },
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": {
+              "type": "java.lang.NullPointerException.<init>(Native Method)",
+              "location": "com.android.server.location.GeofenceState.<init>(GeofenceState.java:59)",
+              "message": "Attempt to invoke virtual method 'double android.location.Geofence.getLatitude("
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.LocationManagerService"
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "10148::android.permission.ACCESS_FINE_LOCATION",
+              "10148::android.permission.LOCATION_HARDWARE"
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "2844b3018d24b34839a0305fae47b558",
+            "ignored_permissions": [
+              "10148::android.permission.ACCESS_COARSE_LOCATION"
+            ]
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingPid() = 5408",
+              "callstack": "getCallingPid() = 5408\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1879)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkUidPermission(android.permission.ACCESS_FINE_LOCATION, 10148) = 0",
+              "callstack": "checkUidPermission(android.permission.ACCESS_FINE_LOCATION, 10148) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1879)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1879)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPermission(android.permission.ACCESS_FINE_LOCATION, 5408, 10148) = 0",
+              "callstack": "checkPermission(android.permission.ACCESS_FINE_LOCATION, 5408, 10148) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1879)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.LocationManagerService.checkPackageName(LocationManagerService.java:2482)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2813)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.getPackagesForUid(PackageManagerService.java:6372)\nandroid.app.ApplicationPackageManager.getPackagesForUid(ApplicationPackageManager.java:811)\ncom.android.server.LocationManagerService.checkPackageName(LocationManagerService.java:2483)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2813)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1862)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2820)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1862)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2820)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingPid() = 5408",
+              "callstack": "getCallingPid() = 5408\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1862)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2820)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Process.myPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1863)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2820)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "myPid() = 1973",
+              "callstack": "myPid() = 1973\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Process.myPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1863)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2820)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1864)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2820)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.getPackagesForUid(PackageManagerService.java:6372)\ncom.android.server.pm.PackageManagerService.checkUidPermissionImpl(PackageManagerService.java:5639)\ncom.android.server.pm.PackageManagerService.checkUidPermission(PackageManagerService.java:5629)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1864)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2820)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermissionImpl(PackageManagerService.java:5645)\ncom.android.server.pm.PackageManagerService.checkUidPermission(PackageManagerService.java:5629)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1864)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2820)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1864)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2820)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkUidPermission(android.permission.LOCATION_HARDWARE, 10148) = -1",
+              "callstack": "checkUidPermission(android.permission.LOCATION_HARDWARE, 10148) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1864)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2820)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1864)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2820)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPermission(android.permission.LOCATION_HARDWARE, 5408, 10148) = -1",
+              "callstack": "checkPermission(android.permission.LOCATION_HARDWARE, 5408, 10148) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1864)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2820)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2820)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkCallingPermission(android.permission.LOCATION_HARDWARE) = -1",
+              "callstack": "checkCallingPermission(android.permission.LOCATION_HARDWARE) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2820)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2831)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 1000,
+              "call_ret": "$init(Attempt to invoke virtual method 'double android.location.Geofence.getLatitude()' on a null object reference) = undefined",
+              "callstack": "$init(A, t, t, e, m, p, t,  , t, o,  , i, n, v, o, k, e,  , v, i, r, t, u, a, l,  , m, e, t, h, o, d,  , ', d, o, u, b, l, e,  , a, n, d, r, o, i, d, ., l, o, c, a, t, i, o, n, ., G, e, o, f, e, n, c, e, ., g, e, t, L, a, t, i, t, u, d, e, (, ), ',  , o, n,  , a,  , n, u, l, l,  , o, b, j, e, c, t,  , r, e, f, e, r, e, n, c, e) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.NullPointerException.<init>(Native Method)\ncom.android.server.location.GeofenceState.<init>(GeofenceState.java:59)\ncom.android.server.location.GeofenceManager.addFence(GeofenceManager.java:161)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2851)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": null
+          },
+          "pid_info": {
+            "name": null,
+            "id": null,
+            "pid": 1978
+          },
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": {
+              "type": "java.lang.NullPointerException.<init>(Native Method)",
+              "location": "com.android.server.location.GeofenceState.<init>(GeofenceState.java:59)",
+              "message": "Attempt to invoke virtual method 'double android.location.Geofence.getLatitude("
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.LocationManagerService"
+          ],
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingPid() = 5415",
+              "callstack": "getCallingPid() = 5415\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1879)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkUidPermission(android.permission.ACCESS_FINE_LOCATION, 10148) = 0",
+              "callstack": "checkUidPermission(android.permission.ACCESS_FINE_LOCATION, 10148) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1879)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1879)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPermission(android.permission.ACCESS_FINE_LOCATION, 5415, 10148) = 0",
+              "callstack": "checkPermission(android.permission.ACCESS_FINE_LOCATION, 5415, 10148) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1879)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.LocationManagerService.checkPackageName(LocationManagerService.java:2482)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2813)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.getPackagesForUid(PackageManagerService.java:6372)\nandroid.app.ApplicationPackageManager.getPackagesForUid(ApplicationPackageManager.java:811)\ncom.android.server.LocationManagerService.checkPackageName(LocationManagerService.java:2483)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2813)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1862)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2820)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1862)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2820)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingPid() = 5415",
+              "callstack": "getCallingPid() = 5415\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1862)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2820)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Process.myPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1863)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2820)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "myPid() = 1978",
+              "callstack": "myPid() = 1978\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Process.myPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1863)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2820)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1864)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2820)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1864)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2820)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkUidPermission(android.permission.LOCATION_HARDWARE, 10148) = 0",
+              "callstack": "checkUidPermission(android.permission.LOCATION_HARDWARE, 10148) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1864)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2820)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1864)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2820)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPermission(android.permission.LOCATION_HARDWARE, 5415, 10148) = 0",
+              "callstack": "checkPermission(android.permission.LOCATION_HARDWARE, 5415, 10148) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1864)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2820)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2820)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkCallingPermission(android.permission.LOCATION_HARDWARE) = 0",
+              "callstack": "checkCallingPermission(android.permission.LOCATION_HARDWARE) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2820)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2831)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 1000,
+              "call_ret": "$init(Attempt to invoke virtual method 'double android.location.Geofence.getLatitude()' on a null object reference) = undefined",
+              "callstack": "$init(A, t, t, e, m, p, t,  , t, o,  , i, n, v, o, k, e,  , v, i, r, t, u, a, l,  , m, e, t, h, o, d,  , ', d, o, u, b, l, e,  , a, n, d, r, o, i, d, ., l, o, c, a, t, i, o, n, ., G, e, o, f, e, n, c, e, ., g, e, t, L, a, t, i, t, u, d, e, (, ), ',  , o, n,  , a,  , n, u, l, l,  , o, b, j, e, c, t,  , r, e, f, e, r, e, n, c, e) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.NullPointerException.<init>(Native Method)\ncom.android.server.location.GeofenceState.<init>(GeofenceState.java:59)\ncom.android.server.location.GeofenceManager.addFence(GeofenceManager.java:161)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2851)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "10148::android.permission.ACCESS_FINE_LOCATION",
+              "10148::android.permission.LOCATION_HARDWARE"
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "2844b3018d24b34839a0305fae47b558",
+            "ignored_permissions": [
+              "10148::android.permission.ACCESS_COARSE_LOCATION"
+            ]
+          }
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": null
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": true,
+            "data": {
+              "type": "java.lang.SecurityException.<init>(Native Method)",
+              "location": "com.android.server.LocationManagerService.checkResolutionLevelIsSufficientForGeofenceUse(LocationManagerService.java:1896)",
+              "message": "Geofence usage requires ACCESS_FINE_LOCATION permission"
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.LocationManagerService"
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "10148::android.permission.ACCESS_COARSE_LOCATION"
+            ],
+            "pid": "fuzzer.permission.uidchanger:InvokerService",
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "2844b3018d24b34839a0305fae47b558",
+            "ignored_permissions": [
+              "10148::android.permission.ACCESS_FINE_LOCATION"
+            ]
+          },
+          "id": "ec407004-cf52-43a7-8b6d-f68722d0e459",
+          "deferred_action": true
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": null
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": {
+              "type": "java.lang.SecurityException.<init>(Native Method)",
+              "location": "com.android.server.LocationManagerService.checkResolutionLevelIsSufficientForGeofenceUse(LocationManagerService.java:1896)",
+              "message": "Geofence usage requires ACCESS_FINE_LOCATION permission"
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.LocationManagerService"
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "10148::android.permission.ACCESS_COARSE_LOCATION"
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "2844b3018d24b34839a0305fae47b558",
+            "ignored_permissions": [
+              "10148::android.permission.ACCESS_FINE_LOCATION"
+            ]
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingPid() = 5429",
+              "callstack": "getCallingPid() = 5429\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.getPackagesForUid(PackageManagerService.java:6372)\ncom.android.server.pm.PackageManagerService.checkUidPermissionImpl(PackageManagerService.java:5639)\ncom.android.server.pm.PackageManagerService.checkUidPermission(PackageManagerService.java:5629)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1879)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermissionImpl(PackageManagerService.java:5645)\ncom.android.server.pm.PackageManagerService.checkUidPermission(PackageManagerService.java:5629)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1879)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1879)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkUidPermission(android.permission.ACCESS_FINE_LOCATION, 10148) = -1",
+              "callstack": "checkUidPermission(android.permission.ACCESS_FINE_LOCATION, 10148) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1879)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1879)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPermission(android.permission.ACCESS_FINE_LOCATION, 5429, 10148) = -1",
+              "callstack": "checkPermission(android.permission.ACCESS_FINE_LOCATION, 5429, 10148) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1879)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1882)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkUidPermission(android.permission.ACCESS_COARSE_LOCATION, 10148) = 0",
+              "callstack": "checkUidPermission(android.permission.ACCESS_COARSE_LOCATION, 10148) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1882)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1882)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPermission(android.permission.ACCESS_COARSE_LOCATION, 5429, 10148) = 0",
+              "callstack": "checkPermission(android.permission.ACCESS_COARSE_LOCATION, 5429, 10148) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1882)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.SecurityException.<init>(Native Method)\ncom.android.server.LocationManagerService.checkResolutionLevelIsSufficientForGeofenceUse(LocationManagerService.java:1896)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2809)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(Geofence usage requires ACCESS_FINE_LOCATION permission) = undefined",
+              "callstack": "$init(G, e, o, f, e, n, c, e,  , u, s, a, g, e,  , r, e, q, u, i, r, e, s,  , A, C, C, E, S, S, _, F, I, N, E, _, L, O, C, A, T, I, O, N,  , p, e, r, m, i, s, s, i, o, n) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.SecurityException.<init>(Native Method)\ncom.android.server.LocationManagerService.checkResolutionLevelIsSufficientForGeofenceUse(LocationManagerService.java:1896)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2809)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": null
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": {
+              "type": "java.lang.SecurityException.<init>(Native Method)",
+              "location": "com.android.server.LocationManagerService.checkResolutionLevelIsSufficientForGeofenceUse(LocationManagerService.java:1896)",
+              "message": "Geofence usage requires ACCESS_FINE_LOCATION permission"
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.LocationManagerService"
+          ],
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingPid() = 5358",
+              "callstack": "getCallingPid() = 5358\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.getPackagesForUid(PackageManagerService.java:6372)\ncom.android.server.pm.PackageManagerService.checkUidPermissionImpl(PackageManagerService.java:5639)\ncom.android.server.pm.PackageManagerService.checkUidPermission(PackageManagerService.java:5629)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1879)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermissionImpl(PackageManagerService.java:5645)\ncom.android.server.pm.PackageManagerService.checkUidPermission(PackageManagerService.java:5629)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1879)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1879)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkUidPermission(android.permission.ACCESS_FINE_LOCATION, 10148) = -1",
+              "callstack": "checkUidPermission(android.permission.ACCESS_FINE_LOCATION, 10148) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1879)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1879)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPermission(android.permission.ACCESS_FINE_LOCATION, 5358, 10148) = -1",
+              "callstack": "checkPermission(android.permission.ACCESS_FINE_LOCATION, 5358, 10148) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1879)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1882)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkUidPermission(android.permission.ACCESS_COARSE_LOCATION, 10148) = 0",
+              "callstack": "checkUidPermission(android.permission.ACCESS_COARSE_LOCATION, 10148) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1882)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1882)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPermission(android.permission.ACCESS_COARSE_LOCATION, 5358, 10148) = 0",
+              "callstack": "checkPermission(android.permission.ACCESS_COARSE_LOCATION, 5358, 10148) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1882)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.SecurityException.<init>(Native Method)\ncom.android.server.LocationManagerService.checkResolutionLevelIsSufficientForGeofenceUse(LocationManagerService.java:1896)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2809)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(Geofence usage requires ACCESS_FINE_LOCATION permission) = undefined",
+              "callstack": "$init(G, e, o, f, e, n, c, e,  , u, s, a, g, e,  , r, e, q, u, i, r, e, s,  , A, C, C, E, S, S, _, F, I, N, E, _, L, O, C, A, T, I, O, N,  , p, e, r, m, i, s, s, i, o, n) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.SecurityException.<init>(Native Method)\ncom.android.server.LocationManagerService.checkResolutionLevelIsSufficientForGeofenceUse(LocationManagerService.java:1896)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2809)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "10148::android.permission.ACCESS_COARSE_LOCATION"
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "2844b3018d24b34839a0305fae47b558",
+            "ignored_permissions": [
+              "10148::android.permission.ACCESS_FINE_LOCATION"
+            ]
+          }
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": null
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": {
+              "type": "java.lang.SecurityException.<init>(Native Method)",
+              "location": "com.android.server.LocationManagerService.checkResolutionLevelIsSufficientForGeofenceUse(LocationManagerService.java:1896)",
+              "message": "Geofence usage requires ACCESS_FINE_LOCATION permission"
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.LocationManagerService"
+          ],
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingPid() = 5353",
+              "callstack": "getCallingPid() = 5353\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.getPackagesForUid(PackageManagerService.java:6372)\ncom.android.server.pm.PackageManagerService.checkUidPermissionImpl(PackageManagerService.java:5639)\ncom.android.server.pm.PackageManagerService.checkUidPermission(PackageManagerService.java:5629)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1879)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermissionImpl(PackageManagerService.java:5645)\ncom.android.server.pm.PackageManagerService.checkUidPermission(PackageManagerService.java:5629)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1879)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1879)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkUidPermission(android.permission.ACCESS_FINE_LOCATION, 10148) = -1",
+              "callstack": "checkUidPermission(android.permission.ACCESS_FINE_LOCATION, 10148) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1879)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1879)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPermission(android.permission.ACCESS_FINE_LOCATION, 5353, 10148) = -1",
+              "callstack": "checkPermission(android.permission.ACCESS_FINE_LOCATION, 5353, 10148) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1879)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1882)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkUidPermission(android.permission.ACCESS_COARSE_LOCATION, 10148) = 0",
+              "callstack": "checkUidPermission(android.permission.ACCESS_COARSE_LOCATION, 10148) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1882)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1882)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPermission(android.permission.ACCESS_COARSE_LOCATION, 5353, 10148) = 0",
+              "callstack": "checkPermission(android.permission.ACCESS_COARSE_LOCATION, 5353, 10148) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkPermission(Native Method)\ncom.android.server.LocationManagerService.getAllowedResolutionLevel(LocationManagerService.java:1882)\ncom.android.server.LocationManagerService.getCallerAllowedResolutionLevel(LocationManagerService.java:1891)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2808)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.SecurityException.<init>(Native Method)\ncom.android.server.LocationManagerService.checkResolutionLevelIsSufficientForGeofenceUse(LocationManagerService.java:1896)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2809)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(Geofence usage requires ACCESS_FINE_LOCATION permission) = undefined",
+              "callstack": "$init(G, e, o, f, e, n, c, e,  , u, s, a, g, e,  , r, e, q, u, i, r, e, s,  , A, C, C, E, S, S, _, F, I, N, E, _, L, O, C, A, T, I, O, N,  , p, e, r, m, i, s, s, i, o, n) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.SecurityException.<init>(Native Method)\ncom.android.server.LocationManagerService.checkResolutionLevelIsSufficientForGeofenceUse(LocationManagerService.java:1896)\ncom.android.server.LocationManagerService.requestGeofence(LocationManagerService.java:2809)\ncom.android.server.LocationManagerService.requestGeofence(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "10148::android.permission.ACCESS_COARSE_LOCATION"
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "2844b3018d24b34839a0305fae47b558",
+            "ignored_permissions": [
+              "10148::android.permission.ACCESS_FINE_LOCATION"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

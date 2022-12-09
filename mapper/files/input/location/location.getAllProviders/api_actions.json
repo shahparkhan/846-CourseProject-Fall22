@@ -1,0 +1,162 @@
+{
+  "location": {
+    "getAllProviders": {
+      "ordered_iterations": [
+        {
+          "execution_outcome": {
+            "returns": true,
+            "output": "[passive, gps, network]",
+            "exception": "null"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [],
+          "stacktrace": [],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "hash-placeholder",
+            "ignored_permissions": []
+          }
+        },
+        {
+          "execution_outcome": {
+            "returns": true,
+            "output": "[passive, gps, network]",
+            "exception": "null"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "hash-placeholder",
+            "ignored_permissions": []
+          },
+          "stacktrace": []
+        },
+        {
+          "callstack": [],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": 1000000,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": null,
+            "ignored_permissions": []
+          },
+          "exception": null,
+          "invocation_result": {},
+          "output": null,
+          "returns": false,
+          "to_instrument": [],
+          "hash": null,
+          "skip": true
+        },
+        {
+          "execution_outcome": {
+            "returns": true,
+            "output": "[passive, gps, network]",
+            "exception": "null"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": 1000000,
+            "userId": 1,
+            "user_restrictions": [],
+            "parameters_hash": "hash-placeholder",
+            "ignored_permissions": []
+          },
+          "stacktrace": []
+        },
+        {
+          "execution_outcome": {
+            "returns": true,
+            "output": "[passive, gps, network]",
+            "exception": "null"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [],
+          "stacktrace": [],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": 1000000,
+            "userId": 1,
+            "user_restrictions": [],
+            "parameters_hash": "hash-placeholder",
+            "ignored_permissions": []
+          }
+        },
+        {
+          "callstack": [],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": 1001,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": null,
+            "ignored_permissions": []
+          },
+          "exception": null,
+          "invocation_result": {},
+          "output": null,
+          "returns": false,
+          "to_instrument": [],
+          "hash": null,
+          "skip": true
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": false,
+      "data": null
+    },
+    "appops_operations": [],
+    "to_instrument": [],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "01dcf770be2ee75a184b147c41fd67d1",
+      "ignored_permissions": []
+    },
+    "processed": true
+  },
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": false,
+      "data": null
+    },
+    "appops_operations": [],
+    "to_instrument": [],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "9ba29b79fc19fe9f180ab248b4e2c2d4",
+      "ignored_permissions": []
+    },
+    "processed": true
+  }
+]

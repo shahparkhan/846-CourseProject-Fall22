@@ -1,0 +1,60 @@
+{
+  "api": "telephony.registry|notifyPreciseDataConnectionFailed|I,I,java.lang.String,java.lang.String,I|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "5765954d3a34b2d2c6cfe95232d1d27b": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:0",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:2",
+      "INDEX:0"
+    ],
+    "b0c2375c83406f4e777ef90d5825c56b": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:0",
+      "S:com.android.systemui",
+      "INDEX:2",
+      "INDEX:0"
+    ],
+    "6bf767fdb912cb7e97db4078a4015b9d": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:0",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:2",
+      "INDEX:0"
+    ],
+    "86663477bec0e5fab8345683c4235ba0": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:0",
+      "S:com.android.systemui",
+      "INDEX:2",
+      "INDEX:0"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [
+    "com.android.server.TelephonyRegistry"
+  ],
+  "phase_name": "clean_start",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 1,
+    "historical_service_not_invoked": 15,
+    "no_traces": 0,
+    "historical_no_traces": 0.39999999999999997
+  },
+  "pids": [],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

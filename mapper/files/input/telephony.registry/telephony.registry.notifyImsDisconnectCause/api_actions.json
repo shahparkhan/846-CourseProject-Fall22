@@ -1,0 +1,527 @@
+{
+  "telephony.registry": {
+    "notifyImsDisconnectCause": {
+      "ordered_iterations": [
+        {
+          "execution_outcome": {
+            "returns": true,
+            "output": "null",
+            "exception": "null"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.TelephonyRegistry"
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "10148::android.permission.MODIFY_PHONE_STATE"
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "ca54af8b4ff6ef31340bd21befd98804",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingPid() = 4347",
+              "callstack": "getCallingPid() = 4347\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1876)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.getPackagesForUid(PackageManagerService.java:6372)\ncom.android.server.pm.PackageManagerService.checkUidPermissionImpl(PackageManagerService.java:5639)\ncom.android.server.pm.PackageManagerService.checkUidPermission(PackageManagerService.java:5629)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermissionImpl(PackageManagerService.java:5645)\ncom.android.server.pm.PackageManagerService.checkUidPermission(PackageManagerService.java:5629)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkUidPermission(android.permission.MODIFY_PHONE_STATE, 10148) = -1",
+              "callstack": "checkUidPermission(android.permission.MODIFY_PHONE_STATE, 10148) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPermission(android.permission.MODIFY_PHONE_STATE, 4347, 10148) = -1",
+              "callstack": "checkPermission(android.permission.MODIFY_PHONE_STATE, 4347, 10148) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkCallingOrSelfPermission(android.permission.MODIFY_PHONE_STATE) = -1",
+              "callstack": "checkCallingOrSelfPermission(android.permission.MODIFY_PHONE_STATE) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2205)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2205)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingPid() = 4347",
+              "callstack": "getCallingPid() = 4347\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2205)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2205)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        },
+        {
+          "execution_outcome": {
+            "returns": true,
+            "output": "null",
+            "exception": "null"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.TelephonyRegistry",
+            ""
+          ],
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingPid() = 4459",
+              "callstack": "getCallingPid() = 4459\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1876)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkUidPermission(android.permission.MODIFY_PHONE_STATE, 10148) = 0",
+              "callstack": "checkUidPermission(android.permission.MODIFY_PHONE_STATE, 10148) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPermission(android.permission.MODIFY_PHONE_STATE, 4459, 10148) = 0",
+              "callstack": "checkPermission(android.permission.MODIFY_PHONE_STATE, 4459, 10148) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkCallingOrSelfPermission(android.permission.MODIFY_PHONE_STATE) = 0",
+              "callstack": "checkCallingOrSelfPermission(android.permission.MODIFY_PHONE_STATE) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "notifyImsDisconnectCause(0, ImsReasonInfo :: {0, 0, null}) = undefined",
+              "callstack": "notifyImsDisconnectCause(0, ImsReasonInfo :: {0, 0, null}) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "10148::android.permission.MODIFY_PHONE_STATE"
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "ca54af8b4ff6ef31340bd21befd98804",
+            "ignored_permissions": []
+          }
+        },
+        {
+          "execution_outcome": {
+            "returns": true,
+            "output": "null",
+            "exception": "null"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.TelephonyRegistry",
+            ""
+          ],
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingPid() = 5119",
+              "callstack": "getCallingPid() = 5119\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1876)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkUidPermission(android.permission.MODIFY_PHONE_STATE, 10148) = 0",
+              "callstack": "checkUidPermission(android.permission.MODIFY_PHONE_STATE, 10148) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPermission(android.permission.MODIFY_PHONE_STATE, 5119, 10148) = 0",
+              "callstack": "checkPermission(android.permission.MODIFY_PHONE_STATE, 5119, 10148) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkCallingOrSelfPermission(android.permission.MODIFY_PHONE_STATE) = 0",
+              "callstack": "checkCallingOrSelfPermission(android.permission.MODIFY_PHONE_STATE) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "notifyImsDisconnectCause(0, ImsReasonInfo :: {0, 0, null}) = undefined",
+              "callstack": "notifyImsDisconnectCause(0, ImsReasonInfo :: {0, 0, null}) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "10148::android.permission.MODIFY_PHONE_STATE"
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "ca54af8b4ff6ef31340bd21befd98804",
+            "ignored_permissions": []
+          }
+        },
+        {
+          "execution_outcome": {
+            "returns": true,
+            "output": "null",
+            "exception": "null"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.TelephonyRegistry",
+            ""
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "10148::android.permission.MODIFY_PHONE_STATE"
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "8bee20995909b53ce2a8004625913c8f",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingPid() = 5235",
+              "callstack": "getCallingPid() = 5235\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1876)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.getPackagesForUid(PackageManagerService.java:6372)\ncom.android.server.pm.PackageManagerService.checkUidPermissionImpl(PackageManagerService.java:5639)\ncom.android.server.pm.PackageManagerService.checkUidPermission(PackageManagerService.java:5629)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermissionImpl(PackageManagerService.java:5645)\ncom.android.server.pm.PackageManagerService.checkUidPermission(PackageManagerService.java:5629)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkUidPermission(android.permission.MODIFY_PHONE_STATE, 10148) = -1",
+              "callstack": "checkUidPermission(android.permission.MODIFY_PHONE_STATE, 10148) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPermission(android.permission.MODIFY_PHONE_STATE, 5235, 10148) = -1",
+              "callstack": "checkPermission(android.permission.MODIFY_PHONE_STATE, 5235, 10148) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkCallingOrSelfPermission(android.permission.MODIFY_PHONE_STATE) = -1",
+              "callstack": "checkCallingOrSelfPermission(android.permission.MODIFY_PHONE_STATE) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2205)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2205)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingPid() = 5235",
+              "callstack": "getCallingPid() = 5235\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2205)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2205)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "notifyImsDisconnectCause(0, ImsReasonInfo :: {0, 0, null}) = undefined",
+              "callstack": "notifyImsDisconnectCause(0, ImsReasonInfo :: {0, 0, null}) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        },
+        {
+          "execution_outcome": {
+            "returns": true,
+            "output": "null",
+            "exception": "null"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.TelephonyRegistry",
+            ""
+          ],
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingPid() = 5150",
+              "callstack": "getCallingPid() = 5150\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1876)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkUidPermission(android.permission.MODIFY_PHONE_STATE, 10148) = 0",
+              "callstack": "checkUidPermission(android.permission.MODIFY_PHONE_STATE, 10148) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPermission(android.permission.MODIFY_PHONE_STATE, 5150, 10148) = 0",
+              "callstack": "checkPermission(android.permission.MODIFY_PHONE_STATE, 5150, 10148) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkCallingOrSelfPermission(android.permission.MODIFY_PHONE_STATE) = 0",
+              "callstack": "checkCallingOrSelfPermission(android.permission.MODIFY_PHONE_STATE) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(TelephonyRegistry.java:1679)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "notifyImsDisconnectCause(0, ImsReasonInfo :: {0, 0, null}) = undefined",
+              "callstack": "notifyImsDisconnectCause(0, ImsReasonInfo :: {0, 0, null}) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.TelephonyRegistry.notifyImsDisconnectCause(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:912)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "10148::android.permission.MODIFY_PHONE_STATE"
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "8bee20995909b53ce2a8004625913c8f",
+            "ignored_permissions": []
+          }
+        }
+      ]
+    }
+  }
+}

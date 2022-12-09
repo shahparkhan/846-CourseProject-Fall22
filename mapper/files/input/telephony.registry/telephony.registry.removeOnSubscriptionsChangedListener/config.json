@@ -1,0 +1,40 @@
+{
+  "api": "telephony.registry|removeOnSubscriptionsChangedListener|java.lang.String,com.android.internal.telephony.IOnSubscriptionsChangedListener|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "ab26fb80ab6012c7c92847ffbc4d45ae": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:com.android.internal.telephony.IOnSubscriptionsChangedListener"
+    ],
+    "a57566b808d78415a8fa09b16c4e3c50": [
+      "S:com.android.systemui",
+      "OBJ:com.android.internal.telephony.IOnSubscriptionsChangedListener"
+    ]
+  },
+  "parameters_done": {
+    "None:ab26fb80ab6012c7c92847ffbc4d45ae": 2
+  },
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": "change_parameters",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 2,
+    "historical_service_not_invoked": 13,
+    "no_traces": 1,
+    "historical_no_traces": 2.0999999999999996
+  },
+  "pids": [],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

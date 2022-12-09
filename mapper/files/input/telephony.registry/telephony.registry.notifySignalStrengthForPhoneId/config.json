@@ -1,0 +1,56 @@
+{
+  "api": "telephony.registry|notifySignalStrengthForPhoneId|I,I,android.telephony.SignalStrength|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "8fe0f58fc306c4f7ecb07a3afea5da12": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.telephony.SignalStrength"
+    ],
+    "fc19b2c780c92e315c6aabc3ca03a560": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.telephony.SignalStrength"
+    ],
+    "da65d872ca2074e6dd7ddcb3194aaec6": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.telephony.SignalStrength"
+    ],
+    "32d9e62f9b3d73a3995a247efba439c6": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.telephony.SignalStrength"
+    ]
+  },
+  "parameters_done": {
+    "None:8fe0f58fc306c4f7ecb07a3afea5da12": 2
+  },
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [
+    "com.android.server.TelephonyRegistry"
+  ],
+  "phase_name": "change_parameters",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 3,
+    "historical_service_not_invoked": 15,
+    "no_traces": 0,
+    "historical_no_traces": 0
+  },
+  "pids": [
+    "system_server:8fe0f58fc306c4f7ecb07a3afea5da12"
+  ],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

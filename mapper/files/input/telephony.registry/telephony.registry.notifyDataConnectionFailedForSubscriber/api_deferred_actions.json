@@ -1,0 +1,179 @@
+[
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": false,
+      "data": null
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.TelephonyRegistry"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "10148::android.permission.MODIFY_PHONE_STATE"
+      ],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "fbeb0f775f67d6451c7ffd39e9b57c58",
+      "ignored_permissions": []
+    },
+    "processed": true
+  },
+  {
+    "execution_outcome": {
+      "returns": true,
+      "output": "undefined"
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": false,
+      "data": null
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.TelephonyRegistry",
+      ""
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "10148::android.permission.MODIFY_PHONE_STATE"
+      ],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "813150056dd506bd729b58d593162b81",
+      "ignored_permissions": []
+    },
+    "processed": true
+  },
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": true,
+      "data": {
+        "type": "java.lang.SecurityException.<init>(Native Method)",
+        "location": "com.android.server.am.UserController.handleIncomingUser(UserController.java:1647)",
+        "message": "Permission Denial: broadcast from android asks to run as user -1 but is calling from uid u0a148; this requires android.permission.INTERACT_ACROSS_USERS_FULL or android.permission.INTERACT_ACROSS_USERS"
+      }
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.TelephonyRegistry"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "10148::android.permission.INTERACT_ACROSS_USERS_FULL",
+        "10148::android.permission.MODIFY_PHONE_STATE"
+      ],
+      "pid": "fuzzer.permission.uidchanger:InvokerService",
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "813150056dd506bd729b58d593162b81",
+      "ignored_permissions": [
+        "10148::android.permission.INTERACT_ACROSS_USERS"
+      ]
+    },
+    "id": "b4943656-e9b8-439c-9ec9-1f9c73d0c080",
+    "processed": true
+  },
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": true,
+      "data": {
+        "type": "java.lang.SecurityException.<init>(Native Method)",
+        "location": "com.android.server.am.UserController.handleIncomingUser(UserController.java:1647)",
+        "message": "Permission Denial: broadcast from android asks to run as user -1 but is calling from uid u0a148; this requires android.permission.INTERACT_ACROSS_USERS_FULL or android.permission.INTERACT_ACROSS_USERS"
+      }
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.TelephonyRegistry"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "10148::android.permission.INTERACT_ACROSS_USERS",
+        "10148::android.permission.MODIFY_PHONE_STATE"
+      ],
+      "pid": "fuzzer.permission.uidchanger:InvokerService",
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "813150056dd506bd729b58d593162b81",
+      "ignored_permissions": [
+        "10148::android.permission.INTERACT_ACROSS_USERS_FULL"
+      ]
+    },
+    "id": "b4943656-e9b8-439c-9ec9-1f9c73d0c080"
+  },
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": true,
+      "data": {
+        "type": "java.lang.SecurityException.<init>(Native Method)",
+        "location": "com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:15220)",
+        "message": "Permission Denial: broadcastIntent("
+      }
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.TelephonyRegistry"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "10148::android.permission.BROADCAST_STICKY",
+        "10148::android.permission.INTERACT_ACROSS_USERS_FULL",
+        "10148::android.permission.MODIFY_PHONE_STATE"
+      ],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "813150056dd506bd729b58d593162b81",
+      "ignored_permissions": []
+    },
+    "processed": true
+  }
+]

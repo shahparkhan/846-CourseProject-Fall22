@@ -1,0 +1,182 @@
+{
+  "location": {
+    "isProviderEnabledForUser": {
+      "ordered_iterations": [
+        {
+          "execution_outcome": {
+            "returns": true,
+            "output": "false",
+            "exception": "null"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.LocationManagerService"
+          ],
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.UserHandle.getCallingUserId(UserHandle.java:222)\ncom.android.server.LocationManagerService.isProviderEnabledForUser(LocationManagerService.java:3236)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:929)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "147cc9bbc8cdaf7ef74b934b4d8acc43",
+            "ignored_permissions": []
+          }
+        },
+        {
+          "execution_outcome": {
+            "returns": true,
+            "output": "true"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.LocationManagerService",
+            ""
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "147cc9bbc8cdaf7ef74b934b4d8acc43",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10111,
+              "call_ret": "isProviderEnabledForUser(gps, 0) = true",
+              "callstack": "isProviderEnabledForUser(gps, 0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isProviderEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:929)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isProviderEnabledForUser(gps, 0) = true",
+              "callstack": "isProviderEnabledForUser(gps, 0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isProviderEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:929)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isProviderEnabledForUser(gps, 0) = true",
+              "callstack": "isProviderEnabledForUser(gps, 0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isProviderEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:929)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        },
+        {
+          "execution_outcome": {
+            "returns": true,
+            "output": "true"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.LocationManagerService",
+            ""
+          ],
+          "stacktrace": [
+            {
+              "uid": 10111,
+              "call_ret": "isProviderEnabledForUser(gps, 0) = true",
+              "callstack": "isProviderEnabledForUser(gps, 0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isProviderEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:929)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isProviderEnabledForUser(gps, 0) = true",
+              "callstack": "isProviderEnabledForUser(gps, 0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isProviderEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:929)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "147cc9bbc8cdaf7ef74b934b4d8acc43",
+            "ignored_permissions": []
+          }
+        },
+        {
+          "execution_outcome": {
+            "returns": true,
+            "output": "true"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.LocationManagerService",
+            ""
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": 10148,
+            "userId": 0,
+            "user_restrictions": [],
+            "parameters_hash": "6341259601593c6809af714ec921414b",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10111,
+              "call_ret": "isProviderEnabledForUser(gps, 0) = true",
+              "callstack": "isProviderEnabledForUser(gps, 0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isProviderEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:929)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isProviderEnabledForUser(gps, 0) = true",
+              "callstack": "isProviderEnabledForUser(gps, 0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isProviderEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:929)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isProviderEnabledForUser(gps, 0) = true",
+              "callstack": "isProviderEnabledForUser(gps, 0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isProviderEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:929)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10111,
+              "call_ret": "isProviderEnabledForUser(gps, 0) = true",
+              "callstack": "isProviderEnabledForUser(gps, 0) = true\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.LocationManagerService.isProviderEnabledForUser(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:929)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

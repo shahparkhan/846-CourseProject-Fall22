@@ -1,0 +1,55 @@
+{
+  "api": "location|sendExtraCommand|java.lang.String,java.lang.String,android.os.Bundle|Z|",
+  "parameters_count": 4,
+  "parameters": {
+    "1cdb4615987dd4a6d78e7891c0b087d4": [
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.Bundle"
+    ],
+    "3023e2777bf1c62d40c43f896a0160b8": [
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "OBJ:android.os.Bundle"
+    ],
+    "aa6ef4152a61fba45d1875b9148a7d80": [
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.Bundle"
+    ],
+    "f56c52a4d7798c6977169f40497eacb7": [
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "OBJ:android.os.Bundle"
+    ]
+  },
+  "parameters_done": {
+    "None:1cdb4615987dd4a6d78e7891c0b087d4": 2,
+    "None:3023e2777bf1c62d40c43f896a0160b8": 0
+  },
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [
+    "com.android.server.LocationManagerService"
+  ],
+  "phase_name": "execute_deferred",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 4,
+    "historical_service_not_invoked": 15,
+    "no_traces": 0,
+    "historical_no_traces": 0.39999999999999997
+  },
+  "pids": [],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": false,
+    "exception": {
+      "is_security": true,
+      "data": {
+        "type": "java.lang.SecurityException.<init>(Native Method)",
+        "location": "com.android.server.notification.ManagedServices.checkServiceTokenLocked(ManagedServices.java:664)",
+        "message": "Disallowed call from unknown condition provider: android.service.notification.IConditionProvider$Stub$Proxy@d58bfd1 class android.service.notification.IConditionProvider$Stub$Proxy"
+      }
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.notification.NotificationManagerService$10",
+      "com.android.server.notification.NotificationManagerService",
+      "com.android.server.notification.ConditionProviders",
+      "com.android.server.notification.ManagedServices"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "EXCEPTION::Disallowed call from unknown condition provider: android.service.notification.IConditionProvider$Stub$Proxyclass android.service.notification.IConditionProvider$Stub$Proxy "
+      ],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "df8bf912be4ec3d3d45de32d2ba0a1b6",
+      "ignored_permissions": []
+    },
+    "processed": true
+  },
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": false,
+    "exception": {
+      "is_security": true,
+      "data": {
+        "type": "java.lang.SecurityException.<init>(Native Method)",
+        "location": "com.android.server.notification.ManagedServices.checkServiceTokenLocked(ManagedServices.java:664)",
+        "message": "Disallowed call from unknown condition provider: android.service.notification.IConditionProvider$Stub$Proxy@c80579b class android.service.notification.IConditionProvider$Stub$Proxy"
+      }
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.notification.NotificationManagerService$10",
+      "com.android.server.notification.NotificationManagerService",
+      "com.android.server.notification.ConditionProviders",
+      "com.android.server.notification.ManagedServices"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "EXCEPTION::Disallowed call from unknown condition provider: android.service.notification.IConditionProvider$Stub$Proxyclass android.service.notification.IConditionProvider$Stub$Proxy "
+      ],
+      "pid": null,
+      "uid": 1000000,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "df8bf912be4ec3d3d45de32d2ba0a1b6",
+      "ignored_permissions": []
+    },
+    "processed": true
+  }
+]

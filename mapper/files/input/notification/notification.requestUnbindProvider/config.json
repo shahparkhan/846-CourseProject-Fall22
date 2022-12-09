@@ -1,0 +1,42 @@
+{
+  "api": "notification|requestUnbindProvider|android.service.notification.IConditionProvider|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "df8bf912be4ec3d3d45de32d2ba0a1b6": [
+      "OBJ:android.service.notification.IConditionProvider"
+    ]
+  },
+  "parameters_done": {
+    "None:df8bf912be4ec3d3d45de32d2ba0a1b6": 2
+  },
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [
+    null
+  ],
+  "classes": [
+    "com.android.server.notification.NotificationManagerService$10",
+    "com.android.server.notification.NotificationManagerService",
+    "com.android.server.notification.ConditionProviders",
+    "com.android.server.notification.ManagedServices"
+  ],
+  "phase_name": "change_uid",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 1,
+    "historical_service_not_invoked": 14,
+    "no_traces": 0,
+    "historical_no_traces": 1.0999999999999999
+  },
+  "pids": [],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

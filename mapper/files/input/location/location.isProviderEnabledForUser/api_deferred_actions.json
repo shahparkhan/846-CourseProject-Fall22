@@ -1,0 +1,62 @@
+[
+  {
+    "execution_outcome": {
+      "returns": true,
+      "output": "true"
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": false,
+      "data": null
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.LocationManagerService",
+      ""
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "147cc9bbc8cdaf7ef74b934b4d8acc43",
+      "ignored_permissions": []
+    },
+    "processed": true
+  },
+  {
+    "execution_outcome": {
+      "returns": true,
+      "output": "true"
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": false,
+      "data": null
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.LocationManagerService",
+      ""
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [],
+      "pid": null,
+      "uid": 10148,
+      "userId": 0,
+      "user_restrictions": [],
+      "parameters_hash": "6341259601593c6809af714ec921414b",
+      "ignored_permissions": []
+    },
+    "processed": true
+  }
+]

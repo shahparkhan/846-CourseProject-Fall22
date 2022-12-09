@@ -1,0 +1,41 @@
+[
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": {
+      "name": null,
+      "id": null,
+      "pid": 1975
+    },
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": true,
+      "data": {
+        "type": "java.lang.SecurityException.<init>(Native Method)",
+        "location": "android.app.ContextImpl.enforce(ContextImpl.java:1896)",
+        "message": "Location Hardware permission not granted to obtain GNSS chipset capabilities.: uid 10148 does not have android.permission.LOCATION_HARDWARE."
+      }
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.LocationManagerService"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "10148::android.permission.LOCATION_HARDWARE"
+      ],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "02ec0106cef38c9eddf792963a7a228b",
+      "ignored_permissions": []
+    },
+    "processed": true
+  }
+]

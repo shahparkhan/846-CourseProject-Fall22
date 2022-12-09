@@ -1,0 +1,42 @@
+{
+  "api": "telephony.registry|notifyCellInfoForSubscriber|I,java.util.List|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "486d51f7434b75b2fa262fc1c0ad634f": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:java.util.List"
+    ],
+    "93eb3d3f5fdcd96c935a9be117e8a024": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:java.util.List"
+    ]
+  },
+  "parameters_done": {
+    "None:486d51f7434b75b2fa262fc1c0ad634f": 2
+  },
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [
+    "com.android.server.TelephonyRegistry"
+  ],
+  "phase_name": "change_parameters",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 1,
+    "historical_service_not_invoked": 15,
+    "no_traces": 0,
+    "historical_no_traces": 0.09999999999999998
+  },
+  "pids": [],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

@@ -1,0 +1,40 @@
+{
+  "api": "location|addGnssMeasurementsListener|android.location.IGnssMeasurementsListener,java.lang.String|Z|",
+  "parameters_count": 2,
+  "parameters": {
+    "b04400648f64df5f4c4f0cb772eb69f7": [
+      "OBJ:android.location.IGnssMeasurementsListener",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "51bfeada95b6a75ae7ee540bfb9b001a": [
+      "OBJ:android.location.IGnssMeasurementsListener",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [
+    "com.android.server.LocationManagerService"
+  ],
+  "phase_name": "clean_start",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 4,
+    "historical_service_not_invoked": 15,
+    "no_traces": 0,
+    "historical_no_traces": 0
+  },
+  "pids": [],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

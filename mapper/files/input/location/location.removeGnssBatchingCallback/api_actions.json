@@ -1,0 +1,257 @@
+{
+  "location": {
+    "removeGnssBatchingCallback": {
+      "ordered_iterations": [
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": "null",
+            "exception": "FIRST EXCEPTION CAUGHT\njava.lang.reflect.InvocationTargetException\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat fuzzer.permission.uidchanger.InvokerService.invokeApi(InvokerService.java:318)\n\tat fuzzer.permission.uidchanger.InvokerService.onStartCommand(InvokerService.java:71)\n\tat android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4087)\n\tat android.app.ActivityThread.access$1800(ActivityThread.java:219)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1891)\n\tat android.os.Handler.dispatchMessage(Handler.java:107)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\nCaused by: java.lang.NullPointerException: Attempt to invoke interface method 'android.os.IBinder android.location.IBatchedLocationCallback.asBinder()' on a null object reference\n\tat android.os.Parcel.createException(Parcel.java:2077)\n\tat android.os.Parcel.readException(Parcel.java:2039)\n\tat android.os.Parcel.readException(Parcel.java:1987)\n\tat android.location.ILocationManager$Stub$Proxy.removeGnssBatchingCallback(ILocationManager.java:1662)\n\t... 12 more\n"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": {
+              "type": "java.lang.NullPointerException.<init>(Native Method)",
+              "location": "com.android.server.LocationManagerService.removeGnssBatchingCallback(LocationManagerService.java:1773)",
+              "message": "Attempt to invoke interface method 'android.os.IBinder android.location.IBatchedLocationCallback.asBinder("
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.LocationManagerService"
+          ],
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.NullPointerException.<init>(Native Method)\ncom.android.server.LocationManagerService.removeGnssBatchingCallback(LocationManagerService.java:1773)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:770)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(Attempt to invoke interface method 'android.os.IBinder android.location.IBatchedLocationCallback.asBinder()' on a null object reference) = undefined",
+              "callstack": "$init(A, t, t, e, m, p, t,  , t, o,  , i, n, v, o, k, e,  , i, n, t, e, r, f, a, c, e,  , m, e, t, h, o, d,  , ', a, n, d, r, o, i, d, ., o, s, ., I, B, i, n, d, e, r,  , a, n, d, r, o, i, d, ., l, o, c, a, t, i, o, n, ., I, B, a, t, c, h, e, d, L, o, c, a, t, i, o, n, C, a, l, l, b, a, c, k, ., a, s, B, i, n, d, e, r, (, ), ',  , o, n,  , a,  , n, u, l, l,  , o, b, j, e, c, t,  , r, e, f, e, r, e, n, c, e) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.NullPointerException.<init>(Native Method)\ncom.android.server.LocationManagerService.removeGnssBatchingCallback(LocationManagerService.java:1773)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:770)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "hash-placeholder",
+            "ignored_permissions": []
+          }
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": "null",
+            "exception": "FIRST EXCEPTION CAUGHT\njava.lang.reflect.InvocationTargetException\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat fuzzer.permission.uidchanger.InvokerService.invokeApi(InvokerService.java:318)\n\tat fuzzer.permission.uidchanger.InvokerService.onStartCommand(InvokerService.java:71)\n\tat android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4087)\n\tat android.app.ActivityThread.access$1800(ActivityThread.java:219)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1891)\n\tat android.os.Handler.dispatchMessage(Handler.java:107)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\nCaused by: android.os.DeadObjectException\n\tat android.os.BinderProxy.transactNative(Native Method)\n\tat android.os.BinderProxy.transact(BinderProxy.java:510)\n\tat android.location.ILocationManager$Stub$Proxy.removeGnssBatchingCallback(ILocationManager.java:1657)\n\t... 12 more\n"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": {
+              "type": "java.lang.NullPointerException.<init>(Native Method)",
+              "location": "com.android.server.LocationManagerService.removeGnssBatchingCallback(LocationManagerService.java:1773)",
+              "message": "Attempt to invoke interface method 'android.os.IBinder android.location.IBatchedLocationCallback.asBinder("
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.LocationManagerService"
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "hash-placeholder",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.NullPointerException.<init>(Native Method)\ncom.android.server.LocationManagerService.removeGnssBatchingCallback(LocationManagerService.java:1773)\ncom.android.server.LocationManagerService.removeGnssBatchingCallback(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:770)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(Attempt to invoke interface method 'android.os.IBinder android.location.IBatchedLocationCallback.asBinder()' on a null object reference) = undefined",
+              "callstack": "$init(A, t, t, e, m, p, t,  , t, o,  , i, n, v, o, k, e,  , i, n, t, e, r, f, a, c, e,  , m, e, t, h, o, d,  , ', a, n, d, r, o, i, d, ., o, s, ., I, B, i, n, d, e, r,  , a, n, d, r, o, i, d, ., l, o, c, a, t, i, o, n, ., I, B, a, t, c, h, e, d, L, o, c, a, t, i, o, n, C, a, l, l, b, a, c, k, ., a, s, B, i, n, d, e, r, (, ), ',  , o, n,  , a,  , n, u, l, l,  , o, b, j, e, c, t,  , r, e, f, e, r, e, n, c, e) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.NullPointerException.<init>(Native Method)\ncom.android.server.LocationManagerService.removeGnssBatchingCallback(LocationManagerService.java:1773)\ncom.android.server.LocationManagerService.removeGnssBatchingCallback(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:770)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        },
+        {
+          "callstack": [],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": 1000000,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": null,
+            "ignored_permissions": []
+          },
+          "exception": null,
+          "invocation_result": {},
+          "output": null,
+          "returns": false,
+          "to_instrument": [],
+          "hash": null,
+          "skip": true
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": "null",
+            "exception": "FIRST EXCEPTION CAUGHT\njava.lang.reflect.InvocationTargetException\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat fuzzer.permission.uidchanger.InvokerService.invokeApi(InvokerService.java:318)\n\tat fuzzer.permission.uidchanger.InvokerService.onStartCommand(InvokerService.java:71)\n\tat android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4087)\n\tat android.app.ActivityThread.access$1800(ActivityThread.java:219)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1891)\n\tat android.os.Handler.dispatchMessage(Handler.java:107)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\nCaused by: android.os.DeadObjectException\n\tat android.os.BinderProxy.transactNative(Native Method)\n\tat android.os.BinderProxy.transact(BinderProxy.java:510)\n\tat android.location.ILocationManager$Stub$Proxy.removeGnssBatchingCallback(ILocationManager.java:1657)\n\t... 12 more\n"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": {
+              "type": "java.lang.NullPointerException.<init>(Native Method)",
+              "location": "com.android.server.LocationManagerService.removeGnssBatchingCallback(LocationManagerService.java:1773)",
+              "message": "Attempt to invoke interface method 'android.os.IBinder android.location.IBatchedLocationCallback.asBinder("
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.LocationManagerService"
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": 1000000,
+            "userId": 1,
+            "user_restrictions": [],
+            "parameters_hash": "hash-placeholder",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 1010148",
+              "callstack": "getCallingUid() = 1010148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.NullPointerException.<init>(Native Method)\ncom.android.server.LocationManagerService.removeGnssBatchingCallback(LocationManagerService.java:1773)\ncom.android.server.LocationManagerService.removeGnssBatchingCallback(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:770)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 1010148,
+              "call_ret": "$init(Attempt to invoke interface method 'android.os.IBinder android.location.IBatchedLocationCallback.asBinder()' on a null object reference) = undefined",
+              "callstack": "$init(A, t, t, e, m, p, t,  , t, o,  , i, n, v, o, k, e,  , i, n, t, e, r, f, a, c, e,  , m, e, t, h, o, d,  , ', a, n, d, r, o, i, d, ., o, s, ., I, B, i, n, d, e, r,  , a, n, d, r, o, i, d, ., l, o, c, a, t, i, o, n, ., I, B, a, t, c, h, e, d, L, o, c, a, t, i, o, n, C, a, l, l, b, a, c, k, ., a, s, B, i, n, d, e, r, (, ), ',  , o, n,  , a,  , n, u, l, l,  , o, b, j, e, c, t,  , r, e, f, e, r, e, n, c, e) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.NullPointerException.<init>(Native Method)\ncom.android.server.LocationManagerService.removeGnssBatchingCallback(LocationManagerService.java:1773)\ncom.android.server.LocationManagerService.removeGnssBatchingCallback(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:770)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": "null",
+            "exception": "FIRST EXCEPTION CAUGHT\njava.lang.reflect.InvocationTargetException\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat fuzzer.permission.uidchanger.InvokerService.invokeApi(InvokerService.java:318)\n\tat fuzzer.permission.uidchanger.InvokerService.onStartCommand(InvokerService.java:71)\n\tat android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4087)\n\tat android.app.ActivityThread.access$1800(ActivityThread.java:219)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1891)\n\tat android.os.Handler.dispatchMessage(Handler.java:107)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\nCaused by: android.os.DeadObjectException\n\tat android.os.BinderProxy.transactNative(Native Method)\n\tat android.os.BinderProxy.transact(BinderProxy.java:510)\n\tat android.location.ILocationManager$Stub$Proxy.removeGnssBatchingCallback(ILocationManager.java:1657)\n\t... 12 more\n"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [],
+          "stacktrace": [],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": 1000000,
+            "userId": 1,
+            "user_restrictions": [],
+            "parameters_hash": "hash-placeholder",
+            "ignored_permissions": []
+          }
+        },
+        {
+          "callstack": [],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": 1001,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": null,
+            "ignored_permissions": []
+          },
+          "exception": null,
+          "invocation_result": {},
+          "output": null,
+          "returns": false,
+          "to_instrument": [],
+          "hash": null,
+          "skip": true
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": null
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": {
+              "type": "java.lang.NullPointerException.<init>(Native Method)",
+              "location": "com.android.server.LocationManagerService.removeGnssBatchingCallback(LocationManagerService.java:1773)",
+              "message": "Attempt to invoke interface method 'android.os.IBinder android.location.IBatchedLocationCallback.asBinder("
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.LocationManagerService"
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": 1001,
+            "userId": 0,
+            "user_restrictions": [],
+            "parameters_hash": "hash-placeholder",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 1001",
+              "callstack": "getCallingUid() = 1001\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.NullPointerException.<init>(Native Method)\ncom.android.server.LocationManagerService.removeGnssBatchingCallback(LocationManagerService.java:1773)\ncom.android.server.LocationManagerService.removeGnssBatchingCallback(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:770)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 1001,
+              "call_ret": "$init(Attempt to invoke interface method 'android.os.IBinder android.location.IBatchedLocationCallback.asBinder()' on a null object reference) = undefined",
+              "callstack": "$init(A, t, t, e, m, p, t,  , t, o,  , i, n, v, o, k, e,  , i, n, t, e, r, f, a, c, e,  , m, e, t, h, o, d,  , ', a, n, d, r, o, i, d, ., o, s, ., I, B, i, n, d, e, r,  , a, n, d, r, o, i, d, ., l, o, c, a, t, i, o, n, ., I, B, a, t, c, h, e, d, L, o, c, a, t, i, o, n, C, a, l, l, b, a, c, k, ., a, s, B, i, n, d, e, r, (, ), ',  , o, n,  , a,  , n, u, l, l,  , o, b, j, e, c, t,  , r, e, f, e, r, e, n, c, e) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.NullPointerException.<init>(Native Method)\ncom.android.server.LocationManagerService.removeGnssBatchingCallback(LocationManagerService.java:1773)\ncom.android.server.LocationManagerService.removeGnssBatchingCallback(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:770)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

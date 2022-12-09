@@ -1,0 +1,73 @@
+{
+  "api": "location|getFromLocationName|java.lang.String,D,D,D,D,I,android.location.GeocoderParams,java.util.List|java.lang.String|",
+  "parameters_count": 4,
+  "parameters": {
+    "544209a0c255f9b50118c73ec71fad37": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:D",
+      "OBJ:D",
+      "OBJ:D",
+      "OBJ:D",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.location.GeocoderParams",
+      "OBJ:java.util.List"
+    ],
+    "435901c965c9e6ac94c7cf8d8a22ce85": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:D",
+      "OBJ:D",
+      "OBJ:D",
+      "OBJ:D",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.location.GeocoderParams",
+      "OBJ:java.util.List"
+    ],
+    "d336da2befda7687e42c61df81bfb3bf": [
+      "S:com.android.systemui",
+      "OBJ:D",
+      "OBJ:D",
+      "OBJ:D",
+      "OBJ:D",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.location.GeocoderParams",
+      "OBJ:java.util.List"
+    ],
+    "f836e2af889b8adbf08e7a9338e8db45": [
+      "S:com.android.systemui",
+      "OBJ:D",
+      "OBJ:D",
+      "OBJ:D",
+      "OBJ:D",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.location.GeocoderParams",
+      "OBJ:java.util.List"
+    ]
+  },
+  "parameters_done": {
+    "None:544209a0c255f9b50118c73ec71fad37": 2,
+    "None:435901c965c9e6ac94c7cf8d8a22ce85": 1
+  },
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": "change_parameters",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 4,
+    "historical_service_not_invoked": 15,
+    "no_traces": 0,
+    "historical_no_traces": 0
+  },
+  "pids": [],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

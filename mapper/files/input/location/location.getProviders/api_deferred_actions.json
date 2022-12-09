@@ -1,0 +1,101 @@
+[
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": false,
+      "data": null
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.LocationManagerService"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "10148::android.permission.ACCESS_FINE_LOCATION"
+      ],
+      "pid": "fuzzer.permission.uidchanger:InvokerService",
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "a8e8a987b100ccc5eb9f86d20b418a28",
+      "ignored_permissions": [
+        "10148::android.permission.ACCESS_COARSE_LOCATION"
+      ]
+    },
+    "id": "ba1c2327-0d7e-4fed-a070-98e28adbdd8d",
+    "processed": true
+  },
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": false,
+      "data": null
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.LocationManagerService"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "10148::android.permission.ACCESS_COARSE_LOCATION"
+      ],
+      "pid": "fuzzer.permission.uidchanger:InvokerService",
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "a8e8a987b100ccc5eb9f86d20b418a28",
+      "ignored_permissions": [
+        "10148::android.permission.ACCESS_FINE_LOCATION"
+      ]
+    },
+    "id": "ba1c2327-0d7e-4fed-a070-98e28adbdd8d"
+  },
+  {
+    "execution_outcome": {
+      "returns": true,
+      "output": "[object Object]"
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": false,
+      "data": null
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.LocationManagerService",
+      ""
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "10148::android.permission.ACCESS_FINE_LOCATION"
+      ],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "a8e8a987b100ccc5eb9f86d20b418a28",
+      "ignored_permissions": []
+    },
+    "processed": true
+  }
+]

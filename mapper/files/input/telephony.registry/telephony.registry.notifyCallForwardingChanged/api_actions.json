@@ -1,0 +1,623 @@
+{
+  "telephony.registry": {
+    "notifyCallForwardingChanged": {
+      "ordered_iterations": [
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": "null",
+            "exception": "FIRST EXCEPTION CAUGHT\njava.lang.reflect.InvocationTargetException\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat fuzzer.permission.uidchanger.InvokerService.invokeApi(InvokerService.java:318)\n\tat fuzzer.permission.uidchanger.InvokerService.onStartCommand(InvokerService.java:71)\n\tat android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4087)\n\tat android.app.ActivityThread.access$1800(ActivityThread.java:219)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1891)\n\tat android.os.Handler.dispatchMessage(Handler.java:107)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\nCaused by: android.os.DeadObjectException\n\tat android.os.BinderProxy.transactNative(Native Method)\n\tat android.os.BinderProxy.transact(BinderProxy.java:510)\n\tat com.android.internal.telephony.ITelephonyRegistry$Stub$Proxy.notifyCallForwardingChanged(ITelephonyRegistry.java:1166)\n\t... 12 more\n"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.TelephonyRegistry"
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "10148::android.permission.MODIFY_PHONE_STATE"
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "b71e20674b7c011a693ffb021dfbac2f",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingPid() = 4669",
+              "callstack": "getCallingPid() = 4669\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1876)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.getPackagesForUid(PackageManagerService.java:6372)\ncom.android.server.pm.PackageManagerService.checkUidPermissionImpl(PackageManagerService.java:5639)\ncom.android.server.pm.PackageManagerService.checkUidPermission(PackageManagerService.java:5629)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermissionImpl(PackageManagerService.java:5645)\ncom.android.server.pm.PackageManagerService.checkUidPermission(PackageManagerService.java:5629)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkUidPermission(android.permission.MODIFY_PHONE_STATE, 10148) = -1",
+              "callstack": "checkUidPermission(android.permission.MODIFY_PHONE_STATE, 10148) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPermission(android.permission.MODIFY_PHONE_STATE, 4669, 10148) = -1",
+              "callstack": "checkPermission(android.permission.MODIFY_PHONE_STATE, 4669, 10148) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkCallingOrSelfPermission(android.permission.MODIFY_PHONE_STATE) = -1",
+              "callstack": "checkCallingOrSelfPermission(android.permission.MODIFY_PHONE_STATE) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2205)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        },
+        {
+          "execution_outcome": {
+            "returns": true,
+            "output": "null",
+            "exception": "null"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.TelephonyRegistry",
+            ""
+          ],
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingPid() = 5241",
+              "callstack": "getCallingPid() = 5241\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1876)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkUidPermission(android.permission.MODIFY_PHONE_STATE, 10148) = 0",
+              "callstack": "checkUidPermission(android.permission.MODIFY_PHONE_STATE, 10148) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPermission(android.permission.MODIFY_PHONE_STATE, 5241, 10148) = 0",
+              "callstack": "checkPermission(android.permission.MODIFY_PHONE_STATE, 5241, 10148) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkCallingOrSelfPermission(android.permission.MODIFY_PHONE_STATE) = 0",
+              "callstack": "checkCallingOrSelfPermission(android.permission.MODIFY_PHONE_STATE) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "notifyCallForwardingChanged(true) = undefined",
+              "callstack": "notifyCallForwardingChanged(true) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "10148::android.permission.MODIFY_PHONE_STATE"
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "b71e20674b7c011a693ffb021dfbac2f",
+            "ignored_permissions": []
+          }
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": "null",
+            "exception": "FIRST EXCEPTION CAUGHT\njava.lang.reflect.InvocationTargetException\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat fuzzer.permission.uidchanger.InvokerService.invokeApi(InvokerService.java:318)\n\tat fuzzer.permission.uidchanger.InvokerService.onStartCommand(InvokerService.java:71)\n\tat android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4087)\n\tat android.app.ActivityThread.access$1800(ActivityThread.java:219)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1891)\n\tat android.os.Handler.dispatchMessage(Handler.java:107)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\nCaused by: android.os.DeadObjectException\n\tat android.os.BinderProxy.transactNative(Native Method)\n\tat android.os.BinderProxy.transact(BinderProxy.java:510)\n\tat com.android.internal.telephony.ITelephonyRegistry$Stub$Proxy.notifyCallForwardingChanged(ITelephonyRegistry.java:1166)\n\t... 12 more\n"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [],
+          "stacktrace": [],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "10148::android.permission.MODIFY_PHONE_STATE"
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "b71e20674b7c011a693ffb021dfbac2f",
+            "ignored_permissions": []
+          }
+        },
+        {
+          "execution_outcome": {
+            "returns": true,
+            "output": "null",
+            "exception": "null"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.TelephonyRegistry",
+            ""
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "10148::android.permission.MODIFY_PHONE_STATE"
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "5e9bf3a93a822a9389c14343f6a7da15",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingPid() = 5173",
+              "callstack": "getCallingPid() = 5173\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1876)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.getPackagesForUid(PackageManagerService.java:6372)\ncom.android.server.pm.PackageManagerService.checkUidPermissionImpl(PackageManagerService.java:5639)\ncom.android.server.pm.PackageManagerService.checkUidPermission(PackageManagerService.java:5629)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermissionImpl(PackageManagerService.java:5645)\ncom.android.server.pm.PackageManagerService.checkUidPermission(PackageManagerService.java:5629)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkUidPermission(android.permission.MODIFY_PHONE_STATE, 10148) = -1",
+              "callstack": "checkUidPermission(android.permission.MODIFY_PHONE_STATE, 10148) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPermission(android.permission.MODIFY_PHONE_STATE, 5173, 10148) = -1",
+              "callstack": "checkPermission(android.permission.MODIFY_PHONE_STATE, 5173, 10148) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkCallingOrSelfPermission(android.permission.MODIFY_PHONE_STATE) = -1",
+              "callstack": "checkCallingOrSelfPermission(android.permission.MODIFY_PHONE_STATE) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2205)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2205)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingPid() = 5173",
+              "callstack": "getCallingPid() = 5173\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2205)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2205)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "notifyCallForwardingChanged(false) = undefined",
+              "callstack": "notifyCallForwardingChanged(false) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        },
+        {
+          "execution_outcome": {
+            "returns": true,
+            "output": "null",
+            "exception": "null"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.TelephonyRegistry",
+            ""
+          ],
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingPid() = 5186",
+              "callstack": "getCallingPid() = 5186\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1876)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkUidPermission(android.permission.MODIFY_PHONE_STATE, 10148) = 0",
+              "callstack": "checkUidPermission(android.permission.MODIFY_PHONE_STATE, 10148) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPermission(android.permission.MODIFY_PHONE_STATE, 5186, 10148) = 0",
+              "callstack": "checkPermission(android.permission.MODIFY_PHONE_STATE, 5186, 10148) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkCallingOrSelfPermission(android.permission.MODIFY_PHONE_STATE) = 0",
+              "callstack": "checkCallingOrSelfPermission(android.permission.MODIFY_PHONE_STATE) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "notifyCallForwardingChanged(false) = undefined",
+              "callstack": "notifyCallForwardingChanged(false) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "10148::android.permission.MODIFY_PHONE_STATE"
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "5e9bf3a93a822a9389c14343f6a7da15",
+            "ignored_permissions": []
+          }
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": "null",
+            "exception": "FIRST EXCEPTION CAUGHT\njava.lang.reflect.InvocationTargetException\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat fuzzer.permission.uidchanger.InvokerService.invokeApi(InvokerService.java:318)\n\tat fuzzer.permission.uidchanger.InvokerService.onStartCommand(InvokerService.java:71)\n\tat android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4087)\n\tat android.app.ActivityThread.access$1800(ActivityThread.java:219)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1891)\n\tat android.os.Handler.dispatchMessage(Handler.java:107)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\nCaused by: android.os.DeadObjectException\n\tat android.os.BinderProxy.transactNative(Native Method)\n\tat android.os.BinderProxy.transact(BinderProxy.java:510)\n\tat com.android.internal.telephony.ITelephonyRegistry$Stub$Proxy.notifyCallForwardingChanged(ITelephonyRegistry.java:1166)\n\t... 12 more\n"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [],
+          "stacktrace": [],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "10148::android.permission.MODIFY_PHONE_STATE"
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "5e9bf3a93a822a9389c14343f6a7da15",
+            "ignored_permissions": []
+          }
+        },
+        {
+          "callstack": [],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": 1000000,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": null,
+            "ignored_permissions": []
+          },
+          "exception": null,
+          "invocation_result": {},
+          "output": null,
+          "returns": false,
+          "to_instrument": [],
+          "hash": null,
+          "skip": true
+        },
+        {
+          "execution_outcome": {
+            "returns": true,
+            "output": "null",
+            "exception": "null"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.TelephonyRegistry",
+            ""
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "1010148::android.permission.MODIFY_PHONE_STATE"
+            ],
+            "pid": null,
+            "uid": 1000000,
+            "userId": 1,
+            "user_restrictions": [],
+            "parameters_hash": "b71e20674b7c011a693ffb021dfbac2f",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 1010148",
+              "callstack": "getCallingUid() = 1010148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 1010148",
+              "callstack": "getCallingUid() = 1010148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 1010148,
+              "call_ret": "getCallingPid() = 5269",
+              "callstack": "getCallingPid() = 5269\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 1010148",
+              "callstack": "getCallingUid() = 1010148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1876)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 1010148",
+              "callstack": "getCallingUid() = 1010148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.getPackagesForUid(PackageManagerService.java:6372)\ncom.android.server.pm.PackageManagerService.checkUidPermissionImpl(PackageManagerService.java:5639)\ncom.android.server.pm.PackageManagerService.checkUidPermission(PackageManagerService.java:5629)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 1010148",
+              "callstack": "getCallingUid() = 1010148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermissionImpl(PackageManagerService.java:5645)\ncom.android.server.pm.PackageManagerService.checkUidPermission(PackageManagerService.java:5629)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 1010148",
+              "callstack": "getCallingUid() = 1010148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 1010148,
+              "call_ret": "checkUidPermission(android.permission.MODIFY_PHONE_STATE, 1010148) = -1",
+              "callstack": "checkUidPermission(android.permission.MODIFY_PHONE_STATE, 1010148) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 1010148",
+              "callstack": "getCallingUid() = 1010148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 1010148,
+              "call_ret": "checkPermission(android.permission.MODIFY_PHONE_STATE, 5269, 1010148) = -1",
+              "callstack": "checkPermission(android.permission.MODIFY_PHONE_STATE, 5269, 1010148) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 1010148",
+              "callstack": "getCallingUid() = 1010148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 1010148,
+              "call_ret": "checkCallingOrSelfPermission(android.permission.MODIFY_PHONE_STATE) = -1",
+              "callstack": "checkCallingOrSelfPermission(android.permission.MODIFY_PHONE_STATE) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2211)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2201)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 1010148",
+              "callstack": "getCallingUid() = 1010148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2205)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 1010148",
+              "callstack": "getCallingUid() = 1010148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2205)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 1010148,
+              "call_ret": "getCallingPid() = 5269",
+              "callstack": "getCallingPid() = 5269\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2205)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 1010148",
+              "callstack": "getCallingUid() = 1010148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.TelephonyRegistry.checkNotifyPermission(TelephonyRegistry.java:2205)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChangedForSubscriber(TelephonyRegistry.java:1357)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(TelephonyRegistry.java:1353)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 1010148",
+              "callstack": "getCallingUid() = 1010148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 1010148,
+              "call_ret": "notifyCallForwardingChanged(true) = undefined",
+              "callstack": "notifyCallForwardingChanged(true) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.TelephonyRegistry.notifyCallForwardingChanged(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:501)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

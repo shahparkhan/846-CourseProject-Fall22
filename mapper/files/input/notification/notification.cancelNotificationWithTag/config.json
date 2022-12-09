@@ -1,0 +1,128 @@
+{
+  "api": "notification|cancelNotificationWithTag|java.lang.String,java.lang.String,I,I|V|",
+  "parameters_count": 16,
+  "parameters": {
+    "cd8dcaaff60e6975ba4be63d31ca9ebe": [
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "eb2304f9d5a04dd090623a7384da6e22": [
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "775c9fb0e66ce80808f0870a6fd6b82e": [
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "c569a21ef14e1c85c8a720c120848cb9": [
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "64c15101e3bfd98a01710bbcf46358bf": [
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "034eca982601af3e0ea6029c78c35115": [
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "b321410608839d05016c18a86aada937": [
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "fa2ab232b57a67a15b1088d0a46a0117": [
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "803263ebe11141861bc78787f04622f1": [
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "c62681f152eb51e87f45d96c26fef1c8": [
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "8b47862ecda7ddbcdc9d8938ac79de98": [
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "29d0aa46d50ea10f6433b042fa96ad0b": [
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "b951c0b91cc03c578b8d74f910644e1c": [
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "506c9e38ae03f78b311bc762ba4814fc": [
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "a2ace47ce3eaa31017b23609390f4909": [
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "5596904b2b5692acf0ddc3396d6c461c": [
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {
+    "None:cd8dcaaff60e6975ba4be63d31ca9ebe": 2
+  },
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": "change_parameters",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 2,
+    "historical_service_not_invoked": 15,
+    "no_traces": 0,
+    "historical_no_traces": 0
+  },
+  "pids": [],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

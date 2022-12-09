@@ -1,0 +1,566 @@
+{
+  "location": {
+    "setTestProviderEnabled": {
+      "ordered_iterations": [
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": "null",
+            "exception": "FIRST EXCEPTION CAUGHT\njava.lang.reflect.InvocationTargetException\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat fuzzer.permission.uidchanger.InvokerService.invokeApi(InvokerService.java:318)\n\tat fuzzer.permission.uidchanger.InvokerService.onStartCommand(InvokerService.java:71)\n\tat android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4087)\n\tat android.app.ActivityThread.access$1800(ActivityThread.java:219)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1891)\n\tat android.os.Handler.dispatchMessage(Handler.java:107)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\nCaused by: android.os.DeadObjectException\n\tat android.os.BinderProxy.transactNative(Native Method)\n\tat android.os.BinderProxy.transact(BinderProxy.java:510)\n\tat android.location.ILocationManager$Stub$Proxy.setTestProviderEnabled(ILocationManager.java:2085)\n\t... 12 more\n"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": false,
+          "exception": {
+            "is_security": true,
+            "data": {
+              "type": "java.lang.SecurityException.<init>(Native Method)",
+              "location": "android.app.AppOpsManager.checkOp(AppOpsManager.java:5146)",
+              "message": "fuzzer.permission.uidchanger from uid 10148 not allowed to perform MOCK_LOCATION"
+            }
+          },
+          "appops_operations": [
+            {
+              "method": "checkOperation",
+              "uid": "10148",
+              "op": 58,
+              "pkg": "fuzzer.permission.uidchanger",
+              "result": 2
+            }
+          ],
+          "to_instrument": [
+            "com.android.server.LocationManagerService"
+          ],
+          "data": {
+            "appOps": [
+              {
+                "method": "checkOperation",
+                "uid": "10148",
+                "op": 58,
+                "pkg": "fuzzer.permission.uidchanger",
+                "result": 2
+              }
+            ],
+            "methods": [],
+            "permissions": [
+              "EXCEPTION::fuzzer.permission.uidchanger from uid 10148 not allowed to perform MOCK_LOCATION "
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "78f926d04b976a1a27640e3c4b5ff018",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.appop.AppOpsService.verifyIncomingUid(AppOpsService.java:2406)\ncom.android.server.appop.AppOpsService.checkOperationImpl(AppOpsService.java:1773)\ncom.android.server.appop.AppOpsService.checkOperationInternal(AppOpsService.java:1765)\ncom.android.server.appop.AppOpsService.checkOperation(AppOpsService.java:1756)\ncom.android.server.appop.AppOpsService.checkOperation(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5144)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.appop.AppOpsService.checkPackage(Native Method)\ncom.android.server.appop.AppOpsService.checkOperationUnchecked(AppOpsService.java:1805)\ncom.android.server.appop.AppOpsService.checkOperationUnchecked(AppOpsService.java:1787)\ncom.android.server.appop.AppOpsService.checkOperationImpl(AppOpsService.java:1779)\ncom.android.server.appop.AppOpsService.checkOperationInternal(AppOpsService.java:1765)\ncom.android.server.appop.AppOpsService.checkOperation(AppOpsService.java:1756)\ncom.android.server.appop.AppOpsService.checkOperation(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5144)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPackage(10148, fuzzer.permission.uidchanger) = 0",
+              "callstack": "checkPackage(10148, fuzzer.permission.uidchanger) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.appop.AppOpsService.checkPackage(Native Method)\ncom.android.server.appop.AppOpsService.checkOperationUnchecked(AppOpsService.java:1805)\ncom.android.server.appop.AppOpsService.checkOperationUnchecked(AppOpsService.java:1787)\ncom.android.server.appop.AppOpsService.checkOperationImpl(AppOpsService.java:1779)\ncom.android.server.appop.AppOpsService.checkOperationInternal(AppOpsService.java:1765)\ncom.android.server.appop.AppOpsService.checkOperation(AppOpsService.java:1756)\ncom.android.server.appop.AppOpsService.checkOperation(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5144)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.appop.AppOpsService.checkOperation(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5144)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkOperation(58, 10148, fuzzer.permission.uidchanger) = 2",
+              "callstack": "checkOperation(58, 10148, fuzzer.permission.uidchanger) = 2\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.appop.AppOpsService.checkOperation(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5144)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.SecurityException.<init>(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5146)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(fuzzer.permission.uidchanger from uid 10148 not allowed to perform MOCK_LOCATION) = undefined",
+              "callstack": "$init(f, u, z, z, e, r, ., p, e, r, m, i, s, s, i, o, n, ., u, i, d, c, h, a, n, g, e, r,  , f, r, o, m,  , u, i, d,  , 1, 0, 1, 4, 8,  , n, o, t,  , a, l, l, o, w, e, d,  , t, o,  , p, e, r, f, o, r, m,  , M, O, C, K, _, L, O, C, A, T, I, O, N) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.SecurityException.<init>(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5146)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": "null",
+            "exception": "FIRST EXCEPTION CAUGHT\njava.lang.reflect.InvocationTargetException\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat fuzzer.permission.uidchanger.InvokerService.invokeApi(InvokerService.java:318)\n\tat fuzzer.permission.uidchanger.InvokerService.onStartCommand(InvokerService.java:71)\n\tat android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4087)\n\tat android.app.ActivityThread.access$1800(ActivityThread.java:219)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1891)\n\tat android.os.Handler.dispatchMessage(Handler.java:107)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\nCaused by: android.os.DeadObjectException\n\tat android.os.BinderProxy.transactNative(Native Method)\n\tat android.os.BinderProxy.transact(BinderProxy.java:510)\n\tat android.location.ILocationManager$Stub$Proxy.setTestProviderEnabled(ILocationManager.java:2085)\n\t... 12 more\n"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": false,
+          "exception": {
+            "is_security": true,
+            "data": {
+              "type": "java.lang.SecurityException.<init>(Native Method)",
+              "location": "android.app.AppOpsManager.checkOp(AppOpsManager.java:5146)",
+              "message": "fuzzer.permission.uidchanger from uid 10148 not allowed to perform MOCK_LOCATION"
+            }
+          },
+          "appops_operations": [
+            {
+              "method": "checkOperation",
+              "uid": "10148",
+              "op": 58,
+              "pkg": "fuzzer.permission.uidchanger",
+              "result": 2
+            }
+          ],
+          "to_instrument": [
+            "com.android.server.LocationManagerService"
+          ],
+          "data": {
+            "appOps": [
+              {
+                "method": "checkOperation",
+                "uid": "10148",
+                "op": 58,
+                "pkg": "fuzzer.permission.uidchanger",
+                "result": 2
+              }
+            ],
+            "methods": [],
+            "permissions": [
+              "EXCEPTION::fuzzer.permission.uidchanger from uid 10148 not allowed to perform MOCK_LOCATION "
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "78f926d04b976a1a27640e3c4b5ff018",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.appop.AppOpsService.verifyIncomingUid(AppOpsService.java:2406)\ncom.android.server.appop.AppOpsService.checkOperationImpl(AppOpsService.java:1773)\ncom.android.server.appop.AppOpsService.checkOperationInternal(AppOpsService.java:1765)\ncom.android.server.appop.AppOpsService.checkOperation(AppOpsService.java:1756)\ncom.android.server.appop.AppOpsService.checkOperation(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5144)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.appop.AppOpsService.checkPackage(Native Method)\ncom.android.server.appop.AppOpsService.checkOperationUnchecked(AppOpsService.java:1805)\ncom.android.server.appop.AppOpsService.checkOperationUnchecked(AppOpsService.java:1787)\ncom.android.server.appop.AppOpsService.checkOperationImpl(AppOpsService.java:1779)\ncom.android.server.appop.AppOpsService.checkOperationInternal(AppOpsService.java:1765)\ncom.android.server.appop.AppOpsService.checkOperation(AppOpsService.java:1756)\ncom.android.server.appop.AppOpsService.checkOperation(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5144)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPackage(10148, fuzzer.permission.uidchanger) = 0",
+              "callstack": "checkPackage(10148, fuzzer.permission.uidchanger) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.appop.AppOpsService.checkPackage(Native Method)\ncom.android.server.appop.AppOpsService.checkOperationUnchecked(AppOpsService.java:1805)\ncom.android.server.appop.AppOpsService.checkOperationUnchecked(AppOpsService.java:1787)\ncom.android.server.appop.AppOpsService.checkOperationImpl(AppOpsService.java:1779)\ncom.android.server.appop.AppOpsService.checkOperationInternal(AppOpsService.java:1765)\ncom.android.server.appop.AppOpsService.checkOperation(AppOpsService.java:1756)\ncom.android.server.appop.AppOpsService.checkOperation(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5144)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.appop.AppOpsService.checkOperation(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5144)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkOperation(58, 10148, fuzzer.permission.uidchanger) = 2",
+              "callstack": "checkOperation(58, 10148, fuzzer.permission.uidchanger) = 2\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.appop.AppOpsService.checkOperation(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5144)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.SecurityException.<init>(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5146)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(fuzzer.permission.uidchanger from uid 10148 not allowed to perform MOCK_LOCATION) = undefined",
+              "callstack": "$init(f, u, z, z, e, r, ., p, e, r, m, i, s, s, i, o, n, ., u, i, d, c, h, a, n, g, e, r,  , f, r, o, m,  , u, i, d,  , 1, 0, 1, 4, 8,  , n, o, t,  , a, l, l, o, w, e, d,  , t, o,  , p, e, r, f, o, r, m,  , M, O, C, K, _, L, O, C, A, T, I, O, N) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.SecurityException.<init>(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5146)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": "null",
+            "exception": "FIRST EXCEPTION CAUGHT\njava.lang.reflect.InvocationTargetException\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat fuzzer.permission.uidchanger.InvokerService.invokeApi(InvokerService.java:318)\n\tat fuzzer.permission.uidchanger.InvokerService.onStartCommand(InvokerService.java:71)\n\tat android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4087)\n\tat android.app.ActivityThread.access$1800(ActivityThread.java:219)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1891)\n\tat android.os.Handler.dispatchMessage(Handler.java:107)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\nCaused by: android.os.DeadObjectException\n\tat android.os.BinderProxy.transactNative(Native Method)\n\tat android.os.BinderProxy.transact(BinderProxy.java:510)\n\tat android.location.ILocationManager$Stub$Proxy.setTestProviderEnabled(ILocationManager.java:2085)\n\t... 12 more\n"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": false,
+          "exception": {
+            "is_security": true,
+            "data": {
+              "type": "java.lang.SecurityException.<init>(Native Method)",
+              "location": "android.app.AppOpsManager.checkOp(AppOpsManager.java:5146)",
+              "message": "fuzzer.permission.uidchanger from uid 10148 not allowed to perform MOCK_LOCATION"
+            }
+          },
+          "appops_operations": [
+            {
+              "method": "checkOperation",
+              "uid": "10148",
+              "op": 58,
+              "pkg": "fuzzer.permission.uidchanger",
+              "result": 2
+            }
+          ],
+          "to_instrument": [
+            "com.android.server.LocationManagerService"
+          ],
+          "data": {
+            "appOps": [
+              {
+                "method": "checkOperation",
+                "uid": "10148",
+                "op": 58,
+                "pkg": "fuzzer.permission.uidchanger",
+                "result": 2
+              }
+            ],
+            "methods": [],
+            "permissions": [
+              "EXCEPTION::fuzzer.permission.uidchanger from uid 10148 not allowed to perform MOCK_LOCATION "
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "78f926d04b976a1a27640e3c4b5ff018",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.appop.AppOpsService.verifyIncomingUid(AppOpsService.java:2406)\ncom.android.server.appop.AppOpsService.checkOperationImpl(AppOpsService.java:1773)\ncom.android.server.appop.AppOpsService.checkOperationInternal(AppOpsService.java:1765)\ncom.android.server.appop.AppOpsService.checkOperation(AppOpsService.java:1756)\ncom.android.server.appop.AppOpsService.checkOperation(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5144)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.appop.AppOpsService.checkPackage(Native Method)\ncom.android.server.appop.AppOpsService.checkOperationUnchecked(AppOpsService.java:1805)\ncom.android.server.appop.AppOpsService.checkOperationUnchecked(AppOpsService.java:1787)\ncom.android.server.appop.AppOpsService.checkOperationImpl(AppOpsService.java:1779)\ncom.android.server.appop.AppOpsService.checkOperationInternal(AppOpsService.java:1765)\ncom.android.server.appop.AppOpsService.checkOperation(AppOpsService.java:1756)\ncom.android.server.appop.AppOpsService.checkOperation(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5144)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPackage(10148, fuzzer.permission.uidchanger) = 0",
+              "callstack": "checkPackage(10148, fuzzer.permission.uidchanger) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.appop.AppOpsService.checkPackage(Native Method)\ncom.android.server.appop.AppOpsService.checkOperationUnchecked(AppOpsService.java:1805)\ncom.android.server.appop.AppOpsService.checkOperationUnchecked(AppOpsService.java:1787)\ncom.android.server.appop.AppOpsService.checkOperationImpl(AppOpsService.java:1779)\ncom.android.server.appop.AppOpsService.checkOperationInternal(AppOpsService.java:1765)\ncom.android.server.appop.AppOpsService.checkOperation(AppOpsService.java:1756)\ncom.android.server.appop.AppOpsService.checkOperation(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5144)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.appop.AppOpsService.checkOperation(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5144)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkOperation(58, 10148, fuzzer.permission.uidchanger) = 2",
+              "callstack": "checkOperation(58, 10148, fuzzer.permission.uidchanger) = 2\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.appop.AppOpsService.checkOperation(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5144)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.SecurityException.<init>(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5146)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(fuzzer.permission.uidchanger from uid 10148 not allowed to perform MOCK_LOCATION) = undefined",
+              "callstack": "$init(f, u, z, z, e, r, ., p, e, r, m, i, s, s, i, o, n, ., u, i, d, c, h, a, n, g, e, r,  , f, r, o, m,  , u, i, d,  , 1, 0, 1, 4, 8,  , n, o, t,  , a, l, l, o, w, e, d,  , t, o,  , p, e, r, f, o, r, m,  , M, O, C, K, _, L, O, C, A, T, I, O, N) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.SecurityException.<init>(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5146)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": "null",
+            "exception": "FIRST EXCEPTION CAUGHT\njava.lang.reflect.InvocationTargetException\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat fuzzer.permission.uidchanger.InvokerService.invokeApi(InvokerService.java:318)\n\tat fuzzer.permission.uidchanger.InvokerService.onStartCommand(InvokerService.java:71)\n\tat android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4087)\n\tat android.app.ActivityThread.access$1800(ActivityThread.java:219)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1891)\n\tat android.os.Handler.dispatchMessage(Handler.java:107)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\nCaused by: android.os.DeadObjectException\n\tat android.os.BinderProxy.transactNative(Native Method)\n\tat android.os.BinderProxy.transact(BinderProxy.java:510)\n\tat android.location.ILocationManager$Stub$Proxy.setTestProviderEnabled(ILocationManager.java:2085)\n\t... 12 more\n"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": false,
+          "exception": {
+            "is_security": true,
+            "data": {
+              "type": "java.lang.SecurityException.<init>(Native Method)",
+              "location": "android.app.AppOpsManager.checkOp(AppOpsManager.java:5146)",
+              "message": "com.android.systemui from uid 10148 not allowed to perform MOCK_LOCATION"
+            }
+          },
+          "appops_operations": [
+            {
+              "method": "checkOperation",
+              "uid": "10148",
+              "op": 58,
+              "pkg": "com.android.systemui",
+              "result": 2
+            }
+          ],
+          "to_instrument": [
+            "com.android.server.LocationManagerService"
+          ],
+          "data": {
+            "appOps": [
+              {
+                "method": "checkOperation",
+                "uid": "10148",
+                "op": 58,
+                "pkg": "com.android.systemui",
+                "result": 2
+              }
+            ],
+            "methods": [],
+            "permissions": [
+              "EXCEPTION::com.android.systemui from uid 10148 not allowed to perform MOCK_LOCATION "
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "6e75d37e152b7ab800716440b4303deb",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.appop.AppOpsService.verifyIncomingUid(AppOpsService.java:2406)\ncom.android.server.appop.AppOpsService.checkOperationImpl(AppOpsService.java:1773)\ncom.android.server.appop.AppOpsService.checkOperationInternal(AppOpsService.java:1765)\ncom.android.server.appop.AppOpsService.checkOperation(AppOpsService.java:1756)\ncom.android.server.appop.AppOpsService.checkOperation(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5144)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.appop.AppOpsService.checkPackage(Native Method)\ncom.android.server.appop.AppOpsService.checkOperationUnchecked(AppOpsService.java:1805)\ncom.android.server.appop.AppOpsService.checkOperationUnchecked(AppOpsService.java:1787)\ncom.android.server.appop.AppOpsService.checkOperationImpl(AppOpsService.java:1779)\ncom.android.server.appop.AppOpsService.checkOperationInternal(AppOpsService.java:1765)\ncom.android.server.appop.AppOpsService.checkOperation(AppOpsService.java:1756)\ncom.android.server.appop.AppOpsService.checkOperation(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5144)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPackage(10148, com.android.systemui) = 2",
+              "callstack": "checkPackage(10148, com.android.systemui) = 2\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.appop.AppOpsService.checkPackage(Native Method)\ncom.android.server.appop.AppOpsService.checkOperationUnchecked(AppOpsService.java:1805)\ncom.android.server.appop.AppOpsService.checkOperationUnchecked(AppOpsService.java:1787)\ncom.android.server.appop.AppOpsService.checkOperationImpl(AppOpsService.java:1779)\ncom.android.server.appop.AppOpsService.checkOperationInternal(AppOpsService.java:1765)\ncom.android.server.appop.AppOpsService.checkOperation(AppOpsService.java:1756)\ncom.android.server.appop.AppOpsService.checkOperation(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5144)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.appop.AppOpsService.checkOperation(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5144)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkOperation(58, 10148, com.android.systemui) = 2",
+              "callstack": "checkOperation(58, 10148, com.android.systemui) = 2\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.appop.AppOpsService.checkOperation(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5144)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.SecurityException.<init>(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5146)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(com.android.systemui from uid 10148 not allowed to perform MOCK_LOCATION) = undefined",
+              "callstack": "$init(c, o, m, ., a, n, d, r, o, i, d, ., s, y, s, t, e, m, u, i,  , f, r, o, m,  , u, i, d,  , 1, 0, 1, 4, 8,  , n, o, t,  , a, l, l, o, w, e, d,  , t, o,  , p, e, r, f, o, r, m,  , M, O, C, K, _, L, O, C, A, T, I, O, N) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.SecurityException.<init>(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5146)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": "null",
+            "exception": "FIRST EXCEPTION CAUGHT\njava.lang.reflect.InvocationTargetException\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat fuzzer.permission.uidchanger.InvokerService.invokeApi(InvokerService.java:318)\n\tat fuzzer.permission.uidchanger.InvokerService.onStartCommand(InvokerService.java:71)\n\tat android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4087)\n\tat android.app.ActivityThread.access$1800(ActivityThread.java:219)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1891)\n\tat android.os.Handler.dispatchMessage(Handler.java:107)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\nCaused by: android.os.DeadObjectException\n\tat android.os.BinderProxy.transactNative(Native Method)\n\tat android.os.BinderProxy.transact(BinderProxy.java:510)\n\tat android.location.ILocationManager$Stub$Proxy.setTestProviderEnabled(ILocationManager.java:2085)\n\t... 12 more\n"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": false,
+          "exception": {
+            "is_security": true,
+            "data": {
+              "type": "java.lang.SecurityException.<init>(Native Method)",
+              "location": "android.app.AppOpsManager.checkOp(AppOpsManager.java:5146)",
+              "message": "com.android.systemui from uid 10148 not allowed to perform MOCK_LOCATION"
+            }
+          },
+          "appops_operations": [
+            {
+              "method": "checkOperation",
+              "uid": "10148",
+              "op": 58,
+              "pkg": "com.android.systemui",
+              "result": 2
+            }
+          ],
+          "to_instrument": [
+            "com.android.server.LocationManagerService"
+          ],
+          "data": {
+            "appOps": [
+              {
+                "method": "checkOperation",
+                "uid": "10148",
+                "op": 58,
+                "pkg": "com.android.systemui",
+                "result": 2
+              }
+            ],
+            "methods": [],
+            "permissions": [
+              "EXCEPTION::com.android.systemui from uid 10148 not allowed to perform MOCK_LOCATION "
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "6e75d37e152b7ab800716440b4303deb",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.appop.AppOpsService.verifyIncomingUid(AppOpsService.java:2406)\ncom.android.server.appop.AppOpsService.checkOperationImpl(AppOpsService.java:1773)\ncom.android.server.appop.AppOpsService.checkOperationInternal(AppOpsService.java:1765)\ncom.android.server.appop.AppOpsService.checkOperation(AppOpsService.java:1756)\ncom.android.server.appop.AppOpsService.checkOperation(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5144)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.appop.AppOpsService.checkPackage(Native Method)\ncom.android.server.appop.AppOpsService.checkOperationUnchecked(AppOpsService.java:1805)\ncom.android.server.appop.AppOpsService.checkOperationUnchecked(AppOpsService.java:1787)\ncom.android.server.appop.AppOpsService.checkOperationImpl(AppOpsService.java:1779)\ncom.android.server.appop.AppOpsService.checkOperationInternal(AppOpsService.java:1765)\ncom.android.server.appop.AppOpsService.checkOperation(AppOpsService.java:1756)\ncom.android.server.appop.AppOpsService.checkOperation(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5144)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPackage(10148, com.android.systemui) = 2",
+              "callstack": "checkPackage(10148, com.android.systemui) = 2\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.appop.AppOpsService.checkPackage(Native Method)\ncom.android.server.appop.AppOpsService.checkOperationUnchecked(AppOpsService.java:1805)\ncom.android.server.appop.AppOpsService.checkOperationUnchecked(AppOpsService.java:1787)\ncom.android.server.appop.AppOpsService.checkOperationImpl(AppOpsService.java:1779)\ncom.android.server.appop.AppOpsService.checkOperationInternal(AppOpsService.java:1765)\ncom.android.server.appop.AppOpsService.checkOperation(AppOpsService.java:1756)\ncom.android.server.appop.AppOpsService.checkOperation(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5144)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.appop.AppOpsService.checkOperation(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5144)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkOperation(58, 10148, com.android.systemui) = 2",
+              "callstack": "checkOperation(58, 10148, com.android.systemui) = 2\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.appop.AppOpsService.checkOperation(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5144)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.SecurityException.<init>(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5146)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(com.android.systemui from uid 10148 not allowed to perform MOCK_LOCATION) = undefined",
+              "callstack": "$init(c, o, m, ., a, n, d, r, o, i, d, ., s, y, s, t, e, m, u, i,  , f, r, o, m,  , u, i, d,  , 1, 0, 1, 4, 8,  , n, o, t,  , a, l, l, o, w, e, d,  , t, o,  , p, e, r, f, o, r, m,  , M, O, C, K, _, L, O, C, A, T, I, O, N) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.SecurityException.<init>(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5146)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": "null",
+            "exception": "FIRST EXCEPTION CAUGHT\njava.lang.reflect.InvocationTargetException\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat fuzzer.permission.uidchanger.InvokerService.invokeApi(InvokerService.java:318)\n\tat fuzzer.permission.uidchanger.InvokerService.onStartCommand(InvokerService.java:71)\n\tat android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4087)\n\tat android.app.ActivityThread.access$1800(ActivityThread.java:219)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1891)\n\tat android.os.Handler.dispatchMessage(Handler.java:107)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\nCaused by: android.os.DeadObjectException\n\tat android.os.BinderProxy.transactNative(Native Method)\n\tat android.os.BinderProxy.transact(BinderProxy.java:510)\n\tat android.location.ILocationManager$Stub$Proxy.setTestProviderEnabled(ILocationManager.java:2085)\n\t... 12 more\n"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": false,
+          "exception": {
+            "is_security": true,
+            "data": {
+              "type": "java.lang.SecurityException.<init>(Native Method)",
+              "location": "android.app.AppOpsManager.checkOp(AppOpsManager.java:5146)",
+              "message": "com.android.systemui from uid 10148 not allowed to perform MOCK_LOCATION"
+            }
+          },
+          "appops_operations": [
+            {
+              "method": "checkOperation",
+              "uid": "10148",
+              "op": 58,
+              "pkg": "com.android.systemui",
+              "result": 2
+            }
+          ],
+          "to_instrument": [
+            "com.android.server.LocationManagerService"
+          ],
+          "data": {
+            "appOps": [
+              {
+                "method": "checkOperation",
+                "uid": "10148",
+                "op": 58,
+                "pkg": "com.android.systemui",
+                "result": 2
+              }
+            ],
+            "methods": [],
+            "permissions": [
+              "EXCEPTION::com.android.systemui from uid 10148 not allowed to perform MOCK_LOCATION "
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "6e75d37e152b7ab800716440b4303deb",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.appop.AppOpsService.verifyIncomingUid(AppOpsService.java:2406)\ncom.android.server.appop.AppOpsService.checkOperationImpl(AppOpsService.java:1773)\ncom.android.server.appop.AppOpsService.checkOperationInternal(AppOpsService.java:1765)\ncom.android.server.appop.AppOpsService.checkOperation(AppOpsService.java:1756)\ncom.android.server.appop.AppOpsService.checkOperation(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5144)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.appop.AppOpsService.checkPackage(Native Method)\ncom.android.server.appop.AppOpsService.checkOperationUnchecked(AppOpsService.java:1805)\ncom.android.server.appop.AppOpsService.checkOperationUnchecked(AppOpsService.java:1787)\ncom.android.server.appop.AppOpsService.checkOperationImpl(AppOpsService.java:1779)\ncom.android.server.appop.AppOpsService.checkOperationInternal(AppOpsService.java:1765)\ncom.android.server.appop.AppOpsService.checkOperation(AppOpsService.java:1756)\ncom.android.server.appop.AppOpsService.checkOperation(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5144)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPackage(10148, com.android.systemui) = 2",
+              "callstack": "checkPackage(10148, com.android.systemui) = 2\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.appop.AppOpsService.checkPackage(Native Method)\ncom.android.server.appop.AppOpsService.checkOperationUnchecked(AppOpsService.java:1805)\ncom.android.server.appop.AppOpsService.checkOperationUnchecked(AppOpsService.java:1787)\ncom.android.server.appop.AppOpsService.checkOperationImpl(AppOpsService.java:1779)\ncom.android.server.appop.AppOpsService.checkOperationInternal(AppOpsService.java:1765)\ncom.android.server.appop.AppOpsService.checkOperation(AppOpsService.java:1756)\ncom.android.server.appop.AppOpsService.checkOperation(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5144)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.appop.AppOpsService.checkOperation(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5144)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkOperation(58, 10148, com.android.systemui) = 2",
+              "callstack": "checkOperation(58, 10148, com.android.systemui) = 2\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.appop.AppOpsService.checkOperation(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5144)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.SecurityException.<init>(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5146)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(com.android.systemui from uid 10148 not allowed to perform MOCK_LOCATION) = undefined",
+              "callstack": "$init(c, o, m, ., a, n, d, r, o, i, d, ., s, y, s, t, e, m, u, i,  , f, r, o, m,  , u, i, d,  , 1, 0, 1, 4, 8,  , n, o, t,  , a, l, l, o, w, e, d,  , t, o,  , p, e, r, f, o, r, m,  , M, O, C, K, _, L, O, C, A, T, I, O, N) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.SecurityException.<init>(Native Method)\nandroid.app.AppOpsManager.checkOp(AppOpsManager.java:5146)\nandroid.app.AppOpsManager.checkOp(Native Method)\ncom.android.server.LocationManagerService.canCallerAccessMockLocation(LocationManagerService.java:3516)\ncom.android.server.LocationManagerService.setTestProviderEnabled(LocationManagerService.java:3614)\ncom.android.server.LocationManagerService.setTestProviderEnabled(Native Method)\nandroid.location.ILocationManager$Stub.onTransact(ILocationManager.java:1000)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

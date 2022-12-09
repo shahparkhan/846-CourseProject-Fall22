@@ -1,0 +1,57 @@
+{
+  "api": "notification|registerListener|android.service.notification.INotificationListener,android.content.ComponentName,I|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "4b2ddf43c57e37414937a901232e6857": [
+      "OBJ:android.service.notification.INotificationListener",
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "562de73438978d372b66892925656f0b": [
+      "OBJ:android.service.notification.INotificationListener",
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "e7fcf08ee054fc5d23c424d3e8719ab2": [
+      "OBJ:android.service.notification.INotificationListener",
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "f76ee401257adce69f87f854583d2f4d": [
+      "OBJ:android.service.notification.INotificationListener",
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {
+    "None:4b2ddf43c57e37414937a901232e6857": 1
+  },
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [
+    "com.android.server.notification.NotificationManagerService$10",
+    "com.android.server.notification.NotificationManagerService",
+    "com.android.server.notification.ManagedServices",
+    "com.android.server.notification.NotificationManagerService$NotificationListeners"
+  ],
+  "phase_name": "change_parameters",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 4,
+    "historical_service_not_invoked": 12,
+    "no_traces": 0,
+    "historical_no_traces": 3
+  },
+  "pids": [],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

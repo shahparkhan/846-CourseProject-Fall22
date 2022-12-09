@@ -1,0 +1,46 @@
+{
+  "api": "location|requestGeofence|android.location.LocationRequest,android.location.Geofence,android.app.PendingIntent,java.lang.String|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "2844b3018d24b34839a0305fae47b558": [
+      "OBJ:android.location.LocationRequest",
+      "OBJ:android.location.Geofence",
+      "OBJ:android.app.PendingIntent",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "df98c515b363ed0c966b0e4e5f34ad1e": [
+      "OBJ:android.location.LocationRequest",
+      "OBJ:android.location.Geofence",
+      "OBJ:android.app.PendingIntent",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {
+    "None:2844b3018d24b34839a0305fae47b558": 2
+  },
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [
+    "com.android.server.LocationManagerService"
+  ],
+  "phase_name": "change_parameters",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 2,
+    "historical_service_not_invoked": 15,
+    "no_traces": 0,
+    "historical_no_traces": 0.39999999999999997
+  },
+  "pids": [],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

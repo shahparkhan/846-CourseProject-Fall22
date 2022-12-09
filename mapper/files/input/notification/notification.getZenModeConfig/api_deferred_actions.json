@@ -1,0 +1,103 @@
+[
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": false,
+      "data": null
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.notification.NotificationManagerService$10",
+      "com.android.server.notification.NotificationManagerService"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "hash-placeholder",
+      "ignored_permissions": []
+    },
+    "processed": true
+  },
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": {
+      "name": null,
+      "id": null,
+      "pid": 1978
+    },
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": true,
+      "data": {
+        "type": "java.lang.SecurityException.<init>(Native Method)",
+        "location": "android.app.ContextImpl.enforce(ContextImpl.java:1896)",
+        "message": "INotificationManager.getZenModeConfig: uid 1010148 does not have android.permission.STATUS_BAR_SERVICE."
+      }
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.notification.NotificationManagerService$10",
+      "com.android.server.notification.NotificationManagerService"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "1010148::android.permission.STATUS_BAR_SERVICE"
+      ],
+      "pid": null,
+      "uid": 1000000,
+      "userId": 1,
+      "user_restrictions": [],
+      "parameters_hash": "hash-placeholder",
+      "ignored_permissions": []
+    },
+    "processed": true
+  },
+  {
+    "execution_outcome": {
+      "returns": true,
+      "output": "ZenModeConfig[user=0,allowAlarms=true,allowMedia=true,allowSystem=false,allowReminders=false,allowEvents=false,allowCalls=true,allowRepeatCallers=true,allowMessages=false,allowCallsFrom=stars,allowMessagesFrom=contacts,suppressedVisualEffects=511,areChannelsBypassingDnd=false,\nautomaticRules={ZenRule[id=EVENTS_DEFAULT_RULE,enabled=FALSE,snoozing=false,name=Event,zenMode=ZEN_MODE_IMPORTANT_INTERRUPTIONS,conditionId=condition://android/event?userId=-10000&calendar=&reply=1,condition=Condition[state=STATE_FALSE,id=condition://android/event?userId=-10000&calendar=&reply=1,summary=...,line1=...,line2=...,icon=0,flags=2],pkg=android,component=ComponentInfo{android/com.android.server.notification.EventConditionProvider},configActivity=null,creationTime=0,enabler=null,zenPolicy=null,modified=false],\nZenRule[id=EVERY_NIGHT_DEFAULT_RULE,enabled=FALSE,snoozing=false,name=Sleeping,zenMode=ZEN_MODE_IMPORTANT_INTERRUPTIONS,conditionId=condition://android/schedule?days=1.2.3.4.5.6.7&start=22.0&end=7.0&exitAtAlarm=true,condition=Condition[state=STATE_FALSE,id=condition://android/schedule?days=1.2.3.4.5.6.7&start=22.0&end=7.0&exitAtAlarm=true,summary=...,line1=...,line2=...,icon=0,flags=2],pkg=android,component=ComponentInfo{android/com.android.server.notification.ScheduleConditionProvider},configActivity=null,creationTime=0,enabler=null,zenPolicy=null,modified=false]},\nmanualRule=null]"
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": false,
+      "data": null
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.notification.NotificationManagerService$10",
+      "com.android.server.notification.NotificationManagerService",
+      ""
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [],
+      "pid": null,
+      "uid": 1001,
+      "userId": 0,
+      "user_restrictions": [],
+      "parameters_hash": "hash-placeholder",
+      "ignored_permissions": []
+    },
+    "processed": true
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "api": "notification|finishToken|java.lang.String,android.app.ITransientNotification|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "8d5f99a5b53c8244a16eaab6a576807e": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.app.ITransientNotification"
+    ],
+    "7af158359a4f59fc9fb2c21bed324ff7": [
+      "S:com.android.systemui",
+      "OBJ:android.app.ITransientNotification"
+    ]
+  },
+  "parameters_done": {
+    "None:8d5f99a5b53c8244a16eaab6a576807e": 2,
+    "None:7af158359a4f59fc9fb2c21bed324ff7": 2
+  },
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [
+    null
+  ],
+  "classes": [],
+  "phase_name": "change_uid",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 4,
+    "historical_service_not_invoked": 15,
+    "no_traces": 0,
+    "historical_no_traces": 0
+  },
+  "pids": [],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

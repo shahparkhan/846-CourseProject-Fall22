@@ -1,0 +1,154 @@
+{
+  "notification": {
+    "updateNotificationChannelFromPrivilegedListener": {
+      "ordered_iterations": [
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": "null",
+            "exception": "FIRST EXCEPTION CAUGHT\njava.lang.reflect.InvocationTargetException\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat fuzzer.permission.uidchanger.InvokerService.invokeApi(InvokerService.java:318)\n\tat fuzzer.permission.uidchanger.InvokerService.onStartCommand(InvokerService.java:71)\n\tat android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4087)\n\tat android.app.ActivityThread.access$1800(ActivityThread.java:219)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1891)\n\tat android.os.Handler.dispatchMessage(Handler.java:107)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\nCaused by: java.lang.SecurityException: Disallowed call from unknown notification listener: android.service.notification.INotificationListener$Stub$Proxy@3678de8 class android.service.notification.INotificationListener$Stub$Proxy\n\tat android.os.Parcel.createException(Parcel.java:2071)\n\tat android.os.Parcel.readException(Parcel.java:2039)\n\tat android.os.Parcel.readException(Parcel.java:1987)\n\tat android.app.INotificationManager$Stub$Proxy.updateNotificationChannelFromPrivilegedListener(INotificationManager.java:4292)\n\t... 12 more\n"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": false,
+          "exception": {
+            "is_security": true,
+            "data": {
+              "type": "java.lang.SecurityException.<init>(Native Method)",
+              "location": "com.android.server.notification.ManagedServices.checkServiceTokenLocked(ManagedServices.java:664)",
+              "message": "Disallowed call from unknown notification listener: android.service.notification.INotificationListener$Stub$Proxy@3678de8 class android.service.notification.INotificationListener$Stub$Proxy"
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.notification.NotificationManagerService$10",
+            "com.android.server.notification.NotificationManagerService",
+            "com.android.server.notification.ManagedServices"
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "EXCEPTION::Disallowed call from unknown notification listener: android.service.notification.INotificationListener$Stub$Proxyclass android.service.notification.INotificationListener$Stub$Proxy "
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "cb490f743a3d7247dc2386af649c00a4",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.SecurityException.<init>(Native Method)\ncom.android.server.notification.ManagedServices.checkServiceTokenLocked(ManagedServices.java:664)\ncom.android.server.notification.NotificationManagerService$10.verifyPrivilegedListener(NotificationManagerService.java:4114)\ncom.android.server.notification.NotificationManagerService$10.updateNotificationChannelFromPrivilegedListener(NotificationManagerService.java:4038)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1962)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(Disallowed call from unknown notification listener: android.service.notification.INotificationListener$Stub$Proxy@3678de8 class android.service.notification.INotificationListener$Stub$Proxy) = undefined",
+              "callstack": "$init(D, i, s, a, l, l, o, w, e, d,  , c, a, l, l,  , f, r, o, m,  , u, n, k, n, o, w, n,  , n, o, t, i, f, i, c, a, t, i, o, n,  , l, i, s, t, e, n, e, r, :,  , a, n, d, r, o, i, d, ., s, e, r, v, i, c, e, ., n, o, t, i, f, i, c, a, t, i, o, n, ., I, N, o, t, i, f, i, c, a, t, i, o, n, L, i, s, t, e, n, e, r, $, S, t, u, b, $, P, r, o, x, y, @, 3, 6, 7, 8, d, e, 8,  , c, l, a, s, s,  , a, n, d, r, o, i, d, ., s, e, r, v, i, c, e, ., n, o, t, i, f, i, c, a, t, i, o, n, ., I, N, o, t, i, f, i, c, a, t, i, o, n, L, i, s, t, e, n, e, r, $, S, t, u, b, $, P, r, o, x, y) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.SecurityException.<init>(Native Method)\ncom.android.server.notification.ManagedServices.checkServiceTokenLocked(ManagedServices.java:664)\ncom.android.server.notification.NotificationManagerService$10.verifyPrivilegedListener(NotificationManagerService.java:4114)\ncom.android.server.notification.NotificationManagerService$10.updateNotificationChannelFromPrivilegedListener(NotificationManagerService.java:4038)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1962)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": "null",
+            "exception": "FIRST EXCEPTION CAUGHT\njava.lang.reflect.InvocationTargetException\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat fuzzer.permission.uidchanger.InvokerService.invokeApi(InvokerService.java:318)\n\tat fuzzer.permission.uidchanger.InvokerService.onStartCommand(InvokerService.java:71)\n\tat android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4087)\n\tat android.app.ActivityThread.access$1800(ActivityThread.java:219)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1891)\n\tat android.os.Handler.dispatchMessage(Handler.java:107)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\nCaused by: android.os.DeadObjectException\n\tat android.os.BinderProxy.transactNative(Native Method)\n\tat android.os.BinderProxy.transact(BinderProxy.java:510)\n\tat android.app.INotificationManager$Stub$Proxy.updateNotificationChannelFromPrivilegedListener(INotificationManager.java:4287)\n\t... 12 more\n"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": false,
+          "exception": {
+            "is_security": true,
+            "data": {
+              "type": "java.lang.SecurityException.<init>(Native Method)",
+              "location": "com.android.server.notification.ManagedServices.checkServiceTokenLocked(ManagedServices.java:664)",
+              "message": "Disallowed call from unknown notification listener: android.service.notification.INotificationListener$Stub$Proxy@32c4b4c class android.service.notification.INotificationListener$Stub$Proxy"
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.notification.NotificationManagerService$10",
+            "com.android.server.notification.NotificationManagerService",
+            "com.android.server.notification.ManagedServices"
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "EXCEPTION::Disallowed call from unknown notification listener: android.service.notification.INotificationListener$Stub$Proxyclass android.service.notification.INotificationListener$Stub$Proxy "
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "cb490f743a3d7247dc2386af649c00a4",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.SecurityException.<init>(Native Method)\ncom.android.server.notification.ManagedServices.checkServiceTokenLocked(ManagedServices.java:664)\ncom.android.server.notification.NotificationManagerService$10.verifyPrivilegedListener(NotificationManagerService.java:4114)\ncom.android.server.notification.NotificationManagerService$10.updateNotificationChannelFromPrivilegedListener(NotificationManagerService.java:4038)\ncom.android.server.notification.NotificationManagerService$10.updateNotificationChannelFromPrivilegedListener(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1962)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(Disallowed call from unknown notification listener: android.service.notification.INotificationListener$Stub$Proxy@32c4b4c class android.service.notification.INotificationListener$Stub$Proxy) = undefined",
+              "callstack": "$init(D, i, s, a, l, l, o, w, e, d,  , c, a, l, l,  , f, r, o, m,  , u, n, k, n, o, w, n,  , n, o, t, i, f, i, c, a, t, i, o, n,  , l, i, s, t, e, n, e, r, :,  , a, n, d, r, o, i, d, ., s, e, r, v, i, c, e, ., n, o, t, i, f, i, c, a, t, i, o, n, ., I, N, o, t, i, f, i, c, a, t, i, o, n, L, i, s, t, e, n, e, r, $, S, t, u, b, $, P, r, o, x, y, @, 3, 2, c, 4, b, 4, c,  , c, l, a, s, s,  , a, n, d, r, o, i, d, ., s, e, r, v, i, c, e, ., n, o, t, i, f, i, c, a, t, i, o, n, ., I, N, o, t, i, f, i, c, a, t, i, o, n, L, i, s, t, e, n, e, r, $, S, t, u, b, $, P, r, o, x, y) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.SecurityException.<init>(Native Method)\ncom.android.server.notification.ManagedServices.checkServiceTokenLocked(ManagedServices.java:664)\ncom.android.server.notification.NotificationManagerService$10.verifyPrivilegedListener(NotificationManagerService.java:4114)\ncom.android.server.notification.NotificationManagerService$10.updateNotificationChannelFromPrivilegedListener(NotificationManagerService.java:4038)\ncom.android.server.notification.NotificationManagerService$10.updateNotificationChannelFromPrivilegedListener(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1962)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": null
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": false,
+          "exception": {
+            "is_security": true,
+            "data": {
+              "type": "java.lang.SecurityException.<init>(Native Method)",
+              "location": "com.android.server.notification.ManagedServices.checkServiceTokenLocked(ManagedServices.java:664)",
+              "message": "Disallowed call from unknown notification listener: android.service.notification.INotificationListener$Stub$Proxy@7785d35 class android.service.notification.INotificationListener$Stub$Proxy"
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.notification.NotificationManagerService$10",
+            "com.android.server.notification.NotificationManagerService",
+            "com.android.server.notification.ManagedServices"
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "EXCEPTION::Disallowed call from unknown notification listener: android.service.notification.INotificationListener$Stub$Proxyclass android.service.notification.INotificationListener$Stub$Proxy "
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "cb490f743a3d7247dc2386af649c00a4",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.SecurityException.<init>(Native Method)\ncom.android.server.notification.ManagedServices.checkServiceTokenLocked(ManagedServices.java:664)\ncom.android.server.notification.NotificationManagerService$10.verifyPrivilegedListener(NotificationManagerService.java:4114)\ncom.android.server.notification.NotificationManagerService$10.updateNotificationChannelFromPrivilegedListener(NotificationManagerService.java:4038)\ncom.android.server.notification.NotificationManagerService$10.updateNotificationChannelFromPrivilegedListener(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1962)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(Disallowed call from unknown notification listener: android.service.notification.INotificationListener$Stub$Proxy@7785d35 class android.service.notification.INotificationListener$Stub$Proxy) = undefined",
+              "callstack": "$init(D, i, s, a, l, l, o, w, e, d,  , c, a, l, l,  , f, r, o, m,  , u, n, k, n, o, w, n,  , n, o, t, i, f, i, c, a, t, i, o, n,  , l, i, s, t, e, n, e, r, :,  , a, n, d, r, o, i, d, ., s, e, r, v, i, c, e, ., n, o, t, i, f, i, c, a, t, i, o, n, ., I, N, o, t, i, f, i, c, a, t, i, o, n, L, i, s, t, e, n, e, r, $, S, t, u, b, $, P, r, o, x, y, @, 7, 7, 8, 5, d, 3, 5,  , c, l, a, s, s,  , a, n, d, r, o, i, d, ., s, e, r, v, i, c, e, ., n, o, t, i, f, i, c, a, t, i, o, n, ., I, N, o, t, i, f, i, c, a, t, i, o, n, L, i, s, t, e, n, e, r, $, S, t, u, b, $, P, r, o, x, y) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.SecurityException.<init>(Native Method)\ncom.android.server.notification.ManagedServices.checkServiceTokenLocked(ManagedServices.java:664)\ncom.android.server.notification.NotificationManagerService$10.verifyPrivilegedListener(NotificationManagerService.java:4114)\ncom.android.server.notification.NotificationManagerService$10.updateNotificationChannelFromPrivilegedListener(NotificationManagerService.java:4038)\ncom.android.server.notification.NotificationManagerService$10.updateNotificationChannelFromPrivilegedListener(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1962)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

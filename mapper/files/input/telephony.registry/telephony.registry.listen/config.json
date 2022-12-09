@@ -1,0 +1,80 @@
+{
+  "api": "telephony.registry|listen|java.lang.String,com.android.internal.telephony.IPhoneStateListener,I,Z|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "54581872f1973145213c4bde4a584f4e": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:com.android.internal.telephony.IPhoneStateListener",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:true"
+    ],
+    "3a595ca53b322aa26953cf9cbe931474": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:com.android.internal.telephony.IPhoneStateListener",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:false"
+    ],
+    "2f3bd2b8bdf1c68add1390d5c7074b4e": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:com.android.internal.telephony.IPhoneStateListener",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:true"
+    ],
+    "c3fa11041aea09079eb0a9f2455e12a8": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:com.android.internal.telephony.IPhoneStateListener",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:false"
+    ],
+    "fcb58abc84a35856840d650b62e23b3d": [
+      "S:com.android.systemui",
+      "OBJ:com.android.internal.telephony.IPhoneStateListener",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:true"
+    ],
+    "bc1b51a3b389a516b92cbe16bf257855": [
+      "S:com.android.systemui",
+      "OBJ:com.android.internal.telephony.IPhoneStateListener",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:false"
+    ],
+    "773470e6d048b1da85c3033289bd1f57": [
+      "S:com.android.systemui",
+      "OBJ:com.android.internal.telephony.IPhoneStateListener",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:true"
+    ],
+    "31d50e69d3d641b4453ef35d05a6a5f9": [
+      "S:com.android.systemui",
+      "OBJ:com.android.internal.telephony.IPhoneStateListener",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:false"
+    ]
+  },
+  "parameters_done": {
+    "None:54581872f1973145213c4bde4a584f4e": 2
+  },
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": "change_parameters",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 3,
+    "historical_service_not_invoked": 15,
+    "no_traces": 0,
+    "historical_no_traces": 0
+  },
+  "pids": [],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

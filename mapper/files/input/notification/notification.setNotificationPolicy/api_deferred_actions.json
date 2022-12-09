@@ -1,0 +1,42 @@
+[
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": {
+      "name": "system_server",
+      "id": "system",
+      "pid": 1993
+    },
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": true,
+      "data": {
+        "type": "java.lang.SecurityException.<init>(Native Method)",
+        "location": "com.android.server.notification.NotificationManagerService$10.enforcePolicyAccess(NotificationManagerService.java:3624)",
+        "message": "Notification policy access denied"
+      }
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.notification.NotificationManagerService$10",
+      "com.android.server.notification.NotificationManagerService"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "10148::android.permission.MANAGE_NOTIFICATIONS"
+      ],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "8d5dd4395fc0f21c76a9709454ef0ced",
+      "ignored_permissions": []
+    },
+    "processed": true
+  }
+]

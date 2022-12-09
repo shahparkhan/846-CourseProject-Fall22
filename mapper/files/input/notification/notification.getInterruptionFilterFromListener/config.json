@@ -1,0 +1,35 @@
+{
+  "api": "notification|getInterruptionFilterFromListener|android.service.notification.INotificationListener|I|",
+  "parameters_count": 1,
+  "parameters": {
+    "b3969070da5a5043d3f83bababde34d6": [
+      "OBJ:android.service.notification.INotificationListener"
+    ]
+  },
+  "parameters_done": {
+    "None:b3969070da5a5043d3f83bababde34d6": 1
+  },
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": "change_parameters",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 3,
+    "historical_service_not_invoked": 15,
+    "no_traces": 0,
+    "historical_no_traces": 0
+  },
+  "pids": [],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

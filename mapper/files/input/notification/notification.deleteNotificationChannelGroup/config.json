@@ -1,0 +1,52 @@
+{
+  "api": "notification|deleteNotificationChannelGroup|java.lang.String,java.lang.String|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "dd8d7c7fb1d14d9d628ed411e5cc2e2a": [
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "95c1ac620797e2714298c8e5804d8220": [
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui"
+    ],
+    "746b47508f07224b52482ebecab134bc": [
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "d1e3f66f39a4541521ef5d169195c4f6": [
+      "S:com.android.systemui",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {
+    "None:dd8d7c7fb1d14d9d628ed411e5cc2e2a": 2,
+    "None:95c1ac620797e2714298c8e5804d8220": 1
+  },
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [
+    "com.android.server.notification.NotificationManagerService$10",
+    "com.android.server.notification.NotificationManagerService"
+  ],
+  "phase_name": "change_parameters",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 1,
+    "historical_service_not_invoked": 15,
+    "no_traces": 0,
+    "historical_no_traces": 0.39999999999999997
+  },
+  "pids": [],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

@@ -1,0 +1,528 @@
+{
+    "notification.setNotificationAssistantAccessGrantedForUser": {
+        "permissions": [
+            "10148::android.permission.STATUS_BAR_SERVICE"
+        ]
+    },
+    "notification.createNotificationChannels": {
+        "permissions": []
+    },
+    "notification.getNotificationChannelForPackage": {
+        "permissions": [
+            "EXCEPTION::Disallowed call for uid 10148 "
+        ]
+    },
+    "notification.getAutomaticZenRule": {
+        "permissions": [
+            "EXCEPTION::Notification policy access denied "
+        ]
+    },
+    "notification.setNotificationDelegate": {
+        "permissions": []
+    },
+    "notification.getConsolidatedNotificationPolicy": {
+        "permissions": []
+    },
+    "notification.setAutomaticZenRuleState": {
+        "permissions": []
+    },
+    "notification.updateNotificationChannelGroupFromPrivilegedListener": {
+        "permissions": [
+            "EXCEPTION::Disallowed call from unknown notification listener: android.service.notification.INotificationListener$Stub$Proxyclass android.service.notification.INotificationListener$Stub$Proxy "
+        ]
+    },
+    "notification.clearData": {
+        "permissions": [
+            "EXCEPTION::Disallowed call for uid 10148 "
+        ]
+    },
+    "notification.isNotificationAssistantAccessGranted": {
+        "permissions": [
+            "EXCEPTION::Calling uid 10148 gave package com.meraki.sm which is owned by uid 10147 "
+        ]
+    },
+    "notification.setZenMode": {
+        "permissions": [
+            "10148::android.permission.STATUS_BAR_SERVICE"
+        ]
+    },
+    "notification.getNotificationChannelGroupsForPackage": {
+        "permissions": [
+            "10148::android.permission.STATUS_BAR_SERVICE"
+        ]
+    },
+    "notification.isNotificationListenerAccessGranted": {
+        "permissions": [
+            "EXCEPTION::Calling uid 10148 gave package com.meraki.sm which is owned by uid 10147 "
+        ]
+    },
+    "notification.setBubblesAllowed": {
+        "permissions": [
+            "10148::android.permission.STATUS_BAR_SERVICE"
+        ]
+    },
+    "notification.getAppsBypassingDndCount": {
+        "permissions": [
+            "EXCEPTION::Disallowed call for uid 10148 "
+        ]
+    },
+    "notification.cancelAllNotifications": {
+        "permissions": []
+    },
+    "notification.onlyHasDefaultChannel": {
+        "permissions": [
+            "10148::android.permission.STATUS_BAR_SERVICE"
+        ]
+    },
+    "notification.getNotificationDelegate": {
+        "permissions": [
+            "EXCEPTION::Calling uid 10148 gave package com.android.systemui which is owned by uid 10110 "
+        ]
+    },
+    "notification.requestBindProvider": {
+        "permissions": [
+            "EXCEPTION::Calling uid 10148 gave package com.meraki.sm which is owned by uid 10147 "
+        ]
+    },
+    "notification.getZenModeConfig": {
+        "permissions": [
+            "1010148::android.permission.STATUS_BAR_SERVICE"
+        ]
+    },
+    "notification.updateAutomaticZenRule": {
+        "permissions": []
+    },
+    "notification.setPrivateNotificationsAllowed": {
+        "permissions": [
+            "10148::android.permission.CONTROL_KEYGUARD_SECURE_NOTIFICATIONS"
+        ]
+    },
+    "notification.setNotificationsEnabledForPackage": {
+        "permissions": [
+            "10148::android.permission.STATUS_BAR_SERVICE"
+        ]
+    },
+    "notification.applyRestore": {
+        "permissions": [
+            "EXCEPTION::Disallowed call for uid 10148 "
+        ]
+    },
+    "notification.snoozeNotificationUntilContextFromListener": {
+        "permissions": [
+            "EXCEPTION::Disallowed call from unknown notification listener: android.service.notification.INotificationListener$Stub$Proxyclass android.service.notification.INotificationListener$Stub$Proxy "
+        ]
+    },
+    "notification.getNotificationChannelGroupForPackage": {
+        "permissions": [
+            "10148::android.permission.STATUS_BAR_SERVICE"
+        ]
+    },
+    "notification.snoozeNotificationUntilFromListener": {
+        "permissions": [
+            "EXCEPTION::Disallowed call from unknown notification listener: android.service.notification.INotificationListener$Stub$Proxyclass android.service.notification.INotificationListener$Stub$Proxy "
+        ]
+    },
+    "notification.disallowAssistantAdjustment": {
+        "permissions": [
+            "EXCEPTION::uid 10148 does not have android.permission.STATUS_BAR_SERVICE. "
+        ]
+    },
+    "notification.getEnabledNotificationListeners": {
+        "permissions": [
+            "EXCEPTION::Disallowed call for uid 10148 "
+        ]
+    },
+    "notification.requestBindListener": {
+        "permissions": []
+    },
+    "notification.areChannelsBypassingDnd": {
+        "permissions": []
+    },
+    "notification.setNotificationListenerAccessGranted": {
+        "permissions": [
+            "EXCEPTION::Disallowed call for uid 10148 "
+        ]
+    },
+    "notification.createNotificationChannelsForPackage": {
+        "permissions": []
+    },
+    "notification.cancelNotificationFromListener": {
+        "permissions": [
+            "EXCEPTION::Disallowed call from unknown notification listener: android.service.notification.INotificationListener$Stub$Proxyclass android.service.notification.INotificationListener$Stub$Proxy "
+        ]
+    },
+    "notification.getNotificationChannelGroupsFromPrivilegedListener": {
+        "permissions": [
+            "EXCEPTION::Disallowed call from unknown notification listener: android.service.notification.INotificationListener$Stub$Proxyclass android.service.notification.INotificationListener$Stub$Proxy "
+        ]
+    },
+    "notification.clearRequestedListenerHints": {
+        "permissions": [
+            "EXCEPTION::Disallowed call from unknown notification listener: android.service.notification.INotificationListener$Stub$Proxyclass android.service.notification.INotificationListener$Stub$Proxy "
+        ]
+    },
+    "notification.matchesCallFilter": {
+        "permissions": [
+            "EXCEPTION::INotificationManager.matchesCallFilter: uid 10148 does not have android.permission.STATUS_BAR_SERVICE. "
+        ]
+    },
+    "notification.getActiveNotificationsFromListener": {
+        "permissions": [
+            "EXCEPTION::Disallowed call from unknown notification listener: android.service.notification.INotificationListener$Stub$Proxyclass android.service.notification.INotificationListener$Stub$Proxy "
+        ]
+    },
+    "notification.getRuleInstanceCount": {
+        "permissions": [
+            "10148::android.permission.STATUS_BAR_SERVICE"
+        ]
+    },
+    "notification.isNotificationPolicyAccessGrantedForPackage": {
+        "permissions": [
+            "10148::android.permission.STATUS_BAR_SERVICE"
+        ]
+    },
+    "notification.cancelNotificationWithTag": {
+        "permissions": []
+    },
+    "notification.getAllowedAssistantAdjustments": {
+        "permissions": [
+            "EXCEPTION::Calling uid 10148 gave package com.android.systemui which is owned by uid 10110 "
+        ]
+    },
+    "notification.getBlockedAppCount": {
+        "permissions": [
+            "EXCEPTION::Disallowed call for uid 10148 "
+        ]
+    },
+    "notification.deleteNotificationChannelGroup": {
+        "permissions": []
+    },
+    "notification.notifyConditions": {
+        "permissions": [
+            "EXCEPTION::Disallowed call from unknown condition provider: android.service.notification.IConditionProvider$Stub$Proxyclass android.service.notification.IConditionProvider$Stub$Proxy "
+        ]
+    },
+    "notification.getNotificationChannel": {
+        "permissions": []
+    },
+    "notification.getNotificationChannelsBypassingDnd": {
+        "permissions": [
+            "EXCEPTION::Disallowed call for uid 10148 "
+        ]
+    },
+    "notification.requestUnbindProvider": {
+        "permissions": [
+            "EXCEPTION::Disallowed call from unknown condition provider: android.service.notification.IConditionProvider$Stub$Proxyclass android.service.notification.IConditionProvider$Stub$Proxy "
+        ]
+    },
+    "notification.cancelToast": {
+        "permissions": []
+    },
+    "notification.isPackagePaused": {
+        "permissions": []
+    },
+    "notification.setNotificationPolicyAccessGranted": {
+        "permissions": [
+            "EXCEPTION::Disallowed call for uid 10148 "
+        ]
+    },
+    "notification.getPrivateNotificationsAllowed": {
+        "permissions": [
+            "1010148::android.permission.CONTROL_KEYGUARD_SECURE_NOTIFICATIONS"
+        ]
+    },
+    "notification.isNotificationPolicyAccessGranted": {
+        "permissions": [
+            "10148::android.permission.MANAGE_NOTIFICATIONS"
+        ]
+    },
+    "notification.updateNotificationChannelFromPrivilegedListener": {
+        "permissions": [
+            "EXCEPTION::Disallowed call from unknown notification listener: android.service.notification.INotificationListener$Stub$Proxyclass android.service.notification.INotificationListener$Stub$Proxy "
+        ]
+    },
+    "notification.getSnoozedNotificationsFromListener": {
+        "permissions": [
+            "EXCEPTION::Disallowed call from unknown notification listener: android.service.notification.INotificationListener$Stub$Proxyclass android.service.notification.INotificationListener$Stub$Proxy "
+        ]
+    },
+    "notification.allowAssistantAdjustment": {
+        "permissions": [
+            "10148::android.permission.STATUS_BAR_SERVICE"
+        ]
+    },
+    "notification.applyEnqueuedAdjustmentFromAssistant": {
+        "permissions": [
+            "EXCEPTION::Disallowed call from unknown notification assistant: android.service.notification.INotificationListener$Stub$Proxyclass android.service.notification.INotificationListener$Stub$Proxy "
+        ]
+    },
+    "notification.getNotificationChannelsFromPrivilegedListener": {
+        "permissions": [
+            "EXCEPTION::Disallowed call from unknown notification listener: android.service.notification.INotificationListener$Stub$Proxyclass android.service.notification.INotificationListener$Stub$Proxy "
+        ]
+    },
+    "notification.enqueueNotificationWithTag": {
+        "permissions": []
+    },
+    "notification.getPackageImportance": {
+        "permissions": [
+            "EXCEPTION::Calling uid 10148 gave package com.android.systemui which is owned by uid 10110 "
+        ]
+    },
+    "notification.getDeletedChannelCount": {
+        "permissions": []
+    },
+    "notification.getNotificationChannelsForPackage": {
+        "permissions": [
+            "10148::android.permission.STATUS_BAR_SERVICE"
+        ]
+    },
+    "notification.setNotificationsShownFromListener": {
+        "permissions": [
+            "EXCEPTION::Disallowed call from unknown notification listener: android.service.notification.INotificationListener$Stub$Proxyclass android.service.notification.INotificationListener$Stub$Proxy "
+        ]
+    },
+    "notification.setNotificationPolicy": {
+        "permissions": [
+            "10148::android.permission.MANAGE_NOTIFICATIONS"
+        ]
+    },
+    "notification.getBlockedChannelCount": {
+        "permissions": [
+            "10148::android.permission.STATUS_BAR_SERVICE"
+        ]
+    },
+    "notification.areBubblesAllowed": {
+        "permissions": []
+    },
+    "notification.setHideSilentStatusIcons": {
+        "permissions": [
+            "EXCEPTION::Disallowed call for uid 10148 "
+        ]
+    },
+    "notification.getPopulatedNotificationChannelGroupForPackage": {
+        "permissions": [
+            "10148::android.permission.STATUS_BAR_SERVICE"
+        ]
+    },
+    "notification.addAutomaticZenRule": {
+        "permissions": []
+    },
+    "notification.setInterruptionFilter": {
+        "permissions": [
+            "10148::android.permission.MANAGE_NOTIFICATIONS"
+        ]
+    },
+    "notification.setNotificationAssistantAccessGranted": {
+        "permissions": [
+            "10148::android.permission.STATUS_BAR_SERVICE"
+        ]
+    },
+    "notification.requestHintsFromListener": {
+        "permissions": [
+            "EXCEPTION::Disallowed call from unknown notification listener: android.service.notification.INotificationListener$Stub$Proxyclass android.service.notification.INotificationListener$Stub$Proxy "
+        ]
+    },
+    "notification.createNotificationChannelGroups": {
+        "permissions": []
+    },
+    "notification.deleteNotificationChannel": {
+        "permissions": []
+    },
+    "notification.applyAdjustmentFromAssistant": {
+        "permissions": [
+            "EXCEPTION::Disallowed call from unknown notification assistant: android.service.notification.INotificationListener$Stub$Proxyclass android.service.notification.INotificationListener$Stub$Proxy "
+        ]
+    },
+    "notification.areNotificationsEnabledForPackage": {
+        "permissions": []
+    },
+    "notification.areBubblesAllowedForPackage": {
+        "permissions": []
+    },
+    "notification.getBackupPayload": {
+        "permissions": [
+            "EXCEPTION::Disallowed call for uid 10148 "
+        ]
+    },
+    "notification.hasUserApprovedBubblesForPackage": {
+        "permissions": [
+            "10148::android.permission.STATUS_BAR_SERVICE"
+        ]
+    },
+    "notification.areNotificationsEnabled": {
+        "permissions": [
+            "EXCEPTION::Caller not system or systemui or same package: uid 10148 does not have android.permission.STATUS_BAR_SERVICE. "
+        ]
+    },
+    "notification.canShowBadge": {
+        "permissions": [
+            "EXCEPTION::Disallowed call for uid 10148 "
+        ]
+    },
+    "notification.updateNotificationChannelGroupForPackage": {
+        "permissions": [
+            "10148::android.permission.STATUS_BAR_SERVICE"
+        ]
+    },
+    "notification.shouldHideSilentStatusIcons": {
+        "permissions": [
+            "EXCEPTION::Only available for notification listeners "
+        ]
+    },
+    "notification.applyAdjustmentsFromAssistant": {
+        "permissions": [
+            "EXCEPTION::Disallowed call from unknown notification assistant: android.service.notification.INotificationListener$Stub$Proxyclass android.service.notification.INotificationListener$Stub$Proxy "
+        ]
+    },
+    "notification.updateNotificationChannelForPackage": {
+        "permissions": [
+            "10148::android.permission.STATUS_BAR_SERVICE"
+        ]
+    },
+    "notification.getNotificationChannels": {
+        "permissions": []
+    },
+    "notification.removeAutomaticZenRule": {
+        "permissions": [
+            "EXCEPTION::Notification policy access denied "
+        ]
+    },
+    "notification.getHistoricalNotifications": {
+        "permissions": [
+            "10148::android.permission.ACCESS_NOTIFICATIONS"
+        ]
+    },
+    "notification.setNotificationsEnabledWithImportanceLockForPackage": {
+        "permissions": [
+            "10148::android.permission.STATUS_BAR_SERVICE"
+        ]
+    },
+    "notification.getNotificationChannelGroup": {
+        "permissions": []
+    },
+    "notification.getNotificationPolicy": {
+        "permissions": []
+    },
+    "notification.registerListener": {
+        "permissions": [
+            "10148::android.permission.ACCESS_WIFI_STATE",
+            "10148::android.permission.STATUS_BAR_SERVICE"
+        ]
+    },
+    "notification.canNotifyAsPackage": {
+        "permissions": []
+    },
+    "notification.finishToken": {
+        "permissions": []
+    },
+    "notification.getInterruptionFilterFromListener": {
+        "permissions": []
+    },
+    "notification.requestUnbindListener": {
+        "permissions": [
+            "EXCEPTION::Disallowed call from unknown notification listener: android.service.notification.INotificationListener$Stub$Proxyclass android.service.notification.INotificationListener$Stub$Proxy "
+        ]
+    },
+    "notification.getAllowedNotificationAssistant": {
+        "permissions": [
+            "1010148::android.permission.STATUS_BAR_SERVICE"
+        ]
+    },
+    "notification.unregisterListener": {
+        "permissions": []
+    },
+    "notification.requestInterruptionFilterFromListener": {
+        "permissions": [
+            "EXCEPTION::Disallowed call from unknown notification listener: android.service.notification.INotificationListener$Stub$Proxyclass android.service.notification.INotificationListener$Stub$Proxy "
+        ]
+    },
+    "notification.getAllowedNotificationAssistantForUser": {
+        "permissions": [
+            "10148::android.permission.STATUS_BAR_SERVICE"
+        ]
+    },
+    "notification.getZenRules": {
+        "permissions": [
+            "1010148::android.permission.MANAGE_NOTIFICATIONS"
+        ]
+    },
+    "notification.unsnoozeNotificationFromAssistant": {
+        "permissions": [
+            "EXCEPTION::Disallowed call from unknown notification assistant: android.service.notification.INotificationListener$Stub$Proxyclass android.service.notification.INotificationListener$Stub$Proxy "
+        ]
+    },
+    "notification.setNotificationPolicyAccessGrantedForUser": {
+        "permissions": [
+            "EXCEPTION::Disallowed call for uid 10148 "
+        ]
+    },
+    "notification.cancelNotificationsFromListener": {
+        "permissions": [
+            "EXCEPTION::Disallowed call from unknown notification listener: android.service.notification.INotificationListener$Stub$Proxyclass android.service.notification.INotificationListener$Stub$Proxy "
+        ]
+    },
+    "notification.getNotificationChannelGroups": {
+        "permissions": []
+    },
+    "notification.removeAutomaticZenRules": {
+        "permissions": [
+            "10148::android.permission.STATUS_BAR_SERVICE"
+        ]
+    },
+    "notification.setShowBadge": {
+        "permissions": [
+            "EXCEPTION::Disallowed call for uid 10148 "
+        ]
+    },
+    "notification.getNumNotificationChannelsForPackage": {
+        "permissions": [
+            "10148::android.permission.STATUS_BAR_SERVICE"
+        ]
+    },
+    "notification.getAppActiveNotifications": {
+        "permissions": []
+    },
+    "notification.isSystemConditionProviderEnabled": {
+        "permissions": [
+            "10148::android.permission.STATUS_BAR_SERVICE"
+        ]
+    },
+    "notification.getEffectsSuppressor": {
+        "permissions": []
+    },
+    "notification.getActiveNotifications": {
+        "permissions": [
+            "10148::android.permission.ACCESS_NOTIFICATIONS"
+        ]
+    },
+    "notification.getHintsFromListener": {
+        "permissions": []
+    },
+    "notification.setOnNotificationPostedTrimFromListener": {
+        "permissions": [
+            "EXCEPTION::Disallowed call from unknown notification listener: android.service.notification.INotificationListener$Stub$Proxyclass android.service.notification.INotificationListener$Stub$Proxy "
+        ]
+    },
+    "notification.getEnabledNotificationListenerPackages": {
+        "permissions": [
+            "EXCEPTION::Disallowed call for uid 1010148 "
+        ]
+    },
+    "notification.setNotificationListenerAccessGrantedForUser": {
+        "permissions": [
+            "EXCEPTION::Disallowed call for uid 10148 "
+        ]
+    },
+    "notification.isNotificationListenerAccessGrantedForUser": {
+        "permissions": [
+            "EXCEPTION::Disallowed call for uid 10148 "
+        ]
+    },
+    "notification.getZenMode": {
+        "permissions": []
+    },
+    "notification.enqueueToast": {
+        "permissions": []
+    }
+}
