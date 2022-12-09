@@ -1,0 +1,33 @@
+{
+  "api": "audio|setUidDeviceAffinity|android.media.audiopolicy.IAudioPolicyCallback,I,I[],java.lang.String[]|I|",
+  "parameters_count": 2,
+  "parameters": {
+    "21dce650bf86180ed2ebb0dca069b52e": [
+      "OBJ:android.media.audiopolicy.IAudioPolicyCallback",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:I[]",
+      "OBJ:java.lang.String[]"
+    ],
+    "bbd99b1ed86de5bc14f499f89615e883": [
+      "OBJ:android.media.audiopolicy.IAudioPolicyCallback",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:I[]",
+      "OBJ:java.lang.String[]"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

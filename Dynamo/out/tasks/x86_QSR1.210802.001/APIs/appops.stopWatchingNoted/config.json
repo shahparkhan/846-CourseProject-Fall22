@@ -1,0 +1,24 @@
+{
+  "api": "appops|stopWatchingNoted|com.android.internal.app.IAppOpsNotedCallback|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "316ac0244957f1665190a89720ace473": [
+      "OBJ:com.android.internal.app.IAppOpsNotedCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

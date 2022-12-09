@@ -1,0 +1,24 @@
+{
+  "api": "fingerprint|removeClientActiveCallback|android.hardware.fingerprint.IFingerprintClientActiveCallback|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "04793967eaa4dec4128b8683a5fe2cb6": [
+      "OBJ:android.hardware.fingerprint.IFingerprintClientActiveCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,45 @@
+{
+  "api": "procstats|getCommittedStats|J,I,Z,java.util.List|J|",
+  "parameters_count": 4,
+  "parameters": {
+    "d15221bc5bf5f2e366fcc905eaeeff2a": [
+      "OBJ:J",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:true",
+      "OBJ:java.util.List"
+    ],
+    "3e57cee064d44dbe0c35e4f13d8977fb": [
+      "OBJ:J",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:false",
+      "OBJ:java.util.List"
+    ],
+    "0a571f4b952bbd60a7bf33f9c68bb828": [
+      "OBJ:J",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:true",
+      "OBJ:java.util.List"
+    ],
+    "c94c9bf776459646b8ae36c126621c80": [
+      "OBJ:J",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:false",
+      "OBJ:java.util.List"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

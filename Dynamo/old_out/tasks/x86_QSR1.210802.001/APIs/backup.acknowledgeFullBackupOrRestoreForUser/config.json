@@ -1,0 +1,85 @@
+{
+  "api": "backup|acknowledgeFullBackupOrRestoreForUser|I,I,Z,java.lang.String,java.lang.String,android.app.backup.IFullBackupRestoreObserver|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "e5e8be472846a4ff70e9732ca5de334a": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:0",
+      "B:true",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:3",
+      "OBJ:android.app.backup.IFullBackupRestoreObserver"
+    ],
+    "9437bdc2ad6750494eff8199f43931a1": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:0",
+      "B:true",
+      "S:com.android.systemui",
+      "INDEX:3",
+      "OBJ:android.app.backup.IFullBackupRestoreObserver"
+    ],
+    "ca81ece43ca51aa90130fdbd901fd5a2": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:0",
+      "B:false",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:3",
+      "OBJ:android.app.backup.IFullBackupRestoreObserver"
+    ],
+    "2e7cf3cabd9b78fa58813d0ae59046f6": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:0",
+      "B:false",
+      "S:com.android.systemui",
+      "INDEX:3",
+      "OBJ:android.app.backup.IFullBackupRestoreObserver"
+    ],
+    "85c9cc5f801144302cdbfc1e076e3f2b": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:0",
+      "B:true",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:3",
+      "OBJ:android.app.backup.IFullBackupRestoreObserver"
+    ],
+    "65b1c8b5fbd608f9810f5dde58997907": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:0",
+      "B:true",
+      "S:com.android.systemui",
+      "INDEX:3",
+      "OBJ:android.app.backup.IFullBackupRestoreObserver"
+    ],
+    "d9dde8941d330a77f88ab8c157bba4af": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:0",
+      "B:false",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:3",
+      "OBJ:android.app.backup.IFullBackupRestoreObserver"
+    ],
+    "7e8491dbdda5b2cb1ad4df2945c4fec0": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:0",
+      "B:false",
+      "S:com.android.systemui",
+      "INDEX:3",
+      "OBJ:android.app.backup.IFullBackupRestoreObserver"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": false,
+      "data": {
+        "type": "java.lang.NullPointerException.<init>(Native Method)",
+        "location": "com.android.internal.util.Preconditions.checkNotNull(Preconditions.java:133)",
+        "message": "Condition is null"
+      }
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.notification.NotificationManagerService$10",
+      "com.android.server.notification.NotificationManagerService"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "c17f78c27407cfa0ddbff9c563dc0a42",
+      "ignored_permissions": []
+    },
+    "processed": true
+  }
+]

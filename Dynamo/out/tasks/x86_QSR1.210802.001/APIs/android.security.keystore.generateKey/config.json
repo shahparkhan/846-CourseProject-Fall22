@@ -1,0 +1,85 @@
+{
+  "api": "android.security.keystore|generateKey|android.security.keystore.IKeystoreKeyCharacteristicsCallback,java.lang.String,android.security.keymaster.KeymasterArguments,B[],I,I|I|",
+  "parameters_count": 8,
+  "parameters": {
+    "c16486179771905056f41913977d111b": [
+      "OBJ:android.security.keystore.IKeystoreKeyCharacteristicsCallback",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.security.keymaster.KeymasterArguments",
+      "OBJ:B[]",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "35381ef90b5050c7c00c17dfec762029": [
+      "OBJ:android.security.keystore.IKeystoreKeyCharacteristicsCallback",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.security.keymaster.KeymasterArguments",
+      "OBJ:B[]",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "635d71594fe9750c14ce5429c8e2edf2": [
+      "OBJ:android.security.keystore.IKeystoreKeyCharacteristicsCallback",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.security.keymaster.KeymasterArguments",
+      "OBJ:B[]",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "814761a750038e07bcd70b3918398ea2": [
+      "OBJ:android.security.keystore.IKeystoreKeyCharacteristicsCallback",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.security.keymaster.KeymasterArguments",
+      "OBJ:B[]",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "6ad79d73deb116c4663d2a61c120dedf": [
+      "OBJ:android.security.keystore.IKeystoreKeyCharacteristicsCallback",
+      "S:com.android.systemui",
+      "OBJ:android.security.keymaster.KeymasterArguments",
+      "OBJ:B[]",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "c06c1f33e8bb60bb56ba0bf47f2603f6": [
+      "OBJ:android.security.keystore.IKeystoreKeyCharacteristicsCallback",
+      "S:com.android.systemui",
+      "OBJ:android.security.keymaster.KeymasterArguments",
+      "OBJ:B[]",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "d114ed172fd9ff1a5777c1de0c341ca8": [
+      "OBJ:android.security.keystore.IKeystoreKeyCharacteristicsCallback",
+      "S:com.android.systemui",
+      "OBJ:android.security.keymaster.KeymasterArguments",
+      "OBJ:B[]",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "1396bc7161795fbd668b755e172b1ced": [
+      "OBJ:android.security.keystore.IKeystoreKeyCharacteristicsCallback",
+      "S:com.android.systemui",
+      "OBJ:android.security.keymaster.KeymasterArguments",
+      "OBJ:B[]",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

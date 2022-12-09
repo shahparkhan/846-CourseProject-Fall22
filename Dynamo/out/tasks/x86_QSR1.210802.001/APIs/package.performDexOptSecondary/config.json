@@ -1,0 +1,61 @@
+{
+  "api": "package|performDexOptSecondary|java.lang.String,java.lang.String,Z|Z|",
+  "parameters_count": 8,
+  "parameters": {
+    "63d2ccfc3dfb6a489eaf27c84227fd7d": [
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "B:true"
+    ],
+    "e7c1fa8b4821fceafb3b868ec963947e": [
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "B:false"
+    ],
+    "51732183baa030c11ce7fb46a0dcb25d": [
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "B:true"
+    ],
+    "ce92b2a15dbc1d40a316274a3526678a": [
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "B:false"
+    ],
+    "533bb9b193d93d6a6a2f451c9e8beffb": [
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "B:true"
+    ],
+    "dd874b106dbddeaeac6f98b212699e53": [
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "B:false"
+    ],
+    "eb41bf3b88ca682b4cf6d230974a225f": [
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "B:true"
+    ],
+    "e34dff8a71fadac0363f938d894a9041": [
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "B:false"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

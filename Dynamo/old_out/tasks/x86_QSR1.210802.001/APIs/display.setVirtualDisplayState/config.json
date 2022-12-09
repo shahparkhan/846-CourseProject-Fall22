@@ -1,0 +1,29 @@
+{
+  "api": "display|setVirtualDisplayState|android.hardware.display.IVirtualDisplayCallback,Z|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "aeb1cd5d86684b80218ba94d1b9b7823": [
+      "OBJ:android.hardware.display.IVirtualDisplayCallback",
+      "B:true"
+    ],
+    "60cf1e19a99fbf6056df752dc7423d5a": [
+      "OBJ:android.hardware.display.IVirtualDisplayCallback",
+      "B:false"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

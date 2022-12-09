@@ -1,0 +1,24 @@
+{
+  "api": "appops|addHistoricalOps|android.app.AppOpsManager.HistoricalOps|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "959ff4948245a2b27a4b26415007f0e7": [
+      "OBJ:android.app.AppOpsManager.HistoricalOps"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,33 @@
+{
+  "api": "netstats|forceUpdateIfaces|android.net.Network[],com.android.internal.net.VpnInfo[],android.net.NetworkState[],java.lang.String|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "31b9c802037bcee97eade0ac5450c7f5": [
+      "OBJ:android.net.Network[]",
+      "OBJ:com.android.internal.net.VpnInfo[]",
+      "OBJ:android.net.NetworkState[]",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "7863431cb08bc77117730df8e99ede99": [
+      "OBJ:android.net.Network[]",
+      "OBJ:com.android.internal.net.VpnInfo[]",
+      "OBJ:android.net.NetworkState[]",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

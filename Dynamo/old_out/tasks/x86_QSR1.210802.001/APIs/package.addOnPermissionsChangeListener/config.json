@@ -1,0 +1,24 @@
+{
+  "api": "package|addOnPermissionsChangeListener|android.content.pm.IOnPermissionsChangeListener|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "4bd144d5337f81e438b3840f409cbd4f": [
+      "OBJ:android.content.pm.IOnPermissionsChangeListener"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

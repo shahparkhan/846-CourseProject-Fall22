@@ -1,0 +1,24 @@
+{
+  "api": "audio|unregisterPlaybackCallback|android.media.IPlaybackConfigDispatcher|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "a89d0978d7ae0e6cf66dbed5e68141d1": [
+      "OBJ:android.media.IPlaybackConfigDispatcher"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

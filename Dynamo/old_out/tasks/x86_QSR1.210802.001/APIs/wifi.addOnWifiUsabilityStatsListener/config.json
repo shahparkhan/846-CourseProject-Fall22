@@ -1,0 +1,31 @@
+{
+  "api": "wifi|addOnWifiUsabilityStatsListener|android.os.IBinder,android.net.wifi.IOnWifiUsabilityStatsListener,I|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "bd6778fd080f640cd38fb915d62b92b6": [
+      "OBJ:android.os.IBinder",
+      "OBJ:android.net.wifi.IOnWifiUsabilityStatsListener",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "2efdf311e1295b1fbc912655880d2066": [
+      "OBJ:android.os.IBinder",
+      "OBJ:android.net.wifi.IOnWifiUsabilityStatsListener",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

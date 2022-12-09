@@ -1,0 +1,41 @@
+{
+  "api": "package|setHarmfulAppWarning|java.lang.String,java.lang.CharSequence,I|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "a713ec54f4fa866ff7a884b7dddde928": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.lang.CharSequence",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "330c4f48c8bdb933d479daf38db0a3fd": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.lang.CharSequence",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "00e0280b5da4484b158dc8432f175b6c": [
+      "S:com.android.systemui",
+      "OBJ:java.lang.CharSequence",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "953bb4f590602a69cbace6c8454d540f": [
+      "S:com.android.systemui",
+      "OBJ:java.lang.CharSequence",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

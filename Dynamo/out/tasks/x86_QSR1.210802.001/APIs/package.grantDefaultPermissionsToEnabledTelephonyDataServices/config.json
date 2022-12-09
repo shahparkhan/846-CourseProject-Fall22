@@ -1,0 +1,29 @@
+{
+  "api": "package|grantDefaultPermissionsToEnabledTelephonyDataServices|java.lang.String[],I|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "131a681f1b6745f698e7846eeeebde14": [
+      "OBJ:java.lang.String[]",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "43a8beda54f29a6701e465369b99882a": [
+      "OBJ:java.lang.String[]",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

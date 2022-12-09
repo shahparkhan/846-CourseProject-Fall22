@@ -1,0 +1,24 @@
+{
+  "api": "voiceinteraction|registerVoiceInteractionSessionListener|com.android.internal.app.IVoiceInteractionSessionListener|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "34470d4081498fa97555607e5a575c41": [
+      "OBJ:com.android.internal.app.IVoiceInteractionSessionListener"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

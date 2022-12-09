@@ -1,0 +1,31 @@
+{
+  "api": "media_session|dispatchMediaKeyEventToSessionAsSystemService|java.lang.String,android.media.session.MediaSession.Token,android.view.KeyEvent|Z|",
+  "parameters_count": 2,
+  "parameters": {
+    "3648cb80fb62a842dc361581503c6e23": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.media.session.MediaSession.Token",
+      "OBJ:android.view.KeyEvent"
+    ],
+    "07cbc90cc76e333922671da5850fd41e": [
+      "S:com.android.systemui",
+      "OBJ:android.media.session.MediaSession.Token",
+      "OBJ:android.view.KeyEvent"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

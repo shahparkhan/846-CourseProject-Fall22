@@ -1,0 +1,31 @@
+{
+  "api": "isub|removeSubscriptionsFromGroup|I[],android.os.ParcelUuid,java.lang.String|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "086e26043e90e93d71a87bed19c0a1ce": [
+      "OBJ:I[]",
+      "OBJ:android.os.ParcelUuid",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "54c6de9043d43b64d0c8cf49012d7d17": [
+      "OBJ:I[]",
+      "OBJ:android.os.ParcelUuid",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

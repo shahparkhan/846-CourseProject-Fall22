@@ -1,0 +1,35 @@
+{
+  "api": "activity_task|reportAssistContextExtras|android.os.IBinder,android.os.Bundle,android.app.assist.AssistStructure,android.app.assist.AssistContent,android.net.Uri|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "100f96e4b53e34e8eabb19ae4cd32545": [
+      "OBJ:android.os.IBinder",
+      "OBJ:android.os.Bundle",
+      "OBJ:android.app.assist.AssistStructure",
+      "OBJ:android.app.assist.AssistContent",
+      "URI:content://user_dictionary/words"
+    ],
+    "c281538f7f70c371be2fbdd03333bc77": [
+      "OBJ:android.os.IBinder",
+      "OBJ:android.os.Bundle",
+      "OBJ:android.app.assist.AssistStructure",
+      "OBJ:android.app.assist.AssistContent",
+      "URI:content://com.android.contacts/contacts/lookup/0"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

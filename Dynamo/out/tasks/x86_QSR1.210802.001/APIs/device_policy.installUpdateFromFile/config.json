@@ -1,0 +1,31 @@
+{
+  "api": "device_policy|installUpdateFromFile|android.content.ComponentName,android.os.ParcelFileDescriptor,android.app.admin.StartInstallingUpdateCallback|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "c67eed5313ad0efea4acaba668f0b1da": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.ParcelFileDescriptor",
+      "OBJ:android.app.admin.StartInstallingUpdateCallback"
+    ],
+    "fe3925d250bdfc858fd2e00b104c1ca8": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.ParcelFileDescriptor",
+      "OBJ:android.app.admin.StartInstallingUpdateCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,69 @@
+{
+  "api": "content|cancelSyncAsUser|android.accounts.Account,java.lang.String,android.content.ComponentName,I|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "6478cfd6b81a7c170ec4923649a94114": [
+      "OBJ:android.accounts.Account",
+      "S:fuzzer.permission.uidchanger",
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "8045296d4e951bbe4cea3b1dfda0b0f2": [
+      "OBJ:android.accounts.Account",
+      "S:fuzzer.permission.uidchanger",
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "aa30600e95f069502900eeff52affc88": [
+      "OBJ:android.accounts.Account",
+      "S:fuzzer.permission.uidchanger",
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "a8f2d81df2ec996048cbff20f3cc49b7": [
+      "OBJ:android.accounts.Account",
+      "S:fuzzer.permission.uidchanger",
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "b05b22bef600a1caa3988f3ba932b63a": [
+      "OBJ:android.accounts.Account",
+      "S:com.android.systemui",
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "b494fd1d8e1e66c1af42dedfc4647185": [
+      "OBJ:android.accounts.Account",
+      "S:com.android.systemui",
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "c1cd3221ec6e5334bb66c4cd3274b4ea": [
+      "OBJ:android.accounts.Account",
+      "S:com.android.systemui",
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "4b3445d41193a961dcab5ac52cefe4a1": [
+      "OBJ:android.accounts.Account",
+      "S:com.android.systemui",
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

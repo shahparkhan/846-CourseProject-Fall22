@@ -1,0 +1,29 @@
+{
+  "api": "textservices|finishSpellCheckerService|I,com.android.internal.textservice.ISpellCheckerSessionListener|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "9ea01ec3c80c962405f42a8b335b864f": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:com.android.internal.textservice.ISpellCheckerSessionListener"
+    ],
+    "bd885822c025610c08e89da5bb60d9c1": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:com.android.internal.textservice.ISpellCheckerSessionListener"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,24 @@
+{
+  "api": "activity|unregisterReceiver|android.content.IIntentReceiver|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "01ac4fc1614552e22caaea904c040251": [
+      "OBJ:android.content.IIntentReceiver"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

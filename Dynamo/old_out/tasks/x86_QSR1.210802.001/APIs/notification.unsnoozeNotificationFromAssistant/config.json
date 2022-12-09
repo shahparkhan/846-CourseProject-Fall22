@@ -1,0 +1,29 @@
+{
+  "api": "notification|unsnoozeNotificationFromAssistant|android.service.notification.INotificationListener,java.lang.String|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "90ffc5e99905b6dd2ec97bac59b33778": [
+      "OBJ:android.service.notification.INotificationListener",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "c24c4395b15af9c1d5e2833be0495905": [
+      "OBJ:android.service.notification.INotificationListener",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,61 @@
+{
+  "api": "telephony.registry|notifyMessageWaitingChangedForPhoneId|I,I,Z|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "ea24a0b01a92a481768cb1a08cec4c58": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:true"
+    ],
+    "4298176bb02787fa8b96a8e72b275c61": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:false"
+    ],
+    "efbd5fab338a77eca0d44a9ec8ca79ba": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:true"
+    ],
+    "d4d0bc2894da8aeb5acb04ecae585cf1": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:false"
+    ],
+    "63a23bc85e1304b61d90d2ea23ee4272": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:true"
+    ],
+    "4ced9ed7b0ad497515efdd6b0fbed6b8": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:false"
+    ],
+    "69c97cea916dd26a651aa1344fd0c61e": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:true"
+    ],
+    "95baa881228a5cfa3bdca807badcd0a0": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:false"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

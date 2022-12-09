@@ -1,0 +1,41 @@
+{
+  "api": "activity|stopServiceToken|android.content.ComponentName,android.os.IBinder,I|Z|",
+  "parameters_count": 4,
+  "parameters": {
+    "a6e9152e952ba81d9ca92a936dfee74c": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.IBinder",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "7a29ef10854b6b00bcbdc8f1806a1b4f": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.IBinder",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "de5ef30e8a76d727cd2305d208771d7a": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.IBinder",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "5e665e0ec007ce01df113d78c0c96648": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.IBinder",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

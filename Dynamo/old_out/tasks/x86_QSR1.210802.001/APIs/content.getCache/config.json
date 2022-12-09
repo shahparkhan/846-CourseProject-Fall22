@@ -1,0 +1,61 @@
+{
+  "api": "content|getCache|java.lang.String,android.net.Uri,I|android.os.Bundle|",
+  "parameters_count": 8,
+  "parameters": {
+    "8147825ca39d4313548847e5591e3c7f": [
+      "S:fuzzer.permission.uidchanger",
+      "URI:content://user_dictionary/words",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "79300f2a057deb28eed164f4d830dbc1": [
+      "S:fuzzer.permission.uidchanger",
+      "URI:content://user_dictionary/words",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "039ec85990b090c438bf7adf5ca737ed": [
+      "S:fuzzer.permission.uidchanger",
+      "URI:content://com.android.contacts/contacts/lookup/0",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "024495c58763857535b5b91b92cc8b89": [
+      "S:fuzzer.permission.uidchanger",
+      "URI:content://com.android.contacts/contacts/lookup/0",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "ca52e1a32cce8e2b239143018cc3ed6c": [
+      "S:com.android.systemui",
+      "URI:content://user_dictionary/words",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "80c48de999f33a31d1af1430f9d9f1eb": [
+      "S:com.android.systemui",
+      "URI:content://user_dictionary/words",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "78dd7db606530e58ab779f53472c19f3": [
+      "S:com.android.systemui",
+      "URI:content://com.android.contacts/contacts/lookup/0",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "da429a6c43b4b1e8a46f01d5ee579efb": [
+      "S:com.android.systemui",
+      "URI:content://com.android.contacts/contacts/lookup/0",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,31 @@
+{
+  "api": "stats|unsetBroadcastSubscriber|J,J,java.lang.String|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "97c93e46d38f1a75b7237d3bb3c4a587": [
+      "OBJ:J",
+      "OBJ:J",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "be6830944bf696ae96723981e5cccec5": [
+      "OBJ:J",
+      "OBJ:J",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

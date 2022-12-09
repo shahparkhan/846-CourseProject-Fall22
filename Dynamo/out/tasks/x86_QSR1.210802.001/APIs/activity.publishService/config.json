@@ -1,0 +1,31 @@
+{
+  "api": "activity|publishService|android.os.IBinder,android.content.Intent,android.os.IBinder|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "06a5ca4ab4d13daf10227c9515acaba0": [
+      "OBJ:android.os.IBinder",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.IBinder"
+    ],
+    "d05c8a43d82df05771e97fcb9a01974e": [
+      "OBJ:android.os.IBinder",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.IBinder"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

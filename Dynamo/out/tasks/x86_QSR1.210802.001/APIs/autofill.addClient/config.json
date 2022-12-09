@@ -1,0 +1,45 @@
+{
+  "api": "autofill|addClient|android.view.autofill.IAutoFillManagerClient,android.content.ComponentName,I,com.android.internal.os.IResultReceiver|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "65b38f58393f99c94f01a939958db4b2": [
+      "OBJ:android.view.autofill.IAutoFillManagerClient",
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:com.android.internal.os.IResultReceiver"
+    ],
+    "d89c049baeecd35dc1b056950c439e64": [
+      "OBJ:android.view.autofill.IAutoFillManagerClient",
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:com.android.internal.os.IResultReceiver"
+    ],
+    "86e0bf9d8a322e0130f821ac82dd9782": [
+      "OBJ:android.view.autofill.IAutoFillManagerClient",
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:com.android.internal.os.IResultReceiver"
+    ],
+    "0edc765ccc5e32bee1adc066400d846f": [
+      "OBJ:android.view.autofill.IAutoFillManagerClient",
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:com.android.internal.os.IResultReceiver"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

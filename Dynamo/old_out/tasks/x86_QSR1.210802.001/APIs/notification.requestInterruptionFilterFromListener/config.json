@@ -1,0 +1,29 @@
+{
+  "api": "notification|requestInterruptionFilterFromListener|android.service.notification.INotificationListener,I|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "2aa31dfe160cf0bc91ab55ace623844d": [
+      "OBJ:android.service.notification.INotificationListener",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "68574a363c4ae9047cd8e12ecd176ca6": [
+      "OBJ:android.service.notification.INotificationListener",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,69 @@
+{
+  "api": "display|createVirtualDisplay|android.hardware.display.IVirtualDisplayCallback,android.media.projection.IMediaProjection,java.lang.String,java.lang.String,I,I,I,android.view.Surface,I,java.lang.String|I|",
+  "parameters_count": 4,
+  "parameters": {
+    "14cf3bddb04f964bc81aa9cd2c210fda": [
+      "OBJ:android.hardware.display.IVirtualDisplayCallback",
+      "OBJ:android.media.projection.IMediaProjection",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:2",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:4",
+      "INDEX:4",
+      "OBJ:android.view.Surface",
+      "INDEX:4",
+      "INDEX:2"
+    ],
+    "55798bad6cfcc9f540e1df6e4cf4dee2": [
+      "OBJ:android.hardware.display.IVirtualDisplayCallback",
+      "OBJ:android.media.projection.IMediaProjection",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:2",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:4",
+      "INDEX:4",
+      "OBJ:android.view.Surface",
+      "INDEX:4",
+      "INDEX:2"
+    ],
+    "dc6d9d61c74d39c6daee7b6344690fc3": [
+      "OBJ:android.hardware.display.IVirtualDisplayCallback",
+      "OBJ:android.media.projection.IMediaProjection",
+      "S:com.android.systemui",
+      "INDEX:2",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:4",
+      "INDEX:4",
+      "OBJ:android.view.Surface",
+      "INDEX:4",
+      "INDEX:2"
+    ],
+    "38fc04aabe6ff9647b4d83064e5c26ac": [
+      "OBJ:android.hardware.display.IVirtualDisplayCallback",
+      "OBJ:android.media.projection.IMediaProjection",
+      "S:com.android.systemui",
+      "INDEX:2",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:4",
+      "INDEX:4",
+      "OBJ:android.view.Surface",
+      "INDEX:4",
+      "INDEX:2"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

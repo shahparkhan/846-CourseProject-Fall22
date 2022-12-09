@@ -1,0 +1,25 @@
+{
+  "api": "network_management|setDnsForwarders|android.net.Network,java.lang.String[]|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "f00a9583c1362f78337b86cf589d7e37": [
+      "OBJ:android.net.Network",
+      "OBJ:java.lang.String[]"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

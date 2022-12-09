@@ -1,0 +1,24 @@
+{
+  "api": "network_management|unregisterTetheringStatsProvider|android.net.ITetheringStatsProvider|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "c987e1a5e10fc6fb9b0e71483e9e1eb2": [
+      "OBJ:android.net.ITetheringStatsProvider"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

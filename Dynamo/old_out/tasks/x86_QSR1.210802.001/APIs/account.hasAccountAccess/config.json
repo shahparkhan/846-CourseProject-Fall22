@@ -1,0 +1,31 @@
+{
+  "api": "account|hasAccountAccess|android.accounts.Account,java.lang.String,android.os.UserHandle|Z|",
+  "parameters_count": 2,
+  "parameters": {
+    "53b10cd595b47cee4aba0acd98ad439e": [
+      "OBJ:android.accounts.Account",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.UserHandle"
+    ],
+    "b8c11cc1d00bb5be49d4fbbc5c011566": [
+      "OBJ:android.accounts.Account",
+      "S:com.android.systemui",
+      "OBJ:android.os.UserHandle"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

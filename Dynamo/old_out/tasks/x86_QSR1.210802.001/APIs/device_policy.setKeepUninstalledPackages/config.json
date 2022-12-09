@@ -1,0 +1,41 @@
+{
+  "api": "device_policy|setKeepUninstalledPackages|android.content.ComponentName,java.lang.String,java.util.List|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "ab5f07014f55daae05ab1bd17c83b167": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.util.List"
+    ],
+    "361513e3a5e573a7eb483394f9fd7302": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "OBJ:java.util.List"
+    ],
+    "dad2cd9b82059af69dbdb35390ae5ea9": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.util.List"
+    ],
+    "264b3568799624e695a3f723d1e1f253": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "OBJ:java.util.List"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

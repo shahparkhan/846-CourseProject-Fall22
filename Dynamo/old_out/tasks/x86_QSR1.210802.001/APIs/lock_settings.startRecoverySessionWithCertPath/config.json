@@ -1,0 +1,53 @@
+{
+  "api": "lock_settings|startRecoverySessionWithCertPath|java.lang.String,java.lang.String,android.security.keystore.recovery.RecoveryCertPath,B[],B[],java.util.List|b[]|",
+  "parameters_count": 4,
+  "parameters": {
+    "93d126ffb392d36101f48bdf6b7b8acd": [
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.security.keystore.recovery.RecoveryCertPath",
+      "OBJ:B[]",
+      "OBJ:B[]",
+      "OBJ:java.util.List"
+    ],
+    "d1ed0e9423310051738076d22ecf4d48": [
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "OBJ:android.security.keystore.recovery.RecoveryCertPath",
+      "OBJ:B[]",
+      "OBJ:B[]",
+      "OBJ:java.util.List"
+    ],
+    "5b36b40e2421d237371e36eb244b78b6": [
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.security.keystore.recovery.RecoveryCertPath",
+      "OBJ:B[]",
+      "OBJ:B[]",
+      "OBJ:java.util.List"
+    ],
+    "835721f33a76e072aab07475c7849b6b": [
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "OBJ:android.security.keystore.recovery.RecoveryCertPath",
+      "OBJ:B[]",
+      "OBJ:B[]",
+      "OBJ:java.util.List"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

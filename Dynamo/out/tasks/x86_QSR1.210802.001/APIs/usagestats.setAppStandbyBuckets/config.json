@@ -1,0 +1,29 @@
+{
+  "api": "usagestats|setAppStandbyBuckets|android.content.pm.ParceledListSlice,I|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "ca1b6d9c3a3721f5854aadd07d95e7f6": [
+      "OBJ:android.content.pm.ParceledListSlice",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "cac4b297ec5b3cb42080da7e368c31eb": [
+      "OBJ:android.content.pm.ParceledListSlice",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

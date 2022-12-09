@@ -1,0 +1,24 @@
+{
+  "api": "window|registerDisplayFoldListener|android.view.IDisplayFoldListener|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "cf069c972b82853cdc94ccf15eaf0b07": [
+      "OBJ:android.view.IDisplayFoldListener"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

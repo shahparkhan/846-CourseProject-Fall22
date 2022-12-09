@@ -1,0 +1,31 @@
+{
+  "api": "activity|startRecentsActivity|android.content.Intent,android.app.IAssistDataReceiver,android.view.IRecentsAnimationRunner|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "2fd4de67f72a25f43c018acef51c9313": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.app.IAssistDataReceiver",
+      "OBJ:android.view.IRecentsAnimationRunner"
+    ],
+    "763026c9d468aaaede1c5a10de81bfc2": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.app.IAssistDataReceiver",
+      "OBJ:android.view.IRecentsAnimationRunner"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

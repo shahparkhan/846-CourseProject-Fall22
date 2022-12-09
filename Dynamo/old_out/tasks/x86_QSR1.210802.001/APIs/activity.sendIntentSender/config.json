@@ -1,0 +1,181 @@
+{
+  "api": "activity|sendIntentSender|android.content.IIntentSender,android.os.IBinder,I,android.content.Intent,java.lang.String,android.content.IIntentReceiver,java.lang.String,android.os.Bundle|I|",
+  "parameters_count": 16,
+  "parameters": {
+    "4da2a55dd1f861b5b6b020decc2675b1": [
+      "OBJ:android.content.IIntentSender",
+      "OBJ:android.os.IBinder",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.content.IIntentReceiver",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.Bundle"
+    ],
+    "ce46cd83822f72213ed295a6abbbc6b1": [
+      "OBJ:android.content.IIntentSender",
+      "OBJ:android.os.IBinder",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.content.IIntentReceiver",
+      "S:com.android.systemui",
+      "OBJ:android.os.Bundle"
+    ],
+    "210ea59b38e6e1e72c6b412fc7705ad1": [
+      "OBJ:android.content.IIntentSender",
+      "OBJ:android.os.IBinder",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "OBJ:android.content.IIntentReceiver",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.Bundle"
+    ],
+    "63d99019873a1173e77543366365dd92": [
+      "OBJ:android.content.IIntentSender",
+      "OBJ:android.os.IBinder",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "OBJ:android.content.IIntentReceiver",
+      "S:com.android.systemui",
+      "OBJ:android.os.Bundle"
+    ],
+    "77b5e1f8646581d71b58c8d115b4cd25": [
+      "OBJ:android.content.IIntentSender",
+      "OBJ:android.os.IBinder",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.content.IIntentReceiver",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.Bundle"
+    ],
+    "fdd849430a142997be5db765ff703c29": [
+      "OBJ:android.content.IIntentSender",
+      "OBJ:android.os.IBinder",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.content.IIntentReceiver",
+      "S:com.android.systemui",
+      "OBJ:android.os.Bundle"
+    ],
+    "cd0d1e3227fe7d700f6c8ddbe00c0b19": [
+      "OBJ:android.content.IIntentSender",
+      "OBJ:android.os.IBinder",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "OBJ:android.content.IIntentReceiver",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.Bundle"
+    ],
+    "f57ee5264a4cedce3b329537b20691f0": [
+      "OBJ:android.content.IIntentSender",
+      "OBJ:android.os.IBinder",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "OBJ:android.content.IIntentReceiver",
+      "S:com.android.systemui",
+      "OBJ:android.os.Bundle"
+    ],
+    "aef79bc80262333b32d101048d597bae": [
+      "OBJ:android.content.IIntentSender",
+      "OBJ:android.os.IBinder",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.content.IIntentReceiver",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.Bundle"
+    ],
+    "c8052cdf92efa08ac28d3b5f04a3baf8": [
+      "OBJ:android.content.IIntentSender",
+      "OBJ:android.os.IBinder",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.content.IIntentReceiver",
+      "S:com.android.systemui",
+      "OBJ:android.os.Bundle"
+    ],
+    "7d666363f9d51e6ae70dcfd4551aaf94": [
+      "OBJ:android.content.IIntentSender",
+      "OBJ:android.os.IBinder",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "OBJ:android.content.IIntentReceiver",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.Bundle"
+    ],
+    "0f39cdffc06b8508513407c1bb556b2c": [
+      "OBJ:android.content.IIntentSender",
+      "OBJ:android.os.IBinder",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "OBJ:android.content.IIntentReceiver",
+      "S:com.android.systemui",
+      "OBJ:android.os.Bundle"
+    ],
+    "d011d88c574c8a33637bc9a462c824cd": [
+      "OBJ:android.content.IIntentSender",
+      "OBJ:android.os.IBinder",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.content.IIntentReceiver",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.Bundle"
+    ],
+    "48c8ddc39a6cb1b50023b0e0aed8e80a": [
+      "OBJ:android.content.IIntentSender",
+      "OBJ:android.os.IBinder",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.content.IIntentReceiver",
+      "S:com.android.systemui",
+      "OBJ:android.os.Bundle"
+    ],
+    "6cb89b67632a4ba762d1ac2394f04135": [
+      "OBJ:android.content.IIntentSender",
+      "OBJ:android.os.IBinder",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "OBJ:android.content.IIntentReceiver",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.Bundle"
+    ],
+    "40bd69beaf3efd7854af96ac945acd4e": [
+      "OBJ:android.content.IIntentSender",
+      "OBJ:android.os.IBinder",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "OBJ:android.content.IIntentReceiver",
+      "S:com.android.systemui",
+      "OBJ:android.os.Bundle"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

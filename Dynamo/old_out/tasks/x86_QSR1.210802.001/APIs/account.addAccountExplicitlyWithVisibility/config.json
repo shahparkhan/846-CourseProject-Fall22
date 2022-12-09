@@ -1,0 +1,33 @@
+{
+  "api": "account|addAccountExplicitlyWithVisibility|android.accounts.Account,java.lang.String,android.os.Bundle,java.util.Map|Z|",
+  "parameters_count": 2,
+  "parameters": {
+    "b0afe76ccd7082ad7fb3e5b88dd032ef": [
+      "OBJ:android.accounts.Account",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.Bundle",
+      "OBJ:java.util.Map"
+    ],
+    "4928591eb6d387927ed4e22626ee99a7": [
+      "OBJ:android.accounts.Account",
+      "S:com.android.systemui",
+      "OBJ:android.os.Bundle",
+      "OBJ:java.util.Map"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,31 @@
+{
+  "api": "power|updateWakeLockWorkSource|android.os.IBinder,android.os.WorkSource,java.lang.String|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "6e4083506537e046c3099ee79bccc244": [
+      "OBJ:android.os.IBinder",
+      "OBJ:android.os.WorkSource",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "4a4e08abe38d650c5652772480183035": [
+      "OBJ:android.os.IBinder",
+      "OBJ:android.os.WorkSource",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

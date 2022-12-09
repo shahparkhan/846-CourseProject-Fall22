@@ -1,0 +1,25 @@
+{
+  "api": "wifi|startWatchLocalOnlyHotspot|android.os.Messenger,android.os.IBinder|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "c38d434a5dd5beaec493b09f285b2e40": [
+      "OBJ:android.os.Messenger",
+      "OBJ:android.os.IBinder"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

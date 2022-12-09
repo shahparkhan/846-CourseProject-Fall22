@@ -1,0 +1,24 @@
+{
+  "api": "audio|setVolumePolicy|android.media.VolumePolicy|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "984ed4f9ed3ca39f914b75afbcecead8": [
+      "OBJ:android.media.VolumePolicy"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

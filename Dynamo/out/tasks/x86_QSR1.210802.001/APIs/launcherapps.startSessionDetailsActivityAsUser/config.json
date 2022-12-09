@@ -1,0 +1,37 @@
+{
+  "api": "launcherapps|startSessionDetailsActivityAsUser|android.app.IApplicationThread,java.lang.String,android.content.pm.PackageInstaller.SessionInfo,android.graphics.Rect,android.os.Bundle,android.os.UserHandle|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "51868d13e8ee41eea22b768729b85d5f": [
+      "OBJ:android.app.IApplicationThread",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.content.pm.PackageInstaller.SessionInfo",
+      "OBJ:android.graphics.Rect",
+      "OBJ:android.os.Bundle",
+      "OBJ:android.os.UserHandle"
+    ],
+    "566d70d27f5128000519a3bfce83af6d": [
+      "OBJ:android.app.IApplicationThread",
+      "S:com.android.systemui",
+      "OBJ:android.content.pm.PackageInstaller.SessionInfo",
+      "OBJ:android.graphics.Rect",
+      "OBJ:android.os.Bundle",
+      "OBJ:android.os.UserHandle"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,29 @@
+{
+  "api": "appops|getUidOps|I,I[]|java.util.List|",
+  "parameters_count": 2,
+  "parameters": {
+    "bc4dcdfaa5700eebc7f15ccac8a22f41": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:I[]"
+    ],
+    "f08a83036e3a0bccfedfa6befe714b3f": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:I[]"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

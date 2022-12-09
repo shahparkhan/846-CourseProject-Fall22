@@ -1,0 +1,31 @@
+{
+  "api": "activity|finishInstrumentation|android.app.IApplicationThread,I,android.os.Bundle|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "62f307644b1100e240c6bb8fcd55ef8c": [
+      "OBJ:android.app.IApplicationThread",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.Bundle"
+    ],
+    "3ed44e81be7087f2d19efcbfc895bfff": [
+      "OBJ:android.app.IApplicationThread",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.Bundle"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

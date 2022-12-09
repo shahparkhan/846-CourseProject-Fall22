@@ -1,0 +1,29 @@
+{
+  "api": "activity|getForegroundServiceType|android.content.ComponentName,android.os.IBinder|I|",
+  "parameters_count": 2,
+  "parameters": {
+    "986760b5bbc0c2ca97a4245bd9ae784a": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.IBinder"
+    ],
+    "43928fc735577645b433483743f5e733": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.IBinder"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

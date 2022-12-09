@@ -1,0 +1,24 @@
+{
+  "api": "mount|unregisterListener|android.os.storage.IStorageEventListener|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "a4acc371c56601a57afa319bbf6312e8": [
+      "OBJ:android.os.storage.IStorageEventListener"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

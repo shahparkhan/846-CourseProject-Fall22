@@ -1,0 +1,49 @@
+{
+  "api": "activity|crashApplication|I,I,java.lang.String,I,java.lang.String|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "2c940a3ceb799bc78a04ae11830363b2": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:0",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:0",
+      "INDEX:2"
+    ],
+    "820b89c3613f2571caa5ccc058b1d497": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:0",
+      "S:com.android.systemui",
+      "INDEX:0",
+      "INDEX:2"
+    ],
+    "cb455abda65ee807b3708b79507d455d": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:0",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:0",
+      "INDEX:2"
+    ],
+    "88fba337da3479bcdf6abe7e6396248e": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:0",
+      "S:com.android.systemui",
+      "INDEX:0",
+      "INDEX:2"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,31 @@
+{
+  "api": "network_management|setFirewallUidRules|I,I[],I[]|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "688b852621c1557f17fae27d0aa1bf7f": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:I[]",
+      "OBJ:I[]"
+    ],
+    "8948001f9fb617250e94214895fb0c9f": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:I[]",
+      "OBJ:I[]"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

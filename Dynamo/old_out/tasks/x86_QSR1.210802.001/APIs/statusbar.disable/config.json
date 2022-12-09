@@ -1,0 +1,41 @@
+{
+  "api": "statusbar|disable|I,android.os.IBinder,java.lang.String|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "7447ce8ac118d8268a1346b464a7928c": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.IBinder",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "97b23817aa84afa5356b974d9f28ed5c": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.IBinder",
+      "S:com.android.systemui"
+    ],
+    "fa2beccb922836ccd4aac52d08a4fd26": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.IBinder",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "334acdb18ffa826161a5f4bcbc0b838b": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.IBinder",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,61 @@
+{
+  "api": "ircs|getTextForMessage|I,Z,java.lang.String|java.lang.String|",
+  "parameters_count": 8,
+  "parameters": {
+    "967d2fd902ef55ceb96aa6410e460cf9": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:true",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "d5c253f68092a6e2fcbfdd10cff49cdf": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:true",
+      "S:com.android.systemui"
+    ],
+    "4f1f5c1369292bb6b0acc4ae0e7e1510": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:false",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "fe9601ee0fce8fa6eb0e0cdaad64546d": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:false",
+      "S:com.android.systemui"
+    ],
+    "ae33b4e10e9f5bf6e0670e648dc5d060": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:true",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "8ddd8cf7f6cc5a94781b12d2c715be88": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:true",
+      "S:com.android.systemui"
+    ],
+    "5ac6d43ad1dcba0893013d52dd20ffd2": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:false",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "0be675eefb9f5d8b498d634a91d34df6": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:false",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

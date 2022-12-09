@@ -1,0 +1,35 @@
+{
+  "api": "telephony.registry|notifyPreciseCallState|I,I,I,I,I|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "3836e6c961a6c4d12f22ea335d1c7939": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:0",
+      "INDEX:0",
+      "INDEX:0",
+      "INDEX:0"
+    ],
+    "e37f6e010227a58404fc6640c4761ea1": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:0",
+      "INDEX:0",
+      "INDEX:0",
+      "INDEX:0"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

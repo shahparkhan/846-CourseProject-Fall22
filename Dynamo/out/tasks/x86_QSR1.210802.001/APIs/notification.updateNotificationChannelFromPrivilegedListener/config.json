@@ -1,0 +1,48 @@
+{
+  "api": "notification|updateNotificationChannelFromPrivilegedListener|android.service.notification.INotificationListener,java.lang.String,android.os.UserHandle,android.app.NotificationChannel|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "cb490f743a3d7247dc2386af649c00a4": [
+      "OBJ:android.service.notification.INotificationListener",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.UserHandle",
+      "OBJ:android.app.NotificationChannel"
+    ],
+    "ee2a44129e807f67238401acefb3629d": [
+      "OBJ:android.service.notification.INotificationListener",
+      "S:com.android.systemui",
+      "OBJ:android.os.UserHandle",
+      "OBJ:android.app.NotificationChannel"
+    ]
+  },
+  "parameters_done": {
+    "None:cb490f743a3d7247dc2386af649c00a4": 2
+  },
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [
+    "com.android.server.notification.NotificationManagerService$10",
+    "com.android.server.notification.NotificationManagerService",
+    "com.android.server.notification.ManagedServices"
+  ],
+  "phase_name": "change_parameters",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 4,
+    "historical_service_not_invoked": 15,
+    "no_traces": 0,
+    "historical_no_traces": 0
+  },
+  "pids": [],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

@@ -1,0 +1,24 @@
+{
+  "api": "wifi|startSoftAp|android.net.wifi.WifiConfiguration|Z|",
+  "parameters_count": 1,
+  "parameters": {
+    "31409347fee97d4f2991dc0ffb0a5763": [
+      "OBJ:android.net.wifi.WifiConfiguration"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

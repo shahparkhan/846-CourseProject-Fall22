@@ -1,0 +1,41 @@
+{
+  "api": "batterystats|noteLongPartialWakelockStartFromSource|java.lang.String,java.lang.String,android.os.WorkSource|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "657b07e3d147f1cf699f58b9892e1df8": [
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.WorkSource"
+    ],
+    "2726c5e164f3d04ce4ba5206f29e3f6e": [
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "OBJ:android.os.WorkSource"
+    ],
+    "724f2f7378ef1eaabc9cb605063c684c": [
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.WorkSource"
+    ],
+    "7877b0b8bc6b13852fbec580c236509d": [
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "OBJ:android.os.WorkSource"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,165 @@
+{
+  "api": "audio|registerAudioPolicy|android.media.audiopolicy.AudioPolicyConfig,android.media.audiopolicy.IAudioPolicyCallback,Z,Z,Z,Z,android.media.projection.IMediaProjection|java.lang.String|",
+  "parameters_count": 16,
+  "parameters": {
+    "4c44e8e3a58602c8d5bf8a8a46dcf7b5": [
+      "OBJ:android.media.audiopolicy.AudioPolicyConfig",
+      "OBJ:android.media.audiopolicy.IAudioPolicyCallback",
+      "B:true",
+      "B:true",
+      "B:true",
+      "B:true",
+      "OBJ:android.media.projection.IMediaProjection"
+    ],
+    "a7d00adfe8edf0ae5e06db77c71b62bf": [
+      "OBJ:android.media.audiopolicy.AudioPolicyConfig",
+      "OBJ:android.media.audiopolicy.IAudioPolicyCallback",
+      "B:true",
+      "B:true",
+      "B:true",
+      "B:false",
+      "OBJ:android.media.projection.IMediaProjection"
+    ],
+    "35464722ef822282597a8ea4f8ce9ef9": [
+      "OBJ:android.media.audiopolicy.AudioPolicyConfig",
+      "OBJ:android.media.audiopolicy.IAudioPolicyCallback",
+      "B:true",
+      "B:true",
+      "B:false",
+      "B:true",
+      "OBJ:android.media.projection.IMediaProjection"
+    ],
+    "fdb834aee19542b78496c3ad51c89f68": [
+      "OBJ:android.media.audiopolicy.AudioPolicyConfig",
+      "OBJ:android.media.audiopolicy.IAudioPolicyCallback",
+      "B:true",
+      "B:true",
+      "B:false",
+      "B:false",
+      "OBJ:android.media.projection.IMediaProjection"
+    ],
+    "556817fd84fa28bab36c8496a4d90126": [
+      "OBJ:android.media.audiopolicy.AudioPolicyConfig",
+      "OBJ:android.media.audiopolicy.IAudioPolicyCallback",
+      "B:true",
+      "B:false",
+      "B:true",
+      "B:true",
+      "OBJ:android.media.projection.IMediaProjection"
+    ],
+    "9bf4774e40edbda404b19249159f0163": [
+      "OBJ:android.media.audiopolicy.AudioPolicyConfig",
+      "OBJ:android.media.audiopolicy.IAudioPolicyCallback",
+      "B:true",
+      "B:false",
+      "B:true",
+      "B:false",
+      "OBJ:android.media.projection.IMediaProjection"
+    ],
+    "9cb0c15236d7d135b144d46cb5fbdaa8": [
+      "OBJ:android.media.audiopolicy.AudioPolicyConfig",
+      "OBJ:android.media.audiopolicy.IAudioPolicyCallback",
+      "B:true",
+      "B:false",
+      "B:false",
+      "B:true",
+      "OBJ:android.media.projection.IMediaProjection"
+    ],
+    "ed09cb4f5027dfc76f7368766fdc3f5e": [
+      "OBJ:android.media.audiopolicy.AudioPolicyConfig",
+      "OBJ:android.media.audiopolicy.IAudioPolicyCallback",
+      "B:true",
+      "B:false",
+      "B:false",
+      "B:false",
+      "OBJ:android.media.projection.IMediaProjection"
+    ],
+    "3853a7c9d2ca4cb723c3ab3bbd4766b0": [
+      "OBJ:android.media.audiopolicy.AudioPolicyConfig",
+      "OBJ:android.media.audiopolicy.IAudioPolicyCallback",
+      "B:false",
+      "B:true",
+      "B:true",
+      "B:true",
+      "OBJ:android.media.projection.IMediaProjection"
+    ],
+    "99264e8914fabb087edb8ea6008648cd": [
+      "OBJ:android.media.audiopolicy.AudioPolicyConfig",
+      "OBJ:android.media.audiopolicy.IAudioPolicyCallback",
+      "B:false",
+      "B:true",
+      "B:true",
+      "B:false",
+      "OBJ:android.media.projection.IMediaProjection"
+    ],
+    "a0b0da1426ea56bb82c057216098e894": [
+      "OBJ:android.media.audiopolicy.AudioPolicyConfig",
+      "OBJ:android.media.audiopolicy.IAudioPolicyCallback",
+      "B:false",
+      "B:true",
+      "B:false",
+      "B:true",
+      "OBJ:android.media.projection.IMediaProjection"
+    ],
+    "78f5b6f98d00a9b4cdd0efcbf70a80eb": [
+      "OBJ:android.media.audiopolicy.AudioPolicyConfig",
+      "OBJ:android.media.audiopolicy.IAudioPolicyCallback",
+      "B:false",
+      "B:true",
+      "B:false",
+      "B:false",
+      "OBJ:android.media.projection.IMediaProjection"
+    ],
+    "a28a47831f18b05aa92532b6fc39f4e9": [
+      "OBJ:android.media.audiopolicy.AudioPolicyConfig",
+      "OBJ:android.media.audiopolicy.IAudioPolicyCallback",
+      "B:false",
+      "B:false",
+      "B:true",
+      "B:true",
+      "OBJ:android.media.projection.IMediaProjection"
+    ],
+    "a279f8fcc34e1d74e052f383c13fed34": [
+      "OBJ:android.media.audiopolicy.AudioPolicyConfig",
+      "OBJ:android.media.audiopolicy.IAudioPolicyCallback",
+      "B:false",
+      "B:false",
+      "B:true",
+      "B:false",
+      "OBJ:android.media.projection.IMediaProjection"
+    ],
+    "bfd7ebe7075ff48ef5419824a02129b8": [
+      "OBJ:android.media.audiopolicy.AudioPolicyConfig",
+      "OBJ:android.media.audiopolicy.IAudioPolicyCallback",
+      "B:false",
+      "B:false",
+      "B:false",
+      "B:true",
+      "OBJ:android.media.projection.IMediaProjection"
+    ],
+    "bf283df7dfb0d42fab27a1b679b5a68a": [
+      "OBJ:android.media.audiopolicy.AudioPolicyConfig",
+      "OBJ:android.media.audiopolicy.IAudioPolicyCallback",
+      "B:false",
+      "B:false",
+      "B:false",
+      "B:false",
+      "OBJ:android.media.projection.IMediaProjection"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

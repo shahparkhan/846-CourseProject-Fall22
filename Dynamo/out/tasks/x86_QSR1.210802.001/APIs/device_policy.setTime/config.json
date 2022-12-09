@@ -1,0 +1,29 @@
+{
+  "api": "device_policy|setTime|android.content.ComponentName,J|Z|",
+  "parameters_count": 2,
+  "parameters": {
+    "d4d58af00ad68d852fbbd7b91ba6d372": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:J"
+    ],
+    "2668c8295a6f02a305e45764eb169fe6": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:J"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

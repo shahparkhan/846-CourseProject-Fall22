@@ -1,0 +1,45 @@
+{
+  "api": "input_method|startInputOrWindowGainedFocus|I,com.android.internal.view.IInputMethodClient,android.os.IBinder,I,I,I,android.view.inputmethod.EditorInfo,com.android.internal.view.IInputContext,I,I|com.android.internal.view.InputBindResult|",
+  "parameters_count": 2,
+  "parameters": {
+    "fb3e1d991cb8f6da7feec66ad6b2ce20": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:com.android.internal.view.IInputMethodClient",
+      "OBJ:android.os.IBinder",
+      "INDEX:0",
+      "INDEX:0",
+      "INDEX:0",
+      "OBJ:android.view.inputmethod.EditorInfo",
+      "OBJ:com.android.internal.view.IInputContext",
+      "INDEX:0",
+      "INDEX:0"
+    ],
+    "7796fb8c85ab9a00cb495ade2ddfe2cd": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:com.android.internal.view.IInputMethodClient",
+      "OBJ:android.os.IBinder",
+      "INDEX:0",
+      "INDEX:0",
+      "INDEX:0",
+      "OBJ:android.view.inputmethod.EditorInfo",
+      "OBJ:com.android.internal.view.IInputContext",
+      "INDEX:0",
+      "INDEX:0"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

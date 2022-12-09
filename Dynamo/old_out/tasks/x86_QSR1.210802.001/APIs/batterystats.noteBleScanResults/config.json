@@ -1,0 +1,29 @@
+{
+  "api": "batterystats|noteBleScanResults|android.os.WorkSource,I|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "795f6a5b0a429d744edad30a353a6f1b": [
+      "OBJ:android.os.WorkSource",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "14be3df8230eaeff055112b303989df1": [
+      "OBJ:android.os.WorkSource",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

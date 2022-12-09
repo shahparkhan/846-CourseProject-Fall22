@@ -1,0 +1,45 @@
+{
+  "api": "window|createInputConsumer|android.os.IBinder,java.lang.String,I,android.view.InputChannel|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "85e75fd64831c4e03b96a5c3ad276f4d": [
+      "OBJ:android.os.IBinder",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.view.InputChannel"
+    ],
+    "38b6ee7769b0d1bbb26f31ee66979d26": [
+      "OBJ:android.os.IBinder",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.view.InputChannel"
+    ],
+    "7ee6a8e754f535d33aa0b2efb7ad05ab": [
+      "OBJ:android.os.IBinder",
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.view.InputChannel"
+    ],
+    "b26ba52fc640bb0b88c5c18e3fff5f84": [
+      "OBJ:android.os.IBinder",
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.view.InputChannel"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

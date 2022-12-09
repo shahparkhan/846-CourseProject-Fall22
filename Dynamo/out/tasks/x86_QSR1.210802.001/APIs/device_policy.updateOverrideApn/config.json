@@ -1,0 +1,41 @@
+{
+  "api": "device_policy|updateOverrideApn|android.content.ComponentName,I,android.telephony.data.ApnSetting|Z|",
+  "parameters_count": 4,
+  "parameters": {
+    "0b0d2a578f8dbe80ff02329498bb8586": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.telephony.data.ApnSetting"
+    ],
+    "2fba6f5a6e61f2e55a4952a1d2823fb9": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.telephony.data.ApnSetting"
+    ],
+    "6bae0c9d7256d8adc55f5f4cc40728ad": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.telephony.data.ApnSetting"
+    ],
+    "f3f0bb3cb3bd4c1fb55df65e41f16ce4": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.telephony.data.ApnSetting"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

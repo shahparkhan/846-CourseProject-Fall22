@@ -1,0 +1,24 @@
+{
+  "api": "input|setCustomPointerIcon|android.view.PointerIcon|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "3e03b07402fd4c7200ebdbcff3e1836e": [
+      "OBJ:android.view.PointerIcon"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

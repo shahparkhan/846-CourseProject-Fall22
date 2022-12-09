@@ -1,0 +1,117 @@
+{
+  "api": "isms|checkSmsShortCodeDestination|I,java.lang.String,java.lang.String,java.lang.String|I|",
+  "parameters_count": 16,
+  "parameters": {
+    "be076c25c63a7bf9ac54f658142df39f": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "a7b371043260aed10bda0181c738bb42": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui"
+    ],
+    "453f8d6904d32069a0741e5d94aeb1d5": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "8607b4bd8e08580e1f999ff6caae503c": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "S:com.android.systemui"
+    ],
+    "55387c439175b59f7c99e39a35a8da74": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "1aff35805f26085d90caedf9e49418b4": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui"
+    ],
+    "c7f40c5f86188932570b50b0ca0dfd44": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "099c81ede85018af15fabd1480cf05ec": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "S:com.android.systemui"
+    ],
+    "19fa9d4fb5ee5706af1bd8d63152cc54": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "1196d3d5c3deca4663f7c7ef04283eb8": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui"
+    ],
+    "82bd54db8a8f74820ab1953db9b6fa70": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "17fabebb9167bc80583238e7de699f81": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "S:com.android.systemui"
+    ],
+    "5473974d2aa51aafa71740afbb808bb3": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "2b2f4bfc27daab412ac08ff0045ef2af": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui"
+    ],
+    "812bc89fb5d91d69df34d3576ec6346b": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "c4b2ebc42cc41e253df3e2c91df9c5b0": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

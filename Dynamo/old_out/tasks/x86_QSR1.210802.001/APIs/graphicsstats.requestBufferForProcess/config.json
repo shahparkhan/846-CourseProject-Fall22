@@ -1,0 +1,29 @@
+{
+  "api": "graphicsstats|requestBufferForProcess|java.lang.String,android.view.IGraphicsStatsCallback|android.os.ParcelFileDescriptor|",
+  "parameters_count": 2,
+  "parameters": {
+    "5c6f14d9e30e95864ee88a2db2dd7d5d": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.view.IGraphicsStatsCallback"
+    ],
+    "5d6f5daef79c9bd06694eac66d232083": [
+      "S:com.android.systemui",
+      "OBJ:android.view.IGraphicsStatsCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

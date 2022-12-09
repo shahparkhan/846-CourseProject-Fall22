@@ -1,0 +1,85 @@
+{
+  "api": "package|updatePermissionFlags|java.lang.String,java.lang.String,I,I,Z,I|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "e7d6f2ff9ba91fbe3d6b9f8a53e4f5da": [
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:0",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:2",
+      "B:true",
+      "INDEX:2"
+    ],
+    "42dc9c3c358bcc2fc8aa44450e3c6d8a": [
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:0",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:2",
+      "B:false",
+      "INDEX:2"
+    ],
+    "71e02091bf654b6e8aaf064f560ba5c9": [
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:0",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:2",
+      "B:true",
+      "INDEX:2"
+    ],
+    "c9b54e8206ae879d4b14874e9cba82c5": [
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:0",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:2",
+      "B:false",
+      "INDEX:2"
+    ],
+    "4dc31467d98964f79e69021346515e58": [
+      "S:com.android.systemui",
+      "INDEX:0",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:2",
+      "B:true",
+      "INDEX:2"
+    ],
+    "0bd0e7947dd7f2e10835605ffbaa497e": [
+      "S:com.android.systemui",
+      "INDEX:0",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:2",
+      "B:false",
+      "INDEX:2"
+    ],
+    "6fc4fb73dc3d0d8ee00eb06c9e6d4caf": [
+      "S:com.android.systemui",
+      "INDEX:0",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:2",
+      "B:true",
+      "INDEX:2"
+    ],
+    "0d46d2db8e4bcaf9e709d0d1d65f9f2f": [
+      "S:com.android.systemui",
+      "INDEX:0",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:2",
+      "B:false",
+      "INDEX:2"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

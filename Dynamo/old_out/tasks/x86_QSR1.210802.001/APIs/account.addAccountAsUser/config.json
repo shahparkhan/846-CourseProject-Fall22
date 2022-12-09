@@ -1,0 +1,165 @@
+{
+  "api": "account|addAccountAsUser|android.accounts.IAccountManagerResponse,java.lang.String,java.lang.String,java.lang.String[],Z,android.os.Bundle,I|V|",
+  "parameters_count": 16,
+  "parameters": {
+    "451c2857ddc9d3b994705f84fa92ee4c": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.lang.String[]",
+      "B:true",
+      "OBJ:android.os.Bundle",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "4ba3914d3bc64546abe6f2fd485aa1f5": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.lang.String[]",
+      "B:true",
+      "OBJ:android.os.Bundle",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "a2d37adb46bb64632074473e9cafaea9": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.lang.String[]",
+      "B:false",
+      "OBJ:android.os.Bundle",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "17dd4d960876f99a307ed9e9f12579e5": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.lang.String[]",
+      "B:false",
+      "OBJ:android.os.Bundle",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "d8ad70a26c6b4419f279fe03f588aaad": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "OBJ:java.lang.String[]",
+      "B:true",
+      "OBJ:android.os.Bundle",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "2daca2328bacb556dc54fd182990e3b8": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "OBJ:java.lang.String[]",
+      "B:true",
+      "OBJ:android.os.Bundle",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "f2e3573fe20dab8d319585efd7a24cf5": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "OBJ:java.lang.String[]",
+      "B:false",
+      "OBJ:android.os.Bundle",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "1353f6d38f88877f7332d7a1a8fa4092": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "OBJ:java.lang.String[]",
+      "B:false",
+      "OBJ:android.os.Bundle",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "1b7e2a2a60bea00b608b8a6739eb1769": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.lang.String[]",
+      "B:true",
+      "OBJ:android.os.Bundle",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "960eb69d9710418b096276fb296445c0": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.lang.String[]",
+      "B:true",
+      "OBJ:android.os.Bundle",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "efee6d7bb8101aadef02cde9a49e96ba": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.lang.String[]",
+      "B:false",
+      "OBJ:android.os.Bundle",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "576eb031f36552cc3449dab488d38039": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.lang.String[]",
+      "B:false",
+      "OBJ:android.os.Bundle",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "f9efbd5785bb83ec01194d9de14c2b9f": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "OBJ:java.lang.String[]",
+      "B:true",
+      "OBJ:android.os.Bundle",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "8368035633dd9de5ff6d0b0b7fc5affd": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "OBJ:java.lang.String[]",
+      "B:true",
+      "OBJ:android.os.Bundle",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "13f0f4a603cae3d8a087940d01e1c232": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "OBJ:java.lang.String[]",
+      "B:false",
+      "OBJ:android.os.Bundle",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "e101c3ba4c0ca9aaece199df577d2379": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "OBJ:java.lang.String[]",
+      "B:false",
+      "OBJ:android.os.Bundle",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

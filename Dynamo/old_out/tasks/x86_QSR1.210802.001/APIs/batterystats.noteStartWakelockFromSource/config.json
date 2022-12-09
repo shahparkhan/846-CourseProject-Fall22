@@ -1,0 +1,85 @@
+{
+  "api": "batterystats|noteStartWakelockFromSource|android.os.WorkSource,I,java.lang.String,java.lang.String,I,Z|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "f4e83f6cd4dd63182bb8bead6e141a8d": [
+      "OBJ:android.os.WorkSource",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:2",
+      "INDEX:1",
+      "B:true"
+    ],
+    "7f203b7f6231e5865e801b064d93290b": [
+      "OBJ:android.os.WorkSource",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:2",
+      "INDEX:1",
+      "B:false"
+    ],
+    "aeb3650c8526c0daa087446dfe6b80bc": [
+      "OBJ:android.os.WorkSource",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "INDEX:2",
+      "INDEX:1",
+      "B:true"
+    ],
+    "41372f5d165038bee3e3804fa7adb839": [
+      "OBJ:android.os.WorkSource",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "INDEX:2",
+      "INDEX:1",
+      "B:false"
+    ],
+    "429ebc00044d1aa8d9c4ceddcdea0a9c": [
+      "OBJ:android.os.WorkSource",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:2",
+      "INDEX:1",
+      "B:true"
+    ],
+    "7c1174d2307ae7ad3979162261dd5a8e": [
+      "OBJ:android.os.WorkSource",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:2",
+      "INDEX:1",
+      "B:false"
+    ],
+    "30171b4c227b77407e74668e01a63c98": [
+      "OBJ:android.os.WorkSource",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "INDEX:2",
+      "INDEX:1",
+      "B:true"
+    ],
+    "de16a312719f1b18531b332b018828c6": [
+      "OBJ:android.os.WorkSource",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "INDEX:2",
+      "INDEX:1",
+      "B:false"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

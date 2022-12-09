@@ -1,0 +1,31 @@
+{
+  "api": "appwidget|partiallyUpdateAppWidgetIds|java.lang.String,I[],android.widget.RemoteViews|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "06c53646003b943551e42e6e1e1ea0d3": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:I[]",
+      "OBJ:android.widget.RemoteViews"
+    ],
+    "aa135e6d2dfc1cd9aaa95fa9710b2aed": [
+      "S:com.android.systemui",
+      "OBJ:I[]",
+      "OBJ:android.widget.RemoteViews"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

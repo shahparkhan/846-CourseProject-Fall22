@@ -1,0 +1,77 @@
+{
+  "api": "notification|getNotificationChannelsForPackage|java.lang.String,I,Z|android.content.pm.ParceledListSlice|",
+  "parameters_count": 8,
+  "parameters": {
+    "c97641c70b8a6675eee89379e1cb38c5": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:true"
+    ],
+    "6ce543d43dd9e552488a14eb202a05f7": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:false"
+    ],
+    "4d58303a67edccc131a4a77a76592f8f": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:true"
+    ],
+    "07d6836859e55bc8d9c5c753a50f5b7d": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:false"
+    ],
+    "8457ec1321ab948d2e515f23ceab8594": [
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:true"
+    ],
+    "e54805a9e38d5234916187ff4f1d10f6": [
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:false"
+    ],
+    "ee326a22c18ba45d14abf69373c765d7": [
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:true"
+    ],
+    "d582e569b65a296e948c02a00858e7c1": [
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:false"
+    ]
+  },
+  "parameters_done": {
+    "None:c97641c70b8a6675eee89379e1cb38c5": 2
+  },
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [
+    "com.android.server.notification.NotificationManagerService$10",
+    "com.android.server.notification.NotificationManagerService"
+  ],
+  "phase_name": "change_parameters",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 2,
+    "historical_service_not_invoked": 13,
+    "no_traces": 1,
+    "historical_no_traces": 2.4
+  },
+  "pids": [
+    "system_server:c97641c70b8a6675eee89379e1cb38c5"
+  ],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

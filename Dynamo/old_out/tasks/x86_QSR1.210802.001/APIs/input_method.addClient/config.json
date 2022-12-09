@@ -1,0 +1,31 @@
+{
+  "api": "input_method|addClient|com.android.internal.view.IInputMethodClient,com.android.internal.view.IInputContext,I|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "dbb5468f1a0540a215e3ed18463d0c0f": [
+      "OBJ:com.android.internal.view.IInputMethodClient",
+      "OBJ:com.android.internal.view.IInputContext",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "31ce7f84e0dc23154eba627190d03c00": [
+      "OBJ:com.android.internal.view.IInputMethodClient",
+      "OBJ:com.android.internal.view.IInputContext",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

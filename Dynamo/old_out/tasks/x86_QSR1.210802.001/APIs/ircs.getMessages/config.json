@@ -1,0 +1,29 @@
+{
+  "api": "ircs|getMessages|android.telephony.ims.RcsMessageQueryParams,java.lang.String|android.telephony.ims.RcsMessageQueryResultParcelable|",
+  "parameters_count": 2,
+  "parameters": {
+    "8ee91d54ea457780f63d224cb2b77097": [
+      "OBJ:android.telephony.ims.RcsMessageQueryParams",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "2b3869413f811a64275bdc3d8fefd39b": [
+      "OBJ:android.telephony.ims.RcsMessageQueryParams",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

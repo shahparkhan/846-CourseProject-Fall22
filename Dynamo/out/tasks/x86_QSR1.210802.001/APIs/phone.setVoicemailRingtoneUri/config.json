@@ -1,0 +1,41 @@
+{
+  "api": "phone|setVoicemailRingtoneUri|java.lang.String,android.telecom.PhoneAccountHandle,android.net.Uri|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "30c7077569447e10239bfae6430782a3": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.telecom.PhoneAccountHandle",
+      "URI:content://user_dictionary/words"
+    ],
+    "dfc8b5189aa738e579b6ca56b42fcea9": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.telecom.PhoneAccountHandle",
+      "URI:content://com.android.contacts/contacts/lookup/0"
+    ],
+    "efd5ec9d04220f56044af6c9f2f0cad8": [
+      "S:com.android.systemui",
+      "OBJ:android.telecom.PhoneAccountHandle",
+      "URI:content://user_dictionary/words"
+    ],
+    "b75ae06248ffab0079494985dbd89f77": [
+      "S:com.android.systemui",
+      "OBJ:android.telecom.PhoneAccountHandle",
+      "URI:content://com.android.contacts/contacts/lookup/0"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

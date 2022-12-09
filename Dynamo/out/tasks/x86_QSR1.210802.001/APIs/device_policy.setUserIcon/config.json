@@ -1,0 +1,29 @@
+{
+  "api": "device_policy|setUserIcon|android.content.ComponentName,android.graphics.Bitmap|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "7241387da0756ddf41aad1b7bfd657fc": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.graphics.Bitmap"
+    ],
+    "6c161386f63186edb7ab83ced04902d6": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.graphics.Bitmap"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

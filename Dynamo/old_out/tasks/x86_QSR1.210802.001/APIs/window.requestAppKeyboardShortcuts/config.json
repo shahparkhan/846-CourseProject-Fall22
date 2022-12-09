@@ -1,0 +1,29 @@
+{
+  "api": "window|requestAppKeyboardShortcuts|com.android.internal.os.IResultReceiver,I|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "c03dc0028c74611adcf1785fad60ae26": [
+      "OBJ:com.android.internal.os.IResultReceiver",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "f9530c2d062963aa0b9f8bac0e160dbb": [
+      "OBJ:com.android.internal.os.IResultReceiver",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

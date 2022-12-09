@@ -1,0 +1,33 @@
+{
+  "api": "activity_task|requestAutofillData|android.app.IAssistDataReceiver,android.os.Bundle,android.os.IBinder,I|Z|",
+  "parameters_count": 2,
+  "parameters": {
+    "d8d2fcc2e88bc11f9ffa6c3f55aad39f": [
+      "OBJ:android.app.IAssistDataReceiver",
+      "OBJ:android.os.Bundle",
+      "OBJ:android.os.IBinder",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "2458cc43fdc3c0584a703f15f4c099fc": [
+      "OBJ:android.app.IAssistDataReceiver",
+      "OBJ:android.os.Bundle",
+      "OBJ:android.os.IBinder",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

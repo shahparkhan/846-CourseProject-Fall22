@@ -1,0 +1,41 @@
+{
+  "api": "window|setResizeDimLayer|Z,I,F|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "d62ed773c30f1d87f12256dfd44537d0": [
+      "B:true",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:F"
+    ],
+    "da98f701f1e7933c4390136d28e838f8": [
+      "B:true",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:F"
+    ],
+    "309d30ef2263c2fcd8b7866583094aa0": [
+      "B:false",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:F"
+    ],
+    "7b600871a50854c16451860689cc2de5": [
+      "B:false",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:F"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

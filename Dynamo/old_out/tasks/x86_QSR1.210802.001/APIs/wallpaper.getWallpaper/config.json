@@ -1,0 +1,77 @@
+{
+  "api": "wallpaper|getWallpaper|java.lang.String,android.app.IWallpaperManagerCallback,I,android.os.Bundle,I|android.os.ParcelFileDescriptor|",
+  "parameters_count": 8,
+  "parameters": {
+    "eb61047c2d3fc108c21158bdb3453942": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.app.IWallpaperManagerCallback",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.Bundle",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "83eb243e7f3e8ea16e6fb2b8a22634c1": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.app.IWallpaperManagerCallback",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.Bundle",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "d82ab7206c79642b6e6b3dc138fbabaa": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.app.IWallpaperManagerCallback",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.Bundle",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "a332c2e0aef14dcdc24f8275ffb38334": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.app.IWallpaperManagerCallback",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.Bundle",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "9fc3f99eba3e89eafee72d66b5f3fba0": [
+      "S:com.android.systemui",
+      "OBJ:android.app.IWallpaperManagerCallback",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.Bundle",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "7f28e68830fedf9ae3121b018772f721": [
+      "S:com.android.systemui",
+      "OBJ:android.app.IWallpaperManagerCallback",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.Bundle",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "0dc1337e51eeab56918ad2dd2b060aa6": [
+      "S:com.android.systemui",
+      "OBJ:android.app.IWallpaperManagerCallback",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.Bundle",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "88cc47d38df8e846c5a15c31c7cd19d5": [
+      "S:com.android.systemui",
+      "OBJ:android.app.IWallpaperManagerCallback",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.Bundle",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,41 @@
+{
+  "api": "connectivity|getNetworkInfoForUid|android.net.Network,I,Z|android.net.NetworkInfo|",
+  "parameters_count": 4,
+  "parameters": {
+    "9393c2b6ec527ae5c0e2693f58e14176": [
+      "OBJ:android.net.Network",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:true"
+    ],
+    "9a0e0ba282c29a864d70ce6fd85a4d35": [
+      "OBJ:android.net.Network",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:false"
+    ],
+    "276513abbbf9b976c8119e63aafcfa11": [
+      "OBJ:android.net.Network",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:true"
+    ],
+    "a779311e67ba22ed33ad5a36bfb2fda2": [
+      "OBJ:android.net.Network",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:false"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

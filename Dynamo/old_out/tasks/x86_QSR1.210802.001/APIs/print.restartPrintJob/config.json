@@ -1,0 +1,41 @@
+{
+  "api": "print|restartPrintJob|android.print.PrintJobId,I,I|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "fba052497566e966e4f778a54cda6245": [
+      "OBJ:android.print.PrintJobId",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "0b5e78e0b009e0f37a7773f4c876edc6": [
+      "OBJ:android.print.PrintJobId",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "524d788c520adaf92f85c0e530e0a0b8": [
+      "OBJ:android.print.PrintJobId",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "85dc6830bd2f657217657c7d60238980": [
+      "OBJ:android.print.PrintJobId",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

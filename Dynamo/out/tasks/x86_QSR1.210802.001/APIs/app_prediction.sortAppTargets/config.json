@@ -1,0 +1,26 @@
+{
+  "api": "app_prediction|sortAppTargets|android.app.prediction.AppPredictionSessionId,android.content.pm.ParceledListSlice,android.app.prediction.IPredictionCallback|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "e7fbb7a3efa35b172e4156bdfc3ed57f": [
+      "OBJ:android.app.prediction.AppPredictionSessionId",
+      "OBJ:android.content.pm.ParceledListSlice",
+      "OBJ:android.app.prediction.IPredictionCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

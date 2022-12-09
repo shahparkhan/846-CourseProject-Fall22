@@ -1,0 +1,69 @@
+{
+  "api": "audio|setBluetoothHearingAidDeviceConnectionState|android.bluetooth.BluetoothDevice,I,Z,I|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "43076323922a631b5860b94f10c953a4": [
+      "OBJ:android.bluetooth.BluetoothDevice",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:true",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "42b462470aaabcbd2877de012575085e": [
+      "OBJ:android.bluetooth.BluetoothDevice",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:true",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "01ed64c868aeacdab654a0b6cdcba540": [
+      "OBJ:android.bluetooth.BluetoothDevice",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:false",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "bad41cf22b40757c4c478f8b1cdd131b": [
+      "OBJ:android.bluetooth.BluetoothDevice",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:false",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "b6b4d8b960a56e51ae8ea0b5c9e61a2e": [
+      "OBJ:android.bluetooth.BluetoothDevice",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:true",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "fbc3b8a2fb8c9fd78ad381e086c0dac9": [
+      "OBJ:android.bluetooth.BluetoothDevice",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:true",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "12e7523c3531f4eacdbfda82e8dbd3be": [
+      "OBJ:android.bluetooth.BluetoothDevice",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:false",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "1caf8c4281baf9e532f62f0a0a6d6c60": [
+      "OBJ:android.bluetooth.BluetoothDevice",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:false",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

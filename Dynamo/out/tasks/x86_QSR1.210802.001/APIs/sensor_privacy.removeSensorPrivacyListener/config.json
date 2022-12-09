@@ -1,0 +1,24 @@
+{
+  "api": "sensor_privacy|removeSensorPrivacyListener|android.hardware.ISensorPrivacyListener|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "db699645c7896846b8e591abe18ab91d": [
+      "OBJ:android.hardware.ISensorPrivacyListener"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

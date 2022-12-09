@@ -1,0 +1,29 @@
+{
+  "api": "connmetrics|addNetdEventCallback|I,android.net.INetdEventCallback|Z|",
+  "parameters_count": 2,
+  "parameters": {
+    "4f2b45fd7fd188d4c0feb5935a3f0a99": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.net.INetdEventCallback"
+    ],
+    "36802ef93b9605ce0de27434159bcd77": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.net.INetdEventCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

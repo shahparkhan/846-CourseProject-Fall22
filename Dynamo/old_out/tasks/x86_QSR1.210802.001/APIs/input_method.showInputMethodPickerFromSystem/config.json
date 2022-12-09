@@ -1,0 +1,41 @@
+{
+  "api": "input_method|showInputMethodPickerFromSystem|com.android.internal.view.IInputMethodClient,I,I|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "67cb11da8582afcf529cbab7ab85cebd": [
+      "OBJ:com.android.internal.view.IInputMethodClient",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "cd241a125143e24577cb02c3aa8372c3": [
+      "OBJ:com.android.internal.view.IInputMethodClient",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "3c5c0ae655063bb37c090a3de8321a8e": [
+      "OBJ:com.android.internal.view.IInputMethodClient",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "a4ceb8cd47b0c045427559ca20426afa": [
+      "OBJ:com.android.internal.view.IInputMethodClient",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

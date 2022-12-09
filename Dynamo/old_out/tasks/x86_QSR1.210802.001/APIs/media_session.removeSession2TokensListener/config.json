@@ -1,0 +1,24 @@
+{
+  "api": "media_session|removeSession2TokensListener|android.media.session.ISession2TokensListener|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "bb715b4f286d693572049260ef58714a": [
+      "OBJ:android.media.session.ISession2TokensListener"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

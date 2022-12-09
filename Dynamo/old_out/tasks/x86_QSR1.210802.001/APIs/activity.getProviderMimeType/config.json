@@ -1,0 +1,37 @@
+{
+  "api": "activity|getProviderMimeType|android.net.Uri,I|java.lang.String|",
+  "parameters_count": 4,
+  "parameters": {
+    "f28fc52a1b51a8c1c0337c747810c31f": [
+      "URI:content://user_dictionary/words",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "69e9dad2ba1f4023600eb3d4bb4a22c2": [
+      "URI:content://user_dictionary/words",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "bf52fda3fb475a8424253b1a01bf1d9f": [
+      "URI:content://com.android.contacts/contacts/lookup/0",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "27c1503928fe24004a07715e6705ff1d": [
+      "URI:content://com.android.contacts/contacts/lookup/0",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

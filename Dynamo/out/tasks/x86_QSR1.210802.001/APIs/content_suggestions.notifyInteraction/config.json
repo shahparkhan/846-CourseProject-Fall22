@@ -1,0 +1,41 @@
+{
+  "api": "content_suggestions|notifyInteraction|I,java.lang.String,android.os.Bundle|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "df65522f2daf3eaec5465d2e88fd9f99": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.Bundle"
+    ],
+    "05b784cd0958664fadb92446726ee4ad": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "OBJ:android.os.Bundle"
+    ],
+    "da4bcd7fd339d637707a5d6cbb6ec218": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.Bundle"
+    ],
+    "7117cc8cd09492d856069652abada6be": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "OBJ:android.os.Bundle"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

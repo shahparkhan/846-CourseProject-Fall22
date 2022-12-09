@@ -1,0 +1,24 @@
+{
+  "api": "voiceinteraction|getDspModuleProperties|android.service.voice.IVoiceInteractionService|android.hardware.soundtrigger.SoundTrigger.ModuleProperties|",
+  "parameters_count": 1,
+  "parameters": {
+    "7e86a9865b5b236f257a788b8feb7092": [
+      "OBJ:android.service.voice.IVoiceInteractionService"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

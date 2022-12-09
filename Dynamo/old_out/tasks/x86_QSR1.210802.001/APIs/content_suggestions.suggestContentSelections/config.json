@@ -1,0 +1,31 @@
+{
+  "api": "content_suggestions|suggestContentSelections|I,android.app.contentsuggestions.SelectionsRequest,android.app.contentsuggestions.ISelectionsCallback|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "4738a5d6556f61880c7754f14ec904f9": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.app.contentsuggestions.SelectionsRequest",
+      "OBJ:android.app.contentsuggestions.ISelectionsCallback"
+    ],
+    "b1a5c7a830f0c9934c34e2769adb2ade": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.app.contentsuggestions.SelectionsRequest",
+      "OBJ:android.app.contentsuggestions.ISelectionsCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

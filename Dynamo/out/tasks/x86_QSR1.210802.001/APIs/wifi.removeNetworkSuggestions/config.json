@@ -1,0 +1,29 @@
+{
+  "api": "wifi|removeNetworkSuggestions|java.util.List,java.lang.String|I|",
+  "parameters_count": 2,
+  "parameters": {
+    "b6436cbe35c300b8a131b8345c0728ac": [
+      "OBJ:java.util.List",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "ade92c5ca68c2c0e8242ef283c12b332": [
+      "OBJ:java.util.List",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

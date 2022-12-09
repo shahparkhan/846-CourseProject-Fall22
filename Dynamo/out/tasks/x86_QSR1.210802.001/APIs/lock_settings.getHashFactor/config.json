@@ -1,0 +1,29 @@
+{
+  "api": "lock_settings|getHashFactor|B[],I|b[]|",
+  "parameters_count": 2,
+  "parameters": {
+    "516e576bf208a1e8bcee5c8b8f2d8227": [
+      "OBJ:B[]",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "2b9b00ab74b16720424219f2cfbe34b8": [
+      "OBJ:B[]",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

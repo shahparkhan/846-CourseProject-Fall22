@@ -1,0 +1,25 @@
+{
+  "api": "activity_task|resizePinnedStack|android.graphics.Rect,android.graphics.Rect|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "6c89c1161b1b038c8cbbce40ec56ad38": [
+      "OBJ:android.graphics.Rect",
+      "OBJ:android.graphics.Rect"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

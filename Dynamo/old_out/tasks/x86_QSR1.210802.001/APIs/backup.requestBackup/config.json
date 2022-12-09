@@ -1,0 +1,33 @@
+{
+  "api": "backup|requestBackup|java.lang.String[],android.app.backup.IBackupObserver,android.app.backup.IBackupManagerMonitor,I|I|",
+  "parameters_count": 2,
+  "parameters": {
+    "36052bde76601919904f8219c9167ddb": [
+      "OBJ:java.lang.String[]",
+      "OBJ:android.app.backup.IBackupObserver",
+      "OBJ:android.app.backup.IBackupManagerMonitor",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "8c64e472228fc12e3aed6717a4265dd2": [
+      "OBJ:java.lang.String[]",
+      "OBJ:android.app.backup.IBackupObserver",
+      "OBJ:android.app.backup.IBackupManagerMonitor",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

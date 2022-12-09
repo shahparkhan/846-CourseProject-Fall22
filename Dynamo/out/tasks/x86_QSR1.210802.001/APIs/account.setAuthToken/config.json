@@ -1,0 +1,41 @@
+{
+  "api": "account|setAuthToken|android.accounts.Account,java.lang.String,java.lang.String|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "185f59ff9efbc38776cce1fdc0e2964a": [
+      "OBJ:android.accounts.Account",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "b3fa2e33f6fab090516d8b79768465ad": [
+      "OBJ:android.accounts.Account",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui"
+    ],
+    "44c3538a33fbdacdc5cb76d7fce0ff61": [
+      "OBJ:android.accounts.Account",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "57c81dae11e5ee46c78de99cb5c861a1": [
+      "OBJ:android.accounts.Account",
+      "S:com.android.systemui",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

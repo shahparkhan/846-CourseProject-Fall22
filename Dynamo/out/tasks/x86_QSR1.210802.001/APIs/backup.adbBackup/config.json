@@ -1,0 +1,73 @@
+{
+  "api": "backup|adbBackup|I,android.os.ParcelFileDescriptor,Z,Z,Z,Z,Z,Z,Z,Z,java.lang.String[]|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "897d3886fdc8df9f30a51944c863de01": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.ParcelFileDescriptor",
+      "B:true",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:2",
+      "OBJ:java.lang.String[]"
+    ],
+    "b4a47a2c28e40e2cd4e364fc4cbab006": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.ParcelFileDescriptor",
+      "B:false",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:2",
+      "OBJ:java.lang.String[]"
+    ],
+    "efb0ffbbeb7d4df6026f302813b067c9": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.ParcelFileDescriptor",
+      "B:true",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:2",
+      "OBJ:java.lang.String[]"
+    ],
+    "cd3958eacaf98f3e8b87cbeaf147076f": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.ParcelFileDescriptor",
+      "B:false",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:2",
+      "OBJ:java.lang.String[]"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

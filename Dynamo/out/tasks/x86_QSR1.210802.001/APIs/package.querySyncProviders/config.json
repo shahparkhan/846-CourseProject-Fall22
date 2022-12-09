@@ -1,0 +1,25 @@
+{
+  "api": "package|querySyncProviders|java.util.List,java.util.List|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "a2656c43be20997a5362b147a21144dc": [
+      "OBJ:java.util.List",
+      "OBJ:java.util.List"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

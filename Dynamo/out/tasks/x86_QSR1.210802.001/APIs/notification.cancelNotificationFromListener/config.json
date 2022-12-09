@@ -1,0 +1,84 @@
+{
+  "api": "notification|cancelNotificationFromListener|android.service.notification.INotificationListener,java.lang.String,java.lang.String,I|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "fa94cbcf523f37184d3663549fab15eb": [
+      "OBJ:android.service.notification.INotificationListener",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "eec84ad340919978cf9f3ddf864c9da2": [
+      "OBJ:android.service.notification.INotificationListener",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "b78f214dbe64d43f5840d5af6532d45d": [
+      "OBJ:android.service.notification.INotificationListener",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "f7ac25ba49d2ab1eb9d6b7f8591ec5cf": [
+      "OBJ:android.service.notification.INotificationListener",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "ad593576c749333730cb026d9f748443": [
+      "OBJ:android.service.notification.INotificationListener",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "1de6e25a374a39b09dc87af00c0835b6": [
+      "OBJ:android.service.notification.INotificationListener",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "ce0f772912674eabb15cbcab949f7986": [
+      "OBJ:android.service.notification.INotificationListener",
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "fe72d4b1776701264af6da37f1fc7d8e": [
+      "OBJ:android.service.notification.INotificationListener",
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {
+    "None:fa94cbcf523f37184d3663549fab15eb": 2
+  },
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [
+    "com.android.server.notification.NotificationManagerService$10",
+    "com.android.server.notification.NotificationManagerService",
+    "com.android.server.notification.ManagedServices"
+  ],
+  "phase_name": "change_parameters",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 1,
+    "historical_service_not_invoked": 15,
+    "no_traces": 0,
+    "historical_no_traces": 0
+  },
+  "pids": [],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

@@ -1,0 +1,24 @@
+{
+  "api": "package|getHomeActivities|java.util.List|android.content.ComponentName|",
+  "parameters_count": 1,
+  "parameters": {
+    "b4ef8612d747bfa652026a97112a0a4a": [
+      "OBJ:java.util.List"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

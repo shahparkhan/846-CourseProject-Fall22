@@ -1,0 +1,24 @@
+{
+  "api": "accessibility|setPictureInPictureActionReplacingConnection|android.view.accessibility.IAccessibilityInteractionConnection|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "55b192ba822cc474de7b7e3a5bd58dad": [
+      "OBJ:android.view.accessibility.IAccessibilityInteractionConnection"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,45 @@
+{
+  "api": "audio|abandonAudioFocus|android.media.IAudioFocusDispatcher,java.lang.String,android.media.AudioAttributes,java.lang.String|I|",
+  "parameters_count": 4,
+  "parameters": {
+    "8059293bf68e370355967463278bb9c3": [
+      "OBJ:android.media.IAudioFocusDispatcher",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.media.AudioAttributes",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "d0295d4d29a93d781395ddfab441c0e6": [
+      "OBJ:android.media.IAudioFocusDispatcher",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.media.AudioAttributes",
+      "S:com.android.systemui"
+    ],
+    "14d060992060f2961abdedc5732dcb39": [
+      "OBJ:android.media.IAudioFocusDispatcher",
+      "S:com.android.systemui",
+      "OBJ:android.media.AudioAttributes",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "01cb5293f19c75c7b9bdb0f03fd830a4": [
+      "OBJ:android.media.IAudioFocusDispatcher",
+      "S:com.android.systemui",
+      "OBJ:android.media.AudioAttributes",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,26 @@
+{
+  "api": "connectivity|listenForNetwork|android.net.NetworkCapabilities,android.os.Messenger,android.os.IBinder|android.net.NetworkRequest|",
+  "parameters_count": 1,
+  "parameters": {
+    "940612970b6f74752ef0cdc4c701db4e": [
+      "OBJ:android.net.NetworkCapabilities",
+      "OBJ:android.os.Messenger",
+      "OBJ:android.os.IBinder"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

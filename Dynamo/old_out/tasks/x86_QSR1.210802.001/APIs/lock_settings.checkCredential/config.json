@@ -1,0 +1,45 @@
+{
+  "api": "lock_settings|checkCredential|B[],I,I,com.android.internal.widget.ICheckCredentialProgressCallback|com.android.internal.widget.VerifyCredentialResponse|",
+  "parameters_count": 4,
+  "parameters": {
+    "62352c35ac1c01e9ab3097246c7f0ebe": [
+      "OBJ:B[]",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:com.android.internal.widget.ICheckCredentialProgressCallback"
+    ],
+    "7e38325acc3ea40977706076c4301b20": [
+      "OBJ:B[]",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:com.android.internal.widget.ICheckCredentialProgressCallback"
+    ],
+    "641a82668414b6276b7f406d4f4d2cbd": [
+      "OBJ:B[]",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:com.android.internal.widget.ICheckCredentialProgressCallback"
+    ],
+    "96c0b159c5d0fa32317ac29c7641476f": [
+      "OBJ:B[]",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:com.android.internal.widget.ICheckCredentialProgressCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,24 @@
+{
+  "api": "audio|setVolumeController|android.media.IVolumeController|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "e418ce6e64fc9ce3132a654593d3babd": [
+      "OBJ:android.media.IVolumeController"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,29 @@
+{
+  "api": "device_policy|setSystemUpdatePolicy|android.content.ComponentName,android.app.admin.SystemUpdatePolicy|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "bf8d485dd3b554f19dc6e6814ccd6f0a": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.app.admin.SystemUpdatePolicy"
+    ],
+    "4485ad16d473c82a39c54a354c265fa4": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.app.admin.SystemUpdatePolicy"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

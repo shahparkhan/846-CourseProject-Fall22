@@ -1,0 +1,29 @@
+{
+  "api": "notification|setAutomaticZenRuleState|java.lang.String,android.service.notification.Condition|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "c17f78c27407cfa0ddbff9c563dc0a42": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.service.notification.Condition"
+    ],
+    "df7967e9a15e2090bc6cc613ee477808": [
+      "S:com.android.systemui",
+      "OBJ:android.service.notification.Condition"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

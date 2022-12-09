@@ -1,0 +1,77 @@
+{
+  "api": "shortcut|disableShortcuts|java.lang.String,java.util.List,java.lang.CharSequence,I,I|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "ced0740701bdca75b55ab107263b9964": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.util.List",
+      "OBJ:java.lang.CharSequence",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "adeec32079fdd456eb359a4550390b97": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.util.List",
+      "OBJ:java.lang.CharSequence",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "767b3edbf74a0e17b5a104f4a468e9ed": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.util.List",
+      "OBJ:java.lang.CharSequence",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "1671de61f344482fd1b7b51637df8412": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.util.List",
+      "OBJ:java.lang.CharSequence",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "35e86da957d2762a1b204d126546a4c8": [
+      "S:com.android.systemui",
+      "OBJ:java.util.List",
+      "OBJ:java.lang.CharSequence",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "5ba0ca6f071a3f93429ad12dc8f2c502": [
+      "S:com.android.systemui",
+      "OBJ:java.util.List",
+      "OBJ:java.lang.CharSequence",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "82713e397bd2ddaed0fc61fd91cb4065": [
+      "S:com.android.systemui",
+      "OBJ:java.util.List",
+      "OBJ:java.lang.CharSequence",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "92ee17f41883f7b42972ab51844b1f60": [
+      "S:com.android.systemui",
+      "OBJ:java.util.List",
+      "OBJ:java.lang.CharSequence",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,33 @@
+{
+  "api": "autofill|restoreSession|I,android.os.IBinder,android.os.IBinder,com.android.internal.os.IResultReceiver|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "f44fb22ba9d1da506e2b6c62677ee94f": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.IBinder",
+      "OBJ:android.os.IBinder",
+      "OBJ:com.android.internal.os.IResultReceiver"
+    ],
+    "c34f070c9afb4c3720e8c53a2aabe20a": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.IBinder",
+      "OBJ:android.os.IBinder",
+      "OBJ:com.android.internal.os.IResultReceiver"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

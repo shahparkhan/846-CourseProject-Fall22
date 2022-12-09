@@ -1,0 +1,41 @@
+{
+  "api": "location|setTestProviderLocation|java.lang.String,android.location.Location,java.lang.String|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "a99f3cf75ab3910d3c8e44de08e514e2": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.location.Location",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "481618cfc68aff3781c60fe0f0bb8561": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.location.Location",
+      "S:com.android.systemui"
+    ],
+    "a060f8c31e93dd41a55a37996c9ebbd1": [
+      "S:com.android.systemui",
+      "OBJ:android.location.Location",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "d0a50c16f0117daa3923f3a488f3fe8b": [
+      "S:com.android.systemui",
+      "OBJ:android.location.Location",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

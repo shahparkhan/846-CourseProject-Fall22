@@ -1,0 +1,41 @@
+{
+  "api": "ipsec|allocateSecurityParameterIndex|java.lang.String,I,android.os.IBinder|android.net.IpSecSpiResponse|",
+  "parameters_count": 4,
+  "parameters": {
+    "a221e9bb03ecb718bf79eb6d0b76cc9b": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.IBinder"
+    ],
+    "c02091fec0bb6eb1010986aacd68796b": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.IBinder"
+    ],
+    "3506d794b9bee9c6962dabfc5becb8c1": [
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.IBinder"
+    ],
+    "e34266b867a89ef9ff586a6929b22df4": [
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.IBinder"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

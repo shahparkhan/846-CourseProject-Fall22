@@ -1,0 +1,45 @@
+{
+  "api": "media_session|dispatchVolumeKeyEventToSessionAsSystemService|java.lang.String,java.lang.String,android.media.session.MediaSession.Token,android.view.KeyEvent|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "bc5eaee04ffeb925424c1e8172d52949": [
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.media.session.MediaSession.Token",
+      "OBJ:android.view.KeyEvent"
+    ],
+    "23f33350e4f502301a1c152e1c9dcc95": [
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "OBJ:android.media.session.MediaSession.Token",
+      "OBJ:android.view.KeyEvent"
+    ],
+    "8aeb95850e5f8f42f68794c58dd142f1": [
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.media.session.MediaSession.Token",
+      "OBJ:android.view.KeyEvent"
+    ],
+    "bf297da1d4f27acf8e33f02d3db48e97": [
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "OBJ:android.media.session.MediaSession.Token",
+      "OBJ:android.view.KeyEvent"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

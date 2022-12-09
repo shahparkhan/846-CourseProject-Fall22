@@ -1,0 +1,29 @@
+{
+  "api": "package|deleteApplicationCacheFiles|java.lang.String,android.content.pm.IPackageDataObserver|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "cff5e7e5ec07a52fc01a606412f90203": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.content.pm.IPackageDataObserver"
+    ],
+    "09bbef04ce5c713c71fa859d02b048df": [
+      "S:com.android.systemui",
+      "OBJ:android.content.pm.IPackageDataObserver"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

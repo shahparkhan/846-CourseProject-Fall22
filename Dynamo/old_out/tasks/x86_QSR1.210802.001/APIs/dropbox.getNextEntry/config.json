@@ -1,0 +1,41 @@
+{
+  "api": "dropbox|getNextEntry|java.lang.String,J,java.lang.String|android.os.DropBoxManager.Entry|",
+  "parameters_count": 4,
+  "parameters": {
+    "f07ba33f939a6c022f6da2b87b3d55fb": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:J",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "8b2f3d270b9220bf05cdabb22d79ebcc": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:J",
+      "S:com.android.systemui"
+    ],
+    "f238aa9d7ae2f4516a4e866630436dbe": [
+      "S:com.android.systemui",
+      "OBJ:J",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "0af7b8bd895f66542b562437fe12b3ec": [
+      "S:com.android.systemui",
+      "OBJ:J",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

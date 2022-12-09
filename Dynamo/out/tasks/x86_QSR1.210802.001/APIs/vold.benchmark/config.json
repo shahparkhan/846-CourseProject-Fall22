@@ -1,0 +1,29 @@
+{
+  "api": "vold|benchmark|java.lang.String,android.os.IVoldTaskListener|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "a04366f7bc804bd054ad6e2544017189": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.IVoldTaskListener"
+    ],
+    "8fe015f4cbfda1a503720970e4cfe8d3": [
+      "S:com.android.systemui",
+      "OBJ:android.os.IVoldTaskListener"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

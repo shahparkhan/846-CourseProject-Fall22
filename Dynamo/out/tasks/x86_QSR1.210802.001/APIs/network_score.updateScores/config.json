@@ -1,0 +1,24 @@
+{
+  "api": "network_score|updateScores|android.net.ScoredNetwork[]|Z|",
+  "parameters_count": 1,
+  "parameters": {
+    "03a924bcc08e10c25f5b671dd5e47ee3": [
+      "OBJ:android.net.ScoredNetwork[]"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

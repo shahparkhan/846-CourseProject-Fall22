@@ -1,0 +1,24 @@
+{
+  "api": "activity_task|releaseSomeActivities|android.app.IApplicationThread|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "0aa8e337c2f951ccff34a638f0b9cf7f": [
+      "OBJ:android.app.IApplicationThread"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

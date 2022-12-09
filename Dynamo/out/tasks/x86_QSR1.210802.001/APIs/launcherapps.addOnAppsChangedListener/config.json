@@ -1,0 +1,29 @@
+{
+  "api": "launcherapps|addOnAppsChangedListener|java.lang.String,android.content.pm.IOnAppsChangedListener|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "98d9cdae8ddd9af6ec4e6ed2e2c42c5c": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.content.pm.IOnAppsChangedListener"
+    ],
+    "5b4c3c5077965a1ea59ef2ceb3795658": [
+      "S:com.android.systemui",
+      "OBJ:android.content.pm.IOnAppsChangedListener"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

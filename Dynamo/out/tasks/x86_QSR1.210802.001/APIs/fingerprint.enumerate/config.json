@@ -1,0 +1,31 @@
+{
+  "api": "fingerprint|enumerate|android.os.IBinder,I,android.hardware.fingerprint.IFingerprintServiceReceiver|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "57bfd370067340cce763fb1ad570ddc1": [
+      "OBJ:android.os.IBinder",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.hardware.fingerprint.IFingerprintServiceReceiver"
+    ],
+    "9ea64c26210262c98529035fb84716a0": [
+      "OBJ:android.os.IBinder",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.hardware.fingerprint.IFingerprintServiceReceiver"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

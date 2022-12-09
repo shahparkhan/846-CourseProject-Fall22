@@ -1,0 +1,24 @@
+{
+  "api": "network_score|requestScores|android.net.NetworkKey[]|Z|",
+  "parameters_count": 1,
+  "parameters": {
+    "538955a5098e4a5307a15e965f138b48": [
+      "OBJ:android.net.NetworkKey[]"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,24 @@
+{
+  "api": "netpolicy|setNetworkPolicies|android.net.NetworkPolicy[]|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "e333bb16dbbec393fb43c7d841131ecb": [
+      "OBJ:android.net.NetworkPolicy[]"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

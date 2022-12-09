@@ -1,0 +1,29 @@
+{
+  "api": "restrictions|notifyPermissionResponse|java.lang.String,android.os.PersistableBundle|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "90b58ef6feda2bdfe46be885b7a74c3d": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.PersistableBundle"
+    ],
+    "d00644e643023797a7c290a772b71f73": [
+      "S:com.android.systemui",
+      "OBJ:android.os.PersistableBundle"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

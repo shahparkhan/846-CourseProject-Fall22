@@ -1,0 +1,29 @@
+{
+  "api": "vold|fstrim|I,android.os.IVoldTaskListener|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "d35266c9acca9ad8689ecf2a8282e5cb": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.IVoldTaskListener"
+    ],
+    "c8524afb5ccbde9cce1c71a1ff0b9bb4": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.IVoldTaskListener"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,57 @@
+{
+  "api": "usagestats|registerUsageSessionObserver|I,java.lang.String[],J,J,android.app.PendingIntent,android.app.PendingIntent,java.lang.String|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "0986daa68b5687ce454bf81abc7bc963": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:java.lang.String[]",
+      "OBJ:J",
+      "OBJ:J",
+      "OBJ:android.app.PendingIntent",
+      "OBJ:android.app.PendingIntent",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "65a1cdae96ff9026ea5efdf38a5fc95e": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:java.lang.String[]",
+      "OBJ:J",
+      "OBJ:J",
+      "OBJ:android.app.PendingIntent",
+      "OBJ:android.app.PendingIntent",
+      "S:com.android.systemui"
+    ],
+    "df058e201b20e6c7fa0523ab168d873b": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:java.lang.String[]",
+      "OBJ:J",
+      "OBJ:J",
+      "OBJ:android.app.PendingIntent",
+      "OBJ:android.app.PendingIntent",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "03f789f9c85cd4c52e75b27451c5acda": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:java.lang.String[]",
+      "OBJ:J",
+      "OBJ:J",
+      "OBJ:android.app.PendingIntent",
+      "OBJ:android.app.PendingIntent",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

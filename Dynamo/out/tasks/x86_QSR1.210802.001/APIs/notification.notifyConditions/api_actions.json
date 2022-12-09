@@ -1,0 +1,247 @@
+{
+  "notification": {
+    "notifyConditions": {
+      "ordered_iterations": [
+        {
+          "execution_outcome": {
+            "returns": true,
+            "output": "null",
+            "exception": "null"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": false,
+          "exception": {
+            "is_security": true,
+            "data": {
+              "type": "java.lang.SecurityException.<init>(Native Method)",
+              "location": "com.android.server.notification.ManagedServices.checkServiceTokenLocked(ManagedServices.java:664)",
+              "message": "Disallowed call from unknown condition provider: android.service.notification.IConditionProvider$Stub$Proxy@86829d8 class android.service.notification.IConditionProvider$Stub$Proxy"
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.notification.NotificationManagerService$10",
+            "com.android.server.notification.NotificationManagerService",
+            "com.android.server.notification.ConditionProviders",
+            "com.android.server.notification.ManagedServices"
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "EXCEPTION::Disallowed call from unknown condition provider: android.service.notification.IConditionProvider$Stub$Proxyclass android.service.notification.IConditionProvider$Stub$Proxy "
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "d801a1eee47d4c6d810da6eb862875d8",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.SecurityException.<init>(Native Method)\ncom.android.server.notification.ManagedServices.checkServiceTokenLocked(ManagedServices.java:664)\ncom.android.server.notification.ConditionProviders.checkServiceToken(ConditionProviders.java:202)\ncom.android.server.notification.NotificationManagerService$10.notifyConditions(NotificationManagerService.java:3547)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:2334)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(Disallowed call from unknown condition provider: android.service.notification.IConditionProvider$Stub$Proxy@86829d8 class android.service.notification.IConditionProvider$Stub$Proxy) = undefined",
+              "callstack": "$init(D, i, s, a, l, l, o, w, e, d,  , c, a, l, l,  , f, r, o, m,  , u, n, k, n, o, w, n,  , c, o, n, d, i, t, i, o, n,  , p, r, o, v, i, d, e, r, :,  , a, n, d, r, o, i, d, ., s, e, r, v, i, c, e, ., n, o, t, i, f, i, c, a, t, i, o, n, ., I, C, o, n, d, i, t, i, o, n, P, r, o, v, i, d, e, r, $, S, t, u, b, $, P, r, o, x, y, @, 8, 6, 8, 2, 9, d, 8,  , c, l, a, s, s,  , a, n, d, r, o, i, d, ., s, e, r, v, i, c, e, ., n, o, t, i, f, i, c, a, t, i, o, n, ., I, C, o, n, d, i, t, i, o, n, P, r, o, v, i, d, e, r, $, S, t, u, b, $, P, r, o, x, y) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.SecurityException.<init>(Native Method)\ncom.android.server.notification.ManagedServices.checkServiceTokenLocked(ManagedServices.java:664)\ncom.android.server.notification.ConditionProviders.checkServiceToken(ConditionProviders.java:202)\ncom.android.server.notification.NotificationManagerService$10.notifyConditions(NotificationManagerService.java:3547)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:2334)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        },
+        {
+          "execution_outcome": {
+            "returns": true,
+            "output": "null",
+            "exception": "null"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": false,
+          "exception": {
+            "is_security": true,
+            "data": {
+              "type": "java.lang.SecurityException.<init>(Native Method)",
+              "location": "com.android.server.notification.ManagedServices.checkServiceTokenLocked(ManagedServices.java:664)",
+              "message": "Disallowed call from unknown condition provider: android.service.notification.IConditionProvider$Stub$Proxy@e724f55 class android.service.notification.IConditionProvider$Stub$Proxy"
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.notification.NotificationManagerService$10",
+            "com.android.server.notification.NotificationManagerService",
+            "com.android.server.notification.ConditionProviders",
+            "com.android.server.notification.ManagedServices"
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "EXCEPTION::Disallowed call from unknown condition provider: android.service.notification.IConditionProvider$Stub$Proxyclass android.service.notification.IConditionProvider$Stub$Proxy "
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "d801a1eee47d4c6d810da6eb862875d8",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.SecurityException.<init>(Native Method)\ncom.android.server.notification.ManagedServices.checkServiceTokenLocked(ManagedServices.java:664)\ncom.android.server.notification.ConditionProviders.checkServiceToken(ConditionProviders.java:202)\ncom.android.server.notification.NotificationManagerService$10.notifyConditions(NotificationManagerService.java:3547)\ncom.android.server.notification.NotificationManagerService$10.notifyConditions(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:2334)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(Disallowed call from unknown condition provider: android.service.notification.IConditionProvider$Stub$Proxy@e724f55 class android.service.notification.IConditionProvider$Stub$Proxy) = undefined",
+              "callstack": "$init(D, i, s, a, l, l, o, w, e, d,  , c, a, l, l,  , f, r, o, m,  , u, n, k, n, o, w, n,  , c, o, n, d, i, t, i, o, n,  , p, r, o, v, i, d, e, r, :,  , a, n, d, r, o, i, d, ., s, e, r, v, i, c, e, ., n, o, t, i, f, i, c, a, t, i, o, n, ., I, C, o, n, d, i, t, i, o, n, P, r, o, v, i, d, e, r, $, S, t, u, b, $, P, r, o, x, y, @, e, 7, 2, 4, f, 5, 5,  , c, l, a, s, s,  , a, n, d, r, o, i, d, ., s, e, r, v, i, c, e, ., n, o, t, i, f, i, c, a, t, i, o, n, ., I, C, o, n, d, i, t, i, o, n, P, r, o, v, i, d, e, r, $, S, t, u, b, $, P, r, o, x, y) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.SecurityException.<init>(Native Method)\ncom.android.server.notification.ManagedServices.checkServiceTokenLocked(ManagedServices.java:664)\ncom.android.server.notification.ConditionProviders.checkServiceToken(ConditionProviders.java:202)\ncom.android.server.notification.NotificationManagerService$10.notifyConditions(NotificationManagerService.java:3547)\ncom.android.server.notification.NotificationManagerService$10.notifyConditions(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:2334)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        },
+        {
+          "execution_outcome": {
+            "returns": true,
+            "output": "null",
+            "exception": "null"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": false,
+          "exception": {
+            "is_security": true,
+            "data": {
+              "type": "java.lang.SecurityException.<init>(Native Method)",
+              "location": "com.android.server.notification.ManagedServices.checkServiceTokenLocked(ManagedServices.java:664)",
+              "message": "Disallowed call from unknown condition provider: android.service.notification.IConditionProvider$Stub$Proxy@85021b6 class android.service.notification.IConditionProvider$Stub$Proxy"
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.notification.NotificationManagerService$10",
+            "com.android.server.notification.NotificationManagerService",
+            "com.android.server.notification.ConditionProviders",
+            "com.android.server.notification.ManagedServices"
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "EXCEPTION::Disallowed call from unknown condition provider: android.service.notification.IConditionProvider$Stub$Proxyclass android.service.notification.IConditionProvider$Stub$Proxy "
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "d801a1eee47d4c6d810da6eb862875d8",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.SecurityException.<init>(Native Method)\ncom.android.server.notification.ManagedServices.checkServiceTokenLocked(ManagedServices.java:664)\ncom.android.server.notification.ConditionProviders.checkServiceToken(ConditionProviders.java:202)\ncom.android.server.notification.NotificationManagerService$10.notifyConditions(NotificationManagerService.java:3547)\ncom.android.server.notification.NotificationManagerService$10.notifyConditions(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:2334)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(Disallowed call from unknown condition provider: android.service.notification.IConditionProvider$Stub$Proxy@85021b6 class android.service.notification.IConditionProvider$Stub$Proxy) = undefined",
+              "callstack": "$init(D, i, s, a, l, l, o, w, e, d,  , c, a, l, l,  , f, r, o, m,  , u, n, k, n, o, w, n,  , c, o, n, d, i, t, i, o, n,  , p, r, o, v, i, d, e, r, :,  , a, n, d, r, o, i, d, ., s, e, r, v, i, c, e, ., n, o, t, i, f, i, c, a, t, i, o, n, ., I, C, o, n, d, i, t, i, o, n, P, r, o, v, i, d, e, r, $, S, t, u, b, $, P, r, o, x, y, @, 8, 5, 0, 2, 1, b, 6,  , c, l, a, s, s,  , a, n, d, r, o, i, d, ., s, e, r, v, i, c, e, ., n, o, t, i, f, i, c, a, t, i, o, n, ., I, C, o, n, d, i, t, i, o, n, P, r, o, v, i, d, e, r, $, S, t, u, b, $, P, r, o, x, y) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.SecurityException.<init>(Native Method)\ncom.android.server.notification.ManagedServices.checkServiceTokenLocked(ManagedServices.java:664)\ncom.android.server.notification.ConditionProviders.checkServiceToken(ConditionProviders.java:202)\ncom.android.server.notification.NotificationManagerService$10.notifyConditions(NotificationManagerService.java:3547)\ncom.android.server.notification.NotificationManagerService$10.notifyConditions(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:2334)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        },
+        {
+          "execution_outcome": {
+            "returns": true,
+            "output": "null",
+            "exception": "null"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.notification.NotificationManagerService$10",
+            "com.android.server.notification.NotificationManagerService",
+            "com.android.server.notification.ConditionProviders",
+            "com.android.server.notification.ManagedServices"
+          ],
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.SecurityException.<init>(Native Method)\ncom.android.server.notification.ManagedServices.checkServiceTokenLocked(ManagedServices.java:664)\ncom.android.server.notification.ConditionProviders.checkServiceToken(ConditionProviders.java:202)\ncom.android.server.notification.NotificationManagerService$10.notifyConditions(NotificationManagerService.java:3547)\ncom.android.server.notification.NotificationManagerService$10.notifyConditions(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:2334)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "0e635a13386e157e2b66546b88bbfb18",
+            "ignored_permissions": []
+          }
+        },
+        {
+          "execution_outcome": {
+            "returns": true,
+            "output": "null",
+            "exception": "null"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": false,
+          "exception": {
+            "is_security": true,
+            "data": {
+              "type": "java.lang.SecurityException.<init>(Native Method)",
+              "location": "com.android.server.notification.ManagedServices.checkServiceTokenLocked(ManagedServices.java:664)",
+              "message": "Disallowed call from unknown condition provider: android.service.notification.IConditionProvider$Stub$Proxy@2c7a5c class android.service.notification.IConditionProvider$Stub$Proxy"
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.notification.NotificationManagerService$10",
+            "com.android.server.notification.NotificationManagerService",
+            "com.android.server.notification.ConditionProviders",
+            "com.android.server.notification.ManagedServices"
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "EXCEPTION::Disallowed call from unknown condition provider: android.service.notification.IConditionProvider$Stub$Proxyclass android.service.notification.IConditionProvider$Stub$Proxy "
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "0e635a13386e157e2b66546b88bbfb18",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.SecurityException.<init>(Native Method)\ncom.android.server.notification.ManagedServices.checkServiceTokenLocked(ManagedServices.java:664)\ncom.android.server.notification.ConditionProviders.checkServiceToken(ConditionProviders.java:202)\ncom.android.server.notification.NotificationManagerService$10.notifyConditions(NotificationManagerService.java:3547)\ncom.android.server.notification.NotificationManagerService$10.notifyConditions(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:2334)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(Disallowed call from unknown condition provider: android.service.notification.IConditionProvider$Stub$Proxy@2c7a5c class android.service.notification.IConditionProvider$Stub$Proxy) = undefined",
+              "callstack": "$init(D, i, s, a, l, l, o, w, e, d,  , c, a, l, l,  , f, r, o, m,  , u, n, k, n, o, w, n,  , c, o, n, d, i, t, i, o, n,  , p, r, o, v, i, d, e, r, :,  , a, n, d, r, o, i, d, ., s, e, r, v, i, c, e, ., n, o, t, i, f, i, c, a, t, i, o, n, ., I, C, o, n, d, i, t, i, o, n, P, r, o, v, i, d, e, r, $, S, t, u, b, $, P, r, o, x, y, @, 2, c, 7, a, 5, c,  , c, l, a, s, s,  , a, n, d, r, o, i, d, ., s, e, r, v, i, c, e, ., n, o, t, i, f, i, c, a, t, i, o, n, ., I, C, o, n, d, i, t, i, o, n, P, r, o, v, i, d, e, r, $, S, t, u, b, $, P, r, o, x, y) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.SecurityException.<init>(Native Method)\ncom.android.server.notification.ManagedServices.checkServiceTokenLocked(ManagedServices.java:664)\ncom.android.server.notification.ConditionProviders.checkServiceToken(ConditionProviders.java:202)\ncom.android.server.notification.NotificationManagerService$10.notifyConditions(NotificationManagerService.java:3547)\ncom.android.server.notification.NotificationManagerService$10.notifyConditions(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:2334)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

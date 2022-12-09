@@ -1,0 +1,29 @@
+{
+  "api": "media_session|addSession2TokensListener|android.media.session.ISession2TokensListener,I|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "08d4dd9caf797237bc7b099066139e2a": [
+      "OBJ:android.media.session.ISession2TokensListener",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "7c159d55feca1ed1fd2097f8f780e496": [
+      "OBJ:android.media.session.ISession2TokensListener",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

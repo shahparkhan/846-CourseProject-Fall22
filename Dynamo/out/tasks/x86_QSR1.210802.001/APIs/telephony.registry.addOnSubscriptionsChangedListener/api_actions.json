@@ -1,0 +1,642 @@
+{
+  "telephony.registry": {
+    "addOnSubscriptionsChangedListener": {
+      "ordered_iterations": [
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": null
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [],
+          "stacktrace": [],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "ab26fb80ab6012c7c92847ffbc4d45ae",
+            "ignored_permissions": []
+          }
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": "null",
+            "exception": "FIRST EXCEPTION CAUGHT\njava.lang.reflect.InvocationTargetException\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat fuzzer.permission.uidchanger.InvokerService.invokeApi(InvokerService.java:318)\n\tat fuzzer.permission.uidchanger.InvokerService.onStartCommand(InvokerService.java:71)\n\tat android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4087)\n\tat android.app.ActivityThread.access$1800(ActivityThread.java:219)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1891)\n\tat android.os.Handler.dispatchMessage(Handler.java:107)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\nCaused by: android.os.DeadObjectException\n\tat android.os.BinderProxy.transactNative(Native Method)\n\tat android.os.BinderProxy.transact(BinderProxy.java:510)\n\tat com.android.internal.telephony.ITelephonyRegistry$Stub$Proxy.addOnSubscriptionsChangedListener(ITelephonyRegistry.java:945)\n\t... 12 more\n"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": true,
+            "data": {
+              "type": "java.lang.SecurityException.<init>(Native Method)",
+              "location": "android.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)",
+              "message": "10148::android.permission.ACCESS_WIFI_STATE"
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.TelephonyRegistry"
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "10148::android.permission.ACCESS_WIFI_STATE"
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "ab26fb80ab6012c7c92847ffbc4d45ae",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.UserHandle.getCallingUserId(UserHandle.java:222)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:461)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:462)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.appop.AppOpsService.checkPackage(Native Method)\nandroid.app.AppOpsManager.checkPackage(AppOpsManager.java:5177)\nandroid.app.AppOpsManager.checkPackage(Native Method)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:462)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPackage(10148, fuzzer.permission.uidchanger) = 0",
+              "callstack": "checkPackage(10148, fuzzer.permission.uidchanger) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.appop.AppOpsService.checkPackage(Native Method)\nandroid.app.AppOpsManager.checkPackage(AppOpsManager.java:5177)\nandroid.app.AppOpsManager.checkPackage(Native Method)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:462)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.AppOpsManager.checkPackage(Native Method)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:462)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPackage(10148, fuzzer.permission.uidchanger) = undefined",
+              "callstack": "checkPackage(10148, fuzzer.permission.uidchanger) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.AppOpsManager.checkPackage(Native Method)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:462)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:481)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:482)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:482)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingPid() = 5217",
+              "callstack": "getCallingPid() = 5217\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:482)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)\ncom.android.server.wifi.WifiServiceImpl.enforceAccessPermission(WifiServiceImpl.java:793)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1713)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)\ncom.android.server.wifi.WifiServiceImpl.enforceAccessPermission(WifiServiceImpl.java:793)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1713)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)\ncom.android.server.wifi.WifiServiceImpl.enforceAccessPermission(WifiServiceImpl.java:793)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1713)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingPid() = 5217",
+              "callstack": "getCallingPid() = 5217\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)\ncom.android.server.wifi.WifiServiceImpl.enforceAccessPermission(WifiServiceImpl.java:793)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1713)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1876)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)\ncom.android.server.wifi.WifiServiceImpl.enforceAccessPermission(WifiServiceImpl.java:793)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1713)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.getPackagesForUid(PackageManagerService.java:6372)\ncom.android.server.pm.PackageManagerService.checkUidPermissionImpl(PackageManagerService.java:5639)\ncom.android.server.pm.PackageManagerService.checkUidPermission(PackageManagerService.java:5629)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)\ncom.android.server.wifi.WifiServiceImpl.enforceAccessPermission(WifiServiceImpl.java:793)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1713)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermissionImpl(PackageManagerService.java:5645)\ncom.android.server.pm.PackageManagerService.checkUidPermission(PackageManagerService.java:5629)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)\ncom.android.server.wifi.WifiServiceImpl.enforceAccessPermission(WifiServiceImpl.java:793)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1713)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)\ncom.android.server.wifi.WifiServiceImpl.enforceAccessPermission(WifiServiceImpl.java:793)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1713)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkUidPermission(android.permission.ACCESS_WIFI_STATE, 10148) = -1",
+              "callstack": "checkUidPermission(android.permission.ACCESS_WIFI_STATE, 10148) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)\ncom.android.server.wifi.WifiServiceImpl.enforceAccessPermission(WifiServiceImpl.java:793)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1713)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)\ncom.android.server.wifi.WifiServiceImpl.enforceAccessPermission(WifiServiceImpl.java:793)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1713)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPermission(android.permission.ACCESS_WIFI_STATE, 5217, 10148) = -1",
+              "callstack": "checkPermission(android.permission.ACCESS_WIFI_STATE, 5217, 10148) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)\ncom.android.server.wifi.WifiServiceImpl.enforceAccessPermission(WifiServiceImpl.java:793)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1713)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)\ncom.android.server.wifi.WifiServiceImpl.enforceAccessPermission(WifiServiceImpl.java:793)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1713)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkCallingOrSelfPermission(android.permission.ACCESS_WIFI_STATE) = -1",
+              "callstack": "checkCallingOrSelfPermission(android.permission.ACCESS_WIFI_STATE) = -1\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)\ncom.android.server.wifi.WifiServiceImpl.enforceAccessPermission(WifiServiceImpl.java:793)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1713)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.SecurityException.<init>(Native Method)\nandroid.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)\ncom.android.server.wifi.WifiServiceImpl.enforceAccessPermission(WifiServiceImpl.java:793)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1713)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(10148::android.permission.ACCESS_WIFI_STATE) = undefined",
+              "callstack": "$init(1, 0, 1, 4, 8, :, :, a, n, d, r, o, i, d, ., p, e, r, m, i, s, s, i, o, n, ., A, C, C, E, S, S, _, W, I, F, I, _, S, T, A, T, E) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.SecurityException.<init>(Native Method)\nandroid.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)\ncom.android.server.wifi.WifiServiceImpl.enforceAccessPermission(WifiServiceImpl.java:793)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1713)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": "null",
+            "exception": "FIRST EXCEPTION CAUGHT\njava.lang.reflect.InvocationTargetException\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat fuzzer.permission.uidchanger.InvokerService.invokeApi(InvokerService.java:318)\n\tat fuzzer.permission.uidchanger.InvokerService.onStartCommand(InvokerService.java:71)\n\tat android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4087)\n\tat android.app.ActivityThread.access$1800(ActivityThread.java:219)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1891)\n\tat android.os.Handler.dispatchMessage(Handler.java:107)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\nCaused by: android.os.DeadObjectException\n\tat android.os.BinderProxy.transactNative(Native Method)\n\tat android.os.BinderProxy.transact(BinderProxy.java:510)\n\tat com.android.internal.telephony.ITelephonyRegistry$Stub$Proxy.addOnSubscriptionsChangedListener(ITelephonyRegistry.java:945)\n\t... 12 more\n"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": {
+              "type": "java.lang.NullPointerException.<init>(Native Method)",
+              "location": "android.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:697)",
+              "message": "Attempt to invoke virtual method 'void android.os.Parcel.writeNoException("
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.TelephonyRegistry"
+          ],
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.UserHandle.getCallingUserId(UserHandle.java:222)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:461)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:462)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.appop.AppOpsService.checkPackage(Native Method)\nandroid.app.AppOpsManager.checkPackage(AppOpsManager.java:5177)\nandroid.app.AppOpsManager.checkPackage(Native Method)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:462)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPackage(10148, fuzzer.permission.uidchanger) = 0",
+              "callstack": "checkPackage(10148, fuzzer.permission.uidchanger) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.appop.AppOpsService.checkPackage(Native Method)\nandroid.app.AppOpsManager.checkPackage(AppOpsManager.java:5177)\nandroid.app.AppOpsManager.checkPackage(Native Method)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:462)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.AppOpsManager.checkPackage(Native Method)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:462)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPackage(10148, fuzzer.permission.uidchanger) = undefined",
+              "callstack": "checkPackage(10148, fuzzer.permission.uidchanger) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.AppOpsManager.checkPackage(Native Method)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:462)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:481)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:482)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:482)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingPid() = 5221",
+              "callstack": "getCallingPid() = 5221\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:482)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)\ncom.android.server.wifi.WifiServiceImpl.enforceAccessPermission(WifiServiceImpl.java:793)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1713)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)\ncom.android.server.wifi.WifiServiceImpl.enforceAccessPermission(WifiServiceImpl.java:793)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1713)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)\ncom.android.server.wifi.WifiServiceImpl.enforceAccessPermission(WifiServiceImpl.java:793)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1713)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingPid() = 5221",
+              "callstack": "getCallingPid() = 5221\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)\ncom.android.server.wifi.WifiServiceImpl.enforceAccessPermission(WifiServiceImpl.java:793)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1713)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1876)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)\ncom.android.server.wifi.WifiServiceImpl.enforceAccessPermission(WifiServiceImpl.java:793)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1713)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)\ncom.android.server.wifi.WifiServiceImpl.enforceAccessPermission(WifiServiceImpl.java:793)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1713)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkUidPermission(android.permission.ACCESS_WIFI_STATE, 10148) = 0",
+              "callstack": "checkUidPermission(android.permission.ACCESS_WIFI_STATE, 10148) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)\ncom.android.server.wifi.WifiServiceImpl.enforceAccessPermission(WifiServiceImpl.java:793)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1713)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)\ncom.android.server.wifi.WifiServiceImpl.enforceAccessPermission(WifiServiceImpl.java:793)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1713)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPermission(android.permission.ACCESS_WIFI_STATE, 5221, 10148) = 0",
+              "callstack": "checkPermission(android.permission.ACCESS_WIFI_STATE, 5221, 10148) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)\ncom.android.server.wifi.WifiServiceImpl.enforceAccessPermission(WifiServiceImpl.java:793)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1713)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)\ncom.android.server.wifi.WifiServiceImpl.enforceAccessPermission(WifiServiceImpl.java:793)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1713)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkCallingOrSelfPermission(android.permission.ACCESS_WIFI_STATE) = 0",
+              "callstack": "checkCallingOrSelfPermission(android.permission.ACCESS_WIFI_STATE) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)\ncom.android.server.wifi.WifiServiceImpl.enforceAccessPermission(WifiServiceImpl.java:793)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1713)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Handler$MessengerImpl.send(Handler.java:863)\nandroid.os.Messenger.send(Messenger.java:57)\ncom.android.internal.util.AsyncChannel$SyncMessenger.sendMessageSynchronously(AsyncChannel.java:847)\ncom.android.internal.util.AsyncChannel$SyncMessenger.access$100(AsyncChannel.java:762)\ncom.android.internal.util.AsyncChannel.sendMessageSynchronously(AsyncChannel.java:675)\ncom.android.server.wifi.util.WifiAsyncChannel.sendMessageSynchronously(WifiAsyncChannel.java:92)\ncom.android.internal.util.AsyncChannel.sendMessageSynchronously(AsyncChannel.java:688)\ncom.android.server.wifi.ClientModeImpl.syncGetSupportedFeatures(ClientModeImpl.java:1827)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeaturesInternal(WifiServiceImpl.java:3198)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1717)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.NullPointerException.<init>(Native Method)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:697)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(Attempt to invoke virtual method 'void android.os.Parcel.writeNoException()' on a null object reference) = undefined",
+              "callstack": "$init(A, t, t, e, m, p, t,  , t, o,  , i, n, v, o, k, e,  , v, i, r, t, u, a, l,  , m, e, t, h, o, d,  , ', v, o, i, d,  , a, n, d, r, o, i, d, ., o, s, ., P, a, r, c, e, l, ., w, r, i, t, e, N, o, E, x, c, e, p, t, i, o, n, (, ), ',  , o, n,  , a,  , n, u, l, l,  , o, b, j, e, c, t,  , r, e, f, e, r, e, n, c, e) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.NullPointerException.<init>(Native Method)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:697)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "10148::android.permission.ACCESS_WIFI_STATE"
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "ab26fb80ab6012c7c92847ffbc4d45ae",
+            "ignored_permissions": []
+          }
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": null
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": {
+              "type": "java.lang.NullPointerException.<init>(Native Method)",
+              "location": "android.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:697)",
+              "message": "Attempt to invoke virtual method 'void android.os.Parcel.writeNoException("
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.TelephonyRegistry"
+          ],
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.UserHandle.getCallingUserId(UserHandle.java:222)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:461)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:462)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.appop.AppOpsService.checkPackage(Native Method)\nandroid.app.AppOpsManager.checkPackage(AppOpsManager.java:5177)\nandroid.app.AppOpsManager.checkPackage(Native Method)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:462)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPackage(10148, fuzzer.permission.uidchanger) = 0",
+              "callstack": "checkPackage(10148, fuzzer.permission.uidchanger) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.appop.AppOpsService.checkPackage(Native Method)\nandroid.app.AppOpsManager.checkPackage(AppOpsManager.java:5177)\nandroid.app.AppOpsManager.checkPackage(Native Method)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:462)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.AppOpsManager.checkPackage(Native Method)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:462)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPackage(10148, fuzzer.permission.uidchanger) = undefined",
+              "callstack": "checkPackage(10148, fuzzer.permission.uidchanger) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.AppOpsManager.checkPackage(Native Method)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:462)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:481)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:482)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:482)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingPid() = 4383",
+              "callstack": "getCallingPid() = 4383\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:482)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)\ncom.android.server.wifi.WifiServiceImpl.enforceAccessPermission(WifiServiceImpl.java:793)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1713)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)\ncom.android.server.wifi.WifiServiceImpl.enforceAccessPermission(WifiServiceImpl.java:793)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1713)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)\ncom.android.server.wifi.WifiServiceImpl.enforceAccessPermission(WifiServiceImpl.java:793)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1713)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingPid() = 4383",
+              "callstack": "getCallingPid() = 4383\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)\ncom.android.server.wifi.WifiServiceImpl.enforceAccessPermission(WifiServiceImpl.java:793)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1713)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1876)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)\ncom.android.server.wifi.WifiServiceImpl.enforceAccessPermission(WifiServiceImpl.java:793)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1713)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)\ncom.android.server.wifi.WifiServiceImpl.enforceAccessPermission(WifiServiceImpl.java:793)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1713)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkUidPermission(android.permission.ACCESS_WIFI_STATE, 10148) = 0",
+              "callstack": "checkUidPermission(android.permission.ACCESS_WIFI_STATE, 10148) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.pm.PackageManagerService.checkUidPermission(Native Method)\nandroid.app.ActivityManager.checkComponentPermission(ActivityManager.java:3763)\ncom.android.server.am.ActivityManagerService.checkComponentPermission(ActivityManagerService.java:5849)\ncom.android.server.am.ActivityManagerService.checkPermission(ActivityManagerService.java:5867)\nandroid.app.ContextImpl.checkPermission(ContextImpl.java:1835)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)\ncom.android.server.wifi.WifiServiceImpl.enforceAccessPermission(WifiServiceImpl.java:793)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1713)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)\ncom.android.server.wifi.WifiServiceImpl.enforceAccessPermission(WifiServiceImpl.java:793)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1713)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPermission(android.permission.ACCESS_WIFI_STATE, 4383, 10148) = 0",
+              "callstack": "checkPermission(android.permission.ACCESS_WIFI_STATE, 4383, 10148) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkPermission(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(ContextImpl.java:1875)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)\ncom.android.server.wifi.WifiServiceImpl.enforceAccessPermission(WifiServiceImpl.java:793)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1713)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)\ncom.android.server.wifi.WifiServiceImpl.enforceAccessPermission(WifiServiceImpl.java:793)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1713)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkCallingOrSelfPermission(android.permission.ACCESS_WIFI_STATE) = 0",
+              "callstack": "checkCallingOrSelfPermission(android.permission.ACCESS_WIFI_STATE) = 0\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.app.ContextImpl.checkCallingOrSelfPermission(Native Method)\nandroid.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)\ncom.android.server.wifi.WifiServiceImpl.enforceAccessPermission(WifiServiceImpl.java:793)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1713)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Handler$MessengerImpl.send(Handler.java:863)\nandroid.os.Messenger.send(Messenger.java:57)\ncom.android.internal.util.AsyncChannel$SyncMessenger.sendMessageSynchronously(AsyncChannel.java:847)\ncom.android.internal.util.AsyncChannel$SyncMessenger.access$100(AsyncChannel.java:762)\ncom.android.internal.util.AsyncChannel.sendMessageSynchronously(AsyncChannel.java:675)\ncom.android.server.wifi.util.WifiAsyncChannel.sendMessageSynchronously(WifiAsyncChannel.java:92)\ncom.android.internal.util.AsyncChannel.sendMessageSynchronously(AsyncChannel.java:688)\ncom.android.server.wifi.ClientModeImpl.syncGetSupportedFeatures(ClientModeImpl.java:1827)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeaturesInternal(WifiServiceImpl.java:3198)\ncom.android.server.wifi.WifiServiceImpl.getSupportedFeatures(WifiServiceImpl.java:1717)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:696)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.NullPointerException.<init>(Native Method)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:697)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(Attempt to invoke virtual method 'void android.os.Parcel.writeNoException()' on a null object reference) = undefined",
+              "callstack": "$init(A, t, t, e, m, p, t,  , t, o,  , i, n, v, o, k, e,  , v, i, r, t, u, a, l,  , m, e, t, h, o, d,  , ', v, o, i, d,  , a, n, d, r, o, i, d, ., o, s, ., P, a, r, c, e, l, ., w, r, i, t, e, N, o, E, x, c, e, p, t, i, o, n, (, ), ',  , o, n,  , a,  , n, u, l, l,  , o, b, j, e, c, t,  , r, e, f, e, r, e, n, c, e) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.NullPointerException.<init>(Native Method)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:697)\nandroid.os.Binder.transact(Binder.java:914)\ncom.android.internal.telephony.IOnSubscriptionsChangedListener$Stub$Proxy.onSubscriptionsChanged(IOnSubscriptionsChangedListener.java:108)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:491)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "10148::android.permission.ACCESS_WIFI_STATE"
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "ab26fb80ab6012c7c92847ffbc4d45ae",
+            "ignored_permissions": []
+          }
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": null
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": false,
+          "exception": {
+            "is_security": true,
+            "data": {
+              "type": "java.lang.SecurityException.<init>(Native Method)",
+              "location": "android.app.AppOpsManager.checkPackage(AppOpsManager.java:5178)",
+              "message": "Package com.android.systemui does not belong to 10148"
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.TelephonyRegistry"
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "EXCEPTION::Package com.android.systemui does not belong to 10148 "
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "a57566b808d78415a8fa09b16c4e3c50",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.UserHandle.getCallingUserId(UserHandle.java:222)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:461)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:462)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.appop.AppOpsService.checkPackage(Native Method)\nandroid.app.AppOpsManager.checkPackage(AppOpsManager.java:5177)\nandroid.app.AppOpsManager.checkPackage(Native Method)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:462)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPackage(10148, com.android.systemui) = 2",
+              "callstack": "checkPackage(10148, com.android.systemui) = 2\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.appop.AppOpsService.checkPackage(Native Method)\nandroid.app.AppOpsManager.checkPackage(AppOpsManager.java:5177)\nandroid.app.AppOpsManager.checkPackage(Native Method)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:462)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.SecurityException.<init>(Native Method)\nandroid.app.AppOpsManager.checkPackage(AppOpsManager.java:5178)\nandroid.app.AppOpsManager.checkPackage(Native Method)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:462)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(Package com.android.systemui does not belong to 10148) = undefined",
+              "callstack": "$init(P, a, c, k, a, g, e,  , c, o, m, ., a, n, d, r, o, i, d, ., s, y, s, t, e, m, u, i,  , d, o, e, s,  , n, o, t,  , b, e, l, o, n, g,  , t, o,  , 1, 0, 1, 4, 8) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.SecurityException.<init>(Native Method)\nandroid.app.AppOpsManager.checkPackage(AppOpsManager.java:5178)\nandroid.app.AppOpsManager.checkPackage(Native Method)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:462)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": null
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": false,
+          "exception": {
+            "is_security": true,
+            "data": {
+              "type": "java.lang.SecurityException.<init>(Native Method)",
+              "location": "android.app.AppOpsManager.checkPackage(AppOpsManager.java:5178)",
+              "message": "Package com.android.systemui does not belong to 10148"
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.TelephonyRegistry"
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "EXCEPTION::Package com.android.systemui does not belong to 10148 "
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "a57566b808d78415a8fa09b16c4e3c50",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.UserHandle.getCallingUserId(UserHandle.java:222)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:461)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:462)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.appop.AppOpsService.checkPackage(Native Method)\nandroid.app.AppOpsManager.checkPackage(AppOpsManager.java:5177)\nandroid.app.AppOpsManager.checkPackage(Native Method)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:462)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "checkPackage(10148, com.android.systemui) = 2",
+              "callstack": "checkPackage(10148, com.android.systemui) = 2\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\ncom.android.server.appop.AppOpsService.checkPackage(Native Method)\nandroid.app.AppOpsManager.checkPackage(AppOpsManager.java:5177)\nandroid.app.AppOpsManager.checkPackage(Native Method)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:462)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.SecurityException.<init>(Native Method)\nandroid.app.AppOpsManager.checkPackage(AppOpsManager.java:5178)\nandroid.app.AppOpsManager.checkPackage(Native Method)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:462)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(Package com.android.systemui does not belong to 10148) = undefined",
+              "callstack": "$init(P, a, c, k, a, g, e,  , c, o, m, ., a, n, d, r, o, i, d, ., s, y, s, t, e, m, u, i,  , d, o, e, s,  , n, o, t,  , b, e, l, o, n, g,  , t, o,  , 1, 0, 1, 4, 8) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.SecurityException.<init>(Native Method)\nandroid.app.AppOpsManager.checkPackage(AppOpsManager.java:5178)\nandroid.app.AppOpsManager.checkPackage(Native Method)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(TelephonyRegistry.java:462)\ncom.android.server.TelephonyRegistry.addOnSubscriptionsChangedListener(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:363)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

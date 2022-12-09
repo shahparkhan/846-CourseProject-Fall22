@@ -1,0 +1,29 @@
+{
+  "api": "device_policy|setDeviceOwnerLockScreenInfo|android.content.ComponentName,java.lang.CharSequence|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "61feeaffd0879bbd465f86ae876849a0": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:java.lang.CharSequence"
+    ],
+    "0655c697f16663f00c52883885bcae70": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:java.lang.CharSequence"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

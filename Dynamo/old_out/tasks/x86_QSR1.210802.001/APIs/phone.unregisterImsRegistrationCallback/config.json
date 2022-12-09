@@ -1,0 +1,29 @@
+{
+  "api": "phone|unregisterImsRegistrationCallback|I,android.telephony.ims.aidl.IImsRegistrationCallback|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "1a598c72a08369cdef304f2201ee3378": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.telephony.ims.aidl.IImsRegistrationCallback"
+    ],
+    "446d31ad0f13f8c5a44959d0dce07e3c": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.telephony.ims.aidl.IImsRegistrationCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

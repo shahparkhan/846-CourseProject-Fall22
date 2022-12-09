@@ -1,0 +1,45 @@
+{
+  "api": "activity|noteAlarmStart|android.content.IIntentSender,android.os.WorkSource,I,java.lang.String|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "f64706b66e4a7e2edbae76044c10c75f": [
+      "OBJ:android.content.IIntentSender",
+      "OBJ:android.os.WorkSource",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "e5ee4125a9cbb6ee30fa9451079cad59": [
+      "OBJ:android.content.IIntentSender",
+      "OBJ:android.os.WorkSource",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui"
+    ],
+    "3678b14eddfa2cc69a92bc53251c49e6": [
+      "OBJ:android.content.IIntentSender",
+      "OBJ:android.os.WorkSource",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "69d91ae8fabd843a866ff8485c85f119": [
+      "OBJ:android.content.IIntentSender",
+      "OBJ:android.os.WorkSource",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

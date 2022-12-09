@@ -1,0 +1,41 @@
+{
+  "api": "phone|enableVisualVoicemailSmsFilter|java.lang.String,I,android.telephony.VisualVoicemailSmsFilterSettings|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "cd4cafa9e502a6dfb46ff8e4a08df7a8": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.telephony.VisualVoicemailSmsFilterSettings"
+    ],
+    "721f0315272470d69e00d160cb99986a": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.telephony.VisualVoicemailSmsFilterSettings"
+    ],
+    "5f7a9e2366fbc95a447349890e11b68a": [
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.telephony.VisualVoicemailSmsFilterSettings"
+    ],
+    "e403122a4d28be1fba475d9457c1af22": [
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.telephony.VisualVoicemailSmsFilterSettings"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

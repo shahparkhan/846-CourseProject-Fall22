@@ -1,0 +1,41 @@
+{
+  "api": "shortcut|addDynamicShortcuts|java.lang.String,android.content.pm.ParceledListSlice,I|Z|",
+  "parameters_count": 4,
+  "parameters": {
+    "c3baeeb7e55c0d36bde72d9a6a4e1cea": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.content.pm.ParceledListSlice",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "a6e23c114a50498c53aa77d40a57db8a": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.content.pm.ParceledListSlice",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "492573c93d23235c62e0381acf01ad46": [
+      "S:com.android.systemui",
+      "OBJ:android.content.pm.ParceledListSlice",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "7fc395d5f5210a369563931182d0c99e": [
+      "S:com.android.systemui",
+      "OBJ:android.content.pm.ParceledListSlice",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

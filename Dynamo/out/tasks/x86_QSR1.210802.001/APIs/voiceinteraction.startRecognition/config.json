@@ -1,0 +1,49 @@
+{
+  "api": "voiceinteraction|startRecognition|android.service.voice.IVoiceInteractionService,I,java.lang.String,android.hardware.soundtrigger.IRecognitionStatusCallback,android.hardware.soundtrigger.SoundTrigger.RecognitionConfig|I|",
+  "parameters_count": 4,
+  "parameters": {
+    "76c716be99ccca582e5b063de1c16985": [
+      "OBJ:android.service.voice.IVoiceInteractionService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.hardware.soundtrigger.IRecognitionStatusCallback",
+      "OBJ:android.hardware.soundtrigger.SoundTrigger.RecognitionConfig"
+    ],
+    "573c6b7a64ec567efcb3e19499e2d332": [
+      "OBJ:android.service.voice.IVoiceInteractionService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "OBJ:android.hardware.soundtrigger.IRecognitionStatusCallback",
+      "OBJ:android.hardware.soundtrigger.SoundTrigger.RecognitionConfig"
+    ],
+    "899edfadc20c839a68589e92c21ce14f": [
+      "OBJ:android.service.voice.IVoiceInteractionService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.hardware.soundtrigger.IRecognitionStatusCallback",
+      "OBJ:android.hardware.soundtrigger.SoundTrigger.RecognitionConfig"
+    ],
+    "14fc671a23927af03df96894ec84ca73": [
+      "OBJ:android.service.voice.IVoiceInteractionService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "OBJ:android.hardware.soundtrigger.IRecognitionStatusCallback",
+      "OBJ:android.hardware.soundtrigger.SoundTrigger.RecognitionConfig"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

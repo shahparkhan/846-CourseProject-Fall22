@@ -1,0 +1,41 @@
+{
+  "api": "phone|setVoicemailVibrationEnabled|java.lang.String,android.telecom.PhoneAccountHandle,Z|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "c236efe82fcb48c5592d6e75018d4352": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.telecom.PhoneAccountHandle",
+      "B:true"
+    ],
+    "db47ffd81136d0b0d724ed3d8d1f7a6f": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.telecom.PhoneAccountHandle",
+      "B:false"
+    ],
+    "c428f45dfc9150fc17b416a66fb664b9": [
+      "S:com.android.systemui",
+      "OBJ:android.telecom.PhoneAccountHandle",
+      "B:true"
+    ],
+    "72db366310fd2d568d8fdf4fa5190d94": [
+      "S:com.android.systemui",
+      "OBJ:android.telecom.PhoneAccountHandle",
+      "B:false"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

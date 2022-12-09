@@ -1,0 +1,41 @@
+[
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": {
+      "name": "system_server",
+      "id": "system",
+      "pid": 7078
+    },
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": true,
+      "data": {
+        "type": "java.lang.SecurityException.<init>(Native Method)",
+        "location": "android.app.ContextImpl.enforce(ContextImpl.java:1896)",
+        "message": "Location Hardware permission not granted to access hardware batching: uid 10148 does not have android.permission.LOCATION_HARDWARE."
+      }
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.LocationManagerService"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "10148::android.permission.LOCATION_HARDWARE"
+      ],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "0e8e920cab657506cdcf69212630cd9b",
+      "ignored_permissions": []
+    },
+    "processed": true
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "api": "wallpaper|setInAmbientMode|Z,J|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "ad8052f6c87781f03073a4e8fb702bd1": [
+      "B:true",
+      "OBJ:J"
+    ],
+    "05fccc47625123da82d408fd42418b55": [
+      "B:false",
+      "OBJ:J"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,31 @@
+{
+  "api": "activity_task|startNextMatchingActivity|android.os.IBinder,android.content.Intent,android.os.Bundle|Z|",
+  "parameters_count": 2,
+  "parameters": {
+    "4415a097fcc7e728327a89a306d12f1c": [
+      "OBJ:android.os.IBinder",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.Bundle"
+    ],
+    "f70536210646cfe98126e3ea6fcecdbf": [
+      "OBJ:android.os.IBinder",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.Bundle"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

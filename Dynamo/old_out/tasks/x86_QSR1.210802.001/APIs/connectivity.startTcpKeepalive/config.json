@@ -1,0 +1,33 @@
+{
+  "api": "connectivity|startTcpKeepalive|android.net.Network,java.io.FileDescriptor,I,android.net.ISocketKeepaliveCallback|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "321c87566b4e991ffc1f58b0ca3cc6e9": [
+      "OBJ:android.net.Network",
+      "OBJ:java.io.FileDescriptor",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.net.ISocketKeepaliveCallback"
+    ],
+    "de305e08165d750da87a194961e10d6e": [
+      "OBJ:android.net.Network",
+      "OBJ:java.io.FileDescriptor",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.net.ISocketKeepaliveCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,57 @@
+{
+  "api": "activity_task|startActivities|android.app.IApplicationThread,java.lang.String,android.content.Intent[],java.lang.String[],android.os.IBinder,android.os.Bundle,I|I|",
+  "parameters_count": 4,
+  "parameters": {
+    "6535c61942ec6c916c608e5101b1fbf8": [
+      "OBJ:android.app.IApplicationThread",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.content.Intent[]",
+      "OBJ:java.lang.String[]",
+      "OBJ:android.os.IBinder",
+      "OBJ:android.os.Bundle",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "0e0df1e82073a783bd7f9bb5b0bc4602": [
+      "OBJ:android.app.IApplicationThread",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.content.Intent[]",
+      "OBJ:java.lang.String[]",
+      "OBJ:android.os.IBinder",
+      "OBJ:android.os.Bundle",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "157246f807b73561158ca054809527a3": [
+      "OBJ:android.app.IApplicationThread",
+      "S:com.android.systemui",
+      "OBJ:android.content.Intent[]",
+      "OBJ:java.lang.String[]",
+      "OBJ:android.os.IBinder",
+      "OBJ:android.os.Bundle",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "a7596b781e2eb678b69da578af9a4730": [
+      "OBJ:android.app.IApplicationThread",
+      "S:com.android.systemui",
+      "OBJ:android.content.Intent[]",
+      "OBJ:java.lang.String[]",
+      "OBJ:android.os.IBinder",
+      "OBJ:android.os.Bundle",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

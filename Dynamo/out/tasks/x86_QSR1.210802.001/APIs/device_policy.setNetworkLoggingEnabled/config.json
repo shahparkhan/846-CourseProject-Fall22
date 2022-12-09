@@ -1,0 +1,61 @@
+{
+  "api": "device_policy|setNetworkLoggingEnabled|android.content.ComponentName,java.lang.String,Z|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "89fae0dee5c1d27017c64de143f112b7": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "B:true"
+    ],
+    "14644fe8d53f567bb17479b97160a1a8": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "B:false"
+    ],
+    "197ec3199475c76ff77ec64cfc21184e": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "B:true"
+    ],
+    "3789092495c970efb0a68e958ef36c34": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "B:false"
+    ],
+    "633f9948188c4a88a88b481f1167df03": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "B:true"
+    ],
+    "dcc82004083861f8f44487207b5ce0e9": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "B:false"
+    ],
+    "9d6e2b32d594c78c01d0709509fd3f1c": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "B:true"
+    ],
+    "bde091d75c800b59c229106b051091e5": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "B:false"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

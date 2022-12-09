@@ -1,0 +1,29 @@
+{
+  "api": "window|overridePendingAppTransitionRemote|android.view.RemoteAnimationAdapter,I|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "b8670383bed5f38ad1d866fc63fd80a9": [
+      "OBJ:android.view.RemoteAnimationAdapter",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "9071bcbbbd026f89c8ed548670903522": [
+      "OBJ:android.view.RemoteAnimationAdapter",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,31 @@
+{
+  "api": "voiceinteraction|stopRecognition|android.service.voice.IVoiceInteractionService,I,android.hardware.soundtrigger.IRecognitionStatusCallback|I|",
+  "parameters_count": 2,
+  "parameters": {
+    "3a2314d895087c857832d1eb0a43e862": [
+      "OBJ:android.service.voice.IVoiceInteractionService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.hardware.soundtrigger.IRecognitionStatusCallback"
+    ],
+    "eefa5b1bb3b4b1e3480b28fd494a859b": [
+      "OBJ:android.service.voice.IVoiceInteractionService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.hardware.soundtrigger.IRecognitionStatusCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,101 @@
+[
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": false,
+      "data": {
+        "type": "java.lang.NullPointerException.<init>(Native Method)",
+        "location": "com.android.server.LocationManagerService.removeGnssBatchingCallback(LocationManagerService.java:1773)",
+        "message": "Attempt to invoke interface method 'android.os.IBinder android.location.IBatchedLocationCallback.asBinder("
+      }
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.LocationManagerService"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "hash-placeholder",
+      "ignored_permissions": []
+    },
+    "processed": true
+  },
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": false,
+      "data": {
+        "type": "java.lang.NullPointerException.<init>(Native Method)",
+        "location": "com.android.server.LocationManagerService.removeGnssBatchingCallback(LocationManagerService.java:1773)",
+        "message": "Attempt to invoke interface method 'android.os.IBinder android.location.IBatchedLocationCallback.asBinder("
+      }
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.LocationManagerService"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [],
+      "pid": null,
+      "uid": 1000000,
+      "userId": 1,
+      "user_restrictions": [],
+      "parameters_hash": "hash-placeholder",
+      "ignored_permissions": []
+    },
+    "processed": true
+  },
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": false,
+      "data": {
+        "type": "java.lang.NullPointerException.<init>(Native Method)",
+        "location": "com.android.server.LocationManagerService.removeGnssBatchingCallback(LocationManagerService.java:1773)",
+        "message": "Attempt to invoke interface method 'android.os.IBinder android.location.IBatchedLocationCallback.asBinder("
+      }
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.LocationManagerService"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [],
+      "pid": null,
+      "uid": 1001,
+      "userId": 0,
+      "user_restrictions": [],
+      "parameters_hash": "hash-placeholder",
+      "ignored_permissions": []
+    },
+    "processed": true
+  }
+]

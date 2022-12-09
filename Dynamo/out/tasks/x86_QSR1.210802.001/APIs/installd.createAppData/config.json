@@ -1,0 +1,57 @@
+{
+  "api": "installd|createAppData|java.lang.String,java.lang.String,I,I,I,java.lang.String,I|J|",
+  "parameters_count": 4,
+  "parameters": {
+    "f08cda5cc32758848f7bd97855953cf9": [
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:0",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:0",
+      "INDEX:2"
+    ],
+    "da1aab41174354e1a67de6ddfbd94fd0": [
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:0",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:0",
+      "INDEX:2"
+    ],
+    "8cd3638d745ba29a7231697a64168539": [
+      "S:com.android.systemui",
+      "INDEX:0",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:0",
+      "INDEX:2"
+    ],
+    "19c25de5d16ce47922fd15573b3b911e": [
+      "S:com.android.systemui",
+      "INDEX:0",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:0",
+      "INDEX:2"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

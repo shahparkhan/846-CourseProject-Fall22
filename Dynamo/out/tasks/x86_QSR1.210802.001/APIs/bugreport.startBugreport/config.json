@@ -1,0 +1,85 @@
+{
+  "api": "bugreport|startBugreport|I,java.lang.String,java.io.FileDescriptor,java.io.FileDescriptor,I,android.os.IDumpstateListener|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "fe4e0cd6e445b074b61f3b556a4728b8": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.io.FileDescriptor",
+      "OBJ:java.io.FileDescriptor",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.IDumpstateListener"
+    ],
+    "2282fd504b4381f88ee35a3f0ab6829e": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.io.FileDescriptor",
+      "OBJ:java.io.FileDescriptor",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.IDumpstateListener"
+    ],
+    "b16499ee970e3f67a8ac77739e1381b3": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "OBJ:java.io.FileDescriptor",
+      "OBJ:java.io.FileDescriptor",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.IDumpstateListener"
+    ],
+    "d36fa81e9d7d3d4372b436dbfc3527db": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "OBJ:java.io.FileDescriptor",
+      "OBJ:java.io.FileDescriptor",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.IDumpstateListener"
+    ],
+    "5fd6fb5b1221a0575570de3959c337cc": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.io.FileDescriptor",
+      "OBJ:java.io.FileDescriptor",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.IDumpstateListener"
+    ],
+    "7ae7390fe255d91a8eeca051fb6ab82d": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.io.FileDescriptor",
+      "OBJ:java.io.FileDescriptor",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.IDumpstateListener"
+    ],
+    "f9c0a4ebda366313423816b86ab979ed": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "OBJ:java.io.FileDescriptor",
+      "OBJ:java.io.FileDescriptor",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.IDumpstateListener"
+    ],
+    "5bde9df37d33dc6811f5da53f2fd6e76": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "OBJ:java.io.FileDescriptor",
+      "OBJ:java.io.FileDescriptor",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.IDumpstateListener"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

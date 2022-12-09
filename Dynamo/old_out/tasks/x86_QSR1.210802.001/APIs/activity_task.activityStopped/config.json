@@ -1,0 +1,27 @@
+{
+  "api": "activity_task|activityStopped|android.os.IBinder,android.os.Bundle,android.os.PersistableBundle,java.lang.CharSequence|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "99c09848e313a520624f2f04d76c3af0": [
+      "OBJ:android.os.IBinder",
+      "OBJ:android.os.Bundle",
+      "OBJ:android.os.PersistableBundle",
+      "OBJ:java.lang.CharSequence"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

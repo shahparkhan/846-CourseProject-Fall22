@@ -1,0 +1,24 @@
+{
+  "api": "activity|getMyMemoryState|android.app.ActivityManager.RunningAppProcessInfo|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "9e02116d9c8df5353222b970154ee7f4": [
+      "OBJ:android.app.ActivityManager.RunningAppProcessInfo"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

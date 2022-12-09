@@ -1,0 +1,45 @@
+{
+  "api": "slice|pinSlice|java.lang.String,android.net.Uri,android.app.slice.SliceSpec[],android.os.IBinder|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "4d66ec7b28028daff8674baf8b6d3aed": [
+      "S:fuzzer.permission.uidchanger",
+      "URI:content://user_dictionary/words",
+      "OBJ:android.app.slice.SliceSpec[]",
+      "OBJ:android.os.IBinder"
+    ],
+    "8b0d7a48a5b9488b54c49a77c2205a31": [
+      "S:fuzzer.permission.uidchanger",
+      "URI:content://com.android.contacts/contacts/lookup/0",
+      "OBJ:android.app.slice.SliceSpec[]",
+      "OBJ:android.os.IBinder"
+    ],
+    "480f42e39eb8737762e6fc63dc743b48": [
+      "S:com.android.systemui",
+      "URI:content://user_dictionary/words",
+      "OBJ:android.app.slice.SliceSpec[]",
+      "OBJ:android.os.IBinder"
+    ],
+    "634edef25cf88ab1e24290ce06d1b506": [
+      "S:com.android.systemui",
+      "URI:content://com.android.contacts/contacts/lookup/0",
+      "OBJ:android.app.slice.SliceSpec[]",
+      "OBJ:android.os.IBinder"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

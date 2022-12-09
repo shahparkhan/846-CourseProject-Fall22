@@ -1,0 +1,27 @@
+{
+  "api": "device_policy|isAlwaysOnVpnLockdownEnabled|android.content.ComponentName|Z|",
+  "parameters_count": 2,
+  "parameters": {
+    "88b0dc6c344a46c7529d53a2e7ed2382": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "587db143ad63be2665a62d6e82c033a3": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

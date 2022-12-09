@@ -1,0 +1,29 @@
+{
+  "api": "updatelock|acquireUpdateLock|android.os.IBinder,java.lang.String|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "da8b053c468173941c6a97f1e5f2386c": [
+      "OBJ:android.os.IBinder",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "687200e77dc79363fb28da49abf035d2": [
+      "OBJ:android.os.IBinder",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

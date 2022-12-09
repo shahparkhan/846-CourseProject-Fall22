@@ -1,0 +1,29 @@
+{
+  "api": "connectivity|reportNetworkConnectivity|android.net.Network,Z|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "243010e0f6021cb16a1c2ec3ac5caec3": [
+      "OBJ:android.net.Network",
+      "B:true"
+    ],
+    "d8e060fa498561073156b49861805958": [
+      "OBJ:android.net.Network",
+      "B:false"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

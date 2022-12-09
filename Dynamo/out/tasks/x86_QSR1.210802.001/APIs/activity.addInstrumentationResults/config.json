@@ -1,0 +1,25 @@
+{
+  "api": "activity|addInstrumentationResults|android.app.IApplicationThread,android.os.Bundle|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "97e397bb3f989b350f48a9cebda3a78c": [
+      "OBJ:android.app.IApplicationThread",
+      "OBJ:android.os.Bundle"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

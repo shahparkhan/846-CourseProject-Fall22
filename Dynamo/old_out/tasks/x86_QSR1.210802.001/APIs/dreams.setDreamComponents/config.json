@@ -1,0 +1,24 @@
+{
+  "api": "dreams|setDreamComponents|android.content.ComponentName[]|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "6240ee859574e90052f46848025da512": [
+      "OBJ:android.content.ComponentName[]"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,29 @@
+{
+  "api": "activity|showBootMessage|java.lang.CharSequence,Z|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "4d5ae727da095c5c5c198309caba7126": [
+      "OBJ:java.lang.CharSequence",
+      "B:true"
+    ],
+    "bed0bed8013bb5737774fa88a82ff6f7": [
+      "OBJ:java.lang.CharSequence",
+      "B:false"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

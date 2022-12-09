@@ -1,0 +1,69 @@
+{
+  "api": "phone|setCarrierTestOverride|I,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "58f9e0ebc1b5d1a794b8b0c1b5d7d8b6": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1"
+    ],
+    "a705560319c5ff0e11f0e5fbdeede500": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1"
+    ],
+    "415ea73a38fb496449b671b3ab78a256": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1"
+    ],
+    "8dba2edc287c580ddde836d3bde223dd": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

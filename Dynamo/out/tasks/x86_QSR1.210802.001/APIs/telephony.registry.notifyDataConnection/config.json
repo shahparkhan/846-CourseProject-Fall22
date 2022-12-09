@@ -1,0 +1,114 @@
+{
+  "api": "telephony.registry|notifyDataConnection|I,Z,java.lang.String,java.lang.String,android.net.LinkProperties,android.net.NetworkCapabilities,I,Z|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "e05dccb3e18159295e59f83b4be91333": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:true",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:2",
+      "OBJ:android.net.LinkProperties",
+      "OBJ:android.net.NetworkCapabilities",
+      "INDEX:0",
+      "INDEX:1"
+    ],
+    "e8641c4c04e86cb4c9087bd83224fe10": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:true",
+      "S:com.android.systemui",
+      "INDEX:2",
+      "OBJ:android.net.LinkProperties",
+      "OBJ:android.net.NetworkCapabilities",
+      "INDEX:0",
+      "INDEX:1"
+    ],
+    "d1c7ff2eb0d7bad906dc770945c43cdf": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:false",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:2",
+      "OBJ:android.net.LinkProperties",
+      "OBJ:android.net.NetworkCapabilities",
+      "INDEX:0",
+      "INDEX:1"
+    ],
+    "052f8084b17956c295444eea25ea623e": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:false",
+      "S:com.android.systemui",
+      "INDEX:2",
+      "OBJ:android.net.LinkProperties",
+      "OBJ:android.net.NetworkCapabilities",
+      "INDEX:0",
+      "INDEX:1"
+    ],
+    "36ab69a22e0e3e49ce828296ca1ee4f8": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:true",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:2",
+      "OBJ:android.net.LinkProperties",
+      "OBJ:android.net.NetworkCapabilities",
+      "INDEX:0",
+      "INDEX:1"
+    ],
+    "c69a159782ade9ff31a264f421549176": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:true",
+      "S:com.android.systemui",
+      "INDEX:2",
+      "OBJ:android.net.LinkProperties",
+      "OBJ:android.net.NetworkCapabilities",
+      "INDEX:0",
+      "INDEX:1"
+    ],
+    "97bf29aada69d0fb77bfd3f12115844c": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:false",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:2",
+      "OBJ:android.net.LinkProperties",
+      "OBJ:android.net.NetworkCapabilities",
+      "INDEX:0",
+      "INDEX:1"
+    ],
+    "eda8dcba8b4bbec29b7a41faeda4abb6": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:false",
+      "S:com.android.systemui",
+      "INDEX:2",
+      "OBJ:android.net.LinkProperties",
+      "OBJ:android.net.NetworkCapabilities",
+      "INDEX:0",
+      "INDEX:1"
+    ]
+  },
+  "parameters_done": {
+    "None:e05dccb3e18159295e59f83b4be91333": 1
+  },
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [
+    "com.android.server.TelephonyRegistry"
+  ],
+  "phase_name": "change_parameters",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 0,
+    "historical_service_not_invoked": 14,
+    "no_traces": 1,
+    "historical_no_traces": 1
+  },
+  "pids": [],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

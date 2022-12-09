@@ -1,0 +1,24 @@
+{
+  "api": "trust|clearAllBiometricRecognized|android.hardware.biometrics.BiometricSourceType|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "afc78cb25dc87cbefa784f0fef471d1d": [
+      "OBJ:android.hardware.biometrics.BiometricSourceType"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

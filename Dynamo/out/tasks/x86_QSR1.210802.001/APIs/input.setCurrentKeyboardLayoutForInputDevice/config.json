@@ -1,0 +1,29 @@
+{
+  "api": "input|setCurrentKeyboardLayoutForInputDevice|android.hardware.input.InputDeviceIdentifier,java.lang.String|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "ad7ca50fb2d3bde9736f42e6d7e81680": [
+      "OBJ:android.hardware.input.InputDeviceIdentifier",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "4022d479bb5b84412ce4e4fbba8d94c5": [
+      "OBJ:android.hardware.input.InputDeviceIdentifier",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

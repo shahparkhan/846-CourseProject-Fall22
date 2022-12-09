@@ -1,0 +1,54 @@
+{
+  "api": "location|addTestProvider|java.lang.String,com.android.internal.location.ProviderProperties,java.lang.String|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "24316c7f987ce6f7a6e83a05c2d2dc8f": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:com.android.internal.location.ProviderProperties",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "ba337c6af949288019fa561398ed6556": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:com.android.internal.location.ProviderProperties",
+      "S:com.android.systemui"
+    ],
+    "44553dda336f8f03a5bf29fe1f109602": [
+      "S:com.android.systemui",
+      "OBJ:com.android.internal.location.ProviderProperties",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "3bc24606f9aca675af479de108b0f87b": [
+      "S:com.android.systemui",
+      "OBJ:com.android.internal.location.ProviderProperties",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {
+    "None:24316c7f987ce6f7a6e83a05c2d2dc8f": 1
+  },
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [
+    "com.android.server.LocationManagerService"
+  ],
+  "phase_name": "change_parameters",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 1,
+    "historical_service_not_invoked": 15,
+    "no_traces": 0,
+    "historical_no_traces": 0
+  },
+  "pids": [],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

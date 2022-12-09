@@ -1,0 +1,24 @@
+{
+  "api": "usb|hasAccessoryPermission|android.hardware.usb.UsbAccessory|Z|",
+  "parameters_count": 1,
+  "parameters": {
+    "de6feaeffc8b1c83fa2eaec960c3fa17": [
+      "OBJ:android.hardware.usb.UsbAccessory"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

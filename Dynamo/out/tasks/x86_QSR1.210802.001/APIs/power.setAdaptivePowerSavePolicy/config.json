@@ -1,0 +1,24 @@
+{
+  "api": "power|setAdaptivePowerSavePolicy|android.os.BatterySaverPolicyConfig|Z|",
+  "parameters_count": 1,
+  "parameters": {
+    "94595778872c788276c40db44b83fa1c": [
+      "OBJ:android.os.BatterySaverPolicyConfig"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

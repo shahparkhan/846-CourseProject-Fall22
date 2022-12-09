@@ -1,0 +1,133 @@
+[
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": false,
+    "exception": {
+      "is_security": true,
+      "data": {
+        "type": "java.lang.SecurityException.<init>(Native Method)",
+        "location": "android.app.AppOpsManager.checkOp(AppOpsManager.java:5146)",
+        "message": "fuzzer.permission.uidchanger from uid 10148 not allowed to perform MOCK_LOCATION"
+      }
+    },
+    "appops_operations": [
+      {
+        "method": "checkOperation",
+        "uid": "10148",
+        "op": 58,
+        "pkg": "fuzzer.permission.uidchanger",
+        "result": 2
+      }
+    ],
+    "to_instrument": [
+      "com.android.server.LocationManagerService"
+    ],
+    "data": {
+      "appOps": [
+        {
+          "method": "checkOperation",
+          "uid": "10148",
+          "op": 58,
+          "pkg": "fuzzer.permission.uidchanger",
+          "result": 2
+        }
+      ],
+      "methods": [],
+      "permissions": [
+        "EXCEPTION::fuzzer.permission.uidchanger from uid 10148 not allowed to perform MOCK_LOCATION "
+      ],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "dd8d7c7fb1d14d9d628ed411e5cc2e2a",
+      "ignored_permissions": []
+    },
+    "processed": true
+  },
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": false,
+      "data": null
+    },
+    "appops_operations": [],
+    "to_instrument": [],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "EXCEPTION::fuzzer.permission.uidchanger from uid 10148 not allowed to perform MOCK_LOCATION "
+      ],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "dd8d7c7fb1d14d9d628ed411e5cc2e2a",
+      "ignored_permissions": []
+    },
+    "processed": true
+  },
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": false,
+    "exception": {
+      "is_security": true,
+      "data": {
+        "type": "java.lang.SecurityException.<init>(Native Method)",
+        "location": "android.app.AppOpsManager.checkOp(AppOpsManager.java:5146)",
+        "message": "com.android.systemui from uid 10148 not allowed to perform MOCK_LOCATION"
+      }
+    },
+    "appops_operations": [
+      {
+        "method": "checkOperation",
+        "uid": "10148",
+        "op": 58,
+        "pkg": "com.android.systemui",
+        "result": 2
+      }
+    ],
+    "to_instrument": [
+      "com.android.server.LocationManagerService"
+    ],
+    "data": {
+      "appOps": [
+        {
+          "method": "checkOperation",
+          "uid": "10148",
+          "op": 58,
+          "pkg": "com.android.systemui",
+          "result": 2
+        }
+      ],
+      "methods": [],
+      "permissions": [
+        "EXCEPTION::com.android.systemui from uid 10148 not allowed to perform MOCK_LOCATION "
+      ],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "95c1ac620797e2714298c8e5804d8220",
+      "ignored_permissions": []
+    },
+    "processed": true
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "api": "phone|requestNetworkScan|I,android.telephony.NetworkScanRequest,android.os.Messenger,android.os.IBinder,java.lang.String|I|",
+  "parameters_count": 4,
+  "parameters": {
+    "a1123da3c35ebd756cd365055efa01b9": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.telephony.NetworkScanRequest",
+      "OBJ:android.os.Messenger",
+      "OBJ:android.os.IBinder",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "7fb349a04208e1bf000a7c31a81afb39": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.telephony.NetworkScanRequest",
+      "OBJ:android.os.Messenger",
+      "OBJ:android.os.IBinder",
+      "S:com.android.systemui"
+    ],
+    "b49fd58dc489af18b8ffc1b008201c86": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.telephony.NetworkScanRequest",
+      "OBJ:android.os.Messenger",
+      "OBJ:android.os.IBinder",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "ee1db638dd936a503712e2302abdc134": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.telephony.NetworkScanRequest",
+      "OBJ:android.os.Messenger",
+      "OBJ:android.os.IBinder",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

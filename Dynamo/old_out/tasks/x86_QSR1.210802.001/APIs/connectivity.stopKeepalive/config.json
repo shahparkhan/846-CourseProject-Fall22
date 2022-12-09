@@ -1,0 +1,29 @@
+{
+  "api": "connectivity|stopKeepalive|android.net.Network,I|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "e93d30428e39ba2e9139a18f160c1a3a": [
+      "OBJ:android.net.Network",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "7c24974b84a065873a154ea4dfe23533": [
+      "OBJ:android.net.Network",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

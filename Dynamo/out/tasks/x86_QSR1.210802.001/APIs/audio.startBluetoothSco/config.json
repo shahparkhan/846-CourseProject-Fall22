@@ -1,0 +1,29 @@
+{
+  "api": "audio|startBluetoothSco|android.os.IBinder,I|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "6d15964ab236d7d5910c3867c3c1299c": [
+      "OBJ:android.os.IBinder",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "e664cd3bb8944c9c761f2c32a4817bd5": [
+      "OBJ:android.os.IBinder",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

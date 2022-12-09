@@ -1,0 +1,24 @@
+{
+  "api": "input|getKeyboardLayoutsForInputDevice|android.hardware.input.InputDeviceIdentifier|android.hardware.input.KeyboardLayout[]|",
+  "parameters_count": 1,
+  "parameters": {
+    "8d2c7d82a8bc99df77eeee37f2ee9629": [
+      "OBJ:android.hardware.input.InputDeviceIdentifier"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,57 @@
+{
+  "api": "voiceinteraction|performDirectAction|android.os.IBinder,java.lang.String,android.os.Bundle,I,android.os.IBinder,android.os.RemoteCallback,android.os.RemoteCallback|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "254a0f1dfb96ccb663063689c4f91d67": [
+      "OBJ:android.os.IBinder",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.Bundle",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.IBinder",
+      "OBJ:android.os.RemoteCallback",
+      "OBJ:android.os.RemoteCallback"
+    ],
+    "39e25b753bb35d6c2de5c7bc332cd7b3": [
+      "OBJ:android.os.IBinder",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.Bundle",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.IBinder",
+      "OBJ:android.os.RemoteCallback",
+      "OBJ:android.os.RemoteCallback"
+    ],
+    "c02d4645cab0e76f30141d2c7bd6f89f": [
+      "OBJ:android.os.IBinder",
+      "S:com.android.systemui",
+      "OBJ:android.os.Bundle",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.IBinder",
+      "OBJ:android.os.RemoteCallback",
+      "OBJ:android.os.RemoteCallback"
+    ],
+    "3538ff7ad6cbc68b13300c3d313adb2c": [
+      "OBJ:android.os.IBinder",
+      "S:com.android.systemui",
+      "OBJ:android.os.Bundle",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.IBinder",
+      "OBJ:android.os.RemoteCallback",
+      "OBJ:android.os.RemoteCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

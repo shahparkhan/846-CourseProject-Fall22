@@ -1,0 +1,29 @@
+{
+  "api": "window|registerSystemGestureExclusionListener|android.view.ISystemGestureExclusionListener,I|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "a1b8c4daca5a0101a1f8bce188482ffa": [
+      "OBJ:android.view.ISystemGestureExclusionListener",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "26e2f6bcfe7120373e826f079eeadefe": [
+      "OBJ:android.view.ISystemGestureExclusionListener",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

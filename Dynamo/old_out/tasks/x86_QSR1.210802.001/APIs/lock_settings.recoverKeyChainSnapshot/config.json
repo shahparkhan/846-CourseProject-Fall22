@@ -1,0 +1,31 @@
+{
+  "api": "lock_settings|recoverKeyChainSnapshot|java.lang.String,B[],java.util.List|java.util.Map|",
+  "parameters_count": 2,
+  "parameters": {
+    "4b8a590d7138fd561d9d11f3cc493480": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:B[]",
+      "OBJ:java.util.List"
+    ],
+    "ee25acddc50499e3cab17d370775a95d": [
+      "S:com.android.systemui",
+      "OBJ:B[]",
+      "OBJ:java.util.List"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

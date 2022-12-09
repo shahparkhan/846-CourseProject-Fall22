@@ -1,0 +1,41 @@
+{
+  "api": "device_policy|setMaximumTimeToLock|android.content.ComponentName,J,Z|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "971181cd012adeac73c26825073810b8": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:J",
+      "B:true"
+    ],
+    "c9d3c9ffdcd1a71297fca1c6b806c699": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:J",
+      "B:false"
+    ],
+    "2e7c7d292cb5d93c76e81da45d849156": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:J",
+      "B:true"
+    ],
+    "4c96286e91fdf46f176a8ff7445e76ea": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:J",
+      "B:false"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,41 @@
+{
+  "api": "activity_task|setVrMode|android.os.IBinder,Z,android.content.ComponentName|I|",
+  "parameters_count": 4,
+  "parameters": {
+    "75976a82ef515e8a060633daa7f2eaf3": [
+      "OBJ:android.os.IBinder",
+      "B:true",
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "a1430ddc683587e2f31ca7a01c15b382": [
+      "OBJ:android.os.IBinder",
+      "B:true",
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "4b6475f5c9aba03207586f2ee32550ee": [
+      "OBJ:android.os.IBinder",
+      "B:false",
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "ebade705ef06eb7820af9d620dbd9865": [
+      "OBJ:android.os.IBinder",
+      "B:false",
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

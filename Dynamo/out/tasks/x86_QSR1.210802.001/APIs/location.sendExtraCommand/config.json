@@ -1,0 +1,41 @@
+{
+  "api": "location|sendExtraCommand|java.lang.String,java.lang.String,android.os.Bundle|Z|",
+  "parameters_count": 4,
+  "parameters": {
+    "1cdb4615987dd4a6d78e7891c0b087d4": [
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.Bundle"
+    ],
+    "3023e2777bf1c62d40c43f896a0160b8": [
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "OBJ:android.os.Bundle"
+    ],
+    "aa6ef4152a61fba45d1875b9148a7d80": [
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.Bundle"
+    ],
+    "f56c52a4d7798c6977169f40497eacb7": [
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "OBJ:android.os.Bundle"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

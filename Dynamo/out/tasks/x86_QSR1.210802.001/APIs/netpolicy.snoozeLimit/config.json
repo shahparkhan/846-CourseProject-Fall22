@@ -1,0 +1,24 @@
+{
+  "api": "netpolicy|snoozeLimit|android.net.NetworkTemplate|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "d34565a62d501008ac4d8a6e8884e9c4": [
+      "OBJ:android.net.NetworkTemplate"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

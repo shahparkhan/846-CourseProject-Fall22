@@ -1,0 +1,33 @@
+{
+  "api": "netstats|registerUsageCallback|java.lang.String,android.net.DataUsageRequest,android.os.Messenger,android.os.IBinder|android.net.DataUsageRequest|",
+  "parameters_count": 2,
+  "parameters": {
+    "0a6ba4f51c69ac89415d08321532324a": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.net.DataUsageRequest",
+      "OBJ:android.os.Messenger",
+      "OBJ:android.os.IBinder"
+    ],
+    "803a24eeb319f373590600567c793ca2": [
+      "S:com.android.systemui",
+      "OBJ:android.net.DataUsageRequest",
+      "OBJ:android.os.Messenger",
+      "OBJ:android.os.IBinder"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

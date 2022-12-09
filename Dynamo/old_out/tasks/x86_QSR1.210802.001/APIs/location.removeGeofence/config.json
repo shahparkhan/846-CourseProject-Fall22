@@ -1,0 +1,44 @@
+{
+  "api": "location|removeGeofence|android.location.Geofence,android.app.PendingIntent,java.lang.String|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "3523719cb46239ce3c2421f9724edbce": [
+      "OBJ:android.location.Geofence",
+      "OBJ:android.app.PendingIntent",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "42a1f3366a4c23a6428ffd90090f4075": [
+      "OBJ:android.location.Geofence",
+      "OBJ:android.app.PendingIntent",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {
+    "None:3523719cb46239ce3c2421f9724edbce": 2
+  },
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [
+    "com.android.server.LocationManagerService"
+  ],
+  "phase_name": "change_parameters",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 3,
+    "historical_service_not_invoked": 15,
+    "no_traces": 0,
+    "historical_no_traces": 0.7
+  },
+  "pids": [],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

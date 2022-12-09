@@ -1,0 +1,85 @@
+{
+  "api": "fingerprint|authenticate|android.os.IBinder,J,I,android.hardware.fingerprint.IFingerprintServiceReceiver,I,java.lang.String|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "276d9f3dca069874ea6b22ebd4fdfc87": [
+      "OBJ:android.os.IBinder",
+      "OBJ:J",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.hardware.fingerprint.IFingerprintServiceReceiver",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "b78b9dcc33ef47225c846c8e0fbd239a": [
+      "OBJ:android.os.IBinder",
+      "OBJ:J",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.hardware.fingerprint.IFingerprintServiceReceiver",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui"
+    ],
+    "9d126f83e721dc2d6db43b6ce915473d": [
+      "OBJ:android.os.IBinder",
+      "OBJ:J",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.hardware.fingerprint.IFingerprintServiceReceiver",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "e3f51d4929b22ec35ad37cc29d7f6b9c": [
+      "OBJ:android.os.IBinder",
+      "OBJ:J",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.hardware.fingerprint.IFingerprintServiceReceiver",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui"
+    ],
+    "9046a6c5e98b73019ba952e248f6307a": [
+      "OBJ:android.os.IBinder",
+      "OBJ:J",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.hardware.fingerprint.IFingerprintServiceReceiver",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "c732613933d6faab92de5627097c7aeb": [
+      "OBJ:android.os.IBinder",
+      "OBJ:J",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.hardware.fingerprint.IFingerprintServiceReceiver",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui"
+    ],
+    "ad9e12ba316c49659691bc9dc0ddfc4d": [
+      "OBJ:android.os.IBinder",
+      "OBJ:J",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.hardware.fingerprint.IFingerprintServiceReceiver",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "7efd38c17073d6c7364771f25857e4c6": [
+      "OBJ:android.os.IBinder",
+      "OBJ:J",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.hardware.fingerprint.IFingerprintServiceReceiver",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

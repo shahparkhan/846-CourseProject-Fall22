@@ -1,0 +1,61 @@
+{
+  "api": "power|reboot|Z,java.lang.String,Z|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "646f9f03638138c7b3713de919c76455": [
+      "B:true",
+      "S:fuzzer.permission.uidchanger",
+      "B:true"
+    ],
+    "57bc37b7a8ceed9e92e3095dd4c1ab54": [
+      "B:true",
+      "S:fuzzer.permission.uidchanger",
+      "B:false"
+    ],
+    "6a74aded311bf8a8997e71ae2d3ffc71": [
+      "B:true",
+      "S:com.android.systemui",
+      "B:true"
+    ],
+    "d4008d8da0ffa805ef5f9ef27e2a19c9": [
+      "B:true",
+      "S:com.android.systemui",
+      "B:false"
+    ],
+    "70e2d59f2178f31220f7ad26a17d1ed9": [
+      "B:false",
+      "S:fuzzer.permission.uidchanger",
+      "B:true"
+    ],
+    "3840dd945678517091d06e13eef3c61d": [
+      "B:false",
+      "S:fuzzer.permission.uidchanger",
+      "B:false"
+    ],
+    "3d524e14a8a5cef6f0a988301e417ced": [
+      "B:false",
+      "S:com.android.systemui",
+      "B:true"
+    ],
+    "19409bfc019e2ba61ac02da6ccc22f1b": [
+      "B:false",
+      "S:com.android.systemui",
+      "B:false"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

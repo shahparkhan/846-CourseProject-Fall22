@@ -1,0 +1,29 @@
+{
+  "api": "scheduling_policy|requestCpusetBoost|Z,android.os.IBinder|I|",
+  "parameters_count": 2,
+  "parameters": {
+    "c94c287f062c6e1062798a38346c5c47": [
+      "B:true",
+      "OBJ:android.os.IBinder"
+    ],
+    "254061c34e08c9a8582182a6d5d55c73": [
+      "B:false",
+      "OBJ:android.os.IBinder"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

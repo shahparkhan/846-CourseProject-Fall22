@@ -1,0 +1,41 @@
+{
+  "api": "device_policy|transferOwnership|android.content.ComponentName,android.content.ComponentName,android.os.PersistableBundle|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "0da3878119d301d846d8b2dca18741a2": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.PersistableBundle"
+    ],
+    "a8c5297836d7d22b3880db7a6cb71b08": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.PersistableBundle"
+    ],
+    "60d1cc2333f657f7a3237d465adec06b": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.PersistableBundle"
+    ],
+    "dc44a81e6ae8ff46323d628e614681fe": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.PersistableBundle"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

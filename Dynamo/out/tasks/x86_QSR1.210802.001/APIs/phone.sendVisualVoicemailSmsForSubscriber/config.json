@@ -1,0 +1,53 @@
+{
+  "api": "phone|sendVisualVoicemailSmsForSubscriber|java.lang.String,I,java.lang.String,I,java.lang.String,android.app.PendingIntent|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "d191e811bc335612d3dd4e5ec11e80b6": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:0",
+      "INDEX:1",
+      "INDEX:0",
+      "OBJ:android.app.PendingIntent"
+    ],
+    "aafeb22858bdfe9d899a1f330c6e2e33": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:0",
+      "INDEX:1",
+      "INDEX:0",
+      "OBJ:android.app.PendingIntent"
+    ],
+    "06c1694b4d20a9be93640e6293e407b0": [
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:0",
+      "INDEX:1",
+      "INDEX:0",
+      "OBJ:android.app.PendingIntent"
+    ],
+    "24feceda905d00bc9e6c4e58c95bab00": [
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:0",
+      "INDEX:1",
+      "INDEX:0",
+      "OBJ:android.app.PendingIntent"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

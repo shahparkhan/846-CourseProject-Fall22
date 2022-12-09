@@ -1,0 +1,29 @@
+{
+  "api": "mount|setPrimaryStorageUuid|java.lang.String,android.content.pm.IPackageMoveObserver|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "a6c11beafaa54013b95aba82de6ee078": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.content.pm.IPackageMoveObserver"
+    ],
+    "fc2273079038610324802d0dfdabb980": [
+      "S:com.android.systemui",
+      "OBJ:android.content.pm.IPackageMoveObserver"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

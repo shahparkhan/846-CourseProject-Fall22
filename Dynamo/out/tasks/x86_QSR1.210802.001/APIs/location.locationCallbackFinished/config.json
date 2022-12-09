@@ -1,0 +1,24 @@
+{
+  "api": "location|locationCallbackFinished|android.location.ILocationListener|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "8769cd6989cdb952a30645c0be48411f": [
+      "OBJ:android.location.ILocationListener"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

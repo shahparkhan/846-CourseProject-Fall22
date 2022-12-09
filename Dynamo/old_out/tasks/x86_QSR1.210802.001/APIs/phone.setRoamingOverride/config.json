@@ -1,0 +1,35 @@
+{
+  "api": "phone|setRoamingOverride|I,java.util.List,java.util.List,java.util.List,java.util.List|Z|",
+  "parameters_count": 2,
+  "parameters": {
+    "2d3fdaa800f06ecd9105eea4666135a3": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:java.util.List",
+      "OBJ:java.util.List",
+      "OBJ:java.util.List",
+      "OBJ:java.util.List"
+    ],
+    "61eb1b6e1a3bbb002ba1f7202dc5c651": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:java.util.List",
+      "OBJ:java.util.List",
+      "OBJ:java.util.List",
+      "OBJ:java.util.List"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

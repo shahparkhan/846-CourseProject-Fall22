@@ -1,0 +1,29 @@
+{
+  "api": "print|addPrintServicesChangeListener|android.print.IPrintServicesChangeListener,I|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "403b0d4c385311ccfebbb5123d402794": [
+      "OBJ:android.print.IPrintServicesChangeListener",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "19167afe5623799ee9e9aa7905f61386": [
+      "OBJ:android.print.IPrintServicesChangeListener",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

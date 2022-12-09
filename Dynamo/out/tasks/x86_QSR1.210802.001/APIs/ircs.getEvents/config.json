@@ -1,0 +1,29 @@
+{
+  "api": "ircs|getEvents|android.telephony.ims.RcsEventQueryParams,java.lang.String|android.telephony.ims.RcsEventQueryResultDescriptor|",
+  "parameters_count": 2,
+  "parameters": {
+    "208ced0ccec7bb102fd7f8135d39a533": [
+      "OBJ:android.telephony.ims.RcsEventQueryParams",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "4fe09ae1c5ac13910e940a3bf46db6e3": [
+      "OBJ:android.telephony.ims.RcsEventQueryParams",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,29 @@
+{
+  "api": "telecom|enablePhoneAccount|android.telecom.PhoneAccountHandle,Z|Z|",
+  "parameters_count": 2,
+  "parameters": {
+    "8584eb7fb5e803184773c923d8530a24": [
+      "OBJ:android.telecom.PhoneAccountHandle",
+      "B:true"
+    ],
+    "5ad6a08ecb4a41ba411db58801c6cdd1": [
+      "OBJ:android.telecom.PhoneAccountHandle",
+      "B:false"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

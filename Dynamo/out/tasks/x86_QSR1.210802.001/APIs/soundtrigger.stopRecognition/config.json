@@ -1,0 +1,25 @@
+{
+  "api": "soundtrigger|stopRecognition|android.os.ParcelUuid,android.hardware.soundtrigger.IRecognitionStatusCallback|I|",
+  "parameters_count": 1,
+  "parameters": {
+    "a75673978dd481b0adba6a010457c6ea": [
+      "OBJ:android.os.ParcelUuid",
+      "OBJ:android.hardware.soundtrigger.IRecognitionStatusCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,24 @@
+{
+  "api": "display|releaseVirtualDisplay|android.hardware.display.IVirtualDisplayCallback|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "b0d2841aa8bc0e28afa242a3b766243e": [
+      "OBJ:android.hardware.display.IVirtualDisplayCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

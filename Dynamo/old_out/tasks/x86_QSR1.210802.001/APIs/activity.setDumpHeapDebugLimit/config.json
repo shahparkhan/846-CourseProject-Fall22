@@ -1,0 +1,69 @@
+{
+  "api": "activity|setDumpHeapDebugLimit|java.lang.String,I,J,java.lang.String|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "36b9f7d14bfd7d71b8fd623067b541d5": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:J",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "3558a8f476b9f94875cad3764ce0268b": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:J",
+      "S:com.android.systemui"
+    ],
+    "5c0005795661fe481d173ba017b94094": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:J",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "0bf6375e83cbf83fca3cb4c3690b7143": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:J",
+      "S:com.android.systemui"
+    ],
+    "760a0506dfb90f602a1a7b7313442347": [
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:J",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "b30ff74e47bbf33a3c35d85de3668691": [
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:J",
+      "S:com.android.systemui"
+    ],
+    "1f30f9ca3e834b3d7aeaec4be8588ea9": [
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:J",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "fdce30ae06b23693eb51dab2827dcfaa": [
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:J",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

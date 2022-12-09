@@ -1,0 +1,33 @@
+{
+  "api": "phone|requestNumberVerification|android.telephony.PhoneNumberRange,J,com.android.internal.telephony.INumberVerificationCallback,java.lang.String|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "7cdb459298b364ef9efd5c7358a9ecce": [
+      "OBJ:android.telephony.PhoneNumberRange",
+      "OBJ:J",
+      "OBJ:com.android.internal.telephony.INumberVerificationCallback",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "1b1be7aa4ead0d7bf2012ba037f6432f": [
+      "OBJ:android.telephony.PhoneNumberRange",
+      "OBJ:J",
+      "OBJ:com.android.internal.telephony.INumberVerificationCallback",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

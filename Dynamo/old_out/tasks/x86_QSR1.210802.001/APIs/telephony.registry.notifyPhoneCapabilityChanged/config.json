@@ -1,0 +1,24 @@
+{
+  "api": "telephony.registry|notifyPhoneCapabilityChanged|android.telephony.PhoneCapability|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "f9184c604d51522861f544a4cc100e3f": [
+      "OBJ:android.telephony.PhoneCapability"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

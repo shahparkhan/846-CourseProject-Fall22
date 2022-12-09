@@ -1,0 +1,31 @@
+{
+  "api": "print|startPrinterDiscovery|android.print.IPrinterDiscoveryObserver,java.util.List,I|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "615ead2f6a34a5a5c0d882b6496f9120": [
+      "OBJ:android.print.IPrinterDiscoveryObserver",
+      "OBJ:java.util.List",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "4f09ed424148bb6384101449b4178c5d": [
+      "OBJ:android.print.IPrinterDiscoveryObserver",
+      "OBJ:java.util.List",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

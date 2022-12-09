@@ -1,0 +1,39 @@
+{
+  "api": "location|stopGnssBatch||Z|",
+  "parameters_count": 0,
+  "parameters": {},
+  "parameters_done": {
+    "None:hash-placeholder": 1,
+    "1000000:hash-placeholder": 1
+  },
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [
+    null,
+    1000000
+  ],
+  "classes": [
+    "com.android.server.LocationManagerService"
+  ],
+  "phase_name": "change_uid",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 3,
+    "historical_service_not_invoked": 15,
+    "no_traces": 0,
+    "historical_no_traces": 0
+  },
+  "pids": [],
+  "pids_done": [
+    "system_server:hash-placeholder"
+  ],
+  "done": true,
+  "errored": true
+}

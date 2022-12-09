@@ -1,0 +1,85 @@
+{
+  "api": "activity_task|requestAssistContextExtras|I,android.app.IAssistDataReceiver,android.os.Bundle,android.os.IBinder,Z,Z|Z|",
+  "parameters_count": 8,
+  "parameters": {
+    "23c2bb224370335646b807c1035a304e": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.app.IAssistDataReceiver",
+      "OBJ:android.os.Bundle",
+      "OBJ:android.os.IBinder",
+      "B:true",
+      "B:true"
+    ],
+    "6472a5a8edb6342ae6c5cc3138f5b1b9": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.app.IAssistDataReceiver",
+      "OBJ:android.os.Bundle",
+      "OBJ:android.os.IBinder",
+      "B:true",
+      "B:false"
+    ],
+    "cab5891e280b5cbc1e40e1fc8f4a25df": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.app.IAssistDataReceiver",
+      "OBJ:android.os.Bundle",
+      "OBJ:android.os.IBinder",
+      "B:false",
+      "B:true"
+    ],
+    "3c0c965cc99b4202199513fa1a50f663": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.app.IAssistDataReceiver",
+      "OBJ:android.os.Bundle",
+      "OBJ:android.os.IBinder",
+      "B:false",
+      "B:false"
+    ],
+    "ede8936656b0cd511fbd7b36dadebe9b": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.app.IAssistDataReceiver",
+      "OBJ:android.os.Bundle",
+      "OBJ:android.os.IBinder",
+      "B:true",
+      "B:true"
+    ],
+    "8323b25736c78c86f586dab953994082": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.app.IAssistDataReceiver",
+      "OBJ:android.os.Bundle",
+      "OBJ:android.os.IBinder",
+      "B:true",
+      "B:false"
+    ],
+    "bb7af911ba6218985705f183d4ec4848": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.app.IAssistDataReceiver",
+      "OBJ:android.os.Bundle",
+      "OBJ:android.os.IBinder",
+      "B:false",
+      "B:true"
+    ],
+    "7862d5b073f8f91a3bbdf9c803e9f4b1": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.app.IAssistDataReceiver",
+      "OBJ:android.os.Bundle",
+      "OBJ:android.os.IBinder",
+      "B:false",
+      "B:false"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

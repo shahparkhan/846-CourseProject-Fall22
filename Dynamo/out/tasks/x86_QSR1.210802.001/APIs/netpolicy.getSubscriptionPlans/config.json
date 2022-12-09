@@ -1,0 +1,37 @@
+{
+  "api": "netpolicy|getSubscriptionPlans|I,java.lang.String|android.telephony.SubscriptionPlan[]|",
+  "parameters_count": 4,
+  "parameters": {
+    "210b3e5baf493633ee40a70fc52ac639": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "a4c54e341024b8f69fc4b18bbe875091": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui"
+    ],
+    "ece5220549705bc332c86afab9a75ac7": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "bce6db5fa14233811980c1721e368385": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

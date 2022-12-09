@@ -1,0 +1,31 @@
+{
+  "api": "account|removeAccount|android.accounts.IAccountManagerResponse,android.accounts.Account,Z|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "8a6dacf48b85da597a0d75b9b7061b4b": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "OBJ:android.accounts.Account",
+      "B:true"
+    ],
+    "aebfa74a023144ec60f9875df07b390b": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "OBJ:android.accounts.Account",
+      "B:false"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

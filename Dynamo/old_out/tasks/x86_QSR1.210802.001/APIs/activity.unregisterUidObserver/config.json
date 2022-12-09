@@ -1,0 +1,24 @@
+{
+  "api": "activity|unregisterUidObserver|android.app.IUidObserver|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "7df4ba5184e31200aa837777f90b7bc9": [
+      "OBJ:android.app.IUidObserver"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

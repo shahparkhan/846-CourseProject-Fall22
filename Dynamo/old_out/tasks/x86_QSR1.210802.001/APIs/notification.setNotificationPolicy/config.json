@@ -1,0 +1,29 @@
+{
+  "api": "notification|setNotificationPolicy|java.lang.String,android.app.NotificationManager.Policy|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "8d5dd4395fc0f21c76a9709454ef0ced": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.app.NotificationManager.Policy"
+    ],
+    "9af4bc407a2355a7fd159b01b029b17a": [
+      "S:com.android.systemui",
+      "OBJ:android.app.NotificationManager.Policy"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

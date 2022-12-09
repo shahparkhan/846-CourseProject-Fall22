@@ -1,0 +1,29 @@
+{
+  "api": "device_policy|setRecommendedGlobalProxy|android.content.ComponentName,android.net.ProxyInfo|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "cae31bda17e351a6374561a2d56e83f8": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.net.ProxyInfo"
+    ],
+    "f4fc8e12b568bb4b7b35d3e9c7a5fac0": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.net.ProxyInfo"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,29 @@
+{
+  "api": "network_management|addInterfaceToLocalNetwork|java.lang.String,java.util.List|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "32cde2f3cca111b089be218bbb5e6f7d": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.util.List"
+    ],
+    "5e9c30aafe9392dea9db19410b5889ce": [
+      "S:com.android.systemui",
+      "OBJ:java.util.List"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

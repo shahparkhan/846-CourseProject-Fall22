@@ -1,0 +1,31 @@
+{
+  "api": "wifi|registerSoftApCallback|android.os.IBinder,android.net.wifi.ISoftApCallback,I|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "ee6ff54da120297e8b101636f89ad52d": [
+      "OBJ:android.os.IBinder",
+      "OBJ:android.net.wifi.ISoftApCallback",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "5de3f1c7998ab5124d0d512161d28bc9": [
+      "OBJ:android.os.IBinder",
+      "OBJ:android.net.wifi.ISoftApCallback",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

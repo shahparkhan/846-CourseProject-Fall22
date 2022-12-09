@@ -1,0 +1,27 @@
+{
+  "api": "wifip2p|setMiracastMode|I|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "0239d9f4c30ee4350b460c27587d7efe": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "19e125f564e13f8bd5dbcaa867444bbf": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

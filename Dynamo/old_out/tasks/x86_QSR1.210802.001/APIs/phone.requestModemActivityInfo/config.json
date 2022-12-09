@@ -1,0 +1,24 @@
+{
+  "api": "phone|requestModemActivityInfo|android.os.ResultReceiver|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "0ca04588044c4cfa02acfe08df69d64e": [
+      "OBJ:android.os.ResultReceiver"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

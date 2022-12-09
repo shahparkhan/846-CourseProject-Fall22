@@ -1,0 +1,25 @@
+{
+  "api": "activity|handleApplicationCrash|android.os.IBinder,android.app.ApplicationErrorReport.ParcelableCrashInfo|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "843c0e137781a6dc7372799e869a7eea": [
+      "OBJ:android.os.IBinder",
+      "OBJ:android.app.ApplicationErrorReport.ParcelableCrashInfo"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,29 @@
+{
+  "api": "backup|opComplete|I,J|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "70759b97f86f736ac899ead03b25727c": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:J"
+    ],
+    "0baf4436c1c08d7a607c78204ff6b823": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:J"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

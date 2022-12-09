@@ -1,0 +1,29 @@
+{
+  "api": "audio|getFocusRampTimeMs|I,android.media.AudioAttributes|I|",
+  "parameters_count": 2,
+  "parameters": {
+    "801c6e18454173e3bc2104da10b8a619": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.media.AudioAttributes"
+    ],
+    "2f046ed2a82c24c07a1f8e6aae21b35a": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.media.AudioAttributes"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

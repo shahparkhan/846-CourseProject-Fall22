@@ -1,0 +1,31 @@
+{
+  "api": "android.security.keystore|attestKey|android.security.keystore.IKeystoreCertificateChainCallback,java.lang.String,android.security.keymaster.KeymasterArguments|I|",
+  "parameters_count": 2,
+  "parameters": {
+    "1d155903b48ee91d3ab21c41eb6df623": [
+      "OBJ:android.security.keystore.IKeystoreCertificateChainCallback",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.security.keymaster.KeymasterArguments"
+    ],
+    "ae0bf559b60522262b5427e134aa5068": [
+      "OBJ:android.security.keystore.IKeystoreCertificateChainCallback",
+      "S:com.android.systemui",
+      "OBJ:android.security.keymaster.KeymasterArguments"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

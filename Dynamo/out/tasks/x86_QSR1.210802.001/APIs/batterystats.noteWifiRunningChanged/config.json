@@ -1,0 +1,25 @@
+{
+  "api": "batterystats|noteWifiRunningChanged|android.os.WorkSource,android.os.WorkSource|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "1ae3182f49d14cd3051389fe9b99d5d9": [
+      "OBJ:android.os.WorkSource",
+      "OBJ:android.os.WorkSource"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

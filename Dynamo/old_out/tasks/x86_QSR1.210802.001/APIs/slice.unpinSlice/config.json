@@ -1,0 +1,41 @@
+{
+  "api": "slice|unpinSlice|java.lang.String,android.net.Uri,android.os.IBinder|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "d69eb6c219d3ab4c4a97034d298e1b29": [
+      "S:fuzzer.permission.uidchanger",
+      "URI:content://user_dictionary/words",
+      "OBJ:android.os.IBinder"
+    ],
+    "4613284d1bc0e4e10329215863e13061": [
+      "S:fuzzer.permission.uidchanger",
+      "URI:content://com.android.contacts/contacts/lookup/0",
+      "OBJ:android.os.IBinder"
+    ],
+    "a5e0fa7f5b1a2a9b4088d1514fbff58e": [
+      "S:com.android.systemui",
+      "URI:content://user_dictionary/words",
+      "OBJ:android.os.IBinder"
+    ],
+    "64817b541fe6ab5ed85254ab271ccf5b": [
+      "S:com.android.systemui",
+      "URI:content://com.android.contacts/contacts/lookup/0",
+      "OBJ:android.os.IBinder"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

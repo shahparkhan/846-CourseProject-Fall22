@@ -1,0 +1,24 @@
+{
+  "api": "connectivity|getConnectionOwnerUid|android.net.ConnectionInfo|I|",
+  "parameters_count": 1,
+  "parameters": {
+    "0e009778c1167ae76a2f009eaca2d2f9": [
+      "OBJ:android.net.ConnectionInfo"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

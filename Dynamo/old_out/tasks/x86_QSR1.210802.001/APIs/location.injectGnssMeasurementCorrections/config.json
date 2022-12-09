@@ -1,0 +1,42 @@
+{
+  "api": "location|injectGnssMeasurementCorrections|android.location.GnssMeasurementCorrections,java.lang.String|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "abd3b416ef3a6cc297a70775cbb8a9b3": [
+      "OBJ:android.location.GnssMeasurementCorrections",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "8f13ce2cb546ca95b2d820551d312890": [
+      "OBJ:android.location.GnssMeasurementCorrections",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {
+    "None:abd3b416ef3a6cc297a70775cbb8a9b3": 1
+  },
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [
+    "com.android.server.LocationManagerService"
+  ],
+  "phase_name": "change_parameters",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 2,
+    "historical_service_not_invoked": 15,
+    "no_traces": 0,
+    "historical_no_traces": 0
+  },
+  "pids": [],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

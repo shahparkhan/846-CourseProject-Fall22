@@ -1,0 +1,29 @@
+{
+  "api": "account|removeSharedAccountAsUser|android.accounts.Account,I|Z|",
+  "parameters_count": 2,
+  "parameters": {
+    "8b5a97f29d73ecabed157ae9d2184891": [
+      "OBJ:android.accounts.Account",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "fd821e1f898d97ca2be734d2e1b1c59c": [
+      "OBJ:android.accounts.Account",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

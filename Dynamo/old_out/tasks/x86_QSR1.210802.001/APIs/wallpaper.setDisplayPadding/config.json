@@ -1,0 +1,41 @@
+{
+  "api": "wallpaper|setDisplayPadding|android.graphics.Rect,java.lang.String,I|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "6dc1af04f2956ddde426979cc270bd34": [
+      "OBJ:android.graphics.Rect",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "33a6b52756f70f4f7330e8c0843b990d": [
+      "OBJ:android.graphics.Rect",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "05f640fcff3e17b9b5dc6d024efb8f80": [
+      "OBJ:android.graphics.Rect",
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "f5aab8a9fc06ff210d3ab031ea3cf0a3": [
+      "OBJ:android.graphics.Rect",
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

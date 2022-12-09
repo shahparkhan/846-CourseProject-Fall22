@@ -1,0 +1,77 @@
+{
+  "api": "ipsec|createTunnelInterface|java.lang.String,java.lang.String,android.net.Network,android.os.IBinder,java.lang.String|android.net.IpSecTunnelInterfaceResponse|",
+  "parameters_count": 8,
+  "parameters": {
+    "b390778b4930aaf5702bb421eeaba926": [
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.net.Network",
+      "OBJ:android.os.IBinder",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "1c9f2b1a87ab39166e5a210747695b62": [
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.net.Network",
+      "OBJ:android.os.IBinder",
+      "S:com.android.systemui"
+    ],
+    "4f6388da3937fd3504b2ffdddd9de716": [
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "OBJ:android.net.Network",
+      "OBJ:android.os.IBinder",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "b72b0456532150d5a4c5aa4cbc4536e0": [
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "OBJ:android.net.Network",
+      "OBJ:android.os.IBinder",
+      "S:com.android.systemui"
+    ],
+    "527b528e7df986eaf851452f577c9611": [
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.net.Network",
+      "OBJ:android.os.IBinder",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "f19c07aed31074fbe979b3cac39292d5": [
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.net.Network",
+      "OBJ:android.os.IBinder",
+      "S:com.android.systemui"
+    ],
+    "66240a2ad48d18a2818d7d562bba1b79": [
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "OBJ:android.net.Network",
+      "OBJ:android.os.IBinder",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "20dbde37cc82026b936e099dc6c2944e": [
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "OBJ:android.net.Network",
+      "OBJ:android.os.IBinder",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

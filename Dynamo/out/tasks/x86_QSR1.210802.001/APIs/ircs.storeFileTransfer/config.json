@@ -1,0 +1,69 @@
+{
+  "api": "ircs|storeFileTransfer|I,Z,android.telephony.ims.RcsFileTransferCreationParams,java.lang.String|I|",
+  "parameters_count": 8,
+  "parameters": {
+    "cf25c3497988504b5b44498df1f7bfbf": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:true",
+      "OBJ:android.telephony.ims.RcsFileTransferCreationParams",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "6c4f7d291d990620a3f55c8f1f34ac39": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:true",
+      "OBJ:android.telephony.ims.RcsFileTransferCreationParams",
+      "S:com.android.systemui"
+    ],
+    "ef6adf3f33ebb8534109cde3e69fdc82": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:false",
+      "OBJ:android.telephony.ims.RcsFileTransferCreationParams",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "f1b9ee688830d06048f2adc21c2524d3": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:false",
+      "OBJ:android.telephony.ims.RcsFileTransferCreationParams",
+      "S:com.android.systemui"
+    ],
+    "a7285763f7812a3680d2fe4ee1a85584": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:true",
+      "OBJ:android.telephony.ims.RcsFileTransferCreationParams",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "b174ec4aaf665695a50c31c245d33245": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:true",
+      "OBJ:android.telephony.ims.RcsFileTransferCreationParams",
+      "S:com.android.systemui"
+    ],
+    "9eb54190d1bc4ebf8dd2794b1aea9476": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:false",
+      "OBJ:android.telephony.ims.RcsFileTransferCreationParams",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "6d7eb9dda725c21baf4c40d40b5dff4d": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:false",
+      "OBJ:android.telephony.ims.RcsFileTransferCreationParams",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

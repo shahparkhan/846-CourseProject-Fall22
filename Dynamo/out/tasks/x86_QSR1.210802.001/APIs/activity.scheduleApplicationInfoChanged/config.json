@@ -1,0 +1,29 @@
+{
+  "api": "activity|scheduleApplicationInfoChanged|java.util.List,I|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "cea2e4c8f8889649cf93b4f71be705a5": [
+      "OBJ:java.util.List",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "76be6e3bac41e5e7cb29b2a3e559a2ce": [
+      "OBJ:java.util.List",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

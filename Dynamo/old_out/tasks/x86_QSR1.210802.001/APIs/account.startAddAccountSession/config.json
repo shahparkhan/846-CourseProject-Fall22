@@ -1,0 +1,85 @@
+{
+  "api": "account|startAddAccountSession|android.accounts.IAccountManagerResponse,java.lang.String,java.lang.String,java.lang.String[],Z,android.os.Bundle|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "e3b2dbdd1d5e79a956980ab8256288ba": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.lang.String[]",
+      "B:true",
+      "OBJ:android.os.Bundle"
+    ],
+    "9bf8026b211c6b358f37dd16de87d6e8": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.lang.String[]",
+      "B:false",
+      "OBJ:android.os.Bundle"
+    ],
+    "5cdc571f9b2bfeb653096059b7d0e4ac": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "OBJ:java.lang.String[]",
+      "B:true",
+      "OBJ:android.os.Bundle"
+    ],
+    "861b517144cfb35c61d09d7eceef66c3": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "OBJ:java.lang.String[]",
+      "B:false",
+      "OBJ:android.os.Bundle"
+    ],
+    "cacc7e0799bc091f8bb4741b028f1564": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.lang.String[]",
+      "B:true",
+      "OBJ:android.os.Bundle"
+    ],
+    "ee86e60a4cf4c8715bd6e0bcdb98ad77": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.lang.String[]",
+      "B:false",
+      "OBJ:android.os.Bundle"
+    ],
+    "c9252c1c514f1fe3f409f3e693411cca": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "OBJ:java.lang.String[]",
+      "B:true",
+      "OBJ:android.os.Bundle"
+    ],
+    "ee8e69013be8c569bec89b9f4526e732": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "OBJ:java.lang.String[]",
+      "B:false",
+      "OBJ:android.os.Bundle"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

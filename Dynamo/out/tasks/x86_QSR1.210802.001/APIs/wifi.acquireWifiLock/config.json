@@ -1,0 +1,45 @@
+{
+  "api": "wifi|acquireWifiLock|android.os.IBinder,I,java.lang.String,android.os.WorkSource|Z|",
+  "parameters_count": 4,
+  "parameters": {
+    "5a65bc219cb23e070731d56c5d6e535f": [
+      "OBJ:android.os.IBinder",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.WorkSource"
+    ],
+    "cb9647cdf1b3c745b58033201ff159d4": [
+      "OBJ:android.os.IBinder",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "OBJ:android.os.WorkSource"
+    ],
+    "ea46e48e6ca03fced31dacef78b5191b": [
+      "OBJ:android.os.IBinder",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.WorkSource"
+    ],
+    "768ca44f94eed7d8d65a8edefb8173e9": [
+      "OBJ:android.os.IBinder",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "OBJ:android.os.WorkSource"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

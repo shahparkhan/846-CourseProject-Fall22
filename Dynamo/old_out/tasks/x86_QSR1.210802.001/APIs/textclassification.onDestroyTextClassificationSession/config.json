@@ -1,0 +1,24 @@
+{
+  "api": "textclassification|onDestroyTextClassificationSession|android.view.textclassifier.TextClassificationSessionId|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "7c98bce6949a363558c3f6eff9bd992e": [
+      "OBJ:android.view.textclassifier.TextClassificationSessionId"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

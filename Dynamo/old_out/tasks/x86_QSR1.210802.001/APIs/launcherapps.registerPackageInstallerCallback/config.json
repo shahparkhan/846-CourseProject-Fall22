@@ -1,0 +1,29 @@
+{
+  "api": "launcherapps|registerPackageInstallerCallback|java.lang.String,android.content.pm.IPackageInstallerCallback|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "37f7c7a2901bdd039e8546918a08915f": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.content.pm.IPackageInstallerCallback"
+    ],
+    "f4e6f57a6320de4b9566edaff71d4f4c": [
+      "S:com.android.systemui",
+      "OBJ:android.content.pm.IPackageInstallerCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

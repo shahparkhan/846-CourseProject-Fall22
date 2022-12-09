@@ -1,0 +1,24 @@
+{
+  "api": "app_prediction|onDestroyPredictionSession|android.app.prediction.AppPredictionSessionId|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "c9017c100f8c48312aaefa9856869617": [
+      "OBJ:android.app.prediction.AppPredictionSessionId"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

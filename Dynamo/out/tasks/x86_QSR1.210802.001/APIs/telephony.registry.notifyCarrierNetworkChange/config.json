@@ -1,0 +1,41 @@
+{
+  "api": "telephony.registry|notifyCarrierNetworkChange|Z|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "b71e20674b7c011a693ffb021dfbac2f": [
+      "B:true"
+    ],
+    "5e9bf3a93a822a9389c14343f6a7da15": [
+      "B:false"
+    ]
+  },
+  "parameters_done": {
+    "None:b71e20674b7c011a693ffb021dfbac2f": 2
+  },
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [
+    "com.android.server.TelephonyRegistry",
+    "com.android.server.-$$Lambda$TelephonyRegistry$B6olxgDfuFsbAHNXng6QnHMFZZM"
+  ],
+  "phase_name": "change_parameters",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 2,
+    "historical_service_not_invoked": 15,
+    "no_traces": 0,
+    "historical_no_traces": 0
+  },
+  "pids": [],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

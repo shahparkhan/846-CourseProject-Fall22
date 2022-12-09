@@ -1,0 +1,24 @@
+{
+  "api": "activity|getPackageForIntentSender|android.content.IIntentSender|java.lang.String|",
+  "parameters_count": 1,
+  "parameters": {
+    "43d2084725e673816f91c172bf69fbf2": [
+      "OBJ:android.content.IIntentSender"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

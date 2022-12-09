@@ -1,0 +1,45 @@
+{
+  "api": "window|overridePendingAppTransitionMultiThumbFuture|android.view.IAppTransitionAnimationSpecsFuture,android.os.IRemoteCallback,Z,I|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "26fc800c7eca6888b3ba47a697686a5f": [
+      "OBJ:android.view.IAppTransitionAnimationSpecsFuture",
+      "OBJ:android.os.IRemoteCallback",
+      "B:true",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "39b44b8f5326f01c1a7ca4d470be6966": [
+      "OBJ:android.view.IAppTransitionAnimationSpecsFuture",
+      "OBJ:android.os.IRemoteCallback",
+      "B:true",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "94c0d40fa368cf67b179b4ec68bff4f1": [
+      "OBJ:android.view.IAppTransitionAnimationSpecsFuture",
+      "OBJ:android.os.IRemoteCallback",
+      "B:false",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "e2b69dcac7adf72a6d9ddaae3ac081f3": [
+      "OBJ:android.view.IAppTransitionAnimationSpecsFuture",
+      "OBJ:android.os.IRemoteCallback",
+      "B:false",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

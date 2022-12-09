@@ -1,0 +1,41 @@
+{
+  "api": "telecom|handlePinMmiForPhoneAccount|android.telecom.PhoneAccountHandle,java.lang.String,java.lang.String|Z|",
+  "parameters_count": 4,
+  "parameters": {
+    "cfcfcc5239a1293e0e29d09a5319c762": [
+      "OBJ:android.telecom.PhoneAccountHandle",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "698f3dc597725c162efc18d8ce61a1ac": [
+      "OBJ:android.telecom.PhoneAccountHandle",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui"
+    ],
+    "5536a26df3284d9ba238bb0f458c768f": [
+      "OBJ:android.telecom.PhoneAccountHandle",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "85344a3c56c8ddd4590a33ad0cbcef96": [
+      "OBJ:android.telecom.PhoneAccountHandle",
+      "S:com.android.systemui",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,45 @@
+{
+  "api": "isms|getSmsMessagesForFinancialApp|I,java.lang.String,android.os.Bundle,android.telephony.IFinancialSmsCallback|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "a1d1456d5c0def9c159a96711704acca": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.Bundle",
+      "OBJ:android.telephony.IFinancialSmsCallback"
+    ],
+    "9cefd7fa9e70a528c68ecb2086abdb76": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "OBJ:android.os.Bundle",
+      "OBJ:android.telephony.IFinancialSmsCallback"
+    ],
+    "47f27bd4ff6c83d2082d856d562e2693": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.Bundle",
+      "OBJ:android.telephony.IFinancialSmsCallback"
+    ],
+    "d79ad438b51103448cc7391cf91ebbc0": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "OBJ:android.os.Bundle",
+      "OBJ:android.telephony.IFinancialSmsCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

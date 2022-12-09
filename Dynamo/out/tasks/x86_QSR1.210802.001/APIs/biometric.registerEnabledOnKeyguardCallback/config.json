@@ -1,0 +1,24 @@
+{
+  "api": "biometric|registerEnabledOnKeyguardCallback|android.hardware.biometrics.IBiometricEnabledOnKeyguardCallback|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "7f9c080ab22ddf2c9843390bbc7bea89": [
+      "OBJ:android.hardware.biometrics.IBiometricEnabledOnKeyguardCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

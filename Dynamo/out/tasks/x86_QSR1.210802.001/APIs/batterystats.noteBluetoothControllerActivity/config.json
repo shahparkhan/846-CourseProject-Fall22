@@ -1,0 +1,24 @@
+{
+  "api": "batterystats|noteBluetoothControllerActivity|android.bluetooth.BluetoothActivityEnergyInfo|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "6ea455083451b79b917226aa2c8f22ee": [
+      "OBJ:android.bluetooth.BluetoothActivityEnergyInfo"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

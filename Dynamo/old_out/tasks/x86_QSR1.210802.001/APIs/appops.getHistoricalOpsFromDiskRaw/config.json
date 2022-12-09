@@ -1,0 +1,93 @@
+{
+  "api": "appops|getHistoricalOpsFromDiskRaw|I,java.lang.String,java.util.List,J,J,I,android.os.RemoteCallback|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "88246576ef9be69e3b513c43d68fe06f": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.util.List",
+      "OBJ:J",
+      "OBJ:J",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.RemoteCallback"
+    ],
+    "096f1e06da25e40e41a853b1d7e8cf66": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.util.List",
+      "OBJ:J",
+      "OBJ:J",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.RemoteCallback"
+    ],
+    "5e88498971be1510e37ac88cb84b4675": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "OBJ:java.util.List",
+      "OBJ:J",
+      "OBJ:J",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.RemoteCallback"
+    ],
+    "1706111fb90de87825d51a3a5b1e80c3": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "OBJ:java.util.List",
+      "OBJ:J",
+      "OBJ:J",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.RemoteCallback"
+    ],
+    "477fd51b079d7b3bf5716115700189f8": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.util.List",
+      "OBJ:J",
+      "OBJ:J",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.RemoteCallback"
+    ],
+    "e5ed267059ca6dab3406ac0b5f6de8cc": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.util.List",
+      "OBJ:J",
+      "OBJ:J",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.RemoteCallback"
+    ],
+    "b7b0c400ffc095471be28cc1bc78c1b2": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "OBJ:java.util.List",
+      "OBJ:J",
+      "OBJ:J",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.RemoteCallback"
+    ],
+    "41d8d04554292812797b09013201fa90": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "OBJ:java.util.List",
+      "OBJ:J",
+      "OBJ:J",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.RemoteCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,24 @@
+{
+  "api": "incidentcompanion|cancelAuthorization|android.os.IIncidentAuthListener|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "85e5264f72de10b2129050dc28ccdc17": [
+      "OBJ:android.os.IIncidentAuthListener"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

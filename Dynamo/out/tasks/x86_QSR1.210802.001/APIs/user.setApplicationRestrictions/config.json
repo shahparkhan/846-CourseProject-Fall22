@@ -1,0 +1,41 @@
+{
+  "api": "user|setApplicationRestrictions|java.lang.String,android.os.Bundle,I|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "e62a23397af8f0c7b2ce620d89d99cf2": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.Bundle",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "4c1597d45d2a689f78223ced560edfe7": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.Bundle",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "b05f6fa7f1a35d72095409234f9d722b": [
+      "S:com.android.systemui",
+      "OBJ:android.os.Bundle",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "aa57ea16a200a3d56cf90eb110fb3f3a": [
+      "S:com.android.systemui",
+      "OBJ:android.os.Bundle",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

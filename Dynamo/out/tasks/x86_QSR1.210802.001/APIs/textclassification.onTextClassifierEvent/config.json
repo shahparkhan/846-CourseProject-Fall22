@@ -1,0 +1,25 @@
+{
+  "api": "textclassification|onTextClassifierEvent|android.view.textclassifier.TextClassificationSessionId,android.view.textclassifier.TextClassifierEvent|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "b3ca694745cd3b81259d986160e23ab7": [
+      "OBJ:android.view.textclassifier.TextClassificationSessionId",
+      "OBJ:android.view.textclassifier.TextClassifierEvent"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

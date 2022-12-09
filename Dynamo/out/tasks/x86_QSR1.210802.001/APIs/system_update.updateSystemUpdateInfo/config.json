@@ -1,0 +1,24 @@
+{
+  "api": "system_update|updateSystemUpdateInfo|android.os.PersistableBundle|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "e4301a71f3adceeb0080350176cd6750": [
+      "OBJ:android.os.PersistableBundle"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

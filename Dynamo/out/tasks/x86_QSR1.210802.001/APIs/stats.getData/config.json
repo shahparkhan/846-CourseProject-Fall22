@@ -1,0 +1,29 @@
+{
+  "api": "stats|getData|J,java.lang.String|b[]|",
+  "parameters_count": 2,
+  "parameters": {
+    "3fc345113475e2edfb97bfc4afbf93ca": [
+      "OBJ:J",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "c505444c484972d933e69a33021a907e": [
+      "OBJ:J",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

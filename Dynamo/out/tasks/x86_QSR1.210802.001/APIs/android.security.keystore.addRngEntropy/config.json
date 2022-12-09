@@ -1,0 +1,31 @@
+{
+  "api": "android.security.keystore|addRngEntropy|android.security.keystore.IKeystoreResponseCallback,B[],I|I|",
+  "parameters_count": 2,
+  "parameters": {
+    "6d9378d4dff9255f418bf0a4baf995ce": [
+      "OBJ:android.security.keystore.IKeystoreResponseCallback",
+      "OBJ:B[]",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "ea7508916e029bec7ae56aaf2dd31278": [
+      "OBJ:android.security.keystore.IKeystoreResponseCallback",
+      "OBJ:B[]",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

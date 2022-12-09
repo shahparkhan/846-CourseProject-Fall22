@@ -1,0 +1,35 @@
+{
+  "api": "location|getFromLocation|D,D,I,android.location.GeocoderParams,java.util.List|java.lang.String|",
+  "parameters_count": 2,
+  "parameters": {
+    "5d23e3eaad9aad49e7cdba865de67f61": [
+      "OBJ:D",
+      "OBJ:D",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.location.GeocoderParams",
+      "OBJ:java.util.List"
+    ],
+    "746f436d47800d61f366e0d7b02135e0": [
+      "OBJ:D",
+      "OBJ:D",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.location.GeocoderParams",
+      "OBJ:java.util.List"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

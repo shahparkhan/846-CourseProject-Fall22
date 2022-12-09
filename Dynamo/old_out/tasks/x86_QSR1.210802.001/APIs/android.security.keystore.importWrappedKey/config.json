@@ -1,0 +1,61 @@
+{
+  "api": "android.security.keystore|importWrappedKey|android.security.keystore.IKeystoreKeyCharacteristicsCallback,java.lang.String,B[],java.lang.String,B[],android.security.keymaster.KeymasterArguments,J,J|I|",
+  "parameters_count": 4,
+  "parameters": {
+    "33d00fedbefa2c158078e3eb2ef25874": [
+      "OBJ:android.security.keystore.IKeystoreKeyCharacteristicsCallback",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:B[]",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:B[]",
+      "OBJ:android.security.keymaster.KeymasterArguments",
+      "OBJ:J",
+      "OBJ:J"
+    ],
+    "10067b2e4f236274d3fdbb705014db6d": [
+      "OBJ:android.security.keystore.IKeystoreKeyCharacteristicsCallback",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:B[]",
+      "S:com.android.systemui",
+      "OBJ:B[]",
+      "OBJ:android.security.keymaster.KeymasterArguments",
+      "OBJ:J",
+      "OBJ:J"
+    ],
+    "37f6125e4a0885d06096a4ed69c5cb68": [
+      "OBJ:android.security.keystore.IKeystoreKeyCharacteristicsCallback",
+      "S:com.android.systemui",
+      "OBJ:B[]",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:B[]",
+      "OBJ:android.security.keymaster.KeymasterArguments",
+      "OBJ:J",
+      "OBJ:J"
+    ],
+    "5fdcf78d01ead6375e5fa757f1ef55e8": [
+      "OBJ:android.security.keystore.IKeystoreKeyCharacteristicsCallback",
+      "S:com.android.systemui",
+      "OBJ:B[]",
+      "S:com.android.systemui",
+      "OBJ:B[]",
+      "OBJ:android.security.keymaster.KeymasterArguments",
+      "OBJ:J",
+      "OBJ:J"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

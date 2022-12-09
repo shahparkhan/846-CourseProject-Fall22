@@ -1,0 +1,40 @@
+{
+  "api": "notification|addAutomaticZenRule|android.app.AutomaticZenRule|java.lang.String|",
+  "parameters_count": 1,
+  "parameters": {
+    "6ab1e2ea6ac20363537ff0faa967e95c": [
+      "OBJ:android.app.AutomaticZenRule"
+    ]
+  },
+  "parameters_done": {
+    "None:6ab1e2ea6ac20363537ff0faa967e95c": 2
+  },
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [
+    null
+  ],
+  "classes": [
+    "com.android.server.notification.NotificationManagerService$10",
+    "com.android.server.notification.NotificationManagerService"
+  ],
+  "phase_name": "change_uid",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 0,
+    "historical_service_not_invoked": 14,
+    "no_traces": 1,
+    "historical_no_traces": 1
+  },
+  "pids": [],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

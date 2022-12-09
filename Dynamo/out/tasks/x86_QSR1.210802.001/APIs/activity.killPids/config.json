@@ -1,0 +1,41 @@
+{
+  "api": "activity|killPids|I[],java.lang.String,Z|Z|",
+  "parameters_count": 4,
+  "parameters": {
+    "95033bbb7d7c00fa2f27dd1825314c96": [
+      "OBJ:I[]",
+      "S:fuzzer.permission.uidchanger",
+      "B:true"
+    ],
+    "fbaa2386e525fab604a38f05c52ad615": [
+      "OBJ:I[]",
+      "S:fuzzer.permission.uidchanger",
+      "B:false"
+    ],
+    "935436737fef2b8470292ea0a82bd14a": [
+      "OBJ:I[]",
+      "S:com.android.systemui",
+      "B:true"
+    ],
+    "4cc03d193b5c523361adc33944431f9d": [
+      "OBJ:I[]",
+      "S:com.android.systemui",
+      "B:false"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

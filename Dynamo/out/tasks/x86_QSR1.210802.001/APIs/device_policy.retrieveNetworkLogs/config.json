@@ -1,0 +1,41 @@
+{
+  "api": "device_policy|retrieveNetworkLogs|android.content.ComponentName,java.lang.String,J|java.util.List|",
+  "parameters_count": 4,
+  "parameters": {
+    "fb518ce3c89a4f7cdb007b01afcd1fc2": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:J"
+    ],
+    "c29683d6ac753d705a6e7e9f7c012e63": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "OBJ:J"
+    ],
+    "72d8ec4e3a66d627926a835e22a7f092": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:J"
+    ],
+    "2f0089d3bba5bacc027eee14bdd5b9de": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "OBJ:J"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,24 @@
+{
+  "api": "vold|setListener|android.os.IVoldListener|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "1625b2e1a6aa90eab0e95e10846191ad": [
+      "OBJ:android.os.IVoldListener"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

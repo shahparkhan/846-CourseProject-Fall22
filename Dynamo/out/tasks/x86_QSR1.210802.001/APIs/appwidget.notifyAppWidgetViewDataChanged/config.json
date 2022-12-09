@@ -1,0 +1,41 @@
+{
+  "api": "appwidget|notifyAppWidgetViewDataChanged|java.lang.String,I[],I|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "fdb5fbe8e97d8a9395affef005795d11": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:I[]",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "1ef48f45055addbeeefbf4266e915ab6": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:I[]",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "7f42d0a3525e262eb98d35925270d2b4": [
+      "S:com.android.systemui",
+      "OBJ:I[]",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "a45facd716dab4000fb90cc6d89e9e65": [
+      "S:com.android.systemui",
+      "OBJ:I[]",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

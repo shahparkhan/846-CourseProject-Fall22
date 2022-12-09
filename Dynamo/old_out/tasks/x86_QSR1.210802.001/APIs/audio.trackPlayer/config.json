@@ -1,0 +1,24 @@
+{
+  "api": "audio|trackPlayer|android.media.PlayerBase.PlayerIdCard|I|",
+  "parameters_count": 1,
+  "parameters": {
+    "9b59bf744c61aba2f1fdb983b35cbc60": [
+      "OBJ:android.media.PlayerBase.PlayerIdCard"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

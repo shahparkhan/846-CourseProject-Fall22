@@ -1,0 +1,61 @@
+{
+  "api": "slice|revokeSlicePermission|java.lang.String,java.lang.String,android.net.Uri|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "1861a261cac7edbcbec7b88465c8fb01": [
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "URI:content://user_dictionary/words"
+    ],
+    "8bffa037463a8f61c85e6b7338f67692": [
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "URI:content://com.android.contacts/contacts/lookup/0"
+    ],
+    "c09ec7cf255b9f74ecf48e1db1222d4f": [
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "URI:content://user_dictionary/words"
+    ],
+    "2b0fd939f37755cbd3e2289098af37a3": [
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "URI:content://com.android.contacts/contacts/lookup/0"
+    ],
+    "16df3415675ed459d0791c26ea2b7e61": [
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "URI:content://user_dictionary/words"
+    ],
+    "41497a817cc2e9e9360cbcf9cb45215d": [
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "URI:content://com.android.contacts/contacts/lookup/0"
+    ],
+    "961e08e273faf0cf112d2d11a46dd5bd": [
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "URI:content://user_dictionary/words"
+    ],
+    "e9e2d8098c62ea0318b3445188ba6a9e": [
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "URI:content://com.android.contacts/contacts/lookup/0"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

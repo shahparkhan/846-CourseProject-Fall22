@@ -1,0 +1,45 @@
+{
+  "api": "content|requestSync|android.accounts.Account,java.lang.String,android.os.Bundle,java.lang.String|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "8c92991426376257d6a57bd63af590e0": [
+      "OBJ:android.accounts.Account",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.Bundle",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "f16834794446b3010aca1645e6917681": [
+      "OBJ:android.accounts.Account",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.Bundle",
+      "S:com.android.systemui"
+    ],
+    "c905ea0382592d9090a207d55606b96c": [
+      "OBJ:android.accounts.Account",
+      "S:com.android.systemui",
+      "OBJ:android.os.Bundle",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "95e1a6fdd6e0eea6be107e685b5b2ac2": [
+      "OBJ:android.accounts.Account",
+      "S:com.android.systemui",
+      "OBJ:android.os.Bundle",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,49 @@
+{
+  "api": "audio|setWiredDeviceConnectionState|I,I,java.lang.String,java.lang.String,java.lang.String|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "19bf15eed7c4ab7d0b9b58766da07b77": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:0",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:2",
+      "INDEX:2"
+    ],
+    "e9b89c40049163ac3c6115d164efa1ce": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:0",
+      "S:com.android.systemui",
+      "INDEX:2",
+      "INDEX:2"
+    ],
+    "89405e1b97714475ec7717e42cbfbd88": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:0",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:2",
+      "INDEX:2"
+    ],
+    "9f895b45fe9f6f4b514fa312e73bafd6": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:0",
+      "S:com.android.systemui",
+      "INDEX:2",
+      "INDEX:2"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

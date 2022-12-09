@@ -1,0 +1,77 @@
+{
+  "api": "android.security.keystore|presentConfirmationPrompt|android.os.IBinder,java.lang.String,B[],java.lang.String,I|I|",
+  "parameters_count": 8,
+  "parameters": {
+    "a719a4642b335dc1720d441adc49a54f": [
+      "OBJ:android.os.IBinder",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:B[]",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "561bd8b7cab3c6da7f8be3e2e0d6df28": [
+      "OBJ:android.os.IBinder",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:B[]",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "169f1ba94d32d426f894e32f50976ae2": [
+      "OBJ:android.os.IBinder",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:B[]",
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "d1587b2649e1e3ab3f574e16b0335b5d": [
+      "OBJ:android.os.IBinder",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:B[]",
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "eadeed613ba5a22e31b7abf4990eb2c2": [
+      "OBJ:android.os.IBinder",
+      "S:com.android.systemui",
+      "OBJ:B[]",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "9aac32ba2d270bd71e90134925d0e22b": [
+      "OBJ:android.os.IBinder",
+      "S:com.android.systemui",
+      "OBJ:B[]",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "67c37d81b2fbe9ad05cc268bf1c464d5": [
+      "OBJ:android.os.IBinder",
+      "S:com.android.systemui",
+      "OBJ:B[]",
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "56e4aa48b47f97df68cd5cb880474d49": [
+      "OBJ:android.os.IBinder",
+      "S:com.android.systemui",
+      "OBJ:B[]",
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,25 @@
+{
+  "api": "activity|unregisterIntentSenderCancelListener|android.content.IIntentSender,com.android.internal.os.IResultReceiver|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "b96d15b336325f1733f55d0ee1014429": [
+      "OBJ:android.content.IIntentSender",
+      "OBJ:com.android.internal.os.IResultReceiver"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

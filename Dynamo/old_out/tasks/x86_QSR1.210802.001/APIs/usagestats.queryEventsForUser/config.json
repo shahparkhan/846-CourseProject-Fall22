@@ -1,0 +1,45 @@
+{
+  "api": "usagestats|queryEventsForUser|J,J,I,java.lang.String|android.app.usage.UsageEvents|",
+  "parameters_count": 4,
+  "parameters": {
+    "ecfe79ed1d459ff57866680ecfddb363": [
+      "OBJ:J",
+      "OBJ:J",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "2884101d75ac1d0f362a1a45cc2f49bb": [
+      "OBJ:J",
+      "OBJ:J",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui"
+    ],
+    "b2adefbcb7543a61172c1ecb0ab75f75": [
+      "OBJ:J",
+      "OBJ:J",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "8d7b6ed6f907ce823f4f8ce781d699ac": [
+      "OBJ:J",
+      "OBJ:J",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

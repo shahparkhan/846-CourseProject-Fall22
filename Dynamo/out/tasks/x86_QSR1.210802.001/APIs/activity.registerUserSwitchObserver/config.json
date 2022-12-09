@@ -1,0 +1,29 @@
+{
+  "api": "activity|registerUserSwitchObserver|android.app.IUserSwitchObserver,java.lang.String|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "157c42a23c3ea7b4c65976cd1c4ff01b": [
+      "OBJ:android.app.IUserSwitchObserver",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "859ec520f9fa41ae6adecc194b7b9197": [
+      "OBJ:android.app.IUserSwitchObserver",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

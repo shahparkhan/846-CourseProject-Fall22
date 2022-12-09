@@ -1,0 +1,29 @@
+{
+  "api": "location|addGnssNavigationMessageListener|android.location.IGnssNavigationMessageListener,java.lang.String|Z|",
+  "parameters_count": 2,
+  "parameters": {
+    "6c16508104611933de0a7f03423debea": [
+      "OBJ:android.location.IGnssNavigationMessageListener",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "86a1620ba756c26b807ebe31e4e716e7": [
+      "OBJ:android.location.IGnssNavigationMessageListener",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

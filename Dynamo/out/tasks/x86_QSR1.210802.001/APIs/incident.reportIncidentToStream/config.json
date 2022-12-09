@@ -1,0 +1,26 @@
+{
+  "api": "incident|reportIncidentToStream|android.os.IncidentReportArgs,android.os.IIncidentReportStatusListener,java.io.FileDescriptor|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "c975aea8057f6a1550c991b0757996f3": [
+      "OBJ:android.os.IncidentReportArgs",
+      "OBJ:android.os.IIncidentReportStatusListener",
+      "OBJ:java.io.FileDescriptor"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

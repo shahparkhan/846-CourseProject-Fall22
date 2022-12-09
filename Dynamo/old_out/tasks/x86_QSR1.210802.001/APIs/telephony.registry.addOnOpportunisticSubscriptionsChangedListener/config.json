@@ -1,0 +1,29 @@
+{
+  "api": "telephony.registry|addOnOpportunisticSubscriptionsChangedListener|java.lang.String,com.android.internal.telephony.IOnSubscriptionsChangedListener|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "ab26fb80ab6012c7c92847ffbc4d45ae": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:com.android.internal.telephony.IOnSubscriptionsChangedListener"
+    ],
+    "a57566b808d78415a8fa09b16c4e3c50": [
+      "S:com.android.systemui",
+      "OBJ:com.android.internal.telephony.IOnSubscriptionsChangedListener"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

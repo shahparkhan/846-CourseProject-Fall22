@@ -1,0 +1,65 @@
+{
+  "api": "audio|requestAudioFocus|android.media.AudioAttributes,I,android.os.IBinder,android.media.IAudioFocusDispatcher,java.lang.String,java.lang.String,I,android.media.audiopolicy.IAudioPolicyCallback,I|I|",
+  "parameters_count": 4,
+  "parameters": {
+    "0b6af3b60111655a81da30c716725e8e": [
+      "OBJ:android.media.AudioAttributes",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.IBinder",
+      "OBJ:android.media.IAudioFocusDispatcher",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:4",
+      "INDEX:1",
+      "OBJ:android.media.audiopolicy.IAudioPolicyCallback",
+      "INDEX:1"
+    ],
+    "bff4b8a0ae08abd94f0db3093bbd7c8f": [
+      "OBJ:android.media.AudioAttributes",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.IBinder",
+      "OBJ:android.media.IAudioFocusDispatcher",
+      "S:com.android.systemui",
+      "INDEX:4",
+      "INDEX:1",
+      "OBJ:android.media.audiopolicy.IAudioPolicyCallback",
+      "INDEX:1"
+    ],
+    "303ced08b030497af13980870d0b8a08": [
+      "OBJ:android.media.AudioAttributes",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.IBinder",
+      "OBJ:android.media.IAudioFocusDispatcher",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:4",
+      "INDEX:1",
+      "OBJ:android.media.audiopolicy.IAudioPolicyCallback",
+      "INDEX:1"
+    ],
+    "443b669bd94fd99037ec7e4152193deb": [
+      "OBJ:android.media.AudioAttributes",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.IBinder",
+      "OBJ:android.media.IAudioFocusDispatcher",
+      "S:com.android.systemui",
+      "INDEX:4",
+      "INDEX:1",
+      "OBJ:android.media.audiopolicy.IAudioPolicyCallback",
+      "INDEX:1"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

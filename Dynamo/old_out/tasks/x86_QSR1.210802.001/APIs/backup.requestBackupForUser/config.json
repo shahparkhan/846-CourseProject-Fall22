@@ -1,0 +1,49 @@
+{
+  "api": "backup|requestBackupForUser|I,java.lang.String[],android.app.backup.IBackupObserver,android.app.backup.IBackupManagerMonitor,I|I|",
+  "parameters_count": 4,
+  "parameters": {
+    "f0cca77a9f5b34993dedcf0a4797444d": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:java.lang.String[]",
+      "OBJ:android.app.backup.IBackupObserver",
+      "OBJ:android.app.backup.IBackupManagerMonitor",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "f203d41fe7346f5e3fed4d3a60243b89": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:java.lang.String[]",
+      "OBJ:android.app.backup.IBackupObserver",
+      "OBJ:android.app.backup.IBackupManagerMonitor",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "e793e1cc8ae629db0b8ce7c2ca9f2273": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:java.lang.String[]",
+      "OBJ:android.app.backup.IBackupObserver",
+      "OBJ:android.app.backup.IBackupManagerMonitor",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "6953b71b0aa3db223d1601121924b483": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:java.lang.String[]",
+      "OBJ:android.app.backup.IBackupObserver",
+      "OBJ:android.app.backup.IBackupManagerMonitor",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

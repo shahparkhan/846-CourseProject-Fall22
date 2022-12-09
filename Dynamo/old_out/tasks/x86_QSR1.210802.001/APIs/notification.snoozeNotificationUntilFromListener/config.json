@@ -1,0 +1,31 @@
+{
+  "api": "notification|snoozeNotificationUntilFromListener|android.service.notification.INotificationListener,java.lang.String,J|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "a5cd653937c622f03037de1f544814b3": [
+      "OBJ:android.service.notification.INotificationListener",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:J"
+    ],
+    "bfff809f2d77944243b5fc14ba560129": [
+      "OBJ:android.service.notification.INotificationListener",
+      "S:com.android.systemui",
+      "OBJ:J"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

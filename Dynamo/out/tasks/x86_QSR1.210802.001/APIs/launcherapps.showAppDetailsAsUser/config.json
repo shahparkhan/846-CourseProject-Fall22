@@ -1,0 +1,53 @@
+{
+  "api": "launcherapps|showAppDetailsAsUser|android.app.IApplicationThread,java.lang.String,android.content.ComponentName,android.graphics.Rect,android.os.Bundle,android.os.UserHandle|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "ac2cbeab60fbba44b976fddff69ccff7": [
+      "OBJ:android.app.IApplicationThread",
+      "S:fuzzer.permission.uidchanger",
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.graphics.Rect",
+      "OBJ:android.os.Bundle",
+      "OBJ:android.os.UserHandle"
+    ],
+    "6c29c688bb9fbc29bb491c1fb9fba9b4": [
+      "OBJ:android.app.IApplicationThread",
+      "S:fuzzer.permission.uidchanger",
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.graphics.Rect",
+      "OBJ:android.os.Bundle",
+      "OBJ:android.os.UserHandle"
+    ],
+    "f912957ef2298d2a6472596593f3af8f": [
+      "OBJ:android.app.IApplicationThread",
+      "S:com.android.systemui",
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.graphics.Rect",
+      "OBJ:android.os.Bundle",
+      "OBJ:android.os.UserHandle"
+    ],
+    "87ee9015d4f6aafd144cd68049184957": [
+      "OBJ:android.app.IApplicationThread",
+      "S:com.android.systemui",
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.graphics.Rect",
+      "OBJ:android.os.Bundle",
+      "OBJ:android.os.UserHandle"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,346 @@
+{
+  "notification": {
+    "enqueueToast": {
+      "ordered_iterations": [
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": "null",
+            "exception": "FIRST EXCEPTION CAUGHT\njava.lang.reflect.InvocationTargetException\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat fuzzer.permission.uidchanger.InvokerService.invokeApi(InvokerService.java:318)\n\tat fuzzer.permission.uidchanger.InvokerService.onStartCommand(InvokerService.java:71)\n\tat android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4087)\n\tat android.app.ActivityThread.access$1800(ActivityThread.java:219)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1891)\n\tat android.os.Handler.dispatchMessage(Handler.java:107)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\nCaused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.os.Parcel.writeNoException()' on a null object reference\n\tat android.os.Parcel.createException(Parcel.java:2077)\n\tat android.os.Parcel.readException(Parcel.java:2039)\n\tat android.os.Parcel.readException(Parcel.java:1987)\n\tat android.app.INotificationManager$Stub$Proxy.enqueueToast(INotificationManager.java:2688)\n\t... 12 more\nCaused by: android.os.RemoteException: Remote stack trace:\n\tat android.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:697)\n\tat android.os.Binder.transact(Binder.java:914)\n\tat android.app.ITransientNotification$Stub$Proxy.show(ITransientNotification.java:125)\n\tat com.android.server.notification.NotificationManagerService.showNextToastLocked(NotificationManagerService.java:5981)\n\tat com.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2321)\n\n"
+          },
+          "pid_info": {
+            "name": "system_server",
+            "id": "system",
+            "pid": 1983
+          },
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": {
+              "type": "java.lang.NullPointerException.<init>(Native Method)",
+              "location": "android.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:697)",
+              "message": "Attempt to invoke virtual method 'void android.os.Parcel.writeNoException("
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.notification.NotificationManagerService$10",
+            "com.android.server.notification.NotificationManagerService",
+            "com.android.server.notification.PreferencesHelper"
+          ],
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2256)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.notification.NotificationManagerService.isCallerSystemOrPhone(NotificationManagerService.java:7088)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2257)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.notification.NotificationManagerService.isCallerSystemOrPhone(NotificationManagerService.java:7088)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSameApp(NotificationManagerService.java:7116)\ncom.android.server.notification.NotificationManagerService.access$3100(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.enforceSystemOrSystemUIOrSamePackage(NotificationManagerService.java:3588)\ncom.android.server.notification.NotificationManagerService$10.areNotificationsEnabledForPackage(NotificationManagerService.java:2469)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2260)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSameApp(NotificationManagerService.java:7177)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSameApp(NotificationManagerService.java:7119)\ncom.android.server.notification.NotificationManagerService.access$3100(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.enforceSystemOrSystemUIOrSamePackage(NotificationManagerService.java:3588)\ncom.android.server.notification.NotificationManagerService$10.areNotificationsEnabledForPackage(NotificationManagerService.java:2469)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2260)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.UserHandle.getCallingUserId(UserHandle.java:222)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSameApp(NotificationManagerService.java:7177)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSameApp(NotificationManagerService.java:7119)\ncom.android.server.notification.NotificationManagerService.access$3100(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.enforceSystemOrSystemUIOrSamePackage(NotificationManagerService.java:3588)\ncom.android.server.notification.NotificationManagerService$10.areNotificationsEnabledForPackage(NotificationManagerService.java:2469)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2260)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.getApplicationInfo(PackageManagerService.java:4672)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSameApp(NotificationManagerService.java:7182)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSameApp(NotificationManagerService.java:7177)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSameApp(NotificationManagerService.java:7119)\ncom.android.server.notification.NotificationManagerService.access$3100(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.enforceSystemOrSystemUIOrSamePackage(NotificationManagerService.java:3588)\ncom.android.server.notification.NotificationManagerService$10.areNotificationsEnabledForPackage(NotificationManagerService.java:2469)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2260)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.UserHandle.getCallingUserId(UserHandle.java:222)\ncom.android.server.pm.PackageManagerService.updateFlagsForPackage(PackageManagerService.java:5009)\ncom.android.server.pm.PackageManagerService.updateFlagsForApplication(PackageManagerService.java:5033)\ncom.android.server.pm.PackageManagerService.getApplicationInfoInternal(PackageManagerService.java:4684)\ncom.android.server.pm.PackageManagerService.getApplicationInfo(PackageManagerService.java:4672)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSameApp(NotificationManagerService.java:7182)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSameApp(NotificationManagerService.java:7177)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSameApp(NotificationManagerService.java:7119)\ncom.android.server.notification.NotificationManagerService.access$3100(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.enforceSystemOrSystemUIOrSamePackage(NotificationManagerService.java:3588)\ncom.android.server.notification.NotificationManagerService$10.areNotificationsEnabledForPackage(NotificationManagerService.java:2469)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2260)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.getApplicationInfoInternal(PackageManagerService.java:4686)\ncom.android.server.pm.PackageManagerService.getApplicationInfo(PackageManagerService.java:4672)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSameApp(NotificationManagerService.java:7182)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSameApp(NotificationManagerService.java:7177)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSameApp(NotificationManagerService.java:7119)\ncom.android.server.notification.NotificationManagerService.access$3100(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.enforceSystemOrSystemUIOrSamePackage(NotificationManagerService.java:3588)\ncom.android.server.notification.NotificationManagerService$10.areNotificationsEnabledForPackage(NotificationManagerService.java:2469)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2260)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.getApplicationInfoInternal(PackageManagerService.java:4687)\ncom.android.server.pm.PackageManagerService.getApplicationInfo(PackageManagerService.java:4672)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSameApp(NotificationManagerService.java:7182)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSameApp(NotificationManagerService.java:7177)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSameApp(NotificationManagerService.java:7119)\ncom.android.server.notification.NotificationManagerService.access$3100(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.enforceSystemOrSystemUIOrSamePackage(NotificationManagerService.java:3588)\ncom.android.server.notification.NotificationManagerService$10.areNotificationsEnabledForPackage(NotificationManagerService.java:2469)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2260)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.UserHandle.getCallingUserId(UserHandle.java:222)\ncom.android.server.notification.NotificationManagerService$10.areNotificationsEnabledForPackage(NotificationManagerService.java:2471)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2260)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.getApplicationInfo(PackageManagerService.java:4672)\nandroid.app.ApplicationPackageManager.getApplicationInfoAsUser(ApplicationPackageManager.java:402)\ncom.android.server.notification.PreferencesHelper.shouldHaveDefaultChannel(PreferencesHelper.java:327)\ncom.android.server.notification.PreferencesHelper.createDefaultChannelIfNeededLocked(PreferencesHelper.java:363)\ncom.android.server.notification.PreferencesHelper.getOrCreatePackagePreferencesLocked(PreferencesHelper.java:309)\ncom.android.server.notification.PreferencesHelper.getOrCreatePackagePreferencesLocked(PreferencesHelper.java:287)\ncom.android.server.notification.PreferencesHelper.getImportance(PreferencesHelper.java:522)\ncom.android.server.notification.NotificationManagerService$10.areNotificationsEnabledForPackage(NotificationManagerService.java:2477)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2260)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.UserHandle.getCallingUserId(UserHandle.java:222)\ncom.android.server.pm.PackageManagerService.updateFlagsForPackage(PackageManagerService.java:5009)\ncom.android.server.pm.PackageManagerService.updateFlagsForApplication(PackageManagerService.java:5033)\ncom.android.server.pm.PackageManagerService.getApplicationInfoInternal(PackageManagerService.java:4684)\ncom.android.server.pm.PackageManagerService.getApplicationInfo(PackageManagerService.java:4672)\nandroid.app.ApplicationPackageManager.getApplicationInfoAsUser(ApplicationPackageManager.java:402)\ncom.android.server.notification.PreferencesHelper.shouldHaveDefaultChannel(PreferencesHelper.java:327)\ncom.android.server.notification.PreferencesHelper.createDefaultChannelIfNeededLocked(PreferencesHelper.java:363)\ncom.android.server.notification.PreferencesHelper.getOrCreatePackagePreferencesLocked(PreferencesHelper.java:309)\ncom.android.server.notification.PreferencesHelper.getOrCreatePackagePreferencesLocked(PreferencesHelper.java:287)\ncom.android.server.notification.PreferencesHelper.getImportance(PreferencesHelper.java:522)\ncom.android.server.notification.NotificationManagerService$10.areNotificationsEnabledForPackage(NotificationManagerService.java:2477)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2260)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.getApplicationInfoInternal(PackageManagerService.java:4686)\ncom.android.server.pm.PackageManagerService.getApplicationInfo(PackageManagerService.java:4672)\nandroid.app.ApplicationPackageManager.getApplicationInfoAsUser(ApplicationPackageManager.java:402)\ncom.android.server.notification.PreferencesHelper.shouldHaveDefaultChannel(PreferencesHelper.java:327)\ncom.android.server.notification.PreferencesHelper.createDefaultChannelIfNeededLocked(PreferencesHelper.java:363)\ncom.android.server.notification.PreferencesHelper.getOrCreatePackagePreferencesLocked(PreferencesHelper.java:309)\ncom.android.server.notification.PreferencesHelper.getOrCreatePackagePreferencesLocked(PreferencesHelper.java:287)\ncom.android.server.notification.PreferencesHelper.getImportance(PreferencesHelper.java:522)\ncom.android.server.notification.NotificationManagerService$10.areNotificationsEnabledForPackage(NotificationManagerService.java:2477)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2260)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.getApplicationInfoInternal(PackageManagerService.java:4687)\ncom.android.server.pm.PackageManagerService.getApplicationInfo(PackageManagerService.java:4672)\nandroid.app.ApplicationPackageManager.getApplicationInfoAsUser(ApplicationPackageManager.java:402)\ncom.android.server.notification.PreferencesHelper.shouldHaveDefaultChannel(PreferencesHelper.java:327)\ncom.android.server.notification.PreferencesHelper.createDefaultChannelIfNeededLocked(PreferencesHelper.java:363)\ncom.android.server.notification.PreferencesHelper.getOrCreatePackagePreferencesLocked(PreferencesHelper.java:309)\ncom.android.server.notification.PreferencesHelper.getOrCreatePackagePreferencesLocked(PreferencesHelper.java:287)\ncom.android.server.notification.PreferencesHelper.getImportance(PreferencesHelper.java:522)\ncom.android.server.notification.NotificationManagerService$10.areNotificationsEnabledForPackage(NotificationManagerService.java:2477)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2260)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2279)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2279)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingPid() = 5180",
+              "callstack": "getCallingPid() = 5180\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2279)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 1000,
+              "call_ret": "myPid() = 1983",
+              "callstack": "myPid() = 1983\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Process.myPid(Native Method)\ncom.android.server.wm.WindowManagerService.checkCallingPermission(WindowManagerService.java:2414)\ncom.android.server.wm.WindowManagerService.addWindowToken(WindowManagerService.java:2430)\ncom.android.server.wm.WindowManagerService$LocalService.addWindowToken(WindowManagerService.java:7265)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2309)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 1000,
+              "call_ret": "myPid() = 1983",
+              "callstack": "myPid() = 1983\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Process.myPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1863)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\ncom.android.server.wm.WindowManagerService.checkCallingPermission(WindowManagerService.java:2418)\ncom.android.server.wm.WindowManagerService.addWindowToken(WindowManagerService.java:2430)\ncom.android.server.wm.WindowManagerService$LocalService.addWindowToken(WindowManagerService.java:7265)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2309)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 1000,
+              "call_ret": "$init(Attempt to invoke virtual method 'void android.os.Parcel.writeNoException()' on a null object reference) = undefined",
+              "callstack": "$init(A, t, t, e, m, p, t,  , t, o,  , i, n, v, o, k, e,  , v, i, r, t, u, a, l,  , m, e, t, h, o, d,  , ', v, o, i, d,  , a, n, d, r, o, i, d, ., o, s, ., P, a, r, c, e, l, ., w, r, i, t, e, N, o, E, x, c, e, p, t, i, o, n, (, ), ',  , o, n,  , a,  , n, u, l, l,  , o, b, j, e, c, t,  , r, e, f, e, r, e, n, c, e) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.NullPointerException.<init>(Native Method)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:697)\nandroid.os.Binder.transact(Binder.java:914)\nandroid.app.ITransientNotification$Stub$Proxy.show(ITransientNotification.java:125)\ncom.android.server.notification.NotificationManagerService.showNextToastLocked(NotificationManagerService.java:5981)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2321)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "60bf269bfc0721648176730dbc05515a",
+            "ignored_permissions": []
+          }
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": null
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.notification.NotificationManagerService$10",
+            "com.android.server.notification.NotificationManagerService"
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "60bf269bfc0721648176730dbc05515a",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2256)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.notification.NotificationManagerService.isCallerSystemOrPhone(NotificationManagerService.java:7088)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2257)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.notification.NotificationManagerService.isCallerSystemOrPhone(NotificationManagerService.java:7088)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSameApp(NotificationManagerService.java:7116)\ncom.android.server.notification.NotificationManagerService.access$3100(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.enforceSystemOrSystemUIOrSamePackage(NotificationManagerService.java:3588)\ncom.android.server.notification.NotificationManagerService$10.areNotificationsEnabledForPackage(NotificationManagerService.java:2469)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2260)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSameApp(NotificationManagerService.java:7177)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSameApp(NotificationManagerService.java:7119)\ncom.android.server.notification.NotificationManagerService.access$3100(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.enforceSystemOrSystemUIOrSamePackage(NotificationManagerService.java:3588)\ncom.android.server.notification.NotificationManagerService$10.areNotificationsEnabledForPackage(NotificationManagerService.java:2469)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2260)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.UserHandle.getCallingUserId(UserHandle.java:222)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSameApp(NotificationManagerService.java:7177)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSameApp(NotificationManagerService.java:7119)\ncom.android.server.notification.NotificationManagerService.access$3100(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.enforceSystemOrSystemUIOrSamePackage(NotificationManagerService.java:3588)\ncom.android.server.notification.NotificationManagerService$10.areNotificationsEnabledForPackage(NotificationManagerService.java:2469)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2260)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": "null",
+            "exception": "FIRST EXCEPTION CAUGHT\njava.lang.reflect.InvocationTargetException\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat fuzzer.permission.uidchanger.InvokerService.invokeApi(InvokerService.java:318)\n\tat fuzzer.permission.uidchanger.InvokerService.onStartCommand(InvokerService.java:71)\n\tat android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4087)\n\tat android.app.ActivityThread.access$1800(ActivityThread.java:219)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1891)\n\tat android.os.Handler.dispatchMessage(Handler.java:107)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\nCaused by: android.os.DeadObjectException\n\tat android.os.BinderProxy.transactNative(Native Method)\n\tat android.os.BinderProxy.transact(BinderProxy.java:510)\n\tat android.app.INotificationManager$Stub$Proxy.enqueueToast(INotificationManager.java:2683)\n\t... 12 more\n"
+          },
+          "pid_info": {
+            "name": null,
+            "id": null,
+            "pid": 1993
+          },
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": {
+              "type": "java.lang.NullPointerException.<init>(Native Method)",
+              "location": "android.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:697)",
+              "message": "Attempt to invoke virtual method 'void android.os.Parcel.writeNoException("
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.notification.NotificationManagerService$10",
+            "com.android.server.notification.NotificationManagerService",
+            "com.android.server.notification.PreferencesHelper"
+          ],
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2256)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.notification.NotificationManagerService.isCallerSystemOrPhone(NotificationManagerService.java:7088)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2257)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.notification.NotificationManagerService.isCallerSystemOrPhone(NotificationManagerService.java:7088)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSameApp(NotificationManagerService.java:7116)\ncom.android.server.notification.NotificationManagerService.access$3100(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.enforceSystemOrSystemUIOrSamePackage(NotificationManagerService.java:3588)\ncom.android.server.notification.NotificationManagerService$10.areNotificationsEnabledForPackage(NotificationManagerService.java:2469)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2260)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSameApp(NotificationManagerService.java:7177)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSameApp(NotificationManagerService.java:7119)\ncom.android.server.notification.NotificationManagerService.access$3100(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.enforceSystemOrSystemUIOrSamePackage(NotificationManagerService.java:3588)\ncom.android.server.notification.NotificationManagerService$10.areNotificationsEnabledForPackage(NotificationManagerService.java:2469)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2260)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.UserHandle.getCallingUserId(UserHandle.java:222)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSameApp(NotificationManagerService.java:7177)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSameApp(NotificationManagerService.java:7119)\ncom.android.server.notification.NotificationManagerService.access$3100(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.enforceSystemOrSystemUIOrSamePackage(NotificationManagerService.java:3588)\ncom.android.server.notification.NotificationManagerService$10.areNotificationsEnabledForPackage(NotificationManagerService.java:2469)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2260)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.getApplicationInfo(PackageManagerService.java:4672)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSameApp(NotificationManagerService.java:7182)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSameApp(NotificationManagerService.java:7177)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSameApp(NotificationManagerService.java:7119)\ncom.android.server.notification.NotificationManagerService.access$3100(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.enforceSystemOrSystemUIOrSamePackage(NotificationManagerService.java:3588)\ncom.android.server.notification.NotificationManagerService$10.areNotificationsEnabledForPackage(NotificationManagerService.java:2469)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2260)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.UserHandle.getCallingUserId(UserHandle.java:222)\ncom.android.server.pm.PackageManagerService.updateFlagsForPackage(PackageManagerService.java:5009)\ncom.android.server.pm.PackageManagerService.updateFlagsForApplication(PackageManagerService.java:5033)\ncom.android.server.pm.PackageManagerService.getApplicationInfoInternal(PackageManagerService.java:4684)\ncom.android.server.pm.PackageManagerService.getApplicationInfo(PackageManagerService.java:4672)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSameApp(NotificationManagerService.java:7182)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSameApp(NotificationManagerService.java:7177)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSameApp(NotificationManagerService.java:7119)\ncom.android.server.notification.NotificationManagerService.access$3100(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.enforceSystemOrSystemUIOrSamePackage(NotificationManagerService.java:3588)\ncom.android.server.notification.NotificationManagerService$10.areNotificationsEnabledForPackage(NotificationManagerService.java:2469)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2260)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.getApplicationInfoInternal(PackageManagerService.java:4686)\ncom.android.server.pm.PackageManagerService.getApplicationInfo(PackageManagerService.java:4672)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSameApp(NotificationManagerService.java:7182)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSameApp(NotificationManagerService.java:7177)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSameApp(NotificationManagerService.java:7119)\ncom.android.server.notification.NotificationManagerService.access$3100(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.enforceSystemOrSystemUIOrSamePackage(NotificationManagerService.java:3588)\ncom.android.server.notification.NotificationManagerService$10.areNotificationsEnabledForPackage(NotificationManagerService.java:2469)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2260)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.getApplicationInfoInternal(PackageManagerService.java:4687)\ncom.android.server.pm.PackageManagerService.getApplicationInfo(PackageManagerService.java:4672)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSameApp(NotificationManagerService.java:7182)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSameApp(NotificationManagerService.java:7177)\ncom.android.server.notification.NotificationManagerService.checkCallerIsSystemOrSameApp(NotificationManagerService.java:7119)\ncom.android.server.notification.NotificationManagerService.access$3100(NotificationManagerService.java:277)\ncom.android.server.notification.NotificationManagerService$10.enforceSystemOrSystemUIOrSamePackage(NotificationManagerService.java:3588)\ncom.android.server.notification.NotificationManagerService$10.areNotificationsEnabledForPackage(NotificationManagerService.java:2469)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2260)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.UserHandle.getCallingUserId(UserHandle.java:222)\ncom.android.server.notification.NotificationManagerService$10.areNotificationsEnabledForPackage(NotificationManagerService.java:2471)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2260)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.getApplicationInfo(PackageManagerService.java:4672)\nandroid.app.ApplicationPackageManager.getApplicationInfoAsUser(ApplicationPackageManager.java:402)\ncom.android.server.notification.PreferencesHelper.shouldHaveDefaultChannel(PreferencesHelper.java:327)\ncom.android.server.notification.PreferencesHelper.createDefaultChannelIfNeededLocked(PreferencesHelper.java:363)\ncom.android.server.notification.PreferencesHelper.getOrCreatePackagePreferencesLocked(PreferencesHelper.java:309)\ncom.android.server.notification.PreferencesHelper.getOrCreatePackagePreferencesLocked(PreferencesHelper.java:287)\ncom.android.server.notification.PreferencesHelper.getImportance(PreferencesHelper.java:522)\ncom.android.server.notification.NotificationManagerService$10.areNotificationsEnabledForPackage(NotificationManagerService.java:2477)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2260)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.UserHandle.getCallingUserId(UserHandle.java:222)\ncom.android.server.pm.PackageManagerService.updateFlagsForPackage(PackageManagerService.java:5009)\ncom.android.server.pm.PackageManagerService.updateFlagsForApplication(PackageManagerService.java:5033)\ncom.android.server.pm.PackageManagerService.getApplicationInfoInternal(PackageManagerService.java:4684)\ncom.android.server.pm.PackageManagerService.getApplicationInfo(PackageManagerService.java:4672)\nandroid.app.ApplicationPackageManager.getApplicationInfoAsUser(ApplicationPackageManager.java:402)\ncom.android.server.notification.PreferencesHelper.shouldHaveDefaultChannel(PreferencesHelper.java:327)\ncom.android.server.notification.PreferencesHelper.createDefaultChannelIfNeededLocked(PreferencesHelper.java:363)\ncom.android.server.notification.PreferencesHelper.getOrCreatePackagePreferencesLocked(PreferencesHelper.java:309)\ncom.android.server.notification.PreferencesHelper.getOrCreatePackagePreferencesLocked(PreferencesHelper.java:287)\ncom.android.server.notification.PreferencesHelper.getImportance(PreferencesHelper.java:522)\ncom.android.server.notification.NotificationManagerService$10.areNotificationsEnabledForPackage(NotificationManagerService.java:2477)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2260)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.getApplicationInfoInternal(PackageManagerService.java:4686)\ncom.android.server.pm.PackageManagerService.getApplicationInfo(PackageManagerService.java:4672)\nandroid.app.ApplicationPackageManager.getApplicationInfoAsUser(ApplicationPackageManager.java:402)\ncom.android.server.notification.PreferencesHelper.shouldHaveDefaultChannel(PreferencesHelper.java:327)\ncom.android.server.notification.PreferencesHelper.createDefaultChannelIfNeededLocked(PreferencesHelper.java:363)\ncom.android.server.notification.PreferencesHelper.getOrCreatePackagePreferencesLocked(PreferencesHelper.java:309)\ncom.android.server.notification.PreferencesHelper.getOrCreatePackagePreferencesLocked(PreferencesHelper.java:287)\ncom.android.server.notification.PreferencesHelper.getImportance(PreferencesHelper.java:522)\ncom.android.server.notification.NotificationManagerService$10.areNotificationsEnabledForPackage(NotificationManagerService.java:2477)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2260)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.server.pm.PackageManagerService.getApplicationInfoInternal(PackageManagerService.java:4687)\ncom.android.server.pm.PackageManagerService.getApplicationInfo(PackageManagerService.java:4672)\nandroid.app.ApplicationPackageManager.getApplicationInfoAsUser(ApplicationPackageManager.java:402)\ncom.android.server.notification.PreferencesHelper.shouldHaveDefaultChannel(PreferencesHelper.java:327)\ncom.android.server.notification.PreferencesHelper.createDefaultChannelIfNeededLocked(PreferencesHelper.java:363)\ncom.android.server.notification.PreferencesHelper.getOrCreatePackagePreferencesLocked(PreferencesHelper.java:309)\ncom.android.server.notification.PreferencesHelper.getOrCreatePackagePreferencesLocked(PreferencesHelper.java:287)\ncom.android.server.notification.PreferencesHelper.getImportance(PreferencesHelper.java:522)\ncom.android.server.notification.NotificationManagerService$10.areNotificationsEnabledForPackage(NotificationManagerService.java:2477)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2260)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2279)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2279)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingPid() = 4640",
+              "callstack": "getCallingPid() = 4640\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingPid(Native Method)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2279)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 1000,
+              "call_ret": "myPid() = 1993",
+              "callstack": "myPid() = 1993\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Process.myPid(Native Method)\ncom.android.server.wm.WindowManagerService.checkCallingPermission(WindowManagerService.java:2414)\ncom.android.server.wm.WindowManagerService.addWindowToken(WindowManagerService.java:2430)\ncom.android.server.wm.WindowManagerService$LocalService.addWindowToken(WindowManagerService.java:7265)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2309)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 1000,
+              "call_ret": "myPid() = 1993",
+              "callstack": "myPid() = 1993\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Process.myPid(Native Method)\nandroid.app.ContextImpl.checkCallingPermission(ContextImpl.java:1863)\nandroid.app.ContextImpl.checkCallingPermission(Native Method)\ncom.android.server.wm.WindowManagerService.checkCallingPermission(WindowManagerService.java:2418)\ncom.android.server.wm.WindowManagerService.addWindowToken(WindowManagerService.java:2430)\ncom.android.server.wm.WindowManagerService$LocalService.addWindowToken(WindowManagerService.java:7265)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2309)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 1000,
+              "call_ret": "$init(Attempt to invoke virtual method 'void android.os.Parcel.writeNoException()' on a null object reference) = undefined",
+              "callstack": "$init(A, t, t, e, m, p, t,  , t, o,  , i, n, v, o, k, e,  , v, i, r, t, u, a, l,  , m, e, t, h, o, d,  , ', v, o, i, d,  , a, n, d, r, o, i, d, ., o, s, ., P, a, r, c, e, l, ., w, r, i, t, e, N, o, E, x, c, e, p, t, i, o, n, (, ), ',  , o, n,  , a,  , n, u, l, l,  , o, b, j, e, c, t,  , r, e, f, e, r, e, n, c, e) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.NullPointerException.<init>(Native Method)\nandroid.net.wifi.IWifiManager$Stub.onTransact(IWifiManager.java:697)\nandroid.os.Binder.transact(Binder.java:914)\nandroid.app.ITransientNotification$Stub$Proxy.show(ITransientNotification.java:125)\ncom.android.server.notification.NotificationManagerService.showNextToastLocked(NotificationManagerService.java:5981)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(NotificationManagerService.java:2321)\ncom.android.server.notification.NotificationManagerService$10.enqueueToast(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:1009)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "60bf269bfc0721648176730dbc05515a",
+            "ignored_permissions": []
+          }
+        }
+      ]
+    }
+  }
+}

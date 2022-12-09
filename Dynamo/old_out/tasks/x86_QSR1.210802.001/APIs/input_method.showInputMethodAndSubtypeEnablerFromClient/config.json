@@ -1,0 +1,29 @@
+{
+  "api": "input_method|showInputMethodAndSubtypeEnablerFromClient|com.android.internal.view.IInputMethodClient,java.lang.String|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "019b3fa2f36e686018f24d6a22dd1742": [
+      "OBJ:com.android.internal.view.IInputMethodClient",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "06ed39610c1af20d094daafb51493756": [
+      "OBJ:com.android.internal.view.IInputMethodClient",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

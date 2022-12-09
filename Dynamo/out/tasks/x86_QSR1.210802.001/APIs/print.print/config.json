@@ -1,0 +1,149 @@
+{
+  "api": "print|print|java.lang.String,android.print.IPrintDocumentAdapter,android.print.PrintAttributes,java.lang.String,I,I|android.os.Bundle|",
+  "parameters_count": 16,
+  "parameters": {
+    "eb2e3a641b18e172f368f900ca774d98": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.print.IPrintDocumentAdapter",
+      "OBJ:android.print.PrintAttributes",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "74e8c11f1bda95a637811178d3ee36fe": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.print.IPrintDocumentAdapter",
+      "OBJ:android.print.PrintAttributes",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "0d854fd9b41dcf4e727f9db18705aa2f": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.print.IPrintDocumentAdapter",
+      "OBJ:android.print.PrintAttributes",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "465f223b8f1bf02875dc7568f118b066": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.print.IPrintDocumentAdapter",
+      "OBJ:android.print.PrintAttributes",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "9b11324cd90b35d5a54283ee9b8675a6": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.print.IPrintDocumentAdapter",
+      "OBJ:android.print.PrintAttributes",
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "8219f44e2dc6db55cf634d94c21c5081": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.print.IPrintDocumentAdapter",
+      "OBJ:android.print.PrintAttributes",
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "728a631377fb85298217a45b5a1db12b": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.print.IPrintDocumentAdapter",
+      "OBJ:android.print.PrintAttributes",
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "65d7d264320eb2b51deac0249302f211": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.print.IPrintDocumentAdapter",
+      "OBJ:android.print.PrintAttributes",
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "7276eab18bea2837db6af7380c2549a2": [
+      "S:com.android.systemui",
+      "OBJ:android.print.IPrintDocumentAdapter",
+      "OBJ:android.print.PrintAttributes",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "56b5667f80256f9e16c9967654303dc6": [
+      "S:com.android.systemui",
+      "OBJ:android.print.IPrintDocumentAdapter",
+      "OBJ:android.print.PrintAttributes",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "60e568aa7210d9e2091dfcd7f6aa80cd": [
+      "S:com.android.systemui",
+      "OBJ:android.print.IPrintDocumentAdapter",
+      "OBJ:android.print.PrintAttributes",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "f23a9f3215c3a1fe0d495f4655f11bbd": [
+      "S:com.android.systemui",
+      "OBJ:android.print.IPrintDocumentAdapter",
+      "OBJ:android.print.PrintAttributes",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "43d4890a47c19c738a71563f1edcc2be": [
+      "S:com.android.systemui",
+      "OBJ:android.print.IPrintDocumentAdapter",
+      "OBJ:android.print.PrintAttributes",
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "44ca2aebea0ee563bbc02e36c0c3d497": [
+      "S:com.android.systemui",
+      "OBJ:android.print.IPrintDocumentAdapter",
+      "OBJ:android.print.PrintAttributes",
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "f5d0083485be3930c858eae2b605acf9": [
+      "S:com.android.systemui",
+      "OBJ:android.print.IPrintDocumentAdapter",
+      "OBJ:android.print.PrintAttributes",
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "ce9245db27382e0212b82745a369438b": [
+      "S:com.android.systemui",
+      "OBJ:android.print.IPrintDocumentAdapter",
+      "OBJ:android.print.PrintAttributes",
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

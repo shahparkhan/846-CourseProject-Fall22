@@ -1,0 +1,24 @@
+{
+  "api": "telecom|unregisterPhoneAccount|android.telecom.PhoneAccountHandle|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "da7c7ed78c4c6ae4e274f8d616a2e3dc": [
+      "OBJ:android.telecom.PhoneAccountHandle"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

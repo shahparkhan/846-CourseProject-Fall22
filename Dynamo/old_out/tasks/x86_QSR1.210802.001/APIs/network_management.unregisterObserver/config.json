@@ -1,0 +1,24 @@
+{
+  "api": "network_management|unregisterObserver|android.net.INetworkManagementEventObserver|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "316893f384c0e9820ecce57a3803781e": [
+      "OBJ:android.net.INetworkManagementEventObserver"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

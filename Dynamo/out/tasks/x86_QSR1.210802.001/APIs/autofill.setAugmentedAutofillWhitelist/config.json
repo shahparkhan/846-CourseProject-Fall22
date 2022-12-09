@@ -1,0 +1,26 @@
+{
+  "api": "autofill|setAugmentedAutofillWhitelist|java.util.List,java.util.List,com.android.internal.os.IResultReceiver|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "a467323a23595e973f3920d70f3f9b26": [
+      "OBJ:java.util.List",
+      "OBJ:java.util.List",
+      "OBJ:com.android.internal.os.IResultReceiver"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

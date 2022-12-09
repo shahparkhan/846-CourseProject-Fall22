@@ -1,0 +1,24 @@
+{
+  "api": "batterystats|noteModemControllerActivity|android.telephony.ModemActivityInfo|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "fa29027aa4ed42311231b22788aa31b3": [
+      "OBJ:android.telephony.ModemActivityInfo"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

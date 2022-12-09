@@ -1,0 +1,25 @@
+{
+  "api": "midi|setDeviceStatus|android.media.midi.IMidiDeviceServer,android.media.midi.MidiDeviceStatus|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "6a049772fae881b5767df09353258b0c": [
+      "OBJ:android.media.midi.IMidiDeviceServer",
+      "OBJ:android.media.midi.MidiDeviceStatus"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

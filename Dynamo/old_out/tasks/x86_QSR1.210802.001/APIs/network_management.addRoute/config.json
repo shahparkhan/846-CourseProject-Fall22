@@ -1,0 +1,29 @@
+{
+  "api": "network_management|addRoute|I,android.net.RouteInfo|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "0bd7141143ca722e0b597f269a3a8181": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.net.RouteInfo"
+    ],
+    "de5aba6013d60eba043f23ffe0992406": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.net.RouteInfo"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,24 @@
+{
+  "api": "jobscheduler|schedule|android.app.job.JobInfo|I|",
+  "parameters_count": 1,
+  "parameters": {
+    "a48dbc6cee6541ac74ef92f0f90829f8": [
+      "OBJ:android.app.job.JobInfo"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

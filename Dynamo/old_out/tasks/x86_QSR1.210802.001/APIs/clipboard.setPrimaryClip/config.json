@@ -1,0 +1,41 @@
+{
+  "api": "clipboard|setPrimaryClip|android.content.ClipData,java.lang.String,I|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "f47d2ea959b452d3c7caca28b8c083d3": [
+      "OBJ:android.content.ClipData",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "e318c1827a4b9e85301c5669c50db272": [
+      "OBJ:android.content.ClipData",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "8b07ea68b909c70d44a786e1fa0a2f1f": [
+      "OBJ:android.content.ClipData",
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "47f06ef28a4eb34c80319d29f5efaa7a": [
+      "OBJ:android.content.ClipData",
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

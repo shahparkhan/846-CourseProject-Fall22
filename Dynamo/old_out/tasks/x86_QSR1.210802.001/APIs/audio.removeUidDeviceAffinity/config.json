@@ -1,0 +1,29 @@
+{
+  "api": "audio|removeUidDeviceAffinity|android.media.audiopolicy.IAudioPolicyCallback,I|I|",
+  "parameters_count": 2,
+  "parameters": {
+    "7517bb4810226a84e26c428df445a285": [
+      "OBJ:android.media.audiopolicy.IAudioPolicyCallback",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "614929ef79615001d2fd1e0d6ce72743": [
+      "OBJ:android.media.audiopolicy.IAudioPolicyCallback",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

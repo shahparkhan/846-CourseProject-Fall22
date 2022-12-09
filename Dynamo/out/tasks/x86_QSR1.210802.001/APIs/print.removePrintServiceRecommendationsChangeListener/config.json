@@ -1,0 +1,29 @@
+{
+  "api": "print|removePrintServiceRecommendationsChangeListener|android.printservice.recommendation.IRecommendationsChangeListener,I|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "10e733c4a56c5117d61bf03a1af96a89": [
+      "OBJ:android.printservice.recommendation.IRecommendationsChangeListener",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "aad7cfd0579822b69fc22abac1d70ac3": [
+      "OBJ:android.printservice.recommendation.IRecommendationsChangeListener",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

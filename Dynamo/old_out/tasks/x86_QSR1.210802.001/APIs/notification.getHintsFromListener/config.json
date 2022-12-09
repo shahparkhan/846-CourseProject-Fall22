@@ -1,0 +1,24 @@
+{
+  "api": "notification|getHintsFromListener|android.service.notification.INotificationListener|I|",
+  "parameters_count": 1,
+  "parameters": {
+    "b3969070da5a5043d3f83bababde34d6": [
+      "OBJ:android.service.notification.INotificationListener"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

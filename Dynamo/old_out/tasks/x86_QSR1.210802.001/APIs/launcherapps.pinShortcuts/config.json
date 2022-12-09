@@ -1,0 +1,45 @@
+{
+  "api": "launcherapps|pinShortcuts|java.lang.String,java.lang.String,java.util.List,android.os.UserHandle|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "3871856b356bfd3c6d1c2664cbeec9f0": [
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.util.List",
+      "OBJ:android.os.UserHandle"
+    ],
+    "ce06a0e6c80133e5c865406ff7c0f28c": [
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "OBJ:java.util.List",
+      "OBJ:android.os.UserHandle"
+    ],
+    "ad6b094dd4cbeda917d5419e54497494": [
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.util.List",
+      "OBJ:android.os.UserHandle"
+    ],
+    "5862dcf0db0a700a01daa9654a9fb39b": [
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "OBJ:java.util.List",
+      "OBJ:android.os.UserHandle"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

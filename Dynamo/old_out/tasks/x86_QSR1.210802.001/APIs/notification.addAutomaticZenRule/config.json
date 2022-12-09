@@ -1,0 +1,24 @@
+{
+  "api": "notification|addAutomaticZenRule|android.app.AutomaticZenRule|java.lang.String|",
+  "parameters_count": 1,
+  "parameters": {
+    "6ab1e2ea6ac20363537ff0faa967e95c": [
+      "OBJ:android.app.AutomaticZenRule"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

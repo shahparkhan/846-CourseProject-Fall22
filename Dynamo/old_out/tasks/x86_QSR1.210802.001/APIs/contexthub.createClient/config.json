@@ -1,0 +1,29 @@
+{
+  "api": "contexthub|createClient|I,android.hardware.location.IContextHubClientCallback|android.hardware.location.IContextHubClient|",
+  "parameters_count": 2,
+  "parameters": {
+    "bcd7a1dcee9c66d4a7ac393a63a753ba": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.hardware.location.IContextHubClientCallback"
+    ],
+    "8a9a0e0ba167936037715acdcfb822c0": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.hardware.location.IContextHubClientCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

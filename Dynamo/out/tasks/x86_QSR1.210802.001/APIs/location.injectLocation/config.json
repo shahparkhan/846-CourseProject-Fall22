@@ -1,0 +1,24 @@
+{
+  "api": "location|injectLocation|android.location.Location|Z|",
+  "parameters_count": 1,
+  "parameters": {
+    "0ebc2df6319084f9443774c3381e0839": [
+      "OBJ:android.location.Location"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

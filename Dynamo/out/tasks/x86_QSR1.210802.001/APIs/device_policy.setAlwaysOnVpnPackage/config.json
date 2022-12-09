@@ -1,0 +1,69 @@
+{
+  "api": "device_policy|setAlwaysOnVpnPackage|android.content.ComponentName,java.lang.String,Z,java.util.List|Z|",
+  "parameters_count": 8,
+  "parameters": {
+    "898109c0cb1829f6d085c830fa514c72": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "B:true",
+      "OBJ:java.util.List"
+    ],
+    "a2083a1f6027c4640ffaed413a80482e": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "B:false",
+      "OBJ:java.util.List"
+    ],
+    "99c6516f64739bd908474f21dd838fdc": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "B:true",
+      "OBJ:java.util.List"
+    ],
+    "830c55f87bb40720cd9d32c7e4faf734": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "B:false",
+      "OBJ:java.util.List"
+    ],
+    "7170bdd5fa15e4400ea06f766d1ccdca": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "B:true",
+      "OBJ:java.util.List"
+    ],
+    "288bfbb2d558bd16d239c2a20a5315f2": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "B:false",
+      "OBJ:java.util.List"
+    ],
+    "6484d22a7cd43f64ed3735e0a01bac82": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "B:true",
+      "OBJ:java.util.List"
+    ],
+    "16aaad994be2ad5a97ee6dc2936cc3ad": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "B:false",
+      "OBJ:java.util.List"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

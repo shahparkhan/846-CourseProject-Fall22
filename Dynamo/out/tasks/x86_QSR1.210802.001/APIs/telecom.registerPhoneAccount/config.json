@@ -1,0 +1,24 @@
+{
+  "api": "telecom|registerPhoneAccount|android.telecom.PhoneAccount|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "8bc096f5b832a9d8640f065808dfc555": [
+      "OBJ:android.telecom.PhoneAccount"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

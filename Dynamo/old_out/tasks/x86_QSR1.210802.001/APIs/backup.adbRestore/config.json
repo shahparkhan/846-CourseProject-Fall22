@@ -1,0 +1,29 @@
+{
+  "api": "backup|adbRestore|I,android.os.ParcelFileDescriptor|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "5b148e0f3a060ee227cc658e83be83d5": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.ParcelFileDescriptor"
+    ],
+    "96fc5668ad17bc00a1362be687dd7298": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.ParcelFileDescriptor"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

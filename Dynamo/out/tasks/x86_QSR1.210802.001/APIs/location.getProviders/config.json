@@ -1,0 +1,29 @@
+{
+  "api": "location|getProviders|android.location.Criteria,Z|java.util.List|",
+  "parameters_count": 2,
+  "parameters": {
+    "a8e8a987b100ccc5eb9f86d20b418a28": [
+      "OBJ:android.location.Criteria",
+      "B:true"
+    ],
+    "b7b1a0c41269f6786c0bf591125ceba8": [
+      "OBJ:android.location.Criteria",
+      "B:false"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

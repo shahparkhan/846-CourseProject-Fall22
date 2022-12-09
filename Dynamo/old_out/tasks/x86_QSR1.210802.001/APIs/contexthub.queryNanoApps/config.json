@@ -1,0 +1,29 @@
+{
+  "api": "contexthub|queryNanoApps|I,android.hardware.location.IContextHubTransactionCallback|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "c6d6b7c90abeff55524f2425cf5bba04": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.hardware.location.IContextHubTransactionCallback"
+    ],
+    "6944283276f0bbc6de1cd5798328c8be": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.hardware.location.IContextHubTransactionCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

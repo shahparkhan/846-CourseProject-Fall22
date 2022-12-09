@@ -1,0 +1,25 @@
+{
+  "api": "activity_task|enterPictureInPictureMode|android.os.IBinder,android.app.PictureInPictureParams|Z|",
+  "parameters_count": 1,
+  "parameters": {
+    "c7ad358b4ccb3eb4d68263aa683c0f4f": [
+      "OBJ:android.os.IBinder",
+      "OBJ:android.app.PictureInPictureParams"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

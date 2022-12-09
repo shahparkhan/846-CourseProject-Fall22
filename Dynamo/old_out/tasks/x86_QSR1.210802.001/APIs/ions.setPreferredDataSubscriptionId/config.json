@@ -1,0 +1,69 @@
+{
+  "api": "ions|setPreferredDataSubscriptionId|I,Z,com.android.internal.telephony.ISetOpportunisticDataCallback,java.lang.String|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "32a61430b2b0d1f23fdce0b3f7ed1df7": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:true",
+      "OBJ:com.android.internal.telephony.ISetOpportunisticDataCallback",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "b39cba3d3f3f0e560a3b97ef5189a326": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:true",
+      "OBJ:com.android.internal.telephony.ISetOpportunisticDataCallback",
+      "S:com.android.systemui"
+    ],
+    "76828fd191b51fb4a01d0bf808caf9ae": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:false",
+      "OBJ:com.android.internal.telephony.ISetOpportunisticDataCallback",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "1f2edb9e0d9ccf7b20e20a6feb38fd43": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:false",
+      "OBJ:com.android.internal.telephony.ISetOpportunisticDataCallback",
+      "S:com.android.systemui"
+    ],
+    "b56bceae57bf7b6e02a2f8664562789f": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:true",
+      "OBJ:com.android.internal.telephony.ISetOpportunisticDataCallback",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "2b8dd3819d2390bf405d957ed2663c92": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:true",
+      "OBJ:com.android.internal.telephony.ISetOpportunisticDataCallback",
+      "S:com.android.systemui"
+    ],
+    "b11585d59cc6d501da3785bf4f16f0d9": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:false",
+      "OBJ:com.android.internal.telephony.ISetOpportunisticDataCallback",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "7ba7d4902c7415cecc0ac9cbf9b702c3": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:false",
+      "OBJ:com.android.internal.telephony.ISetOpportunisticDataCallback",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

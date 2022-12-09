@@ -1,0 +1,69 @@
+{
+  "api": "activity|getIntentSender|I,java.lang.String,android.os.IBinder,java.lang.String,I,android.content.Intent[],java.lang.String[],I,android.os.Bundle,I|android.content.IIntentSender|",
+  "parameters_count": 4,
+  "parameters": {
+    "b639531750712fb061a72e26a09f8451": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.IBinder",
+      "INDEX:1",
+      "INDEX:0",
+      "OBJ:android.content.Intent[]",
+      "OBJ:java.lang.String[]",
+      "INDEX:0",
+      "OBJ:android.os.Bundle",
+      "INDEX:0"
+    ],
+    "fae325cc5436210756859129f8e6695d": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "OBJ:android.os.IBinder",
+      "INDEX:1",
+      "INDEX:0",
+      "OBJ:android.content.Intent[]",
+      "OBJ:java.lang.String[]",
+      "INDEX:0",
+      "OBJ:android.os.Bundle",
+      "INDEX:0"
+    ],
+    "c2c7f09cb9a16962854ec78a971a7082": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.IBinder",
+      "INDEX:1",
+      "INDEX:0",
+      "OBJ:android.content.Intent[]",
+      "OBJ:java.lang.String[]",
+      "INDEX:0",
+      "OBJ:android.os.Bundle",
+      "INDEX:0"
+    ],
+    "ef6d2d35a91008b28da80490dc27654a": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "OBJ:android.os.IBinder",
+      "INDEX:1",
+      "INDEX:0",
+      "OBJ:android.content.Intent[]",
+      "OBJ:java.lang.String[]",
+      "INDEX:0",
+      "OBJ:android.os.Bundle",
+      "INDEX:0"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

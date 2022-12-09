@@ -1,0 +1,33 @@
+{
+  "api": "accessibility|registerUiTestAutomationService|android.os.IBinder,android.accessibilityservice.IAccessibilityServiceClient,android.accessibilityservice.AccessibilityServiceInfo,I|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "42f8a9cef9ec041569382da72bcbf742": [
+      "OBJ:android.os.IBinder",
+      "OBJ:android.accessibilityservice.IAccessibilityServiceClient",
+      "OBJ:android.accessibilityservice.AccessibilityServiceInfo",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "9effba6fc4b9b0528a6e7355bdb1c031": [
+      "OBJ:android.os.IBinder",
+      "OBJ:android.accessibilityservice.IAccessibilityServiceClient",
+      "OBJ:android.accessibilityservice.AccessibilityServiceInfo",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

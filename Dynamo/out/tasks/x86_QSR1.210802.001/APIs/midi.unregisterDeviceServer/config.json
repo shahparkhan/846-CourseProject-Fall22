@@ -1,0 +1,24 @@
+{
+  "api": "midi|unregisterDeviceServer|android.media.midi.IMidiDeviceServer|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "d99a6f32378e721a4843e2e865496035": [
+      "OBJ:android.media.midi.IMidiDeviceServer"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

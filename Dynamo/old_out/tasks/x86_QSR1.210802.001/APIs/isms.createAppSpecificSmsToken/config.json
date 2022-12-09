@@ -1,0 +1,41 @@
+{
+  "api": "isms|createAppSpecificSmsToken|I,java.lang.String,android.app.PendingIntent|java.lang.String|",
+  "parameters_count": 4,
+  "parameters": {
+    "c27c6e1f409bb7a8f0b1649ccbad5908": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.app.PendingIntent"
+    ],
+    "350a3c9214f61f81381f2881b08ccfdb": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "OBJ:android.app.PendingIntent"
+    ],
+    "63eddc58e7ed5f42df9ae14aab2b0117": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.app.PendingIntent"
+    ],
+    "a31db5f743367c4837425eb3007a61a1": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "OBJ:android.app.PendingIntent"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

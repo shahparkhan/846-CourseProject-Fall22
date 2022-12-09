@@ -1,0 +1,37 @@
+{
+  "api": "location|removeGnssMeasurementsListener|android.location.IGnssMeasurementsListener|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "a14d70bb7d883782519548c78ee3301d": [
+      "OBJ:android.location.IGnssMeasurementsListener"
+    ]
+  },
+  "parameters_done": {
+    "None:a14d70bb7d883782519548c78ee3301d": 2
+  },
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [
+    null
+  ],
+  "classes": [],
+  "phase_name": "change_uid",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 3,
+    "historical_service_not_invoked": 15,
+    "no_traces": 0,
+    "historical_no_traces": 0
+  },
+  "pids": [],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

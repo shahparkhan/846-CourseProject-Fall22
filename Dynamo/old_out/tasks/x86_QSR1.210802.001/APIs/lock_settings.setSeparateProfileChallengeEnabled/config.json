@@ -1,0 +1,41 @@
+{
+  "api": "lock_settings|setSeparateProfileChallengeEnabled|I,Z,B[]|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "606bce4fe08e39a72d6f11147212413c": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:true",
+      "OBJ:B[]"
+    ],
+    "ea461e6e7024ea3d52ea49da74343c99": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:false",
+      "OBJ:B[]"
+    ],
+    "5a603df2335bf71cf4a6b8367ab89f30": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:true",
+      "OBJ:B[]"
+    ],
+    "3f636b7df6d4ba12657d0705d753f847": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:false",
+      "OBJ:B[]"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

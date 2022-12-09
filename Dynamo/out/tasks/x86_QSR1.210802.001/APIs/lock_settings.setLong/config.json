@@ -1,0 +1,41 @@
+{
+  "api": "lock_settings|setLong|java.lang.String,J,I|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "7ad3b0e408c8268632265627f5053e51": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:J",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "bec5d70680787320a299dbbef40915df": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:J",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "87ad820ef1b30ebc572894dfaaedb434": [
+      "S:com.android.systemui",
+      "OBJ:J",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "05a4c32a78f443be31c2db2cf10113a2": [
+      "S:com.android.systemui",
+      "OBJ:J",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

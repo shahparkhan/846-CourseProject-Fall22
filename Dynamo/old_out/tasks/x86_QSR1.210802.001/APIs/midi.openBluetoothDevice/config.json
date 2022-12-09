@@ -1,0 +1,26 @@
+{
+  "api": "midi|openBluetoothDevice|android.os.IBinder,android.bluetooth.BluetoothDevice,android.media.midi.IMidiDeviceOpenCallback|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "74bfe9ab29db7ff56a6292762eaee9b8": [
+      "OBJ:android.os.IBinder",
+      "OBJ:android.bluetooth.BluetoothDevice",
+      "OBJ:android.media.midi.IMidiDeviceOpenCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,24 @@
+{
+  "api": "usb|setCurrentFunctions|J|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "d7db734062216b58dbf2638001342c85": [
+      "OBJ:J"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

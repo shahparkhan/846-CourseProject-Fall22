@@ -1,0 +1,24 @@
+{
+  "api": "media_projection|isValidMediaProjection|android.media.projection.IMediaProjection|Z|",
+  "parameters_count": 1,
+  "parameters": {
+    "0e3a4ec93bae878613971ce40762d58b": [
+      "OBJ:android.media.projection.IMediaProjection"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

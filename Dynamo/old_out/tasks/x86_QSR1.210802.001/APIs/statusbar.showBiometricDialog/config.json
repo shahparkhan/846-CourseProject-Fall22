@@ -1,0 +1,77 @@
+{
+  "api": "statusbar|showBiometricDialog|android.os.Bundle,android.hardware.biometrics.IBiometricServiceReceiverInternal,I,Z,I|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "c934777b3755c648365913c47b0bfb71": [
+      "OBJ:android.os.Bundle",
+      "OBJ:android.hardware.biometrics.IBiometricServiceReceiverInternal",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:true",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "6c12e658b2b73e81f5d24ef2a2122701": [
+      "OBJ:android.os.Bundle",
+      "OBJ:android.hardware.biometrics.IBiometricServiceReceiverInternal",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:true",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "bc65ca4fefb3533915514fc142a13e40": [
+      "OBJ:android.os.Bundle",
+      "OBJ:android.hardware.biometrics.IBiometricServiceReceiverInternal",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:false",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "c3f8ea311b1fc2b5e84ee4b701527989": [
+      "OBJ:android.os.Bundle",
+      "OBJ:android.hardware.biometrics.IBiometricServiceReceiverInternal",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:false",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "a945567dcdf1a7401b71eb5d94be0a8b": [
+      "OBJ:android.os.Bundle",
+      "OBJ:android.hardware.biometrics.IBiometricServiceReceiverInternal",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:true",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "731559ec1d80f82ec213e840d44410fb": [
+      "OBJ:android.os.Bundle",
+      "OBJ:android.hardware.biometrics.IBiometricServiceReceiverInternal",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:true",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "555f44a4ae5e161d6131103c2c50aa8e": [
+      "OBJ:android.os.Bundle",
+      "OBJ:android.hardware.biometrics.IBiometricServiceReceiverInternal",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:false",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "0b2435951b350717e073c74bd5ff3804": [
+      "OBJ:android.os.Bundle",
+      "OBJ:android.hardware.biometrics.IBiometricServiceReceiverInternal",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:false",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

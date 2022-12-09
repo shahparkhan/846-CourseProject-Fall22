@@ -1,0 +1,29 @@
+{
+  "api": "activity_task|registerRemoteAnimationsForDisplay|I,android.view.RemoteAnimationDefinition|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "bdff7ea339aae0026d33fab756dec7c5": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.view.RemoteAnimationDefinition"
+    ],
+    "5f36531dfdd5a2e38cbb708ba278396b": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.view.RemoteAnimationDefinition"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

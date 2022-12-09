@@ -1,0 +1,24 @@
+{
+  "api": "connectivity|releaseNetworkRequest|android.net.NetworkRequest|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "0b012bfa58f5fbbd882161e7c0cb6ab0": [
+      "OBJ:android.net.NetworkRequest"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

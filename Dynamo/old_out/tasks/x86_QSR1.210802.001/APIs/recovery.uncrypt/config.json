@@ -1,0 +1,29 @@
+{
+  "api": "recovery|uncrypt|java.lang.String,android.os.IRecoverySystemProgressListener|Z|",
+  "parameters_count": 2,
+  "parameters": {
+    "067d4ee5212226a2083d7ae72ac7c016": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.IRecoverySystemProgressListener"
+    ],
+    "ff3165e0a1d791bc33e4bfe0efeb8cba": [
+      "S:com.android.systemui",
+      "OBJ:android.os.IRecoverySystemProgressListener"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,65 @@
+{
+  "api": "fingerprint|prepareForAuthentication|android.os.IBinder,J,I,android.hardware.biometrics.IBiometricServiceReceiverInternal,java.lang.String,I,I,I,I|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "018b71f6242784c73b365994a54f5e72": [
+      "OBJ:android.os.IBinder",
+      "OBJ:J",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.hardware.biometrics.IBiometricServiceReceiverInternal",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:2"
+    ],
+    "5725fa2f992ddb1a25418a977c179ff3": [
+      "OBJ:android.os.IBinder",
+      "OBJ:J",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.hardware.biometrics.IBiometricServiceReceiverInternal",
+      "S:com.android.systemui",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:2"
+    ],
+    "3a4a03921b40d6696262bbad3596574d": [
+      "OBJ:android.os.IBinder",
+      "OBJ:J",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.hardware.biometrics.IBiometricServiceReceiverInternal",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:2"
+    ],
+    "c1ec18075aa3170faa693523fca1583b": [
+      "OBJ:android.os.IBinder",
+      "OBJ:J",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.hardware.biometrics.IBiometricServiceReceiverInternal",
+      "S:com.android.systemui",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:2"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

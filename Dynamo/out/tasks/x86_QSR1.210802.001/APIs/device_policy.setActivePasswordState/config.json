@@ -1,0 +1,29 @@
+{
+  "api": "device_policy|setActivePasswordState|android.app.admin.PasswordMetrics,I|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "9cea23452a158862fa33acb0b2aa9aac": [
+      "OBJ:android.app.admin.PasswordMetrics",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "0551b7110ee0394308bef4a2ec3dc592": [
+      "OBJ:android.app.admin.PasswordMetrics",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

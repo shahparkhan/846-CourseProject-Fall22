@@ -1,0 +1,29 @@
+{
+  "api": "print|startPrinterStateTracking|android.print.PrinterId,I|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "6fd47ebb39a3c6efe9d3b79fc6ab9269": [
+      "OBJ:android.print.PrinterId",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "bd8f9c71fa7df8816956c1f5afe640b6": [
+      "OBJ:android.print.PrinterId",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

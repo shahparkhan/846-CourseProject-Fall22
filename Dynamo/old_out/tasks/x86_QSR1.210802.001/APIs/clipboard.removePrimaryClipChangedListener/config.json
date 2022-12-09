@@ -1,0 +1,41 @@
+{
+  "api": "clipboard|removePrimaryClipChangedListener|android.content.IOnPrimaryClipChangedListener,java.lang.String,I|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "c59cbc5c124edf2b5e83ebf7e7881611": [
+      "OBJ:android.content.IOnPrimaryClipChangedListener",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "a7cb9a05048fc636bdf0bb48146d9ae1": [
+      "OBJ:android.content.IOnPrimaryClipChangedListener",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "076a89d02a619a9096cce96abbd14ed3": [
+      "OBJ:android.content.IOnPrimaryClipChangedListener",
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "2cb28cd2b41dc7bb692c8978ba16ba53": [
+      "OBJ:android.content.IOnPrimaryClipChangedListener",
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

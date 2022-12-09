@@ -1,0 +1,25 @@
+{
+  "api": "app_prediction|notifyAppTargetEvent|android.app.prediction.AppPredictionSessionId,android.app.prediction.AppTargetEvent|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "03ce2870aa034fd69dacee0a1c2f8235": [
+      "OBJ:android.app.prediction.AppPredictionSessionId",
+      "OBJ:android.app.prediction.AppTargetEvent"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

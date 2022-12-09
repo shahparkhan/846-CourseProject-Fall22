@@ -1,0 +1,29 @@
+{
+  "api": "wifi|setWifiApConfiguration|android.net.wifi.WifiConfiguration,java.lang.String|Z|",
+  "parameters_count": 2,
+  "parameters": {
+    "8dc5e65965c006136d1e9c01c4eff5c1": [
+      "OBJ:android.net.wifi.WifiConfiguration",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "8ad5dc719fdb8a6e650b1e88e5e07c1b": [
+      "OBJ:android.net.wifi.WifiConfiguration",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

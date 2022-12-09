@@ -1,0 +1,29 @@
+{
+  "api": "statusbar|onNotificationClick|java.lang.String,com.android.internal.statusbar.NotificationVisibility|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "1835e713cb6c74f5cddea9f2fbbb64a6": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:com.android.internal.statusbar.NotificationVisibility"
+    ],
+    "858a7eeceedeedc015e7f728b7649642": [
+      "S:com.android.systemui",
+      "OBJ:com.android.internal.statusbar.NotificationVisibility"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

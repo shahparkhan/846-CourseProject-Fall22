@@ -1,0 +1,29 @@
+{
+  "api": "phone|getMmTelFeatureAndListen|I,com.android.ims.internal.IImsServiceFeatureCallback|android.telephony.ims.aidl.IImsMmTelFeature|",
+  "parameters_count": 2,
+  "parameters": {
+    "f03d67792194320bd99f51c06fdf621f": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:com.android.ims.internal.IImsServiceFeatureCallback"
+    ],
+    "68f18fd495b0892c58dbcac974880976": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:com.android.ims.internal.IImsServiceFeatureCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,25 @@
+{
+  "api": "activity|publishContentProviders|android.app.IApplicationThread,java.util.List|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "35888b0473872c95a3b2668adaab806b": [
+      "OBJ:android.app.IApplicationThread",
+      "OBJ:java.util.List"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

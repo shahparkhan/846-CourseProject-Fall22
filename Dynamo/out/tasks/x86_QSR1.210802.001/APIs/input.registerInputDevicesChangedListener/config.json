@@ -1,0 +1,24 @@
+{
+  "api": "input|registerInputDevicesChangedListener|android.hardware.input.IInputDevicesChangedListener|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "a8edc50bcc9e2af7e6f0477c0e0c878a": [
+      "OBJ:android.hardware.input.IInputDevicesChangedListener"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

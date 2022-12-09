@@ -1,0 +1,24 @@
+{
+  "api": "audio|handleBluetoothA2dpDeviceConfigChange|android.bluetooth.BluetoothDevice|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "47947a03e2e8edb9d211b5b680e75af8": [
+      "OBJ:android.bluetooth.BluetoothDevice"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

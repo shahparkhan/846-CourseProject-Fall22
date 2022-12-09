@@ -1,0 +1,29 @@
+{
+  "api": "connectivity|unregisterTetheringEventCallback|android.net.ITetheringEventCallback,java.lang.String|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "7a1ca37b478083991d954e5ca83a26d6": [
+      "OBJ:android.net.ITetheringEventCallback",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "de7a4506cafc45bd6c6e02b8232c3266": [
+      "OBJ:android.net.ITetheringEventCallback",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

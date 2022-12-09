@@ -1,0 +1,31 @@
+{
+  "api": "voiceinteraction|showSession|android.service.voice.IVoiceInteractionService,android.os.Bundle,I|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "9fb929e5388ec544be9ceace4c70ba70": [
+      "OBJ:android.service.voice.IVoiceInteractionService",
+      "OBJ:android.os.Bundle",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "9e1d6ce779e29fd37596776cabff6580": [
+      "OBJ:android.service.voice.IVoiceInteractionService",
+      "OBJ:android.os.Bundle",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

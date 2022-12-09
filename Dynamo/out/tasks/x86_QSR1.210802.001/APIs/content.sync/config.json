@@ -1,0 +1,29 @@
+{
+  "api": "content|sync|android.content.SyncRequest,java.lang.String|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "439b63d88d25787f2e6925dae367aaf8": [
+      "OBJ:android.content.SyncRequest",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "0b4008c6dafb95889c6027224569f92c": [
+      "OBJ:android.content.SyncRequest",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

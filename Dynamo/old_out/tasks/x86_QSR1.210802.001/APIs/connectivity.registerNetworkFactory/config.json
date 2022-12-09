@@ -1,0 +1,29 @@
+{
+  "api": "connectivity|registerNetworkFactory|android.os.Messenger,java.lang.String|I|",
+  "parameters_count": 2,
+  "parameters": {
+    "3b69e585b4009c82545af2e7f8debdaf": [
+      "OBJ:android.os.Messenger",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "cf4fcd96eba1d25416ba32bf0c6967f4": [
+      "OBJ:android.os.Messenger",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

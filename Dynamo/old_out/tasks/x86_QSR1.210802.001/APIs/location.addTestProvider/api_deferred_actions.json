@@ -1,0 +1,53 @@
+[
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": false,
+    "exception": {
+      "is_security": true,
+      "data": {
+        "type": "java.lang.SecurityException.<init>(Native Method)",
+        "location": "android.app.AppOpsManager.checkOp(AppOpsManager.java:5146)",
+        "message": "fuzzer.permission.uidchanger from uid 10148 not allowed to perform MOCK_LOCATION"
+      }
+    },
+    "appops_operations": [
+      {
+        "method": "checkOperation",
+        "uid": "10148",
+        "op": 58,
+        "pkg": "fuzzer.permission.uidchanger",
+        "result": 2
+      }
+    ],
+    "to_instrument": [
+      "com.android.server.LocationManagerService"
+    ],
+    "data": {
+      "appOps": [
+        {
+          "method": "checkOperation",
+          "uid": "10148",
+          "op": 58,
+          "pkg": "fuzzer.permission.uidchanger",
+          "result": 2
+        }
+      ],
+      "methods": [],
+      "permissions": [
+        "EXCEPTION::fuzzer.permission.uidchanger from uid 10148 not allowed to perform MOCK_LOCATION "
+      ],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "24316c7f987ce6f7a6e83a05c2d2dc8f",
+      "ignored_permissions": []
+    },
+    "processed": true
+  }
+]

@@ -1,0 +1,69 @@
+{
+  "api": "mount|unmountObb|java.lang.String,Z,android.os.storage.IObbActionListener,I|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "cadb1a5517d30b0865a75c0512a178cd": [
+      "S:fuzzer.permission.uidchanger",
+      "B:true",
+      "OBJ:android.os.storage.IObbActionListener",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "fe6353219f4a5cee0381e0f4dcf58d5a": [
+      "S:fuzzer.permission.uidchanger",
+      "B:true",
+      "OBJ:android.os.storage.IObbActionListener",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "c38d123c714c67311b2ef38231a5d77a": [
+      "S:fuzzer.permission.uidchanger",
+      "B:false",
+      "OBJ:android.os.storage.IObbActionListener",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "b750df221909e75401c26f24441587d3": [
+      "S:fuzzer.permission.uidchanger",
+      "B:false",
+      "OBJ:android.os.storage.IObbActionListener",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "778223992fcb8c94db1d3ad1e18cddc8": [
+      "S:com.android.systemui",
+      "B:true",
+      "OBJ:android.os.storage.IObbActionListener",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "290d63d87e88e3644f4113bf0e5953f7": [
+      "S:com.android.systemui",
+      "B:true",
+      "OBJ:android.os.storage.IObbActionListener",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "2200a8dec6b04b4bbd4108ff8a91e3c8": [
+      "S:com.android.systemui",
+      "B:false",
+      "OBJ:android.os.storage.IObbActionListener",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "a42aad933de72e84a6a39e8a918bb90c": [
+      "S:com.android.systemui",
+      "B:false",
+      "OBJ:android.os.storage.IObbActionListener",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

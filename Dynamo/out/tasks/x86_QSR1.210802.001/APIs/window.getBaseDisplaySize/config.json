@@ -1,0 +1,29 @@
+{
+  "api": "window|getBaseDisplaySize|I,android.graphics.Point|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "51206e7d04dfc7cbb1b716ea386c9b08": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.graphics.Point"
+    ],
+    "46f563bc0253c1a5150203c98e1dd4f7": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.graphics.Point"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

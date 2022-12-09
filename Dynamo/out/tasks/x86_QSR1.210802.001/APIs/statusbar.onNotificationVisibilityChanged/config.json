@@ -1,0 +1,25 @@
+{
+  "api": "statusbar|onNotificationVisibilityChanged|com.android.internal.statusbar.NotificationVisibility[],com.android.internal.statusbar.NotificationVisibility[]|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "32c5868bcad11113af12401cb3f00f60": [
+      "OBJ:com.android.internal.statusbar.NotificationVisibility[]",
+      "OBJ:com.android.internal.statusbar.NotificationVisibility[]"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

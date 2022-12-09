@@ -1,0 +1,29 @@
+{
+  "api": "telephony.registry|notifyCellLocationForSubscriber|I,android.os.Bundle|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "372063a88851f48106b279a5e0d9bd82": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.Bundle"
+    ],
+    "03655a1f062b58861668f64436143f9a": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.Bundle"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

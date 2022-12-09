@@ -1,0 +1,29 @@
+{
+  "api": "phone|updateEmergencyNumberListTestMode|I,android.telephony.emergency.EmergencyNumber|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "e525ed9ce3a40db6eec8626e39cf4ba5": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.telephony.emergency.EmergencyNumber"
+    ],
+    "67cd18d43653357bd445d496326cb0b5": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.telephony.emergency.EmergencyNumber"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

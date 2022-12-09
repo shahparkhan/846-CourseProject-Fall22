@@ -1,0 +1,45 @@
+{
+  "api": "account|getAccountByTypeAndFeatures|android.accounts.IAccountManagerResponse,java.lang.String,java.lang.String[],java.lang.String|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "565f3c4bc3b5a2fc1c737eff112ea228": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.lang.String[]",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "fb1d1c182ccab74e87bfb39dae50b2ef": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.lang.String[]",
+      "S:com.android.systemui"
+    ],
+    "8ea0bea32e32807c55d263446181b94e": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "S:com.android.systemui",
+      "OBJ:java.lang.String[]",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "873430e933defa14a44c60ea3f29994a": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "S:com.android.systemui",
+      "OBJ:java.lang.String[]",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

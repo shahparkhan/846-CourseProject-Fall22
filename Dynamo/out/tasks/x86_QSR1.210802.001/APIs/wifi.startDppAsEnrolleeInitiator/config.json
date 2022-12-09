@@ -1,0 +1,31 @@
+{
+  "api": "wifi|startDppAsEnrolleeInitiator|android.os.IBinder,java.lang.String,android.net.wifi.IDppCallback|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "b55d4cd4c03708a8e4b521fdbd0aa4b7": [
+      "OBJ:android.os.IBinder",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.net.wifi.IDppCallback"
+    ],
+    "6ad8428b4b225531547424592aa48745": [
+      "OBJ:android.os.IBinder",
+      "S:com.android.systemui",
+      "OBJ:android.net.wifi.IDppCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

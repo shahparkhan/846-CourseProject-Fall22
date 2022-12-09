@@ -1,0 +1,29 @@
+{
+  "api": "activity|setActivityController|android.app.IActivityController,Z|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "9da6c2332b24d6acfa15c452d26df843": [
+      "OBJ:android.app.IActivityController",
+      "B:true"
+    ],
+    "ce0e885f41ccd1fdaa1c5a4c4216ab7f": [
+      "OBJ:android.app.IActivityController",
+      "B:false"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

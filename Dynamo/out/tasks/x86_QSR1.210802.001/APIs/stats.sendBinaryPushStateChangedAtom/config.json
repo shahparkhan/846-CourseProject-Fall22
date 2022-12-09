@@ -1,0 +1,77 @@
+{
+  "api": "stats|sendBinaryPushStateChangedAtom|java.lang.String,J,I,I,J[]|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "83ace0f623d1937d26795a7f8fb43809": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:J",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:J[]"
+    ],
+    "b0939c8a2aebdbf3e8df68d0340a1d04": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:J",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:J[]"
+    ],
+    "c3b369aa4d1b854a141920a2b2d1a59c": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:J",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:J[]"
+    ],
+    "6b480101b58984645c503d0d88f0e308": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:J",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:J[]"
+    ],
+    "ce52bc5a4bc64707a6118bb8aae9ecd9": [
+      "S:com.android.systemui",
+      "OBJ:J",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:J[]"
+    ],
+    "fedcc313386405992ba6b33a66efdd65": [
+      "S:com.android.systemui",
+      "OBJ:J",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:J[]"
+    ],
+    "cf99953fcd18405205de56b7f273bcad": [
+      "S:com.android.systemui",
+      "OBJ:J",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:J[]"
+    ],
+    "6a969c362fe41146750cd9bccb9811ac": [
+      "S:com.android.systemui",
+      "OBJ:J",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:J[]"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

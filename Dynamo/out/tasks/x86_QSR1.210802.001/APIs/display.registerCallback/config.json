@@ -1,0 +1,24 @@
+{
+  "api": "display|registerCallback|android.hardware.display.IDisplayManagerCallback|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "9bb771685721b849eefba8df1d42f7ce": [
+      "OBJ:android.hardware.display.IDisplayManagerCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

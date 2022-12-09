@@ -1,0 +1,69 @@
+{
+  "api": "connectivity|setAlwaysOnVpnPackage|I,java.lang.String,Z,java.util.List|Z|",
+  "parameters_count": 8,
+  "parameters": {
+    "c92055debd8bcafac52988c1c0fecb3b": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "B:true",
+      "OBJ:java.util.List"
+    ],
+    "91a4134c36638956c1ec7c4c6707289d": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "B:false",
+      "OBJ:java.util.List"
+    ],
+    "b53e6ca326787002b98ed1cfc7d3180f": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "B:true",
+      "OBJ:java.util.List"
+    ],
+    "ed30c8829023cf8f97fc2ab62ad282b7": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "B:false",
+      "OBJ:java.util.List"
+    ],
+    "d3a7d92796470b15387ff3896da22be0": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "B:true",
+      "OBJ:java.util.List"
+    ],
+    "6b9e8d675a8703fd4e48b9a8dc4e536e": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "B:false",
+      "OBJ:java.util.List"
+    ],
+    "5000f1f785eb405b592431035fe63a3d": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "B:true",
+      "OBJ:java.util.List"
+    ],
+    "17587aba71d03d5b450d94e7879fc063": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "B:false",
+      "OBJ:java.util.List"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

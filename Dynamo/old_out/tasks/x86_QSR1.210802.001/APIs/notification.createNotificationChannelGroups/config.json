@@ -1,0 +1,29 @@
+{
+  "api": "notification|createNotificationChannelGroups|java.lang.String,android.content.pm.ParceledListSlice|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "6f68ad6b1265d970072509d5367537d4": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.content.pm.ParceledListSlice"
+    ],
+    "ff9324189542063b0c7d2ae1f6600de7": [
+      "S:com.android.systemui",
+      "OBJ:android.content.pm.ParceledListSlice"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

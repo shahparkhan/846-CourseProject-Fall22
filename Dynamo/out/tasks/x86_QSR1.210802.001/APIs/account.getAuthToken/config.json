@@ -1,0 +1,85 @@
+{
+  "api": "account|getAuthToken|android.accounts.IAccountManagerResponse,android.accounts.Account,java.lang.String,Z,Z,android.os.Bundle|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "7860a1f405f682bcd210d20454d3312c": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "OBJ:android.accounts.Account",
+      "S:fuzzer.permission.uidchanger",
+      "B:true",
+      "B:true",
+      "OBJ:android.os.Bundle"
+    ],
+    "28b83d72d3f6bef4805c8a3e65d68559": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "OBJ:android.accounts.Account",
+      "S:fuzzer.permission.uidchanger",
+      "B:true",
+      "B:false",
+      "OBJ:android.os.Bundle"
+    ],
+    "68571f663d155ee636a1dce24dd538e6": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "OBJ:android.accounts.Account",
+      "S:fuzzer.permission.uidchanger",
+      "B:false",
+      "B:true",
+      "OBJ:android.os.Bundle"
+    ],
+    "bd541ce4797f7b469cafe20e8e118d29": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "OBJ:android.accounts.Account",
+      "S:fuzzer.permission.uidchanger",
+      "B:false",
+      "B:false",
+      "OBJ:android.os.Bundle"
+    ],
+    "31befc055531b25cf8b35b8c7122de5c": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "OBJ:android.accounts.Account",
+      "S:com.android.systemui",
+      "B:true",
+      "B:true",
+      "OBJ:android.os.Bundle"
+    ],
+    "5cc5fc35472e4c98744771df0c403f53": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "OBJ:android.accounts.Account",
+      "S:com.android.systemui",
+      "B:true",
+      "B:false",
+      "OBJ:android.os.Bundle"
+    ],
+    "5b3dff58cd587285a11cd2c267a02e56": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "OBJ:android.accounts.Account",
+      "S:com.android.systemui",
+      "B:false",
+      "B:true",
+      "OBJ:android.os.Bundle"
+    ],
+    "59f493700941b3bccc8172d50c03dead": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "OBJ:android.accounts.Account",
+      "S:com.android.systemui",
+      "B:false",
+      "B:false",
+      "OBJ:android.os.Bundle"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

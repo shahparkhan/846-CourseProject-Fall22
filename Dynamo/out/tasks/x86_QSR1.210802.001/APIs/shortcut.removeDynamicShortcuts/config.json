@@ -1,0 +1,41 @@
+{
+  "api": "shortcut|removeDynamicShortcuts|java.lang.String,java.util.List,I|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "bc69ba96e00adcae6ce06ab8bf853ee8": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.util.List",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "486ca77210f189f7ac4e1513b50f5b59": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.util.List",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "6a164c6a35ca45487e55bdbb03d40f34": [
+      "S:com.android.systemui",
+      "OBJ:java.util.List",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "a377fccbb17e86226c84a793ca65127f": [
+      "S:com.android.systemui",
+      "OBJ:java.util.List",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

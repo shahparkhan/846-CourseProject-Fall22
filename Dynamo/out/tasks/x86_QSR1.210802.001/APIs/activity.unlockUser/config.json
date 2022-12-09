@@ -1,0 +1,33 @@
+{
+  "api": "activity|unlockUser|I,B[],B[],android.os.IProgressListener|Z|",
+  "parameters_count": 2,
+  "parameters": {
+    "f469cce31f297e90ed054907a241560c": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:B[]",
+      "OBJ:B[]",
+      "OBJ:android.os.IProgressListener"
+    ],
+    "1592d3195fd14249c40ba12b46cc0f0b": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:B[]",
+      "OBJ:B[]",
+      "OBJ:android.os.IProgressListener"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

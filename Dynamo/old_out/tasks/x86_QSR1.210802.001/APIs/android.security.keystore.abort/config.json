@@ -1,0 +1,25 @@
+{
+  "api": "android.security.keystore|abort|android.security.keystore.IKeystoreResponseCallback,android.os.IBinder|I|",
+  "parameters_count": 1,
+  "parameters": {
+    "6c7c6e7ebeaaad3bb3c344053305134e": [
+      "OBJ:android.security.keystore.IKeystoreResponseCallback",
+      "OBJ:android.os.IBinder"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

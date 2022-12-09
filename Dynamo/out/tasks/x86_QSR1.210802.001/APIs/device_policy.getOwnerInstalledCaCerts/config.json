@@ -1,0 +1,24 @@
+{
+  "api": "device_policy|getOwnerInstalledCaCerts|android.os.UserHandle|android.content.pm.StringParceledListSlice|",
+  "parameters_count": 1,
+  "parameters": {
+    "ee924bafccd5a4ad893da3080d1b69cf": [
+      "OBJ:android.os.UserHandle"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

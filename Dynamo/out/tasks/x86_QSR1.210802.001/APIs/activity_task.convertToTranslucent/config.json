@@ -1,0 +1,25 @@
+{
+  "api": "activity_task|convertToTranslucent|android.os.IBinder,android.os.Bundle|Z|",
+  "parameters_count": 1,
+  "parameters": {
+    "a8ac6c25bf392107c7a312f3dbc1c8b5": [
+      "OBJ:android.os.IBinder",
+      "OBJ:android.os.Bundle"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,24 @@
+{
+  "api": "accessibility|removeAccessibilityInteractionConnection|android.view.IWindow|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "f8ad9ec863258994e2ad85df5629c317": [
+      "OBJ:android.view.IWindow"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

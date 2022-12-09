@@ -1,0 +1,24 @@
+{
+  "api": "window|requestAssistScreenshot|android.app.IAssistDataReceiver|Z|",
+  "parameters_count": 1,
+  "parameters": {
+    "6a5f7a4c8d27813c2115eab2cae143a7": [
+      "OBJ:android.app.IAssistDataReceiver"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

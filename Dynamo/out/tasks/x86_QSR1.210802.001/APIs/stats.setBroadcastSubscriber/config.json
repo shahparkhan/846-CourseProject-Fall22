@@ -1,0 +1,33 @@
+{
+  "api": "stats|setBroadcastSubscriber|J,J,android.os.IBinder,java.lang.String|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "9be2599af445075f3c547f1643844385": [
+      "OBJ:J",
+      "OBJ:J",
+      "OBJ:android.os.IBinder",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "eabf49234764757ccc5dd6444d87e314": [
+      "OBJ:J",
+      "OBJ:J",
+      "OBJ:android.os.IBinder",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,93 @@
+{
+  "api": "midi|registerDeviceServer|android.media.midi.IMidiDeviceServer,I,I,java.lang.String[],java.lang.String[],android.os.Bundle,I|android.media.midi.MidiDeviceInfo|",
+  "parameters_count": 8,
+  "parameters": {
+    "7ece2b56c2d17556f0cae703f28ddbd8": [
+      "OBJ:android.media.midi.IMidiDeviceServer",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:java.lang.String[]",
+      "OBJ:java.lang.String[]",
+      "OBJ:android.os.Bundle",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "861382be8a9596f490e58d37cd90e99e": [
+      "OBJ:android.media.midi.IMidiDeviceServer",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:java.lang.String[]",
+      "OBJ:java.lang.String[]",
+      "OBJ:android.os.Bundle",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "af37f147a7bee1d34868c3defd9dd178": [
+      "OBJ:android.media.midi.IMidiDeviceServer",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:java.lang.String[]",
+      "OBJ:java.lang.String[]",
+      "OBJ:android.os.Bundle",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "81017e3b4152fefaa375b97f2af03815": [
+      "OBJ:android.media.midi.IMidiDeviceServer",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:java.lang.String[]",
+      "OBJ:java.lang.String[]",
+      "OBJ:android.os.Bundle",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "f74ceac4bad324f9c1917d55527082bf": [
+      "OBJ:android.media.midi.IMidiDeviceServer",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:java.lang.String[]",
+      "OBJ:java.lang.String[]",
+      "OBJ:android.os.Bundle",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "8a45b3e65652ecf62eeb213c018f80ff": [
+      "OBJ:android.media.midi.IMidiDeviceServer",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:java.lang.String[]",
+      "OBJ:java.lang.String[]",
+      "OBJ:android.os.Bundle",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "32e84c767449e3a765363df5666f7772": [
+      "OBJ:android.media.midi.IMidiDeviceServer",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:java.lang.String[]",
+      "OBJ:java.lang.String[]",
+      "OBJ:android.os.Bundle",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "69eb57548bdf8cbdb507a652bbc61a0b": [
+      "OBJ:android.media.midi.IMidiDeviceServer",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:java.lang.String[]",
+      "OBJ:java.lang.String[]",
+      "OBJ:android.os.Bundle",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

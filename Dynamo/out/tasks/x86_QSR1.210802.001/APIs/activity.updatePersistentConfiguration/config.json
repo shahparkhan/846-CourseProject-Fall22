@@ -1,0 +1,24 @@
+{
+  "api": "activity|updatePersistentConfiguration|android.content.res.Configuration|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "5a96b469109ede7b39d066b1f795b50f": [
+      "OBJ:android.content.res.Configuration"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

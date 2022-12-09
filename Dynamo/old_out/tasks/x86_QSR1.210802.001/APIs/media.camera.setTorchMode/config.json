@@ -1,0 +1,41 @@
+{
+  "api": "media.camera|setTorchMode|java.lang.String,Z,android.os.IBinder|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "a5d2e8b9d75234b51c538b9cdf469c10": [
+      "S:fuzzer.permission.uidchanger",
+      "B:true",
+      "OBJ:android.os.IBinder"
+    ],
+    "0a0ffa2f5dc51acdf42599e011955d48": [
+      "S:fuzzer.permission.uidchanger",
+      "B:false",
+      "OBJ:android.os.IBinder"
+    ],
+    "8127638d7b863ccf98b5f4f8b5451b00": [
+      "S:com.android.systemui",
+      "B:true",
+      "OBJ:android.os.IBinder"
+    ],
+    "d5173716da2b366da22005713247a314": [
+      "S:com.android.systemui",
+      "B:false",
+      "OBJ:android.os.IBinder"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

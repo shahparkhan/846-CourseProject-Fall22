@@ -1,0 +1,25 @@
+{
+  "api": "connectivity|pendingListenForNetwork|android.net.NetworkCapabilities,android.app.PendingIntent|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "cbae8a666c653811afba98be528fa83f": [
+      "OBJ:android.net.NetworkCapabilities",
+      "OBJ:android.app.PendingIntent"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

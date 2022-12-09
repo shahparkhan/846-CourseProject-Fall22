@@ -1,0 +1,35 @@
+{
+  "api": "voiceinteraction|requestDirectActions|android.os.IBinder,I,android.os.IBinder,android.os.RemoteCallback,android.os.RemoteCallback|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "a4fa339c205dd05b9603c4cf2c620f77": [
+      "OBJ:android.os.IBinder",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.IBinder",
+      "OBJ:android.os.RemoteCallback",
+      "OBJ:android.os.RemoteCallback"
+    ],
+    "9bb4a3139d67ec2b8da07a46578a1fb0": [
+      "OBJ:android.os.IBinder",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.IBinder",
+      "OBJ:android.os.RemoteCallback",
+      "OBJ:android.os.RemoteCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

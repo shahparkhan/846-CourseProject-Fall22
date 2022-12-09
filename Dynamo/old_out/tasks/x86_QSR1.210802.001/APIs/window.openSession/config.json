@@ -1,0 +1,24 @@
+{
+  "api": "window|openSession|android.view.IWindowSessionCallback|android.view.IWindowSession|",
+  "parameters_count": 1,
+  "parameters": {
+    "8bcde73f454a8259695dc0c525ffaae5": [
+      "OBJ:android.view.IWindowSessionCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

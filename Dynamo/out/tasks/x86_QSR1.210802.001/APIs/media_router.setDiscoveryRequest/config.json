@@ -1,0 +1,41 @@
+{
+  "api": "media_router|setDiscoveryRequest|android.media.IMediaRouterClient,I,Z|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "b92246b3393fdb79131343a461d44bf8": [
+      "OBJ:android.media.IMediaRouterClient",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:true"
+    ],
+    "ff24c52aa80fe7c5e5650634dbd621c5": [
+      "OBJ:android.media.IMediaRouterClient",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:false"
+    ],
+    "a258a0565709c925770f8f9cc9e41c50": [
+      "OBJ:android.media.IMediaRouterClient",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:true"
+    ],
+    "4c24a81badd3d4c9cc840647e338c0d3": [
+      "OBJ:android.media.IMediaRouterClient",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:false"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

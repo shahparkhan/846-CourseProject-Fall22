@@ -1,0 +1,31 @@
+{
+  "api": "wifi|registerTrafficStateCallback|android.os.IBinder,android.net.wifi.ITrafficStateCallback,I|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "4504fd7e61acc0a8c04d8b00e74af310": [
+      "OBJ:android.os.IBinder",
+      "OBJ:android.net.wifi.ITrafficStateCallback",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "cff7d168bf13b8218b2f9cc22c06f705": [
+      "OBJ:android.os.IBinder",
+      "OBJ:android.net.wifi.ITrafficStateCallback",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

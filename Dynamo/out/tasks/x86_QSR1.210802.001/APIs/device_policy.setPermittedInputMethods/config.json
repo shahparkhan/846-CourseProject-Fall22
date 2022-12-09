@@ -1,0 +1,29 @@
+{
+  "api": "device_policy|setPermittedInputMethods|android.content.ComponentName,java.util.List|Z|",
+  "parameters_count": 2,
+  "parameters": {
+    "e70fb2e642cc94bbebacdf596f69cf70": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:java.util.List"
+    ],
+    "da95eb3adf6fe5300941a1404aeb0386": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:java.util.List"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

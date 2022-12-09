@@ -1,0 +1,45 @@
+{
+  "api": "shortcut|requestPinShortcut|java.lang.String,android.content.pm.ShortcutInfo,android.content.IntentSender,I|Z|",
+  "parameters_count": 4,
+  "parameters": {
+    "ecf73b0a218583b48c60dd61a1c68264": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.content.pm.ShortcutInfo",
+      "OBJ:android.content.IntentSender",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "f45329a51f5fa67a9a3954c2bacd83ec": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.content.pm.ShortcutInfo",
+      "OBJ:android.content.IntentSender",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "b88931a38739d995c546b34fa21417fe": [
+      "S:com.android.systemui",
+      "OBJ:android.content.pm.ShortcutInfo",
+      "OBJ:android.content.IntentSender",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "406d062e9bbf88d291b7b6bd59cdb21b": [
+      "S:com.android.systemui",
+      "OBJ:android.content.pm.ShortcutInfo",
+      "OBJ:android.content.IntentSender",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

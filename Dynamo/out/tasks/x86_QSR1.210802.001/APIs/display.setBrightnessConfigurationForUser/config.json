@@ -1,0 +1,41 @@
+{
+  "api": "display|setBrightnessConfigurationForUser|android.hardware.display.BrightnessConfiguration,I,java.lang.String|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "20ccce88b0eb6af9d16d5f6ceea3253d": [
+      "OBJ:android.hardware.display.BrightnessConfiguration",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "c3c0ef8428e4f85f2ac758e3c0c82825": [
+      "OBJ:android.hardware.display.BrightnessConfiguration",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui"
+    ],
+    "fa64d022155a7809c330114173cd05d7": [
+      "OBJ:android.hardware.display.BrightnessConfiguration",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "8de162a2a8d3e77b77a5369a7ff2f6bc": [
+      "OBJ:android.hardware.display.BrightnessConfiguration",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

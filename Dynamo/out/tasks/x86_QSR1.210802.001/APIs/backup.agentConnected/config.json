@@ -1,0 +1,29 @@
+{
+  "api": "backup|agentConnected|java.lang.String,android.os.IBinder|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "4ab2f89810facfc53ea07ec903dc9a71": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.IBinder"
+    ],
+    "c610a5d70e5209e60e73a80518725222": [
+      "S:com.android.systemui",
+      "OBJ:android.os.IBinder"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

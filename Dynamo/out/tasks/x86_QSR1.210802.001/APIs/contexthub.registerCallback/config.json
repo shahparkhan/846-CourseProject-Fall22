@@ -1,0 +1,24 @@
+{
+  "api": "contexthub|registerCallback|android.hardware.location.IContextHubCallback|I|",
+  "parameters_count": 1,
+  "parameters": {
+    "4dbb09ac962db7f6d3dd2a8aed0c327d": [
+      "OBJ:android.hardware.location.IContextHubCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

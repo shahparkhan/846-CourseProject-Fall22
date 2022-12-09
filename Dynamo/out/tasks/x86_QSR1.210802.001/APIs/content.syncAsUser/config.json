@@ -1,0 +1,41 @@
+{
+  "api": "content|syncAsUser|android.content.SyncRequest,I,java.lang.String|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "b8372c1f4150373b2c4c8d97ef5fd400": [
+      "OBJ:android.content.SyncRequest",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "37e895797ac72c8221b917a54633608d": [
+      "OBJ:android.content.SyncRequest",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui"
+    ],
+    "14bbd9183daac4ca9a1323929c1ce6c8": [
+      "OBJ:android.content.SyncRequest",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "5d6a60b7ada8e746224ad4afe5d0dbbe": [
+      "OBJ:android.content.SyncRequest",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

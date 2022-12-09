@@ -1,0 +1,53 @@
+{
+  "api": "activity_task|setTaskWindowingModeSplitScreenPrimary|I,I,Z,Z,android.graphics.Rect,Z|Z|",
+  "parameters_count": 4,
+  "parameters": {
+    "8e9618c1de9b5886a8557c8fd4c03599": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:0",
+      "B:true",
+      "INDEX:2",
+      "OBJ:android.graphics.Rect",
+      "INDEX:2"
+    ],
+    "924222b554f7a356f23bbe740fad8a86": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:0",
+      "B:false",
+      "INDEX:2",
+      "OBJ:android.graphics.Rect",
+      "INDEX:2"
+    ],
+    "55411fc8f74bcc38306cc217b217a3da": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:0",
+      "B:true",
+      "INDEX:2",
+      "OBJ:android.graphics.Rect",
+      "INDEX:2"
+    ],
+    "6e335ba8c7d5c3bf2fe223e3cdac2112": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:0",
+      "B:false",
+      "INDEX:2",
+      "OBJ:android.graphics.Rect",
+      "INDEX:2"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

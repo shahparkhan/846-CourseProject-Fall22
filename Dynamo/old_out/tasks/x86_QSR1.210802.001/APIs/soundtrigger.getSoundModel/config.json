@@ -1,0 +1,24 @@
+{
+  "api": "soundtrigger|getSoundModel|android.os.ParcelUuid|android.hardware.soundtrigger.SoundTrigger.GenericSoundModel|",
+  "parameters_count": 1,
+  "parameters": {
+    "8a748a73ab6e85bb10f2e67b03368ad4": [
+      "OBJ:android.os.ParcelUuid"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

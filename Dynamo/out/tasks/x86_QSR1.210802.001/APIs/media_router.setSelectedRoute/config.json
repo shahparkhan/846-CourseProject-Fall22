@@ -1,0 +1,41 @@
+{
+  "api": "media_router|setSelectedRoute|android.media.IMediaRouterClient,java.lang.String,Z|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "108497f41a684397c62baf9ec1599618": [
+      "OBJ:android.media.IMediaRouterClient",
+      "S:fuzzer.permission.uidchanger",
+      "B:true"
+    ],
+    "78577eb2cb10e361586bb84d5b03191c": [
+      "OBJ:android.media.IMediaRouterClient",
+      "S:fuzzer.permission.uidchanger",
+      "B:false"
+    ],
+    "10c2324ca6953e03792316a81cc2bf2c": [
+      "OBJ:android.media.IMediaRouterClient",
+      "S:com.android.systemui",
+      "B:true"
+    ],
+    "79cdc9b1d9fc30bc2b72cdf799ce628a": [
+      "OBJ:android.media.IMediaRouterClient",
+      "S:com.android.systemui",
+      "B:false"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,41 @@
+{
+  "api": "voiceinteraction|isEnrolledForKeyphrase|android.service.voice.IVoiceInteractionService,I,java.lang.String|Z|",
+  "parameters_count": 4,
+  "parameters": {
+    "d7561bef59d24418e20b03042be6260d": [
+      "OBJ:android.service.voice.IVoiceInteractionService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "3cee558cdb132cc8864ae74c6133ec94": [
+      "OBJ:android.service.voice.IVoiceInteractionService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui"
+    ],
+    "db8a12c3f12ef2c2c346baf0dd8908d9": [
+      "OBJ:android.service.voice.IVoiceInteractionService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "f4ff7a525e2dd894110a9b95362e1ba5": [
+      "OBJ:android.service.voice.IVoiceInteractionService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

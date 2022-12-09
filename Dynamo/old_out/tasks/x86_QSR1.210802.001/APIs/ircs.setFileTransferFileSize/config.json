@@ -1,0 +1,41 @@
+{
+  "api": "ircs|setFileTransferFileSize|I,J,java.lang.String|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "b026a41020a885663a58d11e0932725d": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:J",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "9b98f9a89ee0be70ce2bcdce69302e42": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:J",
+      "S:com.android.systemui"
+    ],
+    "242989adcf79f68a215a0fccf4aad04a": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:J",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "6894e86124409cbff73b24655ee39429": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:J",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

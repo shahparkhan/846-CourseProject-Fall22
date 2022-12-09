@@ -1,0 +1,53 @@
+{
+  "api": "notification|updateNotificationChannelForPackage|java.lang.String,I,android.app.NotificationChannel|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "21341bb8c39bebbaca4ae8466a8b5bf5": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.app.NotificationChannel"
+    ],
+    "87e7c38595f0aee6d328e1ac5b3478a6": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.app.NotificationChannel"
+    ],
+    "b79b4f0aa111a3339e5fffb3ca041136": [
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.app.NotificationChannel"
+    ],
+    "c2fb50f1b9dca6fd5c290ec1178d22aa": [
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.app.NotificationChannel"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [
+    "com.android.server.notification.NotificationManagerService$10",
+    "com.android.server.notification.NotificationManagerService"
+  ],
+  "phase_name": "clean_start",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 1,
+    "historical_service_not_invoked": 13,
+    "no_traces": 2,
+    "historical_no_traces": 2
+  },
+  "pids": [],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

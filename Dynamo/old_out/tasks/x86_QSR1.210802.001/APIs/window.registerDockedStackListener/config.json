@@ -1,0 +1,24 @@
+{
+  "api": "window|registerDockedStackListener|android.view.IDockedStackListener|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "21e6ba86420274559aaa5abc4de3d2f5": [
+      "OBJ:android.view.IDockedStackListener"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,29 @@
+{
+  "api": "activity_task|registerRemoteAnimationForNextActivityStart|java.lang.String,android.view.RemoteAnimationAdapter|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "106171e06a0caa8b3307657f656d5814": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.view.RemoteAnimationAdapter"
+    ],
+    "5b9ed17c133d855fc071918d1e6ee16d": [
+      "S:com.android.systemui",
+      "OBJ:android.view.RemoteAnimationAdapter"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

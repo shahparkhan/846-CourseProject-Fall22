@@ -1,0 +1,24 @@
+{
+  "api": "incident|reportIncident|android.os.IncidentReportArgs|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "96ff4bd81bb71c9b07ea9cb90f208c97": [
+      "OBJ:android.os.IncidentReportArgs"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

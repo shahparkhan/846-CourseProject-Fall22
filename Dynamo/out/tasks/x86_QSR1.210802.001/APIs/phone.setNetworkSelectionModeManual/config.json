@@ -1,0 +1,41 @@
+{
+  "api": "phone|setNetworkSelectionModeManual|I,com.android.internal.telephony.OperatorInfo,Z|Z|",
+  "parameters_count": 4,
+  "parameters": {
+    "da67f542151454499145a1302e588632": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:com.android.internal.telephony.OperatorInfo",
+      "B:true"
+    ],
+    "3fcae68949a95a80e12144c9f3dc9a86": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:com.android.internal.telephony.OperatorInfo",
+      "B:false"
+    ],
+    "6221459af6a5dd30ebabab07553e6ba3": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:com.android.internal.telephony.OperatorInfo",
+      "B:true"
+    ],
+    "1d4139e0302a9c04629a4ef747ecac57": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:com.android.internal.telephony.OperatorInfo",
+      "B:false"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

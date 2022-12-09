@@ -1,0 +1,25 @@
+{
+  "api": "window|dismissKeyguard|com.android.internal.policy.IKeyguardDismissCallback,java.lang.CharSequence|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "b4407af9c9e6fe0403625667b32afa60": [
+      "OBJ:com.android.internal.policy.IKeyguardDismissCallback",
+      "OBJ:java.lang.CharSequence"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,29 @@
+{
+  "api": "window|getStableInsets|I,android.graphics.Rect|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "bfbeda10c91d6e2a7264afc97416e6b0": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.graphics.Rect"
+    ],
+    "1092cb960cd31592a7a6e1bbebbf35ca": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.graphics.Rect"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

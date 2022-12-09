@@ -1,0 +1,77 @@
+{
+  "api": "statusbar|onNotificationActionClick|java.lang.String,I,android.app.Notification.Action,com.android.internal.statusbar.NotificationVisibility,Z|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "2e0bc283904f1055c889f16884356481": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.app.Notification.Action",
+      "OBJ:com.android.internal.statusbar.NotificationVisibility",
+      "B:true"
+    ],
+    "9cc23c5f0c2f30d267cc4cbe1539961e": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.app.Notification.Action",
+      "OBJ:com.android.internal.statusbar.NotificationVisibility",
+      "B:false"
+    ],
+    "733165fb26ee37539f62609ee764cd4f": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.app.Notification.Action",
+      "OBJ:com.android.internal.statusbar.NotificationVisibility",
+      "B:true"
+    ],
+    "23d13fcf281d35ab966d25e2de636c86": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.app.Notification.Action",
+      "OBJ:com.android.internal.statusbar.NotificationVisibility",
+      "B:false"
+    ],
+    "83f23bbd59d2f2e7093e0fc563b18671": [
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.app.Notification.Action",
+      "OBJ:com.android.internal.statusbar.NotificationVisibility",
+      "B:true"
+    ],
+    "1ca004339a224dc1955121cd09219e8a": [
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.app.Notification.Action",
+      "OBJ:com.android.internal.statusbar.NotificationVisibility",
+      "B:false"
+    ],
+    "33c06888f4f2b9cac2c793497f049d01": [
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.app.Notification.Action",
+      "OBJ:com.android.internal.statusbar.NotificationVisibility",
+      "B:true"
+    ],
+    "9d7749c8fe1f0775d62ff09db348193d": [
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.app.Notification.Action",
+      "OBJ:com.android.internal.statusbar.NotificationVisibility",
+      "B:false"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

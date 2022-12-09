@@ -1,0 +1,47 @@
+{
+  "api": "notification|notifyConditions|java.lang.String,android.service.notification.IConditionProvider,android.service.notification.Condition[]|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "d801a1eee47d4c6d810da6eb862875d8": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.service.notification.IConditionProvider",
+      "OBJ:android.service.notification.Condition[]"
+    ],
+    "0e635a13386e157e2b66546b88bbfb18": [
+      "S:com.android.systemui",
+      "OBJ:android.service.notification.IConditionProvider",
+      "OBJ:android.service.notification.Condition[]"
+    ]
+  },
+  "parameters_done": {
+    "None:d801a1eee47d4c6d810da6eb862875d8": 2
+  },
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [
+    "com.android.server.notification.NotificationManagerService$10",
+    "com.android.server.notification.NotificationManagerService",
+    "com.android.server.notification.ConditionProviders",
+    "com.android.server.notification.ManagedServices"
+  ],
+  "phase_name": "change_parameters",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 2,
+    "historical_service_not_invoked": 14,
+    "no_traces": 0,
+    "historical_no_traces": 1.0999999999999999
+  },
+  "pids": [],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

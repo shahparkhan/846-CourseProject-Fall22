@@ -1,0 +1,77 @@
+{
+  "api": "media_session|createSession|java.lang.String,android.media.session.ISessionCallback,java.lang.String,android.os.Bundle,I|android.media.session.ISession|",
+  "parameters_count": 8,
+  "parameters": {
+    "d07098790feebca4bce4fe3f3d516dfb": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.media.session.ISessionCallback",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.Bundle",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "4569217cf681a248ac69b811abd5768c": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.media.session.ISessionCallback",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.Bundle",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "94f7183a3de8ca4cedd3ded5beb529ed": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.media.session.ISessionCallback",
+      "S:com.android.systemui",
+      "OBJ:android.os.Bundle",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "b852e25b6f4020eb76e2455f746e972c": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.media.session.ISessionCallback",
+      "S:com.android.systemui",
+      "OBJ:android.os.Bundle",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "8ed33eeed5c408a0c2672ad670415775": [
+      "S:com.android.systemui",
+      "OBJ:android.media.session.ISessionCallback",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.Bundle",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "c93281fe7d0f70ddb60c31b83d1a5b75": [
+      "S:com.android.systemui",
+      "OBJ:android.media.session.ISessionCallback",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.Bundle",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "1a5f2a246c99e9f399ccc77a21a9424d": [
+      "S:com.android.systemui",
+      "OBJ:android.media.session.ISessionCallback",
+      "S:com.android.systemui",
+      "OBJ:android.os.Bundle",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "24cff3dbb93a9cdc5e287a849cb64c83": [
+      "S:com.android.systemui",
+      "OBJ:android.media.session.ISessionCallback",
+      "S:com.android.systemui",
+      "OBJ:android.os.Bundle",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

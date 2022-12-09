@@ -1,0 +1,41 @@
+{
+  "api": "launcherapps|isActivityEnabled|java.lang.String,android.content.ComponentName,android.os.UserHandle|Z|",
+  "parameters_count": 4,
+  "parameters": {
+    "dce27ab4a8f2c30f7f2acd98c13d7b35": [
+      "S:fuzzer.permission.uidchanger",
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.UserHandle"
+    ],
+    "c38f485fad0db03310dbb114722384bc": [
+      "S:fuzzer.permission.uidchanger",
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.UserHandle"
+    ],
+    "656b93b59e6142bbdf2f7efb8f5f06a8": [
+      "S:com.android.systemui",
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.UserHandle"
+    ],
+    "074b69f2ae9980ef16bdbd73a76132fc": [
+      "S:com.android.systemui",
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.UserHandle"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

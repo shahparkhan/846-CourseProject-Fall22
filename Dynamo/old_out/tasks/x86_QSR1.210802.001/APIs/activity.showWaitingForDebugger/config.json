@@ -1,0 +1,29 @@
+{
+  "api": "activity|showWaitingForDebugger|android.app.IApplicationThread,Z|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "5ff5ab5a14494117a4028646a869ecc5": [
+      "OBJ:android.app.IApplicationThread",
+      "B:true"
+    ],
+    "af78f5c4d4cd22974129414a9df55a99": [
+      "OBJ:android.app.IApplicationThread",
+      "B:false"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

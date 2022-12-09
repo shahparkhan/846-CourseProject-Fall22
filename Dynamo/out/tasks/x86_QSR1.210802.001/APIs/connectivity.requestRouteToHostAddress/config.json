@@ -1,0 +1,29 @@
+{
+  "api": "connectivity|requestRouteToHostAddress|I,B[]|Z|",
+  "parameters_count": 2,
+  "parameters": {
+    "ee1b6bf6d208a0787b03b637c1fb26f4": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:B[]"
+    ],
+    "7e84875a8f6ff1dd5c9c5fdee8f62932": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:B[]"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

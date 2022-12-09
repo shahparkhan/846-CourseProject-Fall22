@@ -1,0 +1,49 @@
+{
+  "api": "account|updateCredentials|android.accounts.IAccountManagerResponse,android.accounts.Account,java.lang.String,Z,android.os.Bundle|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "a636a486e975f892a7e6889c6e4d6a98": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "OBJ:android.accounts.Account",
+      "S:fuzzer.permission.uidchanger",
+      "B:true",
+      "OBJ:android.os.Bundle"
+    ],
+    "16371ae938cda355b5a4545bd84bdeb2": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "OBJ:android.accounts.Account",
+      "S:fuzzer.permission.uidchanger",
+      "B:false",
+      "OBJ:android.os.Bundle"
+    ],
+    "f34a2e7b8fdb7a10412f2ca824269eb0": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "OBJ:android.accounts.Account",
+      "S:com.android.systemui",
+      "B:true",
+      "OBJ:android.os.Bundle"
+    ],
+    "15042f29cc7a6a2bb40072fe00885fcc": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "OBJ:android.accounts.Account",
+      "S:com.android.systemui",
+      "B:false",
+      "OBJ:android.os.Bundle"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

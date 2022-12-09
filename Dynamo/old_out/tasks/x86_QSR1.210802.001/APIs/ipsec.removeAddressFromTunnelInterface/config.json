@@ -1,0 +1,41 @@
+{
+  "api": "ipsec|removeAddressFromTunnelInterface|I,android.net.LinkAddress,java.lang.String|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "84953e17bd0b66b8e7ddada443fa75fd": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.net.LinkAddress",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "3dea9abf9aa3da891899a6510bcf1b5d": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.net.LinkAddress",
+      "S:com.android.systemui"
+    ],
+    "736687bff228fc78d0926ed44e88a0a1": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.net.LinkAddress",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "a6c8d2912590decc83f4bb69e39ebad0": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.net.LinkAddress",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

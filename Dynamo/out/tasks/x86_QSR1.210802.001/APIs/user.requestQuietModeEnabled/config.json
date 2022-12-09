@@ -1,0 +1,69 @@
+{
+  "api": "user|requestQuietModeEnabled|java.lang.String,Z,I,android.content.IntentSender|Z|",
+  "parameters_count": 8,
+  "parameters": {
+    "9027ea0cd86dbc2f53bd2682a1f5d663": [
+      "S:fuzzer.permission.uidchanger",
+      "B:true",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.content.IntentSender"
+    ],
+    "e26e01eb613679f87ed19ee10bd452ec": [
+      "S:fuzzer.permission.uidchanger",
+      "B:true",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.content.IntentSender"
+    ],
+    "b308df02ea8add25aa8de8554d52e696": [
+      "S:fuzzer.permission.uidchanger",
+      "B:false",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.content.IntentSender"
+    ],
+    "c78edf801d74691a0598c1f1a6c786ff": [
+      "S:fuzzer.permission.uidchanger",
+      "B:false",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.content.IntentSender"
+    ],
+    "fa5a1a9ae0e9e5b3fadcf1e8ef220c86": [
+      "S:com.android.systemui",
+      "B:true",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.content.IntentSender"
+    ],
+    "a444bb9c64a540d651c7bf0ef416a6ea": [
+      "S:com.android.systemui",
+      "B:true",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.content.IntentSender"
+    ],
+    "89a802878b94d85ef3b368b4db1f2024": [
+      "S:com.android.systemui",
+      "B:false",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.content.IntentSender"
+    ],
+    "a3c5c6f7349b626559a33e884268661d": [
+      "S:com.android.systemui",
+      "B:false",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.content.IntentSender"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

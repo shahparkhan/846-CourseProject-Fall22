@@ -1,0 +1,31 @@
+{
+  "api": "activity_task|activityIdle|android.os.IBinder,android.content.res.Configuration,Z|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "5fef8403f42c725821f8bb26b4e3e70b": [
+      "OBJ:android.os.IBinder",
+      "OBJ:android.content.res.Configuration",
+      "B:true"
+    ],
+    "b386024512fc5108c82ed16364152bd9": [
+      "OBJ:android.os.IBinder",
+      "OBJ:android.content.res.Configuration",
+      "B:false"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

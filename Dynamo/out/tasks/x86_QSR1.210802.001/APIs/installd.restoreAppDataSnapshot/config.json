@@ -1,0 +1,57 @@
+{
+  "api": "installd|restoreAppDataSnapshot|java.lang.String,java.lang.String,I,java.lang.String,I,I,I|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "4c762c8d4614493bf930a1662c5f956a": [
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:0",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:0",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:2"
+    ],
+    "99f546a1569f8abb35786444f4f55eda": [
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:0",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:0",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:2"
+    ],
+    "4e2b0699756c84eb44cac3f8453ba455": [
+      "S:com.android.systemui",
+      "INDEX:0",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:0",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:2"
+    ],
+    "e028c6690f1e26d4cb570af34b20b30e": [
+      "S:com.android.systemui",
+      "INDEX:0",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:0",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:2"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

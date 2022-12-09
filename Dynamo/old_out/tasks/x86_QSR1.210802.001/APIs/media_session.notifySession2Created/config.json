@@ -1,0 +1,24 @@
+{
+  "api": "media_session|notifySession2Created|android.media.Session2Token|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "0a08f47564681cff5d72427064d16bb8": [
+      "OBJ:android.media.Session2Token"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

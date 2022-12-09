@@ -1,0 +1,37 @@
+{
+  "api": "imms|deleteStoredMessage|java.lang.String,android.net.Uri|Z|",
+  "parameters_count": 4,
+  "parameters": {
+    "e0c74cd14257be73e0cd937856995729": [
+      "S:fuzzer.permission.uidchanger",
+      "URI:content://user_dictionary/words"
+    ],
+    "9ab05aadf9bd02e34bcc31e93e873b28": [
+      "S:fuzzer.permission.uidchanger",
+      "URI:content://com.android.contacts/contacts/lookup/0"
+    ],
+    "0575f895ee9db17993fa0759133e2cec": [
+      "S:com.android.systemui",
+      "URI:content://user_dictionary/words"
+    ],
+    "2d99d18b3e5bcc5695285e496c0dba55": [
+      "S:com.android.systemui",
+      "URI:content://com.android.contacts/contacts/lookup/0"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,45 @@
+{
+  "api": "package|freeStorage|java.lang.String,J,I,android.content.IntentSender|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "a3332d03fef25c61bb80545138705161": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:J",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.content.IntentSender"
+    ],
+    "bbb517faec250ed94b20bca2251a7b5a": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:J",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.content.IntentSender"
+    ],
+    "e00c9b8aff866b860d77538339cd708c": [
+      "S:com.android.systemui",
+      "OBJ:J",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.content.IntentSender"
+    ],
+    "5662466e2e3350b4ac27d073a4f121ae": [
+      "S:com.android.systemui",
+      "OBJ:J",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.content.IntentSender"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

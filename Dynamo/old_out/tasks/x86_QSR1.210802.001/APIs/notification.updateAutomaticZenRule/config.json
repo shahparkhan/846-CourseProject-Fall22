@@ -1,0 +1,29 @@
+{
+  "api": "notification|updateAutomaticZenRule|java.lang.String,android.app.AutomaticZenRule|Z|",
+  "parameters_count": 2,
+  "parameters": {
+    "21ee390b5c46d2f0a44117f34c263be1": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.app.AutomaticZenRule"
+    ],
+    "9d43766b02c9a9b1006f95e23386dcdd": [
+      "S:com.android.systemui",
+      "OBJ:android.app.AutomaticZenRule"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

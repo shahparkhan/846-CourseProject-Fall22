@@ -1,0 +1,37 @@
+{
+  "api": "isub|setSubscriptionEnabled|Z,I|Z|",
+  "parameters_count": 4,
+  "parameters": {
+    "45d938f13052a733a6908f5610d2b751": [
+      "B:true",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "f1054427af7c6aae5f56730546005546": [
+      "B:true",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "43cfdd8416a4ace5a846768dd34431e8": [
+      "B:false",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "4a69b61f78988d128776ab3b40bd4be2": [
+      "B:false",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

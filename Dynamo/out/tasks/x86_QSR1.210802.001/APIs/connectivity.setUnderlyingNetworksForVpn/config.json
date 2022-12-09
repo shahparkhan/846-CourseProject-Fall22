@@ -1,0 +1,24 @@
+{
+  "api": "connectivity|setUnderlyingNetworksForVpn|android.net.Network[]|Z|",
+  "parameters_count": 1,
+  "parameters": {
+    "6b09ff04f632d0c7d44a6f0ea0eec1a8": [
+      "OBJ:android.net.Network[]"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,24 @@
+{
+  "api": "connectivity|releasePendingNetworkRequest|android.app.PendingIntent|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "94f5dfc2507c9600e1053bef817723bf": [
+      "OBJ:android.app.PendingIntent"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

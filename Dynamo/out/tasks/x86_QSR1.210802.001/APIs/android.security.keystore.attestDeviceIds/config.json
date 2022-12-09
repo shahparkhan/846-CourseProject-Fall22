@@ -1,0 +1,25 @@
+{
+  "api": "android.security.keystore|attestDeviceIds|android.security.keystore.IKeystoreCertificateChainCallback,android.security.keymaster.KeymasterArguments|I|",
+  "parameters_count": 1,
+  "parameters": {
+    "523b043d17e5a546838cf45a60d0a8a5": [
+      "OBJ:android.security.keystore.IKeystoreCertificateChainCallback",
+      "OBJ:android.security.keymaster.KeymasterArguments"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

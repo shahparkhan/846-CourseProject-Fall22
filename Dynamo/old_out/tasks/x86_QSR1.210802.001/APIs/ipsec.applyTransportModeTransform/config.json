@@ -1,0 +1,41 @@
+{
+  "api": "ipsec|applyTransportModeTransform|android.os.ParcelFileDescriptor,I,I|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "f82860795658acb9c0c70a229f362a94": [
+      "OBJ:android.os.ParcelFileDescriptor",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "0cd2ad934fcfb1ec1a540c24696fc416": [
+      "OBJ:android.os.ParcelFileDescriptor",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "5e49dca68db07341ce6feae3e7fe322f": [
+      "OBJ:android.os.ParcelFileDescriptor",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "31cfaa6a1181b181d7198b6234ed9323": [
+      "OBJ:android.os.ParcelFileDescriptor",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

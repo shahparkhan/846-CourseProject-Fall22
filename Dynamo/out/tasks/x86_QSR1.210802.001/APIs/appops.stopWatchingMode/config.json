@@ -1,0 +1,24 @@
+{
+  "api": "appops|stopWatchingMode|com.android.internal.app.IAppOpsCallback|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "3808aa7d1a81955d32c0a179480b1431": [
+      "OBJ:com.android.internal.app.IAppOpsCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

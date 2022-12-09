@@ -1,0 +1,25 @@
+{
+  "api": "connectivity|startCaptivePortalAppInternal|android.net.Network,android.os.Bundle|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "e99d98dcf3ad034f28e991beff0cbca1": [
+      "OBJ:android.net.Network",
+      "OBJ:android.os.Bundle"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

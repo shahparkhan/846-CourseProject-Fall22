@@ -1,0 +1,31 @@
+{
+  "api": "package|getPreferredActivities|java.util.List,java.util.List,java.lang.String|I|",
+  "parameters_count": 2,
+  "parameters": {
+    "dad917c0bd0e7b4d3dafa291e8f0c11d": [
+      "OBJ:java.util.List",
+      "OBJ:java.util.List",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "89db35208565df0348fe778f07980dc4": [
+      "OBJ:java.util.List",
+      "OBJ:java.util.List",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

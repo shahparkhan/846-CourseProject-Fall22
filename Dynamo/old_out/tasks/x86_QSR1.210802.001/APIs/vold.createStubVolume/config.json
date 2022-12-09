@@ -1,0 +1,35 @@
+{
+  "api": "vold|createStubVolume|java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String|java.lang.String|",
+  "parameters_count": 2,
+  "parameters": {
+    "22b9bc70bb3e2215670efe244803124a": [
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:0",
+      "INDEX:0",
+      "INDEX:0",
+      "INDEX:0"
+    ],
+    "34fe9605abef369f049fd04ad8864468": [
+      "S:com.android.systemui",
+      "INDEX:0",
+      "INDEX:0",
+      "INDEX:0",
+      "INDEX:0"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

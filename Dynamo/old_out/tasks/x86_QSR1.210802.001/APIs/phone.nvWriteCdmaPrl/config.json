@@ -1,0 +1,24 @@
+{
+  "api": "phone|nvWriteCdmaPrl|B[]|Z|",
+  "parameters_count": 1,
+  "parameters": {
+    "ff8f64941330ff06236452bd175cfeae": [
+      "OBJ:B[]"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,33 @@
+{
+  "api": "location|requestLocationUpdates|android.location.LocationRequest,android.location.ILocationListener,android.app.PendingIntent,java.lang.String|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "dd206685366b263aad1e43c8454e41bc": [
+      "OBJ:android.location.LocationRequest",
+      "OBJ:android.location.ILocationListener",
+      "OBJ:android.app.PendingIntent",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "71893e59edbb500f5f4861b535aba51a": [
+      "OBJ:android.location.LocationRequest",
+      "OBJ:android.location.ILocationListener",
+      "OBJ:android.app.PendingIntent",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

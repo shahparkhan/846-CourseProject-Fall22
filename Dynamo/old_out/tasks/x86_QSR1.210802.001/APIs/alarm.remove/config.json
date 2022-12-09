@@ -1,0 +1,25 @@
+{
+  "api": "alarm|remove|android.app.PendingIntent,android.app.IAlarmListener|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "d00bcba7f6c89b1baaf3edf49f9cef62": [
+      "OBJ:android.app.PendingIntent",
+      "OBJ:android.app.IAlarmListener"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

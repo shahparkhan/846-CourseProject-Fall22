@@ -1,0 +1,25 @@
+{
+  "api": "wifi|startSubscriptionProvisioning|android.net.wifi.hotspot2.OsuProvider,android.net.wifi.hotspot2.IProvisioningCallback|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "160b6d379295780150c367fe5ec081c9": [
+      "OBJ:android.net.wifi.hotspot2.OsuProvider",
+      "OBJ:android.net.wifi.hotspot2.IProvisioningCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

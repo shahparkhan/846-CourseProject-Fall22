@@ -1,0 +1,45 @@
+{
+  "api": "package|deletePackageVersioned|android.content.pm.VersionedPackage,android.content.pm.IPackageDeleteObserver2,I,I|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "e0bf33550863ded87d31b7c58dce53b7": [
+      "OBJ:android.content.pm.VersionedPackage",
+      "OBJ:android.content.pm.IPackageDeleteObserver2",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "d1ad2adcfc55235806f12176a1870e0a": [
+      "OBJ:android.content.pm.VersionedPackage",
+      "OBJ:android.content.pm.IPackageDeleteObserver2",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "24297cc45a229cb3518e401539bd278b": [
+      "OBJ:android.content.pm.VersionedPackage",
+      "OBJ:android.content.pm.IPackageDeleteObserver2",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "818cea0530543d4c52976495c10f39ce": [
+      "OBJ:android.content.pm.VersionedPackage",
+      "OBJ:android.content.pm.IPackageDeleteObserver2",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

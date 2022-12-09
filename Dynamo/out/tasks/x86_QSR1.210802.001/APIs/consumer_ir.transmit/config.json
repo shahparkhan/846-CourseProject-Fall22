@@ -1,0 +1,41 @@
+{
+  "api": "consumer_ir|transmit|java.lang.String,I,I[]|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "eb016acbcca7441cdea976ca130aa125": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:I[]"
+    ],
+    "a7a4e0170b783b676c1e1cf81d13f19d": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:I[]"
+    ],
+    "97ac2299ceb5c6de5d006ab8584f8deb": [
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:I[]"
+    ],
+    "b50455129a5043b0cca0f40daf7ff2cf": [
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:I[]"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

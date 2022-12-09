@@ -1,0 +1,77 @@
+{
+  "api": "input|hasKeys|I,I,I[],Z[],Z|Z|",
+  "parameters_count": 8,
+  "parameters": {
+    "a88c6159330c4349193938c07eff8ff4": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:I[]",
+      "OBJ:Z[]",
+      "B:true"
+    ],
+    "bc77025fafc2faccbe45cb7a9ffcd209": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:I[]",
+      "OBJ:Z[]",
+      "B:false"
+    ],
+    "687172f977da5e03c923e75497627a77": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:I[]",
+      "OBJ:Z[]",
+      "B:true"
+    ],
+    "d35fb1317a88c26b2a8e5c82a7bde665": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:I[]",
+      "OBJ:Z[]",
+      "B:false"
+    ],
+    "9a2e59e327cb749000a2920a6b283604": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:I[]",
+      "OBJ:Z[]",
+      "B:true"
+    ],
+    "b94a8b9f01bc932a28550fd623801c5c": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:I[]",
+      "OBJ:Z[]",
+      "B:false"
+    ],
+    "c5f8175d989aa25f2ce326967e64c578": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:I[]",
+      "OBJ:Z[]",
+      "B:true"
+    ],
+    "e0bc9253fc0a24eac0c3275b6d9415e7": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:I[]",
+      "OBJ:Z[]",
+      "B:false"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

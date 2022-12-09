@@ -1,0 +1,29 @@
+{
+  "api": "autofill|removeClient|android.view.autofill.IAutoFillManagerClient,I|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "b9b935fad9d622c31e3fbc74872be391": [
+      "OBJ:android.view.autofill.IAutoFillManagerClient",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "a33190eabb283a5bde507ae2a2568f3a": [
+      "OBJ:android.view.autofill.IAutoFillManagerClient",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

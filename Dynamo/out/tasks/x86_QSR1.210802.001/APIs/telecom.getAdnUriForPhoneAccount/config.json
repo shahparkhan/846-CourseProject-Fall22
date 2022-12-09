@@ -1,0 +1,29 @@
+{
+  "api": "telecom|getAdnUriForPhoneAccount|android.telecom.PhoneAccountHandle,java.lang.String|android.net.Uri|",
+  "parameters_count": 2,
+  "parameters": {
+    "95be45c8210a8430729536589a663a2a": [
+      "OBJ:android.telecom.PhoneAccountHandle",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "a10457a4bc1aa6e7f7e4ab8110050ad4": [
+      "OBJ:android.telecom.PhoneAccountHandle",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

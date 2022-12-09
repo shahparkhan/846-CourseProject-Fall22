@@ -1,0 +1,25 @@
+{
+  "api": "wifi|updateWifiLockWorkSource|android.os.IBinder,android.os.WorkSource|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "f52c02c4586559b30d4a59557c3ff14c": [
+      "OBJ:android.os.IBinder",
+      "OBJ:android.os.WorkSource"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

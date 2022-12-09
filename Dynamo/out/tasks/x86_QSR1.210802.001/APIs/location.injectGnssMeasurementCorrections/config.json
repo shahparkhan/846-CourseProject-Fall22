@@ -1,0 +1,29 @@
+{
+  "api": "location|injectGnssMeasurementCorrections|android.location.GnssMeasurementCorrections,java.lang.String|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "abd3b416ef3a6cc297a70775cbb8a9b3": [
+      "OBJ:android.location.GnssMeasurementCorrections",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "8f13ce2cb546ca95b2d820551d312890": [
+      "OBJ:android.location.GnssMeasurementCorrections",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

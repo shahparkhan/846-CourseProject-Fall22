@@ -1,0 +1,41 @@
+{
+  "api": "package|getPackageInfoVersioned|android.content.pm.VersionedPackage,I,I|android.content.pm.PackageInfo|",
+  "parameters_count": 4,
+  "parameters": {
+    "a7c17e0d350efe5465dab5f388828ecf": [
+      "OBJ:android.content.pm.VersionedPackage",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "f46a6f8da9e46df940c2abf3c626e7c3": [
+      "OBJ:android.content.pm.VersionedPackage",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "200160723d0891155a7c7f396e34fcec": [
+      "OBJ:android.content.pm.VersionedPackage",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "6f7637bb1b9a06908eafe9f1e69a9f84": [
+      "OBJ:android.content.pm.VersionedPackage",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

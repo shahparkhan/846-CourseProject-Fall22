@@ -1,0 +1,31 @@
+{
+  "api": "contexthub|createPendingIntentClient|I,android.app.PendingIntent,J|android.hardware.location.IContextHubClient|",
+  "parameters_count": 2,
+  "parameters": {
+    "e3ff49dd1eadecee2aacde49922c548c": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.app.PendingIntent",
+      "OBJ:J"
+    ],
+    "2c16e55473ab342b82f74ba15f721ba2": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.app.PendingIntent",
+      "OBJ:J"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,41 @@
+{
+  "api": "batterystats|setBatteryState|I,I,I,I,I,I,I,I|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "f384bb7d5747eb33f7fd46326c8c0522": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:0",
+      "INDEX:0",
+      "INDEX:0",
+      "INDEX:0",
+      "INDEX:0",
+      "INDEX:0",
+      "INDEX:0"
+    ],
+    "2811d43ca85e2b12f117befbfd86c3fe": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:0",
+      "INDEX:0",
+      "INDEX:0",
+      "INDEX:0",
+      "INDEX:0",
+      "INDEX:0",
+      "INDEX:0"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

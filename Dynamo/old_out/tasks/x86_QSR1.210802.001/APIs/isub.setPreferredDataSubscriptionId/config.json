@@ -1,0 +1,41 @@
+{
+  "api": "isub|setPreferredDataSubscriptionId|I,Z,com.android.internal.telephony.ISetOpportunisticDataCallback|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "e2d5d076b390d5418e9bc62f11df7157": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:true",
+      "OBJ:com.android.internal.telephony.ISetOpportunisticDataCallback"
+    ],
+    "19e46090572b8a012935bd845b07779d": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:false",
+      "OBJ:com.android.internal.telephony.ISetOpportunisticDataCallback"
+    ],
+    "61aa4beed64b76a53d6035ce993629e4": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:true",
+      "OBJ:com.android.internal.telephony.ISetOpportunisticDataCallback"
+    ],
+    "b615016400bd545b48ee1630bf2bdeef": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:false",
+      "OBJ:com.android.internal.telephony.ISetOpportunisticDataCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

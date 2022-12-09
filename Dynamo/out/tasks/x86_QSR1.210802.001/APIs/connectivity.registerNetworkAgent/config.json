@@ -1,0 +1,57 @@
+{
+  "api": "connectivity|registerNetworkAgent|android.os.Messenger,android.net.NetworkInfo,android.net.LinkProperties,android.net.NetworkCapabilities,I,android.net.NetworkMisc,I|I|",
+  "parameters_count": 4,
+  "parameters": {
+    "af7bcc0248d9bddbbbf98a4c9e5f4e4a": [
+      "OBJ:android.os.Messenger",
+      "OBJ:android.net.NetworkInfo",
+      "OBJ:android.net.LinkProperties",
+      "OBJ:android.net.NetworkCapabilities",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.net.NetworkMisc",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "212d50c9f815b1a0999305768dde13fb": [
+      "OBJ:android.os.Messenger",
+      "OBJ:android.net.NetworkInfo",
+      "OBJ:android.net.LinkProperties",
+      "OBJ:android.net.NetworkCapabilities",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.net.NetworkMisc",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "e8bf738cb605080880c4426541ba1683": [
+      "OBJ:android.os.Messenger",
+      "OBJ:android.net.NetworkInfo",
+      "OBJ:android.net.LinkProperties",
+      "OBJ:android.net.NetworkCapabilities",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.net.NetworkMisc",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "97fc3df868cd327f706d9b683a11c3ac": [
+      "OBJ:android.os.Messenger",
+      "OBJ:android.net.NetworkInfo",
+      "OBJ:android.net.LinkProperties",
+      "OBJ:android.net.NetworkCapabilities",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.net.NetworkMisc",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

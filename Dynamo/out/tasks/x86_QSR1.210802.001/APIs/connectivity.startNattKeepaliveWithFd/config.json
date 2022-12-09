@@ -1,0 +1,165 @@
+{
+  "api": "connectivity|startNattKeepaliveWithFd|android.net.Network,java.io.FileDescriptor,I,I,android.net.ISocketKeepaliveCallback,java.lang.String,java.lang.String|V|",
+  "parameters_count": 16,
+  "parameters": {
+    "2bae7920f54a2afdfbf8daba66246bfd": [
+      "OBJ:android.net.Network",
+      "OBJ:java.io.FileDescriptor",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.net.ISocketKeepaliveCallback",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "c90b0fc6fa3e1a05fccf584653a2bbd6": [
+      "OBJ:android.net.Network",
+      "OBJ:java.io.FileDescriptor",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.net.ISocketKeepaliveCallback",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui"
+    ],
+    "48d482ee0462774a5ce77d59801c38a4": [
+      "OBJ:android.net.Network",
+      "OBJ:java.io.FileDescriptor",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.net.ISocketKeepaliveCallback",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "6e3ce07f4b101b068b04de50c5ec81a2": [
+      "OBJ:android.net.Network",
+      "OBJ:java.io.FileDescriptor",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.net.ISocketKeepaliveCallback",
+      "S:com.android.systemui",
+      "S:com.android.systemui"
+    ],
+    "8423b6d206870e713a3a52c23fc077f4": [
+      "OBJ:android.net.Network",
+      "OBJ:java.io.FileDescriptor",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.net.ISocketKeepaliveCallback",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "e9ccc944b7ef6380b70e9a694bdf81ac": [
+      "OBJ:android.net.Network",
+      "OBJ:java.io.FileDescriptor",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.net.ISocketKeepaliveCallback",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui"
+    ],
+    "0a840409baf8b3d5d8af2b6292c293b4": [
+      "OBJ:android.net.Network",
+      "OBJ:java.io.FileDescriptor",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.net.ISocketKeepaliveCallback",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "2f7d519154946b890de7c5e57d16a1de": [
+      "OBJ:android.net.Network",
+      "OBJ:java.io.FileDescriptor",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.net.ISocketKeepaliveCallback",
+      "S:com.android.systemui",
+      "S:com.android.systemui"
+    ],
+    "07d8f009598c7cddb8680a028c6cf2e0": [
+      "OBJ:android.net.Network",
+      "OBJ:java.io.FileDescriptor",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.net.ISocketKeepaliveCallback",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "db239f8b2612a0e777fd3efd3b0faf91": [
+      "OBJ:android.net.Network",
+      "OBJ:java.io.FileDescriptor",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.net.ISocketKeepaliveCallback",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui"
+    ],
+    "f49d4055e22ce70cd6aacc06dee88b54": [
+      "OBJ:android.net.Network",
+      "OBJ:java.io.FileDescriptor",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.net.ISocketKeepaliveCallback",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "bddd137c9ec4f8b44cb3b3226043847f": [
+      "OBJ:android.net.Network",
+      "OBJ:java.io.FileDescriptor",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.net.ISocketKeepaliveCallback",
+      "S:com.android.systemui",
+      "S:com.android.systemui"
+    ],
+    "ee10dd0a6f75b194310a35a09858f7a5": [
+      "OBJ:android.net.Network",
+      "OBJ:java.io.FileDescriptor",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.net.ISocketKeepaliveCallback",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "f54318164f0874f5f8c303e966729543": [
+      "OBJ:android.net.Network",
+      "OBJ:java.io.FileDescriptor",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.net.ISocketKeepaliveCallback",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui"
+    ],
+    "bfc061134e5f60ad01eb81c50d502cb3": [
+      "OBJ:android.net.Network",
+      "OBJ:java.io.FileDescriptor",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.net.ISocketKeepaliveCallback",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "6d0c966dcbb69c032854d210b08f0897": [
+      "OBJ:android.net.Network",
+      "OBJ:java.io.FileDescriptor",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.net.ISocketKeepaliveCallback",
+      "S:com.android.systemui",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

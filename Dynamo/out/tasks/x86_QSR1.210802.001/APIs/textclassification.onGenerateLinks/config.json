@@ -1,0 +1,26 @@
+{
+  "api": "textclassification|onGenerateLinks|android.view.textclassifier.TextClassificationSessionId,android.view.textclassifier.TextLinks.Request,android.service.textclassifier.ITextClassifierCallback|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "73a9adf59792e590de9d2de5c31bcb0e": [
+      "OBJ:android.view.textclassifier.TextClassificationSessionId",
+      "OBJ:android.view.textclassifier.TextLinks.Request",
+      "OBJ:android.service.textclassifier.ITextClassifierCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

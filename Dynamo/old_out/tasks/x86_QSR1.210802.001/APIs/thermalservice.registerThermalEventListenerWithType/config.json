@@ -1,0 +1,29 @@
+{
+  "api": "thermalservice|registerThermalEventListenerWithType|android.os.IThermalEventListener,I|Z|",
+  "parameters_count": 2,
+  "parameters": {
+    "a5086c073863919521e3d7cef6a6825e": [
+      "OBJ:android.os.IThermalEventListener",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "27b9ddf4511083ac4fa6fe588e3a5f33": [
+      "OBJ:android.os.IThermalEventListener",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,27 @@
+{
+  "api": "audio|setBluetoothScoOn|Z|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "b71e20674b7c011a693ffb021dfbac2f": [
+      "B:true"
+    ],
+    "5e9bf3a93a822a9389c14343f6a7da15": [
+      "B:false"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,41 @@
+{
+  "api": "notification|updateNotificationChannelGroupForPackage|java.lang.String,I,android.app.NotificationChannelGroup|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "69263c17c5d20b5dc00ae1236ab09320": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.app.NotificationChannelGroup"
+    ],
+    "b7c640858536a903018f940cf852c46d": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.app.NotificationChannelGroup"
+    ],
+    "00b355c014874de61e6916eda126dead": [
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.app.NotificationChannelGroup"
+    ],
+    "49a9333bf528b37929231af15ac6d3ee": [
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.app.NotificationChannelGroup"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

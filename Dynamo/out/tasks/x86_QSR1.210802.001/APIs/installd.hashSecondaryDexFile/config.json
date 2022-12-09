@@ -1,0 +1,49 @@
+{
+  "api": "installd|hashSecondaryDexFile|java.lang.String,java.lang.String,I,java.lang.String,I|b[]|",
+  "parameters_count": 4,
+  "parameters": {
+    "d795968103f7ab6d810c75e268ac1785": [
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:0",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:0",
+      "INDEX:2"
+    ],
+    "495bb6aecc4a4c32cc7d734f1b0bcc20": [
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:0",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:0",
+      "INDEX:2"
+    ],
+    "3782ad5ee64a34e10843610d5273bc2c": [
+      "S:com.android.systemui",
+      "INDEX:0",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:0",
+      "INDEX:2"
+    ],
+    "39e6e7ee2003e1d7750ce411afd7850e": [
+      "S:com.android.systemui",
+      "INDEX:0",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:0",
+      "INDEX:2"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

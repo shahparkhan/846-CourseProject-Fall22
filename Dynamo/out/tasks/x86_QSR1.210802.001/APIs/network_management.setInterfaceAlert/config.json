@@ -1,0 +1,29 @@
+{
+  "api": "network_management|setInterfaceAlert|java.lang.String,J|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "2b2392aecf04d2f076e9b969bdf69ad4": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:J"
+    ],
+    "49496fe8162db36de0340d02bf036132": [
+      "S:com.android.systemui",
+      "OBJ:J"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

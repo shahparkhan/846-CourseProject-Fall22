@@ -1,0 +1,29 @@
+{
+  "api": "activity|updateLockTaskPackages|I,java.lang.String[]|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "fc43b5e1547a99bef76a92ab9040f5b9": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:java.lang.String[]"
+    ],
+    "c633ce0db2e8bb74fa36ad9515fc25a0": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:java.lang.String[]"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

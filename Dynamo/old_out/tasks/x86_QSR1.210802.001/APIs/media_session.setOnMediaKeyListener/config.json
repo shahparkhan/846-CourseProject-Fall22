@@ -1,0 +1,24 @@
+{
+  "api": "media_session|setOnMediaKeyListener|android.media.session.IOnMediaKeyListener|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "f39277a15af6711678d9701bf2ac1e31": [
+      "OBJ:android.media.session.IOnMediaKeyListener"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

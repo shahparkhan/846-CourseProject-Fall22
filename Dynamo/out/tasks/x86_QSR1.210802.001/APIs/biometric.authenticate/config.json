@@ -1,0 +1,57 @@
+{
+  "api": "biometric|authenticate|android.os.IBinder,J,I,android.hardware.biometrics.IBiometricServiceReceiver,java.lang.String,android.os.Bundle,android.hardware.biometrics.IBiometricConfirmDeviceCredentialCallback|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "57b68454b774ab0551a69cdb99ef41d8": [
+      "OBJ:android.os.IBinder",
+      "OBJ:J",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.hardware.biometrics.IBiometricServiceReceiver",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.Bundle",
+      "OBJ:android.hardware.biometrics.IBiometricConfirmDeviceCredentialCallback"
+    ],
+    "047f571f5bcb4095d884d5ae6229d74c": [
+      "OBJ:android.os.IBinder",
+      "OBJ:J",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.hardware.biometrics.IBiometricServiceReceiver",
+      "S:com.android.systemui",
+      "OBJ:android.os.Bundle",
+      "OBJ:android.hardware.biometrics.IBiometricConfirmDeviceCredentialCallback"
+    ],
+    "2fdd7200614dd9d61abe270be9c6f1ee": [
+      "OBJ:android.os.IBinder",
+      "OBJ:J",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.hardware.biometrics.IBiometricServiceReceiver",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.Bundle",
+      "OBJ:android.hardware.biometrics.IBiometricConfirmDeviceCredentialCallback"
+    ],
+    "babc55d569fd5ec8130d5a169b1525b6": [
+      "OBJ:android.os.IBinder",
+      "OBJ:J",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.hardware.biometrics.IBiometricServiceReceiver",
+      "S:com.android.systemui",
+      "OBJ:android.os.Bundle",
+      "OBJ:android.hardware.biometrics.IBiometricConfirmDeviceCredentialCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

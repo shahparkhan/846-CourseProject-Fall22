@@ -1,0 +1,45 @@
+{
+  "api": "accessibility|addAccessibilityInteractionConnection|android.view.IWindow,android.view.accessibility.IAccessibilityInteractionConnection,java.lang.String,I|I|",
+  "parameters_count": 4,
+  "parameters": {
+    "a9374ec07e7b48c59077b5e791e20ed8": [
+      "OBJ:android.view.IWindow",
+      "OBJ:android.view.accessibility.IAccessibilityInteractionConnection",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "094e97585117b4df321604b6b53a386b": [
+      "OBJ:android.view.IWindow",
+      "OBJ:android.view.accessibility.IAccessibilityInteractionConnection",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "d6128ee11a3da50a8c53e246cbe74adf": [
+      "OBJ:android.view.IWindow",
+      "OBJ:android.view.accessibility.IAccessibilityInteractionConnection",
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "1a0288065b1dbb287eab47fa615b7b43": [
+      "OBJ:android.view.IWindow",
+      "OBJ:android.view.accessibility.IAccessibilityInteractionConnection",
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

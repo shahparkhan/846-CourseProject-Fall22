@@ -1,0 +1,41 @@
+{
+  "api": "activity|stopUser|I,Z,android.app.IStopUserCallback|I|",
+  "parameters_count": 4,
+  "parameters": {
+    "d5b07f650a8119ba5f5a7b6f4ceecea6": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:true",
+      "OBJ:android.app.IStopUserCallback"
+    ],
+    "c3f9230a1c88d0be5d27494f4035b5e7": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:false",
+      "OBJ:android.app.IStopUserCallback"
+    ],
+    "b493a6058ef59965580176cae7093399": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:true",
+      "OBJ:android.app.IStopUserCallback"
+    ],
+    "ca3a6b23a612e866db23d06e1868ca96": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:false",
+      "OBJ:android.app.IStopUserCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

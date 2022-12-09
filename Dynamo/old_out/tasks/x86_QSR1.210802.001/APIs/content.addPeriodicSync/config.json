@@ -1,0 +1,33 @@
+{
+  "api": "content|addPeriodicSync|android.accounts.Account,java.lang.String,android.os.Bundle,J|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "6ce14a9f7626eb46c2445bec557c16e5": [
+      "OBJ:android.accounts.Account",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.Bundle",
+      "OBJ:J"
+    ],
+    "0294b1581e1bcfd0dab34a079aac1181": [
+      "OBJ:android.accounts.Account",
+      "S:com.android.systemui",
+      "OBJ:android.os.Bundle",
+      "OBJ:J"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,24 @@
+{
+  "api": "audio|startWatchingRoutes|android.media.IAudioRoutesObserver|android.media.AudioRoutesInfo|",
+  "parameters_count": 1,
+  "parameters": {
+    "a066624e0e128c54f075e2d6b9a2c685": [
+      "OBJ:android.media.IAudioRoutesObserver"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

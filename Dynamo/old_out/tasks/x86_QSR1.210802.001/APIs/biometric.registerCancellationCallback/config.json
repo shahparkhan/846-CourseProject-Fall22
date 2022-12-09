@@ -1,0 +1,24 @@
+{
+  "api": "biometric|registerCancellationCallback|android.hardware.biometrics.IBiometricConfirmDeviceCredentialCallback|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "3b82db4eaaadfc3183a2347642438755": [
+      "OBJ:android.hardware.biometrics.IBiometricConfirmDeviceCredentialCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,24 @@
+{
+  "api": "thermalservice|unregisterThermalEventListener|android.os.IThermalEventListener|Z|",
+  "parameters_count": 1,
+  "parameters": {
+    "9f65f8d5fa0121269167b0cd64031774": [
+      "OBJ:android.os.IThermalEventListener"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

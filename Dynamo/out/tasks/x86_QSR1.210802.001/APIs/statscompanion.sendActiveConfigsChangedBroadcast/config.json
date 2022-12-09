@@ -1,0 +1,25 @@
+{
+  "api": "statscompanion|sendActiveConfigsChangedBroadcast|android.os.IBinder,J[]|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "1258aba11fc0ad854add7fc9276ea67c": [
+      "OBJ:android.os.IBinder",
+      "OBJ:J[]"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,25 @@
+{
+  "api": "activity|attachApplication|android.app.IApplicationThread,J|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "beb27048615be5e7265f81dcf9c97850": [
+      "OBJ:android.app.IApplicationThread",
+      "OBJ:J"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

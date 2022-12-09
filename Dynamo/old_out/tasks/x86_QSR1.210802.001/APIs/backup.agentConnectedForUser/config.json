@@ -1,0 +1,41 @@
+{
+  "api": "backup|agentConnectedForUser|I,java.lang.String,android.os.IBinder|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "d9b678ff973b3d2eb6065bbb29604e2b": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.IBinder"
+    ],
+    "1643285f4b7f292a5dc9edea8482af48": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "OBJ:android.os.IBinder"
+    ],
+    "f4bf58a16a68e50ade511f8ba8be50d3": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.IBinder"
+    ],
+    "a2819992802f1ce4a24f935274098833": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "OBJ:android.os.IBinder"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

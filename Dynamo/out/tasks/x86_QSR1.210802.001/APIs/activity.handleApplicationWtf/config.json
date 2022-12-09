@@ -1,0 +1,45 @@
+{
+  "api": "activity|handleApplicationWtf|android.os.IBinder,java.lang.String,Z,android.app.ApplicationErrorReport.ParcelableCrashInfo|Z|",
+  "parameters_count": 4,
+  "parameters": {
+    "232213fdb9d24e2c1a253202a77fa90d": [
+      "OBJ:android.os.IBinder",
+      "S:fuzzer.permission.uidchanger",
+      "B:true",
+      "OBJ:android.app.ApplicationErrorReport.ParcelableCrashInfo"
+    ],
+    "492192b1955bc13748a4e710b51b89f4": [
+      "OBJ:android.os.IBinder",
+      "S:fuzzer.permission.uidchanger",
+      "B:false",
+      "OBJ:android.app.ApplicationErrorReport.ParcelableCrashInfo"
+    ],
+    "1231a57979dd5ef8b166d35a06068887": [
+      "OBJ:android.os.IBinder",
+      "S:com.android.systemui",
+      "B:true",
+      "OBJ:android.app.ApplicationErrorReport.ParcelableCrashInfo"
+    ],
+    "e7850735dd675b7fc8e084dffd35c9fd": [
+      "OBJ:android.os.IBinder",
+      "S:com.android.systemui",
+      "B:false",
+      "OBJ:android.app.ApplicationErrorReport.ParcelableCrashInfo"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

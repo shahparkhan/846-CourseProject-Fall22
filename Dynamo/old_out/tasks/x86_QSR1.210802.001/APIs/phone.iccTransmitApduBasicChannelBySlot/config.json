@@ -1,0 +1,61 @@
+{
+  "api": "phone|iccTransmitApduBasicChannelBySlot|I,java.lang.String,I,I,I,I,I,java.lang.String|java.lang.String|",
+  "parameters_count": 4,
+  "parameters": {
+    "9c9a296401949b2e4f2c7b99c274fc35": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:0",
+      "INDEX:0",
+      "INDEX:0",
+      "INDEX:0",
+      "INDEX:0",
+      "INDEX:1"
+    ],
+    "cab27ffc4e1e8076aba468802747b0d5": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "INDEX:0",
+      "INDEX:0",
+      "INDEX:0",
+      "INDEX:0",
+      "INDEX:0",
+      "INDEX:1"
+    ],
+    "151dfcafa095e92c66b81a9956bb2601": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:0",
+      "INDEX:0",
+      "INDEX:0",
+      "INDEX:0",
+      "INDEX:0",
+      "INDEX:1"
+    ],
+    "296034a8682137adbe9b7dc39c8ac9e7": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "INDEX:0",
+      "INDEX:0",
+      "INDEX:0",
+      "INDEX:0",
+      "INDEX:0",
+      "INDEX:1"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

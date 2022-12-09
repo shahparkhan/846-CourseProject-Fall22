@@ -1,0 +1,140 @@
+{
+  "telephony.registry": {
+    "notifyPhoneCapabilityChanged": {
+      "ordered_iterations": [
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": "null",
+            "exception": "General EXCEPTION CAUGHT\njava.lang.ClassCastException: Couldn't convert result of type $Proxy0 to java.lang.Object[]\n\tat $Proxy0.toArray(Unknown Source)\n\tat android.telephony.PhoneCapability.toString(PhoneCapability.java:72)\n\tat java.lang.String.valueOf(String.java:2924)\n\tat java.lang.StringBuilder.append(StringBuilder.java:132)\n\tat fuzzer.permission.uidchanger.generators.ParametersGenerator.getOneRandomPermutation(ParametersGenerator.java:53)\n\tat fuzzer.permission.uidchanger.InvokerService.invokeApi(InvokerService.java:203)\n\tat fuzzer.permission.uidchanger.InvokerService.onStartCommand(InvokerService.java:71)\n\tat android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4087)\n\tat android.app.ActivityThread.access$1800(ActivityThread.java:219)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1891)\n\tat android.os.Handler.dispatchMessage(Handler.java:107)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\n"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [],
+          "stacktrace": [],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "f9184c604d51522861f544a4cc100e3f",
+            "ignored_permissions": []
+          }
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": "null",
+            "exception": "General EXCEPTION CAUGHT\njava.lang.ClassCastException: Couldn't convert result of type $Proxy0 to java.lang.Object[]\n\tat $Proxy0.toArray(Unknown Source)\n\tat android.telephony.PhoneCapability.toString(PhoneCapability.java:72)\n\tat java.lang.String.valueOf(String.java:2924)\n\tat java.lang.StringBuilder.append(StringBuilder.java:132)\n\tat fuzzer.permission.uidchanger.generators.ParametersGenerator.getOneRandomPermutation(ParametersGenerator.java:53)\n\tat fuzzer.permission.uidchanger.InvokerService.invokeApi(InvokerService.java:203)\n\tat fuzzer.permission.uidchanger.InvokerService.onStartCommand(InvokerService.java:71)\n\tat android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4087)\n\tat android.app.ActivityThread.access$1800(ActivityThread.java:219)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1891)\n\tat android.os.Handler.dispatchMessage(Handler.java:107)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\n"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "f9184c604d51522861f544a4cc100e3f",
+            "ignored_permissions": []
+          },
+          "stacktrace": []
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": "null",
+            "exception": "General EXCEPTION CAUGHT\njava.lang.ClassCastException: Couldn't convert result of type $Proxy0 to java.lang.Object[]\n\tat $Proxy0.toArray(Unknown Source)\n\tat android.telephony.PhoneCapability.toString(PhoneCapability.java:72)\n\tat java.lang.String.valueOf(String.java:2924)\n\tat java.lang.StringBuilder.append(StringBuilder.java:132)\n\tat fuzzer.permission.uidchanger.generators.ParametersGenerator.getOneRandomPermutation(ParametersGenerator.java:53)\n\tat fuzzer.permission.uidchanger.InvokerService.invokeApi(InvokerService.java:203)\n\tat fuzzer.permission.uidchanger.InvokerService.onStartCommand(InvokerService.java:71)\n\tat android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4087)\n\tat android.app.ActivityThread.access$1800(ActivityThread.java:219)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1891)\n\tat android.os.Handler.dispatchMessage(Handler.java:107)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\n"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [],
+          "stacktrace": [],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "f9184c604d51522861f544a4cc100e3f",
+            "ignored_permissions": []
+          }
+        },
+        {
+          "callstack": [],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": 1000000,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": null,
+            "ignored_permissions": []
+          },
+          "exception": null,
+          "invocation_result": {},
+          "output": null,
+          "returns": false,
+          "to_instrument": [],
+          "hash": null,
+          "skip": true
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": null
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": 1000000,
+            "userId": 1,
+            "user_restrictions": [],
+            "parameters_hash": "f9184c604d51522861f544a4cc100e3f",
+            "ignored_permissions": []
+          },
+          "stacktrace": []
+        }
+      ]
+    }
+  }
+}

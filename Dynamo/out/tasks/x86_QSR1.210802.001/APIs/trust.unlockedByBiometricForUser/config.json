@@ -1,0 +1,29 @@
+{
+  "api": "trust|unlockedByBiometricForUser|I,android.hardware.biometrics.BiometricSourceType|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "2e804c19fbf1485180060c0f14f58ce2": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.hardware.biometrics.BiometricSourceType"
+    ],
+    "68224fbc1379536ec7a4c3788f1bba7e": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.hardware.biometrics.BiometricSourceType"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,149 @@
+{
+  "api": "device_policy|generateKeyPair|android.content.ComponentName,java.lang.String,java.lang.String,android.security.keystore.ParcelableKeyGenParameterSpec,I,android.security.keymaster.KeymasterCertificateChain|Z|",
+  "parameters_count": 16,
+  "parameters": {
+    "1fa02d8b9b4aef2f95ef967ef34e78df": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.security.keystore.ParcelableKeyGenParameterSpec",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.security.keymaster.KeymasterCertificateChain"
+    ],
+    "e1f537b221cf9dc10be592e9b3854bd8": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.security.keystore.ParcelableKeyGenParameterSpec",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.security.keymaster.KeymasterCertificateChain"
+    ],
+    "2586f1a4f5149449e6f8fd84765faa60": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "OBJ:android.security.keystore.ParcelableKeyGenParameterSpec",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.security.keymaster.KeymasterCertificateChain"
+    ],
+    "d57a6458565ddfa171430dade3ec280e": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "OBJ:android.security.keystore.ParcelableKeyGenParameterSpec",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.security.keymaster.KeymasterCertificateChain"
+    ],
+    "cacd3e0860d56868b8cb650afa33e08a": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.security.keystore.ParcelableKeyGenParameterSpec",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.security.keymaster.KeymasterCertificateChain"
+    ],
+    "c54f6909e845cccefcd8f487330f4675": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.security.keystore.ParcelableKeyGenParameterSpec",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.security.keymaster.KeymasterCertificateChain"
+    ],
+    "9c20c52cd0a60246e674e494b76a5db4": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "OBJ:android.security.keystore.ParcelableKeyGenParameterSpec",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.security.keymaster.KeymasterCertificateChain"
+    ],
+    "4f14b6255390939bfe6ccf274e9f4153": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "OBJ:android.security.keystore.ParcelableKeyGenParameterSpec",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.security.keymaster.KeymasterCertificateChain"
+    ],
+    "0d2a16b84c909f53258012a6a77e816d": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.security.keystore.ParcelableKeyGenParameterSpec",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.security.keymaster.KeymasterCertificateChain"
+    ],
+    "1b68a9af7b31c99d212d59392bceb759": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.security.keystore.ParcelableKeyGenParameterSpec",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.security.keymaster.KeymasterCertificateChain"
+    ],
+    "806bbe29993094704b3917f6ac53d2ef": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "OBJ:android.security.keystore.ParcelableKeyGenParameterSpec",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.security.keymaster.KeymasterCertificateChain"
+    ],
+    "4f550dc1dc80be29fff27beabf2bb056": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "OBJ:android.security.keystore.ParcelableKeyGenParameterSpec",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.security.keymaster.KeymasterCertificateChain"
+    ],
+    "e2683b801ad730b8b92cc42ca6d240e2": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.security.keystore.ParcelableKeyGenParameterSpec",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.security.keymaster.KeymasterCertificateChain"
+    ],
+    "e5cdc664c31f9cbb55f8ab916f1d33cd": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.security.keystore.ParcelableKeyGenParameterSpec",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.security.keymaster.KeymasterCertificateChain"
+    ],
+    "839ac7472d1874aa1831024ee16541db": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "OBJ:android.security.keystore.ParcelableKeyGenParameterSpec",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.security.keymaster.KeymasterCertificateChain"
+    ],
+    "470d8ab1b0083b2a54fc0f6be4953f4a": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "OBJ:android.security.keystore.ParcelableKeyGenParameterSpec",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.security.keymaster.KeymasterCertificateChain"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

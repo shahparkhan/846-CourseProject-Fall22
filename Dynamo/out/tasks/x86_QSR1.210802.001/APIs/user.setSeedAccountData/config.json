@@ -1,0 +1,133 @@
+{
+  "api": "user|setSeedAccountData|I,java.lang.String,java.lang.String,android.os.PersistableBundle,Z|V|",
+  "parameters_count": 16,
+  "parameters": {
+    "ea8d7dfde6da176cacafffdc87c61316": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.PersistableBundle",
+      "B:true"
+    ],
+    "21e19fb7caad86dc7070662fc67d888a": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.PersistableBundle",
+      "B:false"
+    ],
+    "ef2a5a92f77f1d9b8d9886c03404bf84": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "OBJ:android.os.PersistableBundle",
+      "B:true"
+    ],
+    "94be211e5ed36e6996b62f59ead9ad11": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "OBJ:android.os.PersistableBundle",
+      "B:false"
+    ],
+    "8ff50bc12f7453983f575e46955e2556": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.PersistableBundle",
+      "B:true"
+    ],
+    "cd861f9952aeeda00a6d6215b8cc42e1": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.PersistableBundle",
+      "B:false"
+    ],
+    "15f3fa65c962eb79c67c5dffd9213852": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "OBJ:android.os.PersistableBundle",
+      "B:true"
+    ],
+    "cbbf848686d5d683ad174672667120bb": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "OBJ:android.os.PersistableBundle",
+      "B:false"
+    ],
+    "e3974256b0f4ed80808d4f403d5ab94b": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.PersistableBundle",
+      "B:true"
+    ],
+    "44dfc827571f3acbeae355f2f3a823e5": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.PersistableBundle",
+      "B:false"
+    ],
+    "d6c45eda2a05a2ff3bc27ae7fd8fea0f": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "OBJ:android.os.PersistableBundle",
+      "B:true"
+    ],
+    "0dfc979d9837263d865b60d3b1450ec7": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "OBJ:android.os.PersistableBundle",
+      "B:false"
+    ],
+    "45954167c3f0dea73e2e7a4318583df7": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.PersistableBundle",
+      "B:true"
+    ],
+    "1bd7f50a4acec6468c081cbd3776809f": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.PersistableBundle",
+      "B:false"
+    ],
+    "d2ccf18182679b36f2a69fd17fc1d2e9": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "OBJ:android.os.PersistableBundle",
+      "B:true"
+    ],
+    "2661369f7296f842c8fa83d31bfa5164": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "OBJ:android.os.PersistableBundle",
+      "B:false"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

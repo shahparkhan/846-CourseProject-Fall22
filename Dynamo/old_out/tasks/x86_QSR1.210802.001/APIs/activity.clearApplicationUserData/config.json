@@ -1,0 +1,69 @@
+{
+  "api": "activity|clearApplicationUserData|java.lang.String,Z,android.content.pm.IPackageDataObserver,I|Z|",
+  "parameters_count": 8,
+  "parameters": {
+    "88e8c62f2607ddb518ad465063323ee6": [
+      "S:fuzzer.permission.uidchanger",
+      "B:true",
+      "OBJ:android.content.pm.IPackageDataObserver",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "298c89834fb9bfe1092031357ee39e7a": [
+      "S:fuzzer.permission.uidchanger",
+      "B:true",
+      "OBJ:android.content.pm.IPackageDataObserver",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "f48f3af5811065e1bdb013599ca1efba": [
+      "S:fuzzer.permission.uidchanger",
+      "B:false",
+      "OBJ:android.content.pm.IPackageDataObserver",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "f56849ab26ac741b3f60928a0fab08ba": [
+      "S:fuzzer.permission.uidchanger",
+      "B:false",
+      "OBJ:android.content.pm.IPackageDataObserver",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "2bc347cfb57f8f42600258c1c43fb957": [
+      "S:com.android.systemui",
+      "B:true",
+      "OBJ:android.content.pm.IPackageDataObserver",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "d7a4a454c7d60e88a4e89b919d90f938": [
+      "S:com.android.systemui",
+      "B:true",
+      "OBJ:android.content.pm.IPackageDataObserver",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "bfab7f12cdf1b76740042083179f89b9": [
+      "S:com.android.systemui",
+      "B:false",
+      "OBJ:android.content.pm.IPackageDataObserver",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "7705367499d9c181f71d6509d1b4bbe4": [
+      "S:com.android.systemui",
+      "B:false",
+      "OBJ:android.content.pm.IPackageDataObserver",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

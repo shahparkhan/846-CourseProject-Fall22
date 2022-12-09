@@ -1,0 +1,24 @@
+{
+  "api": "network_management|startTethering|java.lang.String[]|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "9324aed76124127d42221d6283b46a7d": [
+      "OBJ:java.lang.String[]"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

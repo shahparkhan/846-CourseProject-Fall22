@@ -1,0 +1,45 @@
+{
+  "api": "package|freeStorageAndNotify|java.lang.String,J,I,android.content.pm.IPackageDataObserver|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "2eb469e3eb293f69f1eb8a2f0c768ef4": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:J",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.content.pm.IPackageDataObserver"
+    ],
+    "e189605fadbfcd973a095b558f33e880": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:J",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.content.pm.IPackageDataObserver"
+    ],
+    "66201832067c57ce3527d20b664dcee7": [
+      "S:com.android.systemui",
+      "OBJ:J",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.content.pm.IPackageDataObserver"
+    ],
+    "0a6a927d445e76e3f781ba832dbbe5ec": [
+      "S:com.android.systemui",
+      "OBJ:J",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.content.pm.IPackageDataObserver"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

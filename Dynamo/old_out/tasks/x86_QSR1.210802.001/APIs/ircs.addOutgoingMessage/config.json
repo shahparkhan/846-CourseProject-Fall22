@@ -1,0 +1,41 @@
+{
+  "api": "ircs|addOutgoingMessage|I,android.telephony.ims.RcsOutgoingMessageCreationParams,java.lang.String|I|",
+  "parameters_count": 4,
+  "parameters": {
+    "dbad1e0ebfa474597f6eb2468d2dbfb8": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.telephony.ims.RcsOutgoingMessageCreationParams",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "e596626d45d8c0478fcb28f95ba53c2a": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.telephony.ims.RcsOutgoingMessageCreationParams",
+      "S:com.android.systemui"
+    ],
+    "b988188dace37ea3a2489159eb2100f2": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.telephony.ims.RcsOutgoingMessageCreationParams",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "0a1ea119b5088edf6398d19f584666db": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.telephony.ims.RcsOutgoingMessageCreationParams",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

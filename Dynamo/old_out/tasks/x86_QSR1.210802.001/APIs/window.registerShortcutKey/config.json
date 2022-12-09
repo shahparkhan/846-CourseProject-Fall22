@@ -1,0 +1,25 @@
+{
+  "api": "window|registerShortcutKey|J,com.android.internal.policy.IShortcutService|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "402ef04c1187eefa00b8090b682412ef": [
+      "OBJ:J",
+      "OBJ:com.android.internal.policy.IShortcutService"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

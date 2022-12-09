@@ -1,0 +1,49 @@
+{
+  "api": "statusbar|setIcon|java.lang.String,java.lang.String,I,I,java.lang.String|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "dc4677fe47f29b524b56423118a12054": [
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:0",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:2",
+      "INDEX:0"
+    ],
+    "47e87160eaf39c4d9039e5f9b3e08dce": [
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:0",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:2",
+      "INDEX:0"
+    ],
+    "6903000c7686662a96d481e44bfe9f7b": [
+      "S:com.android.systemui",
+      "INDEX:0",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:2",
+      "INDEX:0"
+    ],
+    "2d8d7fac6fe96ec2bb07c47a826dff7d": [
+      "S:com.android.systemui",
+      "INDEX:0",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:2",
+      "INDEX:0"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

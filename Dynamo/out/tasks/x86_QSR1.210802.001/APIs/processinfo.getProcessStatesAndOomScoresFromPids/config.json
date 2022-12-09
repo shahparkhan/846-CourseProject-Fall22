@@ -1,0 +1,26 @@
+{
+  "api": "processinfo|getProcessStatesAndOomScoresFromPids|I[],I[],I[]|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "be009f53ccc7e85fc8abd2a22f0786c9": [
+      "OBJ:I[]",
+      "OBJ:I[]",
+      "OBJ:I[]"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,29 @@
+{
+  "api": "carrier_config|overrideConfig|I,android.os.PersistableBundle|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "97e90e642944039e20d641f4a6f707f0": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.PersistableBundle"
+    ],
+    "a9ef086b4ba209eb77ee6a15513be670": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.PersistableBundle"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,85 @@
+{
+  "api": "media_session|dispatchVolumeKeyEvent|java.lang.String,java.lang.String,Z,android.view.KeyEvent,I,Z|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "2bcfdd1c34cca84ccbf973706d628810": [
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:0",
+      "B:true",
+      "OBJ:android.view.KeyEvent",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:2"
+    ],
+    "cb561f4c32d598f6f49504f3e277ea31": [
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:0",
+      "B:true",
+      "OBJ:android.view.KeyEvent",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:2"
+    ],
+    "d8ed56e5f9a9bb064f5c1da7b1b6b6db": [
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:0",
+      "B:false",
+      "OBJ:android.view.KeyEvent",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:2"
+    ],
+    "8e035c8081e76a5fb40bcacd8f0172d0": [
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:0",
+      "B:false",
+      "OBJ:android.view.KeyEvent",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:2"
+    ],
+    "0502b384d2da2451d8b8fc4bec933594": [
+      "S:com.android.systemui",
+      "INDEX:0",
+      "B:true",
+      "OBJ:android.view.KeyEvent",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:2"
+    ],
+    "9922c95da44401f8a3de5c62dea38914": [
+      "S:com.android.systemui",
+      "INDEX:0",
+      "B:true",
+      "OBJ:android.view.KeyEvent",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:2"
+    ],
+    "af23154b1b84847ea5dddbdf5edb04f2": [
+      "S:com.android.systemui",
+      "INDEX:0",
+      "B:false",
+      "OBJ:android.view.KeyEvent",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:2"
+    ],
+    "125646628fc2d1c51a372db6122d842b": [
+      "S:com.android.systemui",
+      "INDEX:0",
+      "B:false",
+      "OBJ:android.view.KeyEvent",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:2"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

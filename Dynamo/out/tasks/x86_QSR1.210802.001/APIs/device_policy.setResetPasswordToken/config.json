@@ -1,0 +1,29 @@
+{
+  "api": "device_policy|setResetPasswordToken|android.content.ComponentName,B[]|Z|",
+  "parameters_count": 2,
+  "parameters": {
+    "fd171b89de364eee9ecabb487d70315a": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:B[]"
+    ],
+    "908e92fd5f729577b1c40a2a1e2b26ac": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:B[]"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

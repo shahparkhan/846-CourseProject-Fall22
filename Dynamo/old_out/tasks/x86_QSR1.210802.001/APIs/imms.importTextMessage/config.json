@@ -1,0 +1,93 @@
+{
+  "api": "imms|importTextMessage|java.lang.String,java.lang.String,I,java.lang.String,J,Z,Z|android.net.Uri|",
+  "parameters_count": 8,
+  "parameters": {
+    "78245f2f5691677b5758cec22b1ccdf0": [
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:0",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:0",
+      "OBJ:J",
+      "B:true",
+      "INDEX:5"
+    ],
+    "f25c3413d4fcd8f7cb4bab64296bba36": [
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:0",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:0",
+      "OBJ:J",
+      "B:false",
+      "INDEX:5"
+    ],
+    "762a84f08f2613aa400830944bc40314": [
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:0",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:0",
+      "OBJ:J",
+      "B:true",
+      "INDEX:5"
+    ],
+    "abc05e69c9f9747c4267480ccbe393dd": [
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:0",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:0",
+      "OBJ:J",
+      "B:false",
+      "INDEX:5"
+    ],
+    "ab4d05d80f2aeb1f0da160ee3dc27b62": [
+      "S:com.android.systemui",
+      "INDEX:0",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:0",
+      "OBJ:J",
+      "B:true",
+      "INDEX:5"
+    ],
+    "d7a2ff703f4de70348f119861873107d": [
+      "S:com.android.systemui",
+      "INDEX:0",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:0",
+      "OBJ:J",
+      "B:false",
+      "INDEX:5"
+    ],
+    "9882a4a3a77dc68af20b52ae51c65793": [
+      "S:com.android.systemui",
+      "INDEX:0",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:0",
+      "OBJ:J",
+      "B:true",
+      "INDEX:5"
+    ],
+    "84b9104e9a82920c30cdde726ac1fa65": [
+      "S:com.android.systemui",
+      "INDEX:0",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:0",
+      "OBJ:J",
+      "B:false",
+      "INDEX:5"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

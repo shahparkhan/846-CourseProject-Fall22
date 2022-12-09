@@ -1,0 +1,24 @@
+{
+  "api": "launcherapps|removeOnAppsChangedListener|android.content.pm.IOnAppsChangedListener|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "a41a6b0191f5d2e2149aace907dc1c1f": [
+      "OBJ:android.content.pm.IOnAppsChangedListener"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

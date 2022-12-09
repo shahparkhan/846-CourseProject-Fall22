@@ -1,0 +1,29 @@
+{
+  "api": "device_policy|setLockTaskPackages|android.content.ComponentName,java.lang.String[]|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "b43a3e170037ab9fc48714d242a42d87": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:java.lang.String[]"
+    ],
+    "015f6937ca24c90b6c5cc96ac4b525ad": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:java.lang.String[]"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

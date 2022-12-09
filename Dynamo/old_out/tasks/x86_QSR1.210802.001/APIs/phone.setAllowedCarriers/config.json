@@ -1,0 +1,24 @@
+{
+  "api": "phone|setAllowedCarriers|android.telephony.CarrierRestrictionRules|I|",
+  "parameters_count": 1,
+  "parameters": {
+    "03f21ad0292145151b18c93536695ccc": [
+      "OBJ:android.telephony.CarrierRestrictionRules"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

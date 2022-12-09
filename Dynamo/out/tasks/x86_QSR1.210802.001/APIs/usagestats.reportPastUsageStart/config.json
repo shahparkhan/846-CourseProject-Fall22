@@ -1,0 +1,45 @@
+{
+  "api": "usagestats|reportPastUsageStart|android.os.IBinder,java.lang.String,J,java.lang.String|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "7b22f42b7c7e0b761733ff18b5b38677": [
+      "OBJ:android.os.IBinder",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:J",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "84ba7ee88defe9ba28914cb9160975a6": [
+      "OBJ:android.os.IBinder",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:J",
+      "S:com.android.systemui"
+    ],
+    "c00b84d6ce8667ae9e2839b44064f90f": [
+      "OBJ:android.os.IBinder",
+      "S:com.android.systemui",
+      "OBJ:J",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "1066ea4912f3c116426cc0794015803c": [
+      "OBJ:android.os.IBinder",
+      "S:com.android.systemui",
+      "OBJ:J",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

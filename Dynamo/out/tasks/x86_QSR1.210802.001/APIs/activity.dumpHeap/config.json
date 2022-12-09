@@ -1,0 +1,101 @@
+{
+  "api": "activity|dumpHeap|java.lang.String,I,Z,Z,Z,java.lang.String,android.os.ParcelFileDescriptor,android.os.RemoteCallback|Z|",
+  "parameters_count": 8,
+  "parameters": {
+    "aa22dd4e01fef78e35f6d10954e51867": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:true",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:0",
+      "OBJ:android.os.ParcelFileDescriptor",
+      "OBJ:android.os.RemoteCallback"
+    ],
+    "8bbe19778118d42d3b0720c5a9fe0a1c": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:false",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:0",
+      "OBJ:android.os.ParcelFileDescriptor",
+      "OBJ:android.os.RemoteCallback"
+    ],
+    "f724e8c43bb65c926a964b0c2df1bf09": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:true",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:0",
+      "OBJ:android.os.ParcelFileDescriptor",
+      "OBJ:android.os.RemoteCallback"
+    ],
+    "0d2dd379cfe6feee7c38016e8fc6a1e6": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:false",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:0",
+      "OBJ:android.os.ParcelFileDescriptor",
+      "OBJ:android.os.RemoteCallback"
+    ],
+    "612153d3c44335dc30a9b2d657f92ee5": [
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:true",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:0",
+      "OBJ:android.os.ParcelFileDescriptor",
+      "OBJ:android.os.RemoteCallback"
+    ],
+    "6750afac9860e81f6dcf2be4d1bf157c": [
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:false",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:0",
+      "OBJ:android.os.ParcelFileDescriptor",
+      "OBJ:android.os.RemoteCallback"
+    ],
+    "c55e71327f5d3df438ab2e6787a2a48f": [
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:true",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:0",
+      "OBJ:android.os.ParcelFileDescriptor",
+      "OBJ:android.os.RemoteCallback"
+    ],
+    "529a4a0c6a8f5e8c1fb0a0aaed952cfe": [
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:false",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:0",
+      "OBJ:android.os.ParcelFileDescriptor",
+      "OBJ:android.os.RemoteCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

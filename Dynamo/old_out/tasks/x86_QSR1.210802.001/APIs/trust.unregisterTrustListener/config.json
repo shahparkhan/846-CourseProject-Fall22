@@ -1,0 +1,24 @@
+{
+  "api": "trust|unregisterTrustListener|android.app.trust.ITrustListener|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "05478a72e25c3d6fde5143be76920003": [
+      "OBJ:android.app.trust.ITrustListener"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

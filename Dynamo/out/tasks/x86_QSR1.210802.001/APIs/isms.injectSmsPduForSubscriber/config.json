@@ -1,0 +1,45 @@
+{
+  "api": "isms|injectSmsPduForSubscriber|I,B[],java.lang.String,android.app.PendingIntent|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "d4b5d35f136348f2bdb953d663e29f00": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:B[]",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.app.PendingIntent"
+    ],
+    "16c86d46c1fa19f66cc39a3030154305": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:B[]",
+      "S:com.android.systemui",
+      "OBJ:android.app.PendingIntent"
+    ],
+    "09b6e56190e96f9a89ac55056bf83efe": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:B[]",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.app.PendingIntent"
+    ],
+    "3b7bd704cf5c95922d7de93b7e80905c": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:B[]",
+      "S:com.android.systemui",
+      "OBJ:android.app.PendingIntent"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

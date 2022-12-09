@@ -1,0 +1,29 @@
+{
+  "api": "isub|createSubscriptionGroup|I[],java.lang.String|android.os.ParcelUuid|",
+  "parameters_count": 2,
+  "parameters": {
+    "64c95b06c2ed7e5238892cbcabeaf40a": [
+      "OBJ:I[]",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "7e2477136fc972518a1d59a07f324d9f": [
+      "OBJ:I[]",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

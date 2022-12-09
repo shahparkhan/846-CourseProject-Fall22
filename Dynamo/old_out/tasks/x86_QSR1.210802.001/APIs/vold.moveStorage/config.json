@@ -1,0 +1,41 @@
+{
+  "api": "vold|moveStorage|java.lang.String,java.lang.String,android.os.IVoldTaskListener|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "e193913af705dffe80f9e0fd058b4840": [
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.IVoldTaskListener"
+    ],
+    "86308c5af511613e76b265eda0125765": [
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "OBJ:android.os.IVoldTaskListener"
+    ],
+    "296143c26ed2f656b6b05a8666434c66": [
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.IVoldTaskListener"
+    ],
+    "059248d4cbba4e117d2e3b97f3ad3348": [
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "OBJ:android.os.IVoldTaskListener"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

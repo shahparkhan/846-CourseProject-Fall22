@@ -1,0 +1,38 @@
+[
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": false,
+    "exception": {
+      "is_security": true,
+      "data": {
+        "type": "java.lang.SecurityException.<init>(Native Method)",
+        "location": "com.android.server.TelephonyRegistry.notifyCarrierNetworkChange(TelephonyRegistry.java:1196)",
+        "message": "notifyCarrierNetworkChange without carrier privilege"
+      }
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.TelephonyRegistry",
+      "com.android.server.-$$Lambda$TelephonyRegistry$B6olxgDfuFsbAHNXng6QnHMFZZM"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "EXCEPTION::notifyCarrierNetworkChange without carrier privilege "
+      ],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "b71e20674b7c011a693ffb021dfbac2f",
+      "ignored_permissions": []
+    },
+    "processed": true
+  }
+]

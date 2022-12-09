@@ -1,0 +1,41 @@
+{
+  "api": "package|getPackagesHoldingPermissions|java.lang.String[],I,I|android.content.pm.ParceledListSlice|",
+  "parameters_count": 4,
+  "parameters": {
+    "d9fd4856538f3c3b04edccccf4f4a2d3": [
+      "OBJ:java.lang.String[]",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "3522ac545228cef51cbf71e20299a5b3": [
+      "OBJ:java.lang.String[]",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "603cbfb05641cbb82a2233c0b8046a4c": [
+      "OBJ:java.lang.String[]",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "cd2375b91cf5939f4a383ee961111596": [
+      "OBJ:java.lang.String[]",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

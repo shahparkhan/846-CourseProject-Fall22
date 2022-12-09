@@ -1,0 +1,24 @@
+{
+  "api": "display|setTemporaryAutoBrightnessAdjustment|F|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "4035d36458b8a6f87d2f4aa023bd6932": [
+      "OBJ:F"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

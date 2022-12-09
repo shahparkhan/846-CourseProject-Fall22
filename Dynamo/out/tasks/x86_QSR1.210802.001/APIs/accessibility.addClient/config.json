@@ -1,0 +1,29 @@
+{
+  "api": "accessibility|addClient|android.view.accessibility.IAccessibilityManagerClient,I|J|",
+  "parameters_count": 2,
+  "parameters": {
+    "8d80697bcb53f05bb2bcbd53f5ae0b52": [
+      "OBJ:android.view.accessibility.IAccessibilityManagerClient",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "e0e72e8b4f52daf6bc0b8f3a76d40c6f": [
+      "OBJ:android.view.accessibility.IAccessibilityManagerClient",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

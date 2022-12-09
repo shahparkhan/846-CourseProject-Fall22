@@ -1,0 +1,31 @@
+{
+  "api": "notification|notifyConditions|java.lang.String,android.service.notification.IConditionProvider,android.service.notification.Condition[]|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "d801a1eee47d4c6d810da6eb862875d8": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.service.notification.IConditionProvider",
+      "OBJ:android.service.notification.Condition[]"
+    ],
+    "0e635a13386e157e2b66546b88bbfb18": [
+      "S:com.android.systemui",
+      "OBJ:android.service.notification.IConditionProvider",
+      "OBJ:android.service.notification.Condition[]"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

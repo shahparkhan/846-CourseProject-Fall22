@@ -1,0 +1,92 @@
+{
+  "notification": {
+    "getNotificationPolicy": {
+      "ordered_iterations": [
+        {
+          "execution_outcome": {
+            "returns": true,
+            "output": "NotificationManager.Policy[priorityCategories=PRIORITY_CATEGORY_ALARMS,PRIORITY_CATEGORY_MEDIA,PRIORITY_CATEGORY_CALLS,PRIORITY_CATEGORY_REPEAT_CALLERS,priorityCallSenders=PRIORITY_SENDERS_STARRED,priorityMessageSenders=PRIORITY_SENDERS_CONTACTS,suppressedVisualEffects=SUPPRESSED_EFFECT_SCREEN_OFF,SUPPRESSED_EFFECT_SCREEN_ON,SUPPRESSED_EFFECT_FULL_SCREEN_INTENT,SUPPRESSED_EFFECT_LIGHTS,SUPPRESSED_EFFECT_PEEK,SUPPRESSED_EFFECT_STATUS_BAR,SUPPRESSED_EFFECT_BADGE,SUPPRESSED_EFFECT_AMBIENT,SUPPRESSED_EFFECT_NOTIFICATION_LIST,areChannelsBypassingDnd=false]",
+            "exception": "null"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [],
+          "stacktrace": [],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "02ec0106cef38c9eddf792963a7a228b",
+            "ignored_permissions": []
+          }
+        },
+        {
+          "execution_outcome": {
+            "returns": true,
+            "output": "NotificationManager.Policy[priorityCategories=PRIORITY_CATEGORY_ALARMS,PRIORITY_CATEGORY_MEDIA,PRIORITY_CATEGORY_CALLS,PRIORITY_CATEGORY_REPEAT_CALLERS,priorityCallSenders=PRIORITY_SENDERS_STARRED,priorityMessageSenders=PRIORITY_SENDERS_CONTACTS,suppressedVisualEffects=SUPPRESSED_EFFECT_SCREEN_OFF,SUPPRESSED_EFFECT_SCREEN_ON,SUPPRESSED_EFFECT_FULL_SCREEN_INTENT,SUPPRESSED_EFFECT_LIGHTS,SUPPRESSED_EFFECT_PEEK,SUPPRESSED_EFFECT_STATUS_BAR,SUPPRESSED_EFFECT_BADGE,SUPPRESSED_EFFECT_AMBIENT,SUPPRESSED_EFFECT_NOTIFICATION_LIST,areChannelsBypassingDnd=false]",
+            "exception": "null"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "02ec0106cef38c9eddf792963a7a228b",
+            "ignored_permissions": []
+          },
+          "stacktrace": []
+        },
+        {
+          "execution_outcome": {
+            "returns": true,
+            "output": "NotificationManager.Policy[priorityCategories=PRIORITY_CATEGORY_ALARMS,PRIORITY_CATEGORY_MEDIA,PRIORITY_CATEGORY_CALLS,PRIORITY_CATEGORY_REPEAT_CALLERS,priorityCallSenders=PRIORITY_SENDERS_STARRED,priorityMessageSenders=PRIORITY_SENDERS_CONTACTS,suppressedVisualEffects=SUPPRESSED_EFFECT_SCREEN_OFF,SUPPRESSED_EFFECT_SCREEN_ON,SUPPRESSED_EFFECT_FULL_SCREEN_INTENT,SUPPRESSED_EFFECT_LIGHTS,SUPPRESSED_EFFECT_PEEK,SUPPRESSED_EFFECT_STATUS_BAR,SUPPRESSED_EFFECT_BADGE,SUPPRESSED_EFFECT_AMBIENT,SUPPRESSED_EFFECT_NOTIFICATION_LIST,areChannelsBypassingDnd=false]",
+            "exception": "null"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [],
+          "stacktrace": [],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "02ec0106cef38c9eddf792963a7a228b",
+            "ignored_permissions": []
+          }
+        }
+      ]
+    }
+  }
+}

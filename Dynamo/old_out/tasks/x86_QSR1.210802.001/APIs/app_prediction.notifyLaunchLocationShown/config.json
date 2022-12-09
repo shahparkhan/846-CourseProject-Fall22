@@ -1,0 +1,31 @@
+{
+  "api": "app_prediction|notifyLaunchLocationShown|android.app.prediction.AppPredictionSessionId,java.lang.String,android.content.pm.ParceledListSlice|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "ee1f3ca13004176556583578c143f8a2": [
+      "OBJ:android.app.prediction.AppPredictionSessionId",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.content.pm.ParceledListSlice"
+    ],
+    "989af5f58c409c556ca3b1c25025bf15": [
+      "OBJ:android.app.prediction.AppPredictionSessionId",
+      "S:com.android.systemui",
+      "OBJ:android.content.pm.ParceledListSlice"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

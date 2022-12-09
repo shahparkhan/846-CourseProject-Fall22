@@ -1,0 +1,31 @@
+{
+  "api": "input_method|showSoftInput|com.android.internal.view.IInputMethodClient,I,android.os.ResultReceiver|Z|",
+  "parameters_count": 2,
+  "parameters": {
+    "a7d0f071b96a35f64e0fb1d938d5a2cd": [
+      "OBJ:com.android.internal.view.IInputMethodClient",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.ResultReceiver"
+    ],
+    "5dff3d051d505447e4d7bfee7315cd6f": [
+      "OBJ:com.android.internal.view.IInputMethodClient",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.ResultReceiver"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

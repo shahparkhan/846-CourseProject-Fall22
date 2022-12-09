@@ -1,0 +1,123 @@
+[
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": true,
+      "data": {
+        "type": "java.lang.SecurityException.<init>(Native Method)",
+        "location": "android.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)",
+        "message": "10148::android.permission.ACCESS_NOTIFICATIONS"
+      }
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.notification.NotificationManagerService$10",
+      "com.android.server.notification.NotificationManagerService"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "10148::android.permission.ACCESS_NOTIFICATIONS"
+      ],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "02ec0106cef38c9eddf792963a7a228b",
+      "ignored_permissions": []
+    },
+    "processed": true
+  },
+  {
+    "execution_outcome": {
+      "returns": true,
+      "output": "StatusBarNotification(pkg=com.android.systemui user=UserHandle{0} id=1397773634 tag=public:253,80 key=0|com.android.systemui|1397773634|public:253,80|10110: Notification(channel=DSK pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x100 color=0xff607d8b actions=2 vis=PUBLIC)),StatusBarNotification(pkg=android user=UserHandle{-1} id=26 tag=null key=-1|android|26|null|1000: Notification(channel=DEVELOPER pri=0 contentView=null vibrate=null sound=null tick defaults=0x0 flags=0x2 color=0xff607d8b vis=PUBLIC)),StatusBarNotification(pkg=android user=UserHandle{-1} id=32 tag=null key=-1|android|32|null|1000: Notification(channel=USB pri=0 contentView=null vibrate=null sound=null tick defaults=0x0 flags=0x2 color=0xff607d8b vis=PUBLIC))"
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": false,
+      "data": null
+    },
+    "appops_operations": [
+      {
+        "method": "noteOperation",
+        "uid": "10148",
+        "op": 25,
+        "pkg": "fuzzer.permission.uidchanger",
+        "result": 0
+      }
+    ],
+    "to_instrument": [
+      "com.android.server.notification.NotificationManagerService$10",
+      "com.android.server.notification.NotificationManagerService",
+      ""
+    ],
+    "data": {
+      "appOps": [
+        {
+          "method": "noteOperation",
+          "uid": "10148",
+          "op": 25,
+          "pkg": "fuzzer.permission.uidchanger",
+          "result": 0
+        }
+      ],
+      "methods": [],
+      "permissions": [
+        "10148::android.permission.ACCESS_NOTIFICATIONS"
+      ],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "02ec0106cef38c9eddf792963a7a228b",
+      "ignored_permissions": []
+    },
+    "processed": true
+  },
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": true,
+      "data": {
+        "type": "java.lang.SecurityException.<init>(Native Method)",
+        "location": "android.app.ContextImpl.enforceCallingOrSelfPermission(Native Method)",
+        "message": "10148::android.permission.ACCESS_NOTIFICATIONS"
+      }
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.notification.NotificationManagerService$10",
+      "com.android.server.notification.NotificationManagerService"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "10148::android.permission.ACCESS_NOTIFICATIONS"
+      ],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "94fe09312b92c4fc013fc7be233bce6d",
+      "ignored_permissions": []
+    },
+    "processed": true
+  }
+]

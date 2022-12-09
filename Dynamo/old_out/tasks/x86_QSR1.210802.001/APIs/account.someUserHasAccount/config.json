@@ -1,0 +1,24 @@
+{
+  "api": "account|someUserHasAccount|android.accounts.Account|Z|",
+  "parameters_count": 1,
+  "parameters": {
+    "ce0296a8ea1a26a91b6c8877a4d7bc49": [
+      "OBJ:android.accounts.Account"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

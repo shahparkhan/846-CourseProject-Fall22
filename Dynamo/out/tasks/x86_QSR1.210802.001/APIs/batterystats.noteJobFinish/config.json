@@ -1,0 +1,49 @@
+{
+  "api": "batterystats|noteJobFinish|java.lang.String,I,I,I,I|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "0033cde613b7d0be74caf735bac317d5": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1"
+    ],
+    "5031b464b1f04864fe4c319d2c4a7472": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1"
+    ],
+    "23549cf81b1db2b7e0a8b888d1274a6e": [
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1"
+    ],
+    "25be7f7035c1674d9a93ca2a67489f47": [
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

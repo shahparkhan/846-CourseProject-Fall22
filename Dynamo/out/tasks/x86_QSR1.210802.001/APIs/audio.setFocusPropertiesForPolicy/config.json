@@ -1,0 +1,29 @@
+{
+  "api": "audio|setFocusPropertiesForPolicy|I,android.media.audiopolicy.IAudioPolicyCallback|I|",
+  "parameters_count": 2,
+  "parameters": {
+    "04979ab849980dd6fd3cb1fd8739c4e4": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.media.audiopolicy.IAudioPolicyCallback"
+    ],
+    "1e056a01dec9c16e1c087cb30e3daa91": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.media.audiopolicy.IAudioPolicyCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

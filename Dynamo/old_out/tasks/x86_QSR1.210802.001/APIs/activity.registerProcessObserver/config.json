@@ -1,0 +1,24 @@
+{
+  "api": "activity|registerProcessObserver|android.app.IProcessObserver|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "c446df37f6cef07a02fd951f56484d1f": [
+      "OBJ:android.app.IProcessObserver"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

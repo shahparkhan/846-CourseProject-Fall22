@@ -1,0 +1,29 @@
+{
+  "api": "phone|enqueueSmsPickResult|java.lang.String,com.android.internal.telephony.IIntegerConsumer|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "ed2393669ef4bccfbb6044b201924f33": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:com.android.internal.telephony.IIntegerConsumer"
+    ],
+    "f4dd923d4c62e03c2a4f4cf305d62fc1": [
+      "S:com.android.systemui",
+      "OBJ:com.android.internal.telephony.IIntegerConsumer"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

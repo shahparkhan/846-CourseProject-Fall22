@@ -1,0 +1,30 @@
+{
+  "api": "statscompanion|sendSubscriberBroadcast|android.os.IBinder,J,J,J,J,java.lang.String[],android.os.StatsDimensionsValue|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "47c1bdb0334c7c1319089abc8dc51db4": [
+      "OBJ:android.os.IBinder",
+      "OBJ:J",
+      "OBJ:J",
+      "OBJ:J",
+      "OBJ:J",
+      "OBJ:java.lang.String[]",
+      "OBJ:android.os.StatsDimensionsValue"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

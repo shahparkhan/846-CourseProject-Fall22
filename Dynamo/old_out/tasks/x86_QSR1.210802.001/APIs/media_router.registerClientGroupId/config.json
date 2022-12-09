@@ -1,0 +1,29 @@
+{
+  "api": "media_router|registerClientGroupId|android.media.IMediaRouterClient,java.lang.String|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "a3f59142531a9eec472d1ddae703d12a": [
+      "OBJ:android.media.IMediaRouterClient",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "2b2d72c189d6e3bb0bedaf0477b58493": [
+      "OBJ:android.media.IMediaRouterClient",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

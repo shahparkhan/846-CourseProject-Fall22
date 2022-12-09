@@ -1,0 +1,27 @@
+{
+  "api": "activity_task|reportSizeConfigurations|android.os.IBinder,I[],I[],I[]|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "cdacf47f0ecf8ec6b653535c0247b5aa": [
+      "OBJ:android.os.IBinder",
+      "OBJ:I[]",
+      "OBJ:I[]",
+      "OBJ:I[]"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

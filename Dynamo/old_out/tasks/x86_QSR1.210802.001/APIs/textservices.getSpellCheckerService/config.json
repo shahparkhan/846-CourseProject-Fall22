@@ -1,0 +1,85 @@
+{
+  "api": "textservices|getSpellCheckerService|I,java.lang.String,java.lang.String,com.android.internal.textservice.ITextServicesSessionListener,com.android.internal.textservice.ISpellCheckerSessionListener,android.os.Bundle|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "6ac376b282c1699b78f549af0ada578d": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:com.android.internal.textservice.ITextServicesSessionListener",
+      "OBJ:com.android.internal.textservice.ISpellCheckerSessionListener",
+      "OBJ:android.os.Bundle"
+    ],
+    "13b9c6bc722b79cf2ea9171125b9c17f": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "OBJ:com.android.internal.textservice.ITextServicesSessionListener",
+      "OBJ:com.android.internal.textservice.ISpellCheckerSessionListener",
+      "OBJ:android.os.Bundle"
+    ],
+    "d0317ca4191d84e35c08cce9574e7b15": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:com.android.internal.textservice.ITextServicesSessionListener",
+      "OBJ:com.android.internal.textservice.ISpellCheckerSessionListener",
+      "OBJ:android.os.Bundle"
+    ],
+    "58aa5577382867fa563f3c2307cd35c5": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "OBJ:com.android.internal.textservice.ITextServicesSessionListener",
+      "OBJ:com.android.internal.textservice.ISpellCheckerSessionListener",
+      "OBJ:android.os.Bundle"
+    ],
+    "1c864ac5f9fdff2986ef831471809466": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:com.android.internal.textservice.ITextServicesSessionListener",
+      "OBJ:com.android.internal.textservice.ISpellCheckerSessionListener",
+      "OBJ:android.os.Bundle"
+    ],
+    "42105ae2ae35ce76c4e014cfde99e641": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "OBJ:com.android.internal.textservice.ITextServicesSessionListener",
+      "OBJ:com.android.internal.textservice.ISpellCheckerSessionListener",
+      "OBJ:android.os.Bundle"
+    ],
+    "ed6a998ddae6f140fdf23ad1dc2bea48": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:com.android.internal.textservice.ITextServicesSessionListener",
+      "OBJ:com.android.internal.textservice.ISpellCheckerSessionListener",
+      "OBJ:android.os.Bundle"
+    ],
+    "b784edb12ac87ea32437bebc717a2c92": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "OBJ:com.android.internal.textservice.ITextServicesSessionListener",
+      "OBJ:com.android.internal.textservice.ISpellCheckerSessionListener",
+      "OBJ:android.os.Bundle"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

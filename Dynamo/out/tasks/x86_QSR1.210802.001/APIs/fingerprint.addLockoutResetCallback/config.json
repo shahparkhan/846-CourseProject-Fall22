@@ -1,0 +1,24 @@
+{
+  "api": "fingerprint|addLockoutResetCallback|android.hardware.biometrics.IBiometricServiceLockoutResetCallback|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "a66855baacf44984daa1ff392fd43e0b": [
+      "OBJ:android.hardware.biometrics.IBiometricServiceLockoutResetCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

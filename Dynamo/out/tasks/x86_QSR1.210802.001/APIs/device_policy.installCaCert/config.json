@@ -1,0 +1,41 @@
+{
+  "api": "device_policy|installCaCert|android.content.ComponentName,java.lang.String,B[]|Z|",
+  "parameters_count": 4,
+  "parameters": {
+    "b515db616a6b239588f1071a1961fe7f": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:B[]"
+    ],
+    "4921e7811d428fd063e6e341bb327520": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "OBJ:B[]"
+    ],
+    "1eca5afd5122834cd9e6a5daa70be313": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:B[]"
+    ],
+    "b55dde8f3751de423a28662081d64dce": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "OBJ:B[]"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

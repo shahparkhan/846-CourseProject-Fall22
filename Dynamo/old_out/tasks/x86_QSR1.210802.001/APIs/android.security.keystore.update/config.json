@@ -1,0 +1,27 @@
+{
+  "api": "android.security.keystore|update|android.security.keystore.IKeystoreOperationResultCallback,android.os.IBinder,android.security.keymaster.KeymasterArguments,B[]|I|",
+  "parameters_count": 1,
+  "parameters": {
+    "dce7352ea730f428fd8b31e46c5f3485": [
+      "OBJ:android.security.keystore.IKeystoreOperationResultCallback",
+      "OBJ:android.os.IBinder",
+      "OBJ:android.security.keymaster.KeymasterArguments",
+      "OBJ:B[]"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,49 @@
+{
+  "api": "media.camera.proxy|notifyCameraState|java.lang.String,I,I,java.lang.String,I|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "26c3b82bd37b02d76695c8508eb86192": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:1",
+      "INDEX:0",
+      "INDEX:1"
+    ],
+    "41e62eb5efd9a02a11ac5500cb61b9b8": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:1",
+      "INDEX:0",
+      "INDEX:1"
+    ],
+    "3e6b6619de378c0d028d9ef62ba12b54": [
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:1",
+      "INDEX:0",
+      "INDEX:1"
+    ],
+    "9990b8f8f473adfc057a60540cc8ddbf": [
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:1",
+      "INDEX:0",
+      "INDEX:1"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

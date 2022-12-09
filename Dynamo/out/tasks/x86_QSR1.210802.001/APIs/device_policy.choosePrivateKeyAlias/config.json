@@ -1,0 +1,69 @@
+{
+  "api": "device_policy|choosePrivateKeyAlias|I,android.net.Uri,java.lang.String,android.os.IBinder|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "4f252ae42f93b6c3d0181a78d442c711": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "URI:content://user_dictionary/words",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.IBinder"
+    ],
+    "121b7128b20591b5809d17a58cac79d9": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "URI:content://user_dictionary/words",
+      "S:com.android.systemui",
+      "OBJ:android.os.IBinder"
+    ],
+    "2d48805148219132a916018edea99caf": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "URI:content://com.android.contacts/contacts/lookup/0",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.IBinder"
+    ],
+    "2c3d0553bb389a3f99fcbf3bf9b87be8": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "URI:content://com.android.contacts/contacts/lookup/0",
+      "S:com.android.systemui",
+      "OBJ:android.os.IBinder"
+    ],
+    "f3d2a56916722dddfe2aa6eb17bd8cb6": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "URI:content://user_dictionary/words",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.IBinder"
+    ],
+    "4f7c04e9ab513b1ddbea89c04aac10f4": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "URI:content://user_dictionary/words",
+      "S:com.android.systemui",
+      "OBJ:android.os.IBinder"
+    ],
+    "f04d6287737424052d7a8e3a1006ff70": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "URI:content://com.android.contacts/contacts/lookup/0",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.IBinder"
+    ],
+    "eddc8ae8b011afacc6c68faca5ad6aa0": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "URI:content://com.android.contacts/contacts/lookup/0",
+      "S:com.android.systemui",
+      "OBJ:android.os.IBinder"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

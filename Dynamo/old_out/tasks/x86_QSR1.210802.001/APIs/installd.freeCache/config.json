@@ -1,0 +1,45 @@
+{
+  "api": "installd|freeCache|java.lang.String,J,J,I|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "056fb3ff8ead2ae28b354cbefb94b716": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:J",
+      "OBJ:J",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "885e093c33b30514bc00b028369638c7": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:J",
+      "OBJ:J",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "0563aa6839155c5f499417fe6b75cf08": [
+      "S:com.android.systemui",
+      "OBJ:J",
+      "OBJ:J",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "a034a8d44836a9c6a63973e73d590ab7": [
+      "S:com.android.systemui",
+      "OBJ:J",
+      "OBJ:J",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

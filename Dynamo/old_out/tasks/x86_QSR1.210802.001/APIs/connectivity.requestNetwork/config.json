@@ -1,0 +1,49 @@
+{
+  "api": "connectivity|requestNetwork|android.net.NetworkCapabilities,android.os.Messenger,I,android.os.IBinder,I|android.net.NetworkRequest|",
+  "parameters_count": 4,
+  "parameters": {
+    "a74f2f1d9dbb4a73e721da63525afc55": [
+      "OBJ:android.net.NetworkCapabilities",
+      "OBJ:android.os.Messenger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.IBinder",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "a07f0f2c133c48ce7607048865ecff85": [
+      "OBJ:android.net.NetworkCapabilities",
+      "OBJ:android.os.Messenger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.IBinder",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "8da56d83ca6c12417dee548e426e19a4": [
+      "OBJ:android.net.NetworkCapabilities",
+      "OBJ:android.os.Messenger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.IBinder",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "cd372d5620d0b989eeba8868e7ea6f59": [
+      "OBJ:android.net.NetworkCapabilities",
+      "OBJ:android.os.Messenger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.IBinder",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

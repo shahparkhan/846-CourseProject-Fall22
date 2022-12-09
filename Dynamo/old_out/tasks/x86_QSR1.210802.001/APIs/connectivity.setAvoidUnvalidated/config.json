@@ -1,0 +1,24 @@
+{
+  "api": "connectivity|setAvoidUnvalidated|android.net.Network|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "c8a3ca052e0469aa5ceacaba0e44c6d5": [
+      "OBJ:android.net.Network"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

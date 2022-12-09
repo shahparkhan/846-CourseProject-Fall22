@@ -1,0 +1,41 @@
+{
+  "api": "package|addPersistentPreferredActivity|android.content.IntentFilter,android.content.ComponentName,I|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "eaf2833af8ad61170c191dfeef11ed40": [
+      "OBJ:android.content.IntentFilter",
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "50992d1a76d885b8047e23b7ca1a6d98": [
+      "OBJ:android.content.IntentFilter",
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "7b787f3137ee90592d3baf5c2c3b3b84": [
+      "OBJ:android.content.IntentFilter",
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "48c0e69252a747fbaacaacb971d81b9e": [
+      "OBJ:android.content.IntentFilter",
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

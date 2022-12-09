@@ -1,0 +1,24 @@
+{
+  "api": "vold|abortIdleMaint|android.os.IVoldTaskListener|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "4fecef9272b7f03bc19a4828806fbbb7": [
+      "OBJ:android.os.IVoldTaskListener"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

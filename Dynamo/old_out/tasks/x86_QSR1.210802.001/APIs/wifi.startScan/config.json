@@ -1,0 +1,27 @@
+{
+  "api": "wifi|startScan|java.lang.String|Z|",
+  "parameters_count": 2,
+  "parameters": {
+    "02ec0106cef38c9eddf792963a7a228b": [
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "94fe09312b92c4fc013fc7be233bce6d": [
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,69 @@
+{
+  "api": "notification|enqueueToast|java.lang.String,android.app.ITransientNotification,I,I|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "60bf269bfc0721648176730dbc05515a": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.app.ITransientNotification",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "f30eaca3dffd522c348744c5dbc5020e": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.app.ITransientNotification",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "5c894e5a33aa0d01d84ce4c61f491ea9": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.app.ITransientNotification",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "c335116baec3206329ac918201e4c4f6": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.app.ITransientNotification",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "e1de9db5034726992fcdc68bc078926b": [
+      "S:com.android.systemui",
+      "OBJ:android.app.ITransientNotification",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "e6d9d13729ddac184dc1c79165204785": [
+      "S:com.android.systemui",
+      "OBJ:android.app.ITransientNotification",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "7bd5af80078668b97d21b6dd6641a12b": [
+      "S:com.android.systemui",
+      "OBJ:android.app.ITransientNotification",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "5c43f06a1e7eff7d89ebae2a7763ac36": [
+      "S:com.android.systemui",
+      "OBJ:android.app.ITransientNotification",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

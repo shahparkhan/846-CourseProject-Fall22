@@ -1,0 +1,170 @@
+{
+  "notification": {
+    "setAutomaticZenRuleState": {
+      "ordered_iterations": [
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": null
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [],
+          "stacktrace": [],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "c17f78c27407cfa0ddbff9c563dc0a42",
+            "ignored_permissions": []
+          }
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": null
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": {
+              "type": "java.lang.NullPointerException.<init>(Native Method)",
+              "location": "com.android.internal.util.Preconditions.checkNotNull(Preconditions.java:133)",
+              "message": "Condition is null"
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.notification.NotificationManagerService$10",
+            "com.android.server.notification.NotificationManagerService"
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "c17f78c27407cfa0ddbff9c563dc0a42",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.NullPointerException.<init>(Native Method)\ncom.android.internal.util.Preconditions.checkNotNull(Preconditions.java:133)\ncom.android.server.notification.NotificationManagerService$10.setAutomaticZenRuleState(NotificationManagerService.java:3524)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:2516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(Condition is null) = undefined",
+              "callstack": "$init(C, o, n, d, i, t, i, o, n,  , i, s,  , n, u, l, l) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.NullPointerException.<init>(Native Method)\ncom.android.internal.util.Preconditions.checkNotNull(Preconditions.java:133)\ncom.android.server.notification.NotificationManagerService$10.setAutomaticZenRuleState(NotificationManagerService.java:3524)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:2516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": null
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": {
+              "type": "java.lang.NullPointerException.<init>(Native Method)",
+              "location": "com.android.internal.util.Preconditions.checkNotNull(Preconditions.java:133)",
+              "message": "Condition is null"
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.notification.NotificationManagerService$10",
+            "com.android.server.notification.NotificationManagerService"
+          ],
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.NullPointerException.<init>(Native Method)\ncom.android.internal.util.Preconditions.checkNotNull(Preconditions.java:133)\ncom.android.server.notification.NotificationManagerService$10.setAutomaticZenRuleState(NotificationManagerService.java:3524)\ncom.android.server.notification.NotificationManagerService$10.setAutomaticZenRuleState(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:2516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(Condition is null) = undefined",
+              "callstack": "$init(C, o, n, d, i, t, i, o, n,  , i, s,  , n, u, l, l) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.NullPointerException.<init>(Native Method)\ncom.android.internal.util.Preconditions.checkNotNull(Preconditions.java:133)\ncom.android.server.notification.NotificationManagerService$10.setAutomaticZenRuleState(NotificationManagerService.java:3524)\ncom.android.server.notification.NotificationManagerService$10.setAutomaticZenRuleState(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:2516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "c17f78c27407cfa0ddbff9c563dc0a42",
+            "ignored_permissions": []
+          }
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": null
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": {
+              "type": "java.lang.NullPointerException.<init>(Native Method)",
+              "location": "com.android.internal.util.Preconditions.checkNotNull(Preconditions.java:133)",
+              "message": "Condition is null"
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.notification.NotificationManagerService$10",
+            "com.android.server.notification.NotificationManagerService"
+          ],
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.NullPointerException.<init>(Native Method)\ncom.android.internal.util.Preconditions.checkNotNull(Preconditions.java:133)\ncom.android.server.notification.NotificationManagerService$10.setAutomaticZenRuleState(NotificationManagerService.java:3524)\ncom.android.server.notification.NotificationManagerService$10.setAutomaticZenRuleState(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:2516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(Condition is null) = undefined",
+              "callstack": "$init(C, o, n, d, i, t, i, o, n,  , i, s,  , n, u, l, l) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.NullPointerException.<init>(Native Method)\ncom.android.internal.util.Preconditions.checkNotNull(Preconditions.java:133)\ncom.android.server.notification.NotificationManagerService$10.setAutomaticZenRuleState(NotificationManagerService.java:3524)\ncom.android.server.notification.NotificationManagerService$10.setAutomaticZenRuleState(Native Method)\nandroid.app.INotificationManager$Stub.onTransact(INotificationManager.java:2516)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "df7967e9a15e2090bc6cc613ee477808",
+            "ignored_permissions": []
+          }
+        }
+      ]
+    }
+  }
+}

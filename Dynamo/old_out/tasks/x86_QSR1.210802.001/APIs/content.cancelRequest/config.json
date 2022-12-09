@@ -1,0 +1,24 @@
+{
+  "api": "content|cancelRequest|android.content.SyncRequest|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "da86f73e92ee938685adbdf22c4da2a1": [
+      "OBJ:android.content.SyncRequest"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

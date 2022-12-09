@@ -1,0 +1,25 @@
+{
+  "api": "telecom|addNewUnknownCall|android.telecom.PhoneAccountHandle,android.os.Bundle|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "0958b7fe1189636076d95f057fc584f8": [
+      "OBJ:android.telecom.PhoneAccountHandle",
+      "OBJ:android.os.Bundle"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

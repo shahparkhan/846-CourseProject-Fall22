@@ -1,0 +1,29 @@
+{
+  "api": "input|injectInputEvent|android.view.InputEvent,I|Z|",
+  "parameters_count": 2,
+  "parameters": {
+    "797946ee4c45502ff6c5c250f8ee395e": [
+      "OBJ:android.view.InputEvent",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "cbc05dfafa211c5004837c3a40a97940": [
+      "OBJ:android.view.InputEvent",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

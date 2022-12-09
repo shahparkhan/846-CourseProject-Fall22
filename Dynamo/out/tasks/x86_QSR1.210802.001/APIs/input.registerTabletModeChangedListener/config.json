@@ -1,0 +1,24 @@
+{
+  "api": "input|registerTabletModeChangedListener|android.hardware.input.ITabletModeChangedListener|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "639fc40b45a8fdef8ad55332456e4416": [
+      "OBJ:android.hardware.input.ITabletModeChangedListener"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

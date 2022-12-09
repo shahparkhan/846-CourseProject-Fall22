@@ -1,0 +1,69 @@
+{
+  "api": "connectivity|getLatestTetheringEntitlementResult|I,android.os.ResultReceiver,Z,java.lang.String|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "7f68009245150e8b9ff334a74890b893": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.ResultReceiver",
+      "B:true",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "ab339b02acef2533b6b40b3f0a14d12b": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.ResultReceiver",
+      "B:true",
+      "S:com.android.systemui"
+    ],
+    "8148853986e481fb77d31fb050170fe8": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.ResultReceiver",
+      "B:false",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "107c611f179bac498974beb1e956f10e": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.ResultReceiver",
+      "B:false",
+      "S:com.android.systemui"
+    ],
+    "68262da7900b853f06c3c1b73a076449": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.ResultReceiver",
+      "B:true",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "e38169bfba7be74ed2f63a3ba0e8bb60": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.ResultReceiver",
+      "B:true",
+      "S:com.android.systemui"
+    ],
+    "c218f6f2ee3428dc6b153ba00bb43a37": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.ResultReceiver",
+      "B:false",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "31b603913e0bfffa183b12d6526da852": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.ResultReceiver",
+      "B:false",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

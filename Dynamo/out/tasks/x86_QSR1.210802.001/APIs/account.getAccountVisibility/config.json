@@ -1,0 +1,29 @@
+{
+  "api": "account|getAccountVisibility|android.accounts.Account,java.lang.String|I|",
+  "parameters_count": 2,
+  "parameters": {
+    "78054369b3ec1fd7bd77b5e0c203c14c": [
+      "OBJ:android.accounts.Account",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "6557c862265004b7aa18461ea7cc10e5": [
+      "OBJ:android.accounts.Account",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

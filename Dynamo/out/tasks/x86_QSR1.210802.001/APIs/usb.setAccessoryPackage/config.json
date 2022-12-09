@@ -1,0 +1,41 @@
+{
+  "api": "usb|setAccessoryPackage|android.hardware.usb.UsbAccessory,java.lang.String,I|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "3aa9c29ae459fc19ba3530cf05957445": [
+      "OBJ:android.hardware.usb.UsbAccessory",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "8465b8374af9b8809efee01b9780466d": [
+      "OBJ:android.hardware.usb.UsbAccessory",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "cf94b9ee7e841b91deb7c2e7b4da086b": [
+      "OBJ:android.hardware.usb.UsbAccessory",
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "2b1f18ba23c6e759836b0f30929181ee": [
+      "OBJ:android.hardware.usb.UsbAccessory",
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,31 @@
+{
+  "api": "android.service.gatekeeper.IGateKeeperService|verify|I,B[],B[]|android.service.gatekeeper.GateKeeperResponse|",
+  "parameters_count": 2,
+  "parameters": {
+    "7a54e70365cdd69002abe3c6c42a5930": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:B[]",
+      "OBJ:B[]"
+    ],
+    "13e51aa68c8fa4d5c3043d2ab3f8a1ac": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:B[]",
+      "OBJ:B[]"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

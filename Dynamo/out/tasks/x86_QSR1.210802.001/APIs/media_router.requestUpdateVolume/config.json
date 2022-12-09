@@ -1,0 +1,41 @@
+{
+  "api": "media_router|requestUpdateVolume|android.media.IMediaRouterClient,java.lang.String,I|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "7d9f07e3214d9c0eb64252659fd5e84c": [
+      "OBJ:android.media.IMediaRouterClient",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "80c191b037d8d1e7afeef9de9667fa03": [
+      "OBJ:android.media.IMediaRouterClient",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "17508f7411f5d892ae189ca29322fd0d": [
+      "OBJ:android.media.IMediaRouterClient",
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "f6617a4c82e6f6dcca4acf055b61290d": [
+      "OBJ:android.media.IMediaRouterClient",
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,165 @@
+{
+  "api": "launcherapps|getShortcuts|java.lang.String,J,java.lang.String,java.util.List,android.content.ComponentName,I,android.os.UserHandle|android.content.pm.ParceledListSlice|",
+  "parameters_count": 16,
+  "parameters": {
+    "d8b9dd86bf2ff5d345083e00b9397ff5": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:J",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.util.List",
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.UserHandle"
+    ],
+    "761c9105935af23397a0994756d8dc33": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:J",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.util.List",
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.UserHandle"
+    ],
+    "fc690f01df78baffe2fc48aceade0921": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:J",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.util.List",
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.UserHandle"
+    ],
+    "d0b0b2970e3cccae9318a884e8e0463d": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:J",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.util.List",
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.UserHandle"
+    ],
+    "3c0171723dfab9eb9ea597650d3aabe7": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:J",
+      "S:com.android.systemui",
+      "OBJ:java.util.List",
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.UserHandle"
+    ],
+    "da23d36f010e834d1cf560313e071d3d": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:J",
+      "S:com.android.systemui",
+      "OBJ:java.util.List",
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.UserHandle"
+    ],
+    "5a7080d751d748592f2da3c0742aca55": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:J",
+      "S:com.android.systemui",
+      "OBJ:java.util.List",
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.UserHandle"
+    ],
+    "3ce73ab8e31340c033cbece3dc7e2c0b": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:J",
+      "S:com.android.systemui",
+      "OBJ:java.util.List",
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.UserHandle"
+    ],
+    "5527a331b3a6b3847c90f10d1f10cd1d": [
+      "S:com.android.systemui",
+      "OBJ:J",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.util.List",
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.UserHandle"
+    ],
+    "81343f97f95ad0f2ca8ac4e954e60c0a": [
+      "S:com.android.systemui",
+      "OBJ:J",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.util.List",
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.UserHandle"
+    ],
+    "f533375085e8d1f34aabfa1b4110c0b1": [
+      "S:com.android.systemui",
+      "OBJ:J",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.util.List",
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.UserHandle"
+    ],
+    "0d31b2950027ab97058e99370773b623": [
+      "S:com.android.systemui",
+      "OBJ:J",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.util.List",
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.UserHandle"
+    ],
+    "7e4fb62e5209f1b1f0b6813b01288896": [
+      "S:com.android.systemui",
+      "OBJ:J",
+      "S:com.android.systemui",
+      "OBJ:java.util.List",
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.UserHandle"
+    ],
+    "19a9c62a34a1e500e6daece7f838b77c": [
+      "S:com.android.systemui",
+      "OBJ:J",
+      "S:com.android.systemui",
+      "OBJ:java.util.List",
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.UserHandle"
+    ],
+    "6b32b6a80e8bb4fa96bfaeaacdd15a31": [
+      "S:com.android.systemui",
+      "OBJ:J",
+      "S:com.android.systemui",
+      "OBJ:java.util.List",
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.UserHandle"
+    ],
+    "05c84b1c7579147cac4a95712cabc2b1": [
+      "S:com.android.systemui",
+      "OBJ:J",
+      "S:com.android.systemui",
+      "OBJ:java.util.List",
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.UserHandle"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

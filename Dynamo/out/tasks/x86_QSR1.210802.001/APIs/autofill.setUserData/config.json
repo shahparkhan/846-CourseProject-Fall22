@@ -1,0 +1,24 @@
+{
+  "api": "autofill|setUserData|android.service.autofill.UserData|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "277cf73792e1a8cf1b3a936f6ba7280d": [
+      "OBJ:android.service.autofill.UserData"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

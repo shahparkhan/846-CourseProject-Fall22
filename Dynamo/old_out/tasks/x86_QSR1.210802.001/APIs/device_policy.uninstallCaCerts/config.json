@@ -1,0 +1,41 @@
+{
+  "api": "device_policy|uninstallCaCerts|android.content.ComponentName,java.lang.String,java.lang.String[]|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "72f9545cff1130aa09640ee8c21dca65": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.lang.String[]"
+    ],
+    "6334e875aa7e0b973a1225ae2cbad0ff": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "OBJ:java.lang.String[]"
+    ],
+    "bcd740d8f38d3c489ea6bb68be4bfb33": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.lang.String[]"
+    ],
+    "a92134f5ac6530df933276faa8948bf2": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "OBJ:java.lang.String[]"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

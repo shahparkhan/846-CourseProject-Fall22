@@ -1,0 +1,29 @@
+{
+  "api": "content_suggestions|isEnabled|I,com.android.internal.os.IResultReceiver|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "16df182332cdfb9004176ff1bb4adb39": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:com.android.internal.os.IResultReceiver"
+    ],
+    "775c5575d98d4a037bcc86310d56a624": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:com.android.internal.os.IResultReceiver"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

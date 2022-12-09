@@ -1,0 +1,29 @@
+{
+  "api": "activity|getTagForIntentSender|android.content.IIntentSender,java.lang.String|java.lang.String|",
+  "parameters_count": 2,
+  "parameters": {
+    "e54a105cd80608b5627ea15061a590db": [
+      "OBJ:android.content.IIntentSender",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "85a337bae09fba7e06ee6a893068a3f4": [
+      "OBJ:android.content.IIntentSender",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

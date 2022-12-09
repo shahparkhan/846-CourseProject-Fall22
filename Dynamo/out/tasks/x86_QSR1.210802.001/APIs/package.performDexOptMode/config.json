@@ -1,0 +1,53 @@
+{
+  "api": "package|performDexOptMode|java.lang.String,Z,java.lang.String,Z,Z,java.lang.String|Z|",
+  "parameters_count": 4,
+  "parameters": {
+    "036ee4c407f19d83676242b96d04d6ae": [
+      "S:fuzzer.permission.uidchanger",
+      "B:true",
+      "INDEX:0",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:0"
+    ],
+    "1da156664da1be6d7ee2b56f439e642d": [
+      "S:fuzzer.permission.uidchanger",
+      "B:false",
+      "INDEX:0",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:0"
+    ],
+    "0311634bd7013a0513aea536d7e60a09": [
+      "S:com.android.systemui",
+      "B:true",
+      "INDEX:0",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:0"
+    ],
+    "510cdbea86523d95c41b7fc392225d2a": [
+      "S:com.android.systemui",
+      "B:false",
+      "INDEX:0",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:0"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

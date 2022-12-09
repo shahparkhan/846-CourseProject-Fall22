@@ -1,0 +1,55 @@
+{
+  "api": "notification|setNotificationAssistantAccessGranted|android.content.ComponentName,Z|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "13fd43987242ce39f29272841de549e9": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:true"
+    ],
+    "09cca92ee55699defdf8c391f252eecc": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:false"
+    ],
+    "c511e80543dc6ca36b9660b152558fcc": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:true"
+    ],
+    "eca59358accf2893ffef6a365ab0dd22": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:false"
+    ]
+  },
+  "parameters_done": {
+    "None:13fd43987242ce39f29272841de549e9": 2,
+    "None:09cca92ee55699defdf8c391f252eecc": 2
+  },
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [
+    "com.android.server.notification.NotificationManagerService$10",
+    "com.android.server.notification.NotificationManagerService"
+  ],
+  "phase_name": "change_parameters",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 1,
+    "historical_service_not_invoked": 15,
+    "no_traces": 0,
+    "historical_no_traces": 0
+  },
+  "pids": [
+    "system_server:13fd43987242ce39f29272841de549e9",
+    "system_server:09cca92ee55699defdf8c391f252eecc"
+  ],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

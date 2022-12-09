@@ -1,0 +1,29 @@
+{
+  "api": "window|registerPinnedStackListener|I,android.view.IPinnedStackListener|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "20a2bcd8e1eb60b4a8c32d6bc33de814": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.view.IPinnedStackListener"
+    ],
+    "5755f642ae44ef7a21bf8e546a98a02b": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.view.IPinnedStackListener"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

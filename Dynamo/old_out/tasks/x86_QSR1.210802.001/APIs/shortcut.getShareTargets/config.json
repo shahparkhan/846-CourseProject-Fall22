@@ -1,0 +1,41 @@
+{
+  "api": "shortcut|getShareTargets|java.lang.String,android.content.IntentFilter,I|android.content.pm.ParceledListSlice|",
+  "parameters_count": 4,
+  "parameters": {
+    "fdb6e82a76175cedf08bf58a3de9d44c": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.content.IntentFilter",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "9328051476fcc8ba42477702b7614230": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.content.IntentFilter",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "fe384e23927fd4a8b4097e7c4d862f89": [
+      "S:com.android.systemui",
+      "OBJ:android.content.IntentFilter",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "255d7d0907b425385226481911fd66cd": [
+      "S:com.android.systemui",
+      "OBJ:android.content.IntentFilter",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

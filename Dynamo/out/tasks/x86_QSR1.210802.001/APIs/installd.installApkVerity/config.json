@@ -1,0 +1,41 @@
+{
+  "api": "installd|installApkVerity|java.lang.String,java.io.FileDescriptor,I|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "c85bb7c5eb2e737b1c735d64ee2c81a6": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.io.FileDescriptor",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "ba7fbbe2e5cc3581427f3ad68470d799": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.io.FileDescriptor",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "c3d6c34b20f18228d54df809868024b7": [
+      "S:com.android.systemui",
+      "OBJ:java.io.FileDescriptor",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "8923799f8eb3bd987d54ca764a637f26": [
+      "S:com.android.systemui",
+      "OBJ:java.io.FileDescriptor",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

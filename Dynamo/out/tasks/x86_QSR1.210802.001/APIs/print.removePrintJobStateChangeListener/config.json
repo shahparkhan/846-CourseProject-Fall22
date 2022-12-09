@@ -1,0 +1,29 @@
+{
+  "api": "print|removePrintJobStateChangeListener|android.print.IPrintJobStateChangeListener,I|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "e8a9292214aa376992ba9ca8ceb32edd": [
+      "OBJ:android.print.IPrintJobStateChangeListener",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "d6247d91fa0a58bd2c2874b4cb145e5d": [
+      "OBJ:android.print.IPrintJobStateChangeListener",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

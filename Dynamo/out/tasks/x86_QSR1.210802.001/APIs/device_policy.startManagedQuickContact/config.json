@@ -1,0 +1,77 @@
+{
+  "api": "device_policy|startManagedQuickContact|java.lang.String,J,Z,J,android.content.Intent|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "52bf735909686146c46531e15b226132": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:J",
+      "B:true",
+      "OBJ:J",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "1fb5ca0436c5d9522551034b20c012ab": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:J",
+      "B:true",
+      "OBJ:J",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "e75bb64549062dd4f2f8615158ae06d6": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:J",
+      "B:false",
+      "OBJ:J",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "498d8f1d862dd5addcb83e7e7c87be06": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:J",
+      "B:false",
+      "OBJ:J",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "4412752a03fc2441f37039e71c4dd167": [
+      "S:com.android.systemui",
+      "OBJ:J",
+      "B:true",
+      "OBJ:J",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "e2733dd038d2de5aa6e1079cb2e49911": [
+      "S:com.android.systemui",
+      "OBJ:J",
+      "B:true",
+      "OBJ:J",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "84ea31cb16af351e881dc13acfef2584": [
+      "S:com.android.systemui",
+      "OBJ:J",
+      "B:false",
+      "OBJ:J",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "be155bb9ed82e71b523e09b4a0bd2eb2": [
+      "S:com.android.systemui",
+      "OBJ:J",
+      "B:false",
+      "OBJ:J",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

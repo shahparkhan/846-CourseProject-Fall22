@@ -1,0 +1,31 @@
+{
+  "api": "apexservice|submitStagedSession|I,I[],android.apex.ApexInfoList|Z|",
+  "parameters_count": 2,
+  "parameters": {
+    "bde8a1cb58636b20854905e1a1988040": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:I[]",
+      "OBJ:android.apex.ApexInfoList"
+    ],
+    "54456ef88d2c71fb3d0af33d910cf511": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:I[]",
+      "OBJ:android.apex.ApexInfoList"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

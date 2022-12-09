@@ -1,0 +1,29 @@
+{
+  "api": "device_policy|startUserInBackground|android.content.ComponentName,android.os.UserHandle|I|",
+  "parameters_count": 2,
+  "parameters": {
+    "d955c35a1fd0b426bd721d9029269de5": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.UserHandle"
+    ],
+    "f90db0239282ea28c924a639e3a9c5cd": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.UserHandle"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,49 @@
+{
+  "api": "notification|getActiveNotificationsFromListener|android.service.notification.INotificationListener,java.lang.String[],I|android.content.pm.ParceledListSlice|",
+  "parameters_count": 2,
+  "parameters": {
+    "0f927d94435b6c536e3e4455743da4d8": [
+      "OBJ:android.service.notification.INotificationListener",
+      "OBJ:java.lang.String[]",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "7719fa91b3d054dfee632411cf75c292": [
+      "OBJ:android.service.notification.INotificationListener",
+      "OBJ:java.lang.String[]",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {
+    "None:0f927d94435b6c536e3e4455743da4d8": 2,
+    "None:7719fa91b3d054dfee632411cf75c292": 2
+  },
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [
+    null
+  ],
+  "classes": [
+    "com.android.server.notification.NotificationManagerService$10",
+    "com.android.server.notification.NotificationManagerService",
+    "com.android.server.notification.ManagedServices"
+  ],
+  "phase_name": "change_uid",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 1,
+    "historical_service_not_invoked": 15,
+    "no_traces": 0,
+    "historical_no_traces": 0
+  },
+  "pids": [],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

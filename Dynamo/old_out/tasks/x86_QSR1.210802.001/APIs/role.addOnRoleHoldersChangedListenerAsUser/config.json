@@ -1,0 +1,29 @@
+{
+  "api": "role|addOnRoleHoldersChangedListenerAsUser|android.app.role.IOnRoleHoldersChangedListener,I|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "c6d04494d6b7ca1f9d5e951314719a83": [
+      "OBJ:android.app.role.IOnRoleHoldersChangedListener",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "5059b76c6108636c521fe7e934d59eec": [
+      "OBJ:android.app.role.IOnRoleHoldersChangedListener",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

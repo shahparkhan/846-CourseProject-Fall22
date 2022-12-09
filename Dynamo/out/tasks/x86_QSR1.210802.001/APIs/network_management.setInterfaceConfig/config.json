@@ -1,0 +1,29 @@
+{
+  "api": "network_management|setInterfaceConfig|java.lang.String,android.net.InterfaceConfiguration|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "351ed9087745449a154cad2081494eb7": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.net.InterfaceConfiguration"
+    ],
+    "aab1be54268bbd5dfdb0651779561cef": [
+      "S:com.android.systemui",
+      "OBJ:android.net.InterfaceConfiguration"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

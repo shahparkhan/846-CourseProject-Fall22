@@ -1,0 +1,41 @@
+{
+  "api": "phone|requestCellInfoUpdate|I,android.telephony.ICellInfoCallback,java.lang.String|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "5d6c7a0852469f111a87d457feb08231": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.telephony.ICellInfoCallback",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "a6f8859622801b8b5cfdbcc5507311c4": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.telephony.ICellInfoCallback",
+      "S:com.android.systemui"
+    ],
+    "5fb8ae244f4fc2d71294241fb05956da": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.telephony.ICellInfoCallback",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "d1da59f075166285e21d4cb9f34dd3ce": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.telephony.ICellInfoCallback",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,49 @@
+{
+  "api": "audio|adjustSuggestedStreamVolume|I,I,I,java.lang.String,java.lang.String|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "3e863bf47aaa5d0989ce318665287bce": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:0",
+      "INDEX:0",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:3"
+    ],
+    "2ea16157377fe11f21ffa01cb535f01c": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INDEX:0",
+      "INDEX:0",
+      "S:com.android.systemui",
+      "INDEX:3"
+    ],
+    "839d64eca0def0e4bebdd60a4a8a3938": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:0",
+      "INDEX:0",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:3"
+    ],
+    "879fa2bf4cd0ffc872fa5942772a5ddc": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INDEX:0",
+      "INDEX:0",
+      "S:com.android.systemui",
+      "INDEX:3"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,24 @@
+{
+  "api": "connmetrics|logEvent|android.net.ConnectivityMetricsEvent|I|",
+  "parameters_count": 1,
+  "parameters": {
+    "237b47122b57edea81b89a5e247d1912": [
+      "OBJ:android.net.ConnectivityMetricsEvent"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

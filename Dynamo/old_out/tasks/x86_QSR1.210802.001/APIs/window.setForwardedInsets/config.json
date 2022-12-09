@@ -1,0 +1,29 @@
+{
+  "api": "window|setForwardedInsets|I,android.graphics.Insets|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "ec66e3f54843edc2d3c9270212d25ca7": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.graphics.Insets"
+    ],
+    "47ef61d43925a6b29a0154538cc90a90": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.graphics.Insets"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

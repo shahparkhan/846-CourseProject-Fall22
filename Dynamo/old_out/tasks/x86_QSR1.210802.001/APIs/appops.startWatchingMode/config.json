@@ -1,0 +1,41 @@
+{
+  "api": "appops|startWatchingMode|I,java.lang.String,com.android.internal.app.IAppOpsCallback|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "9e1565e64581ebc529883b8550d58b30": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:com.android.internal.app.IAppOpsCallback"
+    ],
+    "903fb5a05bd177bb9315a94b1081a146": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "OBJ:com.android.internal.app.IAppOpsCallback"
+    ],
+    "27163518e8f84fd588fd03ce982f714c": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:com.android.internal.app.IAppOpsCallback"
+    ],
+    "66bb52c533b922fd1b381282b69a1364": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "OBJ:com.android.internal.app.IAppOpsCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

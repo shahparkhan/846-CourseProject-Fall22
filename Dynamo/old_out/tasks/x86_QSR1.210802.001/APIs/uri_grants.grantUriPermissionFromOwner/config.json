@@ -1,0 +1,93 @@
+{
+  "api": "uri_grants|grantUriPermissionFromOwner|android.os.IBinder,I,java.lang.String,android.net.Uri,I,I,I|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "97281253ee859140aa2384511ed18a58": [
+      "OBJ:android.os.IBinder",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "URI:content://user_dictionary/words",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1"
+    ],
+    "6a252890517f89d7e1d091e29dfd1240": [
+      "OBJ:android.os.IBinder",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "URI:content://com.android.contacts/contacts/lookup/0",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1"
+    ],
+    "d10617a7cd0fab7a4b27b41f48f25f22": [
+      "OBJ:android.os.IBinder",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "URI:content://user_dictionary/words",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1"
+    ],
+    "45ba889a12b32f260b6f4ceb3b6b9a39": [
+      "OBJ:android.os.IBinder",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "URI:content://com.android.contacts/contacts/lookup/0",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1"
+    ],
+    "1d9367330a5872283367f7a9fd839f8e": [
+      "OBJ:android.os.IBinder",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "URI:content://user_dictionary/words",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1"
+    ],
+    "7bdb616dd1423f340b73546bf9a69e1f": [
+      "OBJ:android.os.IBinder",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "URI:content://com.android.contacts/contacts/lookup/0",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1"
+    ],
+    "249289c7abdcda7afb7a980a983fdfad": [
+      "OBJ:android.os.IBinder",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "URI:content://user_dictionary/words",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1"
+    ],
+    "71cd99a06256730d6c3143b8c314eadc": [
+      "OBJ:android.os.IBinder",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "URI:content://com.android.contacts/contacts/lookup/0",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,29 @@
+{
+  "api": "wifi|deauthenticateNetwork|J,Z|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "a1b1a3095a5126cfcc8bacd57965f1e8": [
+      "OBJ:J",
+      "B:true"
+    ],
+    "abec4e39651793f86a171b13d3b6a180": [
+      "OBJ:J",
+      "B:false"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,25 @@
+{
+  "api": "activity_task|onBackPressedOnTaskRoot|android.os.IBinder,android.app.IRequestFinishCallback|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "06eae90411dc3b7c4f3b904d5d0503a3": [
+      "OBJ:android.os.IBinder",
+      "OBJ:android.app.IRequestFinishCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

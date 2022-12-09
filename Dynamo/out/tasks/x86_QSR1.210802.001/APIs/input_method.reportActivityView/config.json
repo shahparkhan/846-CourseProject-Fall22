@@ -1,0 +1,31 @@
+{
+  "api": "input_method|reportActivityView|com.android.internal.view.IInputMethodClient,I,F[]|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "e72bbca1a9732673178f266a4905df13": [
+      "OBJ:com.android.internal.view.IInputMethodClient",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:F[]"
+    ],
+    "080f519701cd92fc2b2c28832ee75533": [
+      "OBJ:com.android.internal.view.IInputMethodClient",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:F[]"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

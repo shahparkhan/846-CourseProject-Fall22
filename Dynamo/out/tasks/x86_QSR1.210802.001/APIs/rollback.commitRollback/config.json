@@ -1,0 +1,45 @@
+{
+  "api": "rollback|commitRollback|I,android.content.pm.ParceledListSlice,java.lang.String,android.content.IntentSender|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "293a7ffc563ba0eb9e95c74bc25f29ed": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.content.pm.ParceledListSlice",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.content.IntentSender"
+    ],
+    "296b38fdb2bc52b2bdf449f43a2041ca": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.content.pm.ParceledListSlice",
+      "S:com.android.systemui",
+      "OBJ:android.content.IntentSender"
+    ],
+    "30b11ac7d93f987858a69b30471e6aaf": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.content.pm.ParceledListSlice",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.content.IntentSender"
+    ],
+    "14f0027abc88b61d4ca07997d1fc6b9e": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.content.pm.ParceledListSlice",
+      "S:com.android.systemui",
+      "OBJ:android.content.IntentSender"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

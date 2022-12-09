@@ -1,0 +1,69 @@
+{
+  "api": "media.camera|connectDevice|android.hardware.camera2.ICameraDeviceCallbacks,java.lang.String,java.lang.String,I|android.hardware.camera2.ICameraDeviceUser|",
+  "parameters_count": 8,
+  "parameters": {
+    "4e1de03b000247168ef82471a562c672": [
+      "OBJ:android.hardware.camera2.ICameraDeviceCallbacks",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "a13700f0ce7d55275ea88dd490ed3c0d": [
+      "OBJ:android.hardware.camera2.ICameraDeviceCallbacks",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "d080fc9af719134efcf21f59269b1f2a": [
+      "OBJ:android.hardware.camera2.ICameraDeviceCallbacks",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "2becdd7958d8af548297493783c87de0": [
+      "OBJ:android.hardware.camera2.ICameraDeviceCallbacks",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "b6f01664066cffd95cbefd38359060c8": [
+      "OBJ:android.hardware.camera2.ICameraDeviceCallbacks",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "9169514b6c154110cae72758d195d170": [
+      "OBJ:android.hardware.camera2.ICameraDeviceCallbacks",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "ce4f9b9bc1a5b7d9e825a8f7d97088aa": [
+      "OBJ:android.hardware.camera2.ICameraDeviceCallbacks",
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "ca4706f8e99f598cf5b542bb7254320c": [
+      "OBJ:android.hardware.camera2.ICameraDeviceCallbacks",
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

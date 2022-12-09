@@ -1,0 +1,665 @@
+[
+  {
+    "service": "wificond",
+    "host": "wificond"
+  },
+  {
+    "service": "media.player",
+    "host": "mediaserver"
+  },
+  {
+    "service": "media.resource_manager",
+    "host": "mediaserver"
+  },
+  {
+    "service": "media.audio_flinger",
+    "host": "audioserver"
+  },
+  {
+    "service": "dnsresolver",
+    "host": "",
+    "selinux_types": "u:r:netd:s0"
+  },
+  {
+    "service": "netd",
+    "host": "",
+    "selinux_types": "u:r:netd:s0"
+  },
+  {
+    "service": "device_identifiers",
+    "host": "system_server"
+  },
+  {
+    "service": "uri_grants",
+    "host": "system_server"
+  },
+  {
+    "service": "activity_task",
+    "host": "system_server"
+  },
+  {
+    "service": "batterystats",
+    "host": "system_server"
+  },
+  {
+    "service": "appops",
+    "host": "system_server"
+  },
+  {
+    "service": "power",
+    "host": "system_server"
+  },
+  {
+    "service": "thermalservice",
+    "host": "system_server"
+  },
+  {
+    "service": "recovery",
+    "host": "system_server"
+  },
+  {
+    "service": "display",
+    "host": "system_server"
+  },
+  {
+    "service": "package",
+    "host": "system_server"
+  },
+  {
+    "service": "package_native",
+    "host": "system_server"
+  },
+  {
+    "service": "otadexopt",
+    "host": "system_server"
+  },
+  {
+    "service": "user",
+    "host": "system_server"
+  },
+  {
+    "service": "activity",
+    "host": "system_server"
+  },
+  {
+    "service": "procstats",
+    "host": "system_server"
+  },
+  {
+    "service": "meminfo",
+    "host": "system_server"
+  },
+  {
+    "service": "gfxinfo",
+    "host": "system_server"
+  },
+  {
+    "service": "dbinfo",
+    "host": "system_server"
+  },
+  {
+    "service": "cpuinfo",
+    "host": "system_server"
+  },
+  {
+    "service": "permission",
+    "host": "system_server"
+  },
+  {
+    "service": "processinfo",
+    "host": "system_server"
+  },
+  {
+    "service": "overlay",
+    "host": "system_server"
+  },
+  {
+    "service": "sensor_privacy",
+    "host": "system_server"
+  },
+  {
+    "service": "sensorservice",
+    "host": "system_server"
+  },
+  {
+    "service": "media.camera",
+    "host": "cameraserver"
+  },
+  {
+    "service": "battery",
+    "host": "system_server"
+  },
+  {
+    "service": "batteryproperties",
+    "host": "system_server"
+  },
+  {
+    "service": "media.audio_policy",
+    "host": "audioserver"
+  },
+  {
+    "service": "media.sound_trigger_hw",
+    "host": "audioserver"
+  },
+  {
+    "service": "usagestats",
+    "host": "system_server"
+  },
+  {
+    "service": "webviewupdate",
+    "host": "system_server"
+  },
+  {
+    "service": "binder_calls_stats",
+    "host": "system_server"
+  },
+  {
+    "service": "looper_stats",
+    "host": "system_server"
+  },
+  {
+    "service": "rollback",
+    "host": "system_server"
+  },
+  {
+    "service": "bugreport",
+    "host": "system_server"
+  },
+  {
+    "service": "sec_key_att_app_id_provider",
+    "host": "system_server"
+  },
+  {
+    "service": "scheduling_policy",
+    "host": "system_server"
+  },
+  {
+    "service": "telephony.registry",
+    "host": "system_server"
+  },
+  {
+    "service": "account",
+    "host": "system_server"
+  },
+  {
+    "service": "content",
+    "host": "system_server"
+  },
+  {
+    "service": "settings",
+    "host": "system_server"
+  },
+  {
+    "service": "device_config",
+    "host": "system_server"
+  },
+  {
+    "service": "dropbox",
+    "host": "system_server"
+  },
+  {
+    "service": "external_vibrator_service",
+    "host": "system_server"
+  },
+  {
+    "service": "vibrator",
+    "host": "system_server"
+  },
+  {
+    "service": "dynamic_system",
+    "host": "system_server"
+  },
+  {
+    "service": "consumer_ir",
+    "host": "system_server"
+  },
+  {
+    "service": "alarm",
+    "host": "system_server"
+  },
+  {
+    "service": "inputflinger",
+    "host": "system_server"
+  },
+  {
+    "service": "window",
+    "host": "system_server"
+  },
+  {
+    "service": "input",
+    "host": "system_server"
+  },
+  {
+    "service": "network_watchlist",
+    "host": "system_server"
+  },
+  {
+    "service": "pinner",
+    "host": "system_server"
+  },
+  {
+    "service": "input_method",
+    "host": "system_server"
+  },
+  {
+    "service": "accessibility",
+    "host": "system_server"
+  },
+  {
+    "service": "mount",
+    "host": "system_server"
+  },
+  {
+    "service": "storagestats",
+    "host": "system_server"
+  },
+  {
+    "service": "uimode",
+    "host": "system_server"
+  },
+  {
+    "service": "lock_settings",
+    "host": "system_server"
+  },
+  {
+    "service": "testharness",
+    "host": "system_server"
+  },
+  {
+    "service": "deviceidle",
+    "host": "system_server"
+  },
+  {
+    "service": "device_policy",
+    "host": "system_server"
+  },
+  {
+    "service": "statusbar",
+    "host": "system_server"
+  },
+  {
+    "service": "app_prediction",
+    "host": "system_server"
+  },
+  {
+    "service": "content_suggestions",
+    "host": "system_server"
+  },
+  {
+    "service": "network_management",
+    "host": "system_server"
+  },
+  {
+    "service": "ipsec",
+    "host": "system_server"
+  },
+  {
+    "service": "textservices",
+    "host": "system_server"
+  },
+  {
+    "service": "textclassification",
+    "host": "system_server"
+  },
+  {
+    "service": "network_score",
+    "host": "system_server"
+  },
+  {
+    "service": "netstats",
+    "host": "system_server"
+  },
+  {
+    "service": "netpolicy",
+    "host": "system_server"
+  },
+  {
+    "service": "wifi",
+    "host": "system_server"
+  },
+  {
+    "service": "wifiscanner",
+    "host": "system_server"
+  },
+  {
+    "service": "wifip2p",
+    "host": "system_server"
+  },
+  {
+    "service": "connectivity",
+    "host": "system_server"
+  },
+  {
+    "service": "servicediscovery",
+    "host": "system_server"
+  },
+  {
+    "service": "system_update",
+    "host": "system_server"
+  },
+  {
+    "service": "updatelock",
+    "host": "system_server"
+  },
+  {
+    "service": "notification",
+    "host": "system_server"
+  },
+  {
+    "service": "devicestoragemonitor",
+    "host": "system_server"
+  },
+  {
+    "service": "location",
+    "host": "system_server"
+  },
+  {
+    "service": "country_detector",
+    "host": "system_server"
+  },
+  {
+    "service": "time_detector",
+    "host": "system_server"
+  },
+  {
+    "service": "search",
+    "host": "system_server"
+  },
+  {
+    "service": "wallpaper",
+    "host": "system_server"
+  },
+  {
+    "service": "audio",
+    "host": "system_server"
+  },
+  {
+    "service": "DockObserver",
+    "host": "system_server"
+  },
+  {
+    "service": "midi",
+    "host": "system_server"
+  },
+  {
+    "service": "adb",
+    "host": "system_server"
+  },
+  {
+    "service": "usb",
+    "host": "system_server"
+  },
+  {
+    "service": "serial",
+    "host": "system_server"
+  },
+  {
+    "service": "hardware_properties",
+    "host": "system_server"
+  },
+  {
+    "service": "color_display",
+    "host": "system_server"
+  },
+  {
+    "service": "jobscheduler",
+    "host": "system_server"
+  },
+  {
+    "service": "soundtrigger",
+    "host": "system_server"
+  },
+  {
+    "service": "trust",
+    "host": "system_server"
+  },
+  {
+    "service": "backup",
+    "host": "system_server"
+  },
+  {
+    "service": "appwidget",
+    "host": "system_server"
+  },
+  {
+    "service": "role",
+    "host": "system_server"
+  },
+  {
+    "service": "voiceinteraction",
+    "host": "system_server"
+  },
+  {
+    "service": "diskstats",
+    "host": "system_server"
+  },
+  {
+    "service": "runtime",
+    "host": "system_server"
+  },
+  {
+    "service": "network_time_update_service",
+    "host": "system_server"
+  },
+  {
+    "service": "dreams",
+    "host": "system_server"
+  },
+  {
+    "service": "graphicsstats",
+    "host": "system_server"
+  },
+  {
+    "service": "print",
+    "host": "system_server"
+  },
+  {
+    "service": "restrictions",
+    "host": "system_server"
+  },
+  {
+    "service": "media_session",
+    "host": "system_server"
+  },
+  {
+    "service": "media_resource_monitor",
+    "host": "system_server"
+  },
+  {
+    "service": "media_router",
+    "host": "system_server"
+  },
+  {
+    "service": "fingerprint",
+    "host": "system_server"
+  },
+  {
+    "service": "biometric",
+    "host": "system_server"
+  },
+  {
+    "service": "shortcut",
+    "host": "system_server"
+  },
+  {
+    "service": "launcherapps",
+    "host": "system_server"
+  },
+  {
+    "service": "crossprofileapps",
+    "host": "system_server"
+  },
+  {
+    "service": "media_projection",
+    "host": "system_server"
+  },
+  {
+    "service": "slice",
+    "host": "system_server"
+  },
+  {
+    "service": "media.camera.proxy",
+    "host": "system_server"
+  },
+  {
+    "service": "statscompanion",
+    "host": "system_server"
+  },
+  {
+    "service": "incidentcompanion",
+    "host": "system_server"
+  },
+  {
+    "service": "imms",
+    "host": "system_server"
+  },
+  {
+    "service": "autofill",
+    "host": "system_server"
+  },
+  {
+    "service": "clipboard",
+    "host": "system_server"
+  },
+  {
+    "service": "app_binding",
+    "host": "system_server"
+  },
+  {
+    "service": "connmetrics",
+    "host": "system_server"
+  },
+  {
+    "service": "netd_listener",
+    "host": "system_server"
+  },
+  {
+    "service": "contexthub",
+    "host": "system_server"
+  },
+  {
+    "service": "network_stack",
+    "host": "system_server"
+  },
+  {
+    "service": "telecom",
+    "host": "system_server"
+  },
+  {
+    "service": "isub",
+    "host": "com.android.phone,com.android.ims.rcsservice"
+  },
+  {
+    "service": "ircs",
+    "host": "com.android.phone,com.android.ims.rcsservice"
+  },
+  {
+    "service": "simphonebook",
+    "host": "com.android.phone,com.android.ims.rcsservice"
+  },
+  {
+    "service": "iphonesubinfo",
+    "host": "com.android.phone,com.android.ims.rcsservice"
+  },
+  {
+    "service": "isms",
+    "host": "com.android.phone,com.android.ims.rcsservice"
+  },
+  {
+    "service": "phone",
+    "host": "com.android.phone,com.android.ims.rcsservice"
+  },
+  {
+    "service": "carrier_config",
+    "host": "com.android.phone,com.android.ims.rcsservice"
+  },
+  {
+    "service": "secure_element",
+    "host": "com.android.se"
+  },
+  {
+    "service": "rcs",
+    "host": "com.android.phone,com.android.ims.rcsservice"
+  },
+  {
+    "service": "gsiservice",
+    "host": "",
+    "selinux_types": "u:r:gsid:s0"
+  },
+  {
+    "service": "ions",
+    "host": "com.android.phone,com.android.ims.rcsservice"
+  },
+  {
+    "service": "SurfaceFlinger",
+    "host": ""
+  },
+  {
+    "service": "media.extractor",
+    "host": ""
+  },
+  {
+    "service": "storaged_pri",
+    "host": ""
+  },
+  {
+    "service": "storaged",
+    "host": ""
+  },
+  {
+    "service": "drm.drmManager",
+    "host": ""
+  },
+  {
+    "service": "media.metrics",
+    "host": ""
+  },
+  {
+    "service": "android.security.keystore",
+    "host": ""
+  },
+  {
+    "service": "stats",
+    "host": ""
+  },
+  {
+    "service": "media.drm",
+    "host": ""
+  },
+  {
+    "service": "android.service.gatekeeper.IGateKeeperService",
+    "host": ""
+  },
+  {
+    "service": "idmap",
+    "host": ""
+  },
+  {
+    "service": "installd",
+    "host": ""
+  },
+  {
+    "service": "incident",
+    "host": ""
+  },
+  {
+    "service": "gpu",
+    "host": ""
+  },
+  {
+    "service": "ashmem_device_service",
+    "host": ""
+  },
+  {
+    "service": "suspend_control",
+    "host": ""
+  },
+  {
+    "service": "apexservice",
+    "host": ""
+  },
+  {
+    "service": "vold",
+    "host": ""
+  }
+]

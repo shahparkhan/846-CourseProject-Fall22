@@ -1,0 +1,29 @@
+{
+  "api": "ircs|getParticipants|android.telephony.ims.RcsParticipantQueryParams,java.lang.String|android.telephony.ims.RcsParticipantQueryResultParcelable|",
+  "parameters_count": 2,
+  "parameters": {
+    "799929a82cf6b7eea4405020cfc38b82": [
+      "OBJ:android.telephony.ims.RcsParticipantQueryParams",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "649c9e365bfa28f7414f66769a9d8015": [
+      "OBJ:android.telephony.ims.RcsParticipantQueryParams",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

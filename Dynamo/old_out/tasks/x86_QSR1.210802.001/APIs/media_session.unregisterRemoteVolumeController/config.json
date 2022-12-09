@@ -1,0 +1,24 @@
+{
+  "api": "media_session|unregisterRemoteVolumeController|android.media.IRemoteVolumeController|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "490073301135085a75f998445a0dfb61": [
+      "OBJ:android.media.IRemoteVolumeController"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

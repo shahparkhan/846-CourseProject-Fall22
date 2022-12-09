@@ -1,0 +1,41 @@
+{
+  "api": "launcherapps|getShortcutConfigActivities|java.lang.String,java.lang.String,android.os.UserHandle|android.content.pm.ParceledListSlice|",
+  "parameters_count": 4,
+  "parameters": {
+    "76affbcacd09ec931c8301fb2c419478": [
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.UserHandle"
+    ],
+    "1b750ac64bde8dce1896e4ad2d5d0e06": [
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "OBJ:android.os.UserHandle"
+    ],
+    "75193918b82cfc113801a5e45b89336e": [
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.UserHandle"
+    ],
+    "3f551d6d5dd8fd7c9f7a191c78d3d0dd": [
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "OBJ:android.os.UserHandle"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

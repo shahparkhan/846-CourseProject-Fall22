@@ -1,0 +1,45 @@
+{
+  "api": "appwidget|requestPinAppWidget|java.lang.String,android.content.ComponentName,android.os.Bundle,android.content.IntentSender|Z|",
+  "parameters_count": 4,
+  "parameters": {
+    "7cb9c78eb3e7dcb4c59e9767ab548e9e": [
+      "S:fuzzer.permission.uidchanger",
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.Bundle",
+      "OBJ:android.content.IntentSender"
+    ],
+    "91f05682bc97c8bf16e43ac54923ac99": [
+      "S:fuzzer.permission.uidchanger",
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.Bundle",
+      "OBJ:android.content.IntentSender"
+    ],
+    "fed4877fff823070cc902d734712afb9": [
+      "S:com.android.systemui",
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.Bundle",
+      "OBJ:android.content.IntentSender"
+    ],
+    "9b6fed141b79f59d59a4ff7d02263a9d": [
+      "S:com.android.systemui",
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.Bundle",
+      "OBJ:android.content.IntentSender"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

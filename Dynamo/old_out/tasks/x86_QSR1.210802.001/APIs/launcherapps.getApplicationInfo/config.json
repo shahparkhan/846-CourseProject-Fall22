@@ -1,0 +1,69 @@
+{
+  "api": "launcherapps|getApplicationInfo|java.lang.String,java.lang.String,I,android.os.UserHandle|android.content.pm.ApplicationInfo|",
+  "parameters_count": 8,
+  "parameters": {
+    "aae67fb189b3f121205bfe55e68c3588": [
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.UserHandle"
+    ],
+    "bbe613634c5fc14582397591dfd1e845": [
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.UserHandle"
+    ],
+    "dda59ad41ac2121de18a7fb818cf3ebb": [
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.UserHandle"
+    ],
+    "ebaa5a72207e2d323f5780e9dba95660": [
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.UserHandle"
+    ],
+    "11cca10aba9857a20c1dcdea6cac0c28": [
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.UserHandle"
+    ],
+    "46647f43d87b316efff5c20e0cce832c": [
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.UserHandle"
+    ],
+    "816a46133bf32a67957c23184966091e": [
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.UserHandle"
+    ],
+    "e031264474685057ab86f9f7b54efda2": [
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.UserHandle"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

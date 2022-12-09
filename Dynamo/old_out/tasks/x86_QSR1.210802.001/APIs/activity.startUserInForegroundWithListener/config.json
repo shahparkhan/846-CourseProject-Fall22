@@ -1,0 +1,29 @@
+{
+  "api": "activity|startUserInForegroundWithListener|I,android.os.IProgressListener|Z|",
+  "parameters_count": 2,
+  "parameters": {
+    "f2b92a33fa2c368a096d3c5627c4a517": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.IProgressListener"
+    ],
+    "87ff6a161592694f7195f5759edbd75b": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.IProgressListener"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

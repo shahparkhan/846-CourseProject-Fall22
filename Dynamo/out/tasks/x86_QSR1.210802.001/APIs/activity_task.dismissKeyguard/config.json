@@ -1,0 +1,26 @@
+{
+  "api": "activity_task|dismissKeyguard|android.os.IBinder,com.android.internal.policy.IKeyguardDismissCallback,java.lang.CharSequence|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "a4968b81fdfc4c1c2a1e3b1c73b09d9b": [
+      "OBJ:android.os.IBinder",
+      "OBJ:com.android.internal.policy.IKeyguardDismissCallback",
+      "OBJ:java.lang.CharSequence"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

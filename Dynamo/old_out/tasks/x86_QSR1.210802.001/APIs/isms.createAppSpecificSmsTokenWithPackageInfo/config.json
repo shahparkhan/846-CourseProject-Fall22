@@ -1,0 +1,69 @@
+{
+  "api": "isms|createAppSpecificSmsTokenWithPackageInfo|I,java.lang.String,java.lang.String,android.app.PendingIntent|java.lang.String|",
+  "parameters_count": 8,
+  "parameters": {
+    "d178ccd2297d8f71bf80300e1f529381": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.app.PendingIntent"
+    ],
+    "b51044d5e1b29b292e018f4b8d29a229": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "OBJ:android.app.PendingIntent"
+    ],
+    "1c2bca6c409eefe62a1b848ed18077d0": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.app.PendingIntent"
+    ],
+    "b5601e935f23c6a53e2fcf7e3adafd07": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "OBJ:android.app.PendingIntent"
+    ],
+    "cfd755bf067d38258dcdc945f5af5b41": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.app.PendingIntent"
+    ],
+    "70457014c2352b6a92918078b0221a75": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "OBJ:android.app.PendingIntent"
+    ],
+    "77fecf283fee1caaf8bd86e87cb965d4": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.app.PendingIntent"
+    ],
+    "aac55a6c6dc77e486d0b91e138e41991": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "OBJ:android.app.PendingIntent"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

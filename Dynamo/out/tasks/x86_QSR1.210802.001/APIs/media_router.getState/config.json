@@ -1,0 +1,24 @@
+{
+  "api": "media_router|getState|android.media.IMediaRouterClient|android.media.MediaRouterClientState|",
+  "parameters_count": 1,
+  "parameters": {
+    "62cb565d7604edc00beea046218f03b6": [
+      "OBJ:android.media.IMediaRouterClient"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

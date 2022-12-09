@@ -1,0 +1,53 @@
+{
+  "api": "incidentcompanion|authorizeReport|I,java.lang.String,java.lang.String,java.lang.String,I,android.os.IIncidentAuthListener|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "fa8943d2aadb452271c08dff9e3f7006": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:0",
+      "OBJ:android.os.IIncidentAuthListener"
+    ],
+    "62d900072d1af43866c6f1784765d076": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:0",
+      "OBJ:android.os.IIncidentAuthListener"
+    ],
+    "a3f62a8d58b89def070cf768aeb585fb": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:0",
+      "OBJ:android.os.IIncidentAuthListener"
+    ],
+    "c07f5cd815e453653b41f9f79d506621": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:0",
+      "OBJ:android.os.IIncidentAuthListener"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

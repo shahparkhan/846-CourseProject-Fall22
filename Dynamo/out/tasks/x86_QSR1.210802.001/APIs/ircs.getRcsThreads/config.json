@@ -1,0 +1,29 @@
+{
+  "api": "ircs|getRcsThreads|android.telephony.ims.RcsThreadQueryParams,java.lang.String|android.telephony.ims.RcsThreadQueryResultParcelable|",
+  "parameters_count": 2,
+  "parameters": {
+    "c7dca8c59a55c6ec9ec1fa1f3bdf980a": [
+      "OBJ:android.telephony.ims.RcsThreadQueryParams",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "59affd876e57397c24c161568a2952b7": [
+      "OBJ:android.telephony.ims.RcsThreadQueryParams",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

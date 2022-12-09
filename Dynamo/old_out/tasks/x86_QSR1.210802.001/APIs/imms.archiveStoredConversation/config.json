@@ -1,0 +1,41 @@
+{
+  "api": "imms|archiveStoredConversation|java.lang.String,J,Z|Z|",
+  "parameters_count": 4,
+  "parameters": {
+    "c40310f6c3d5538df2dc65b10ccf3d44": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:J",
+      "B:true"
+    ],
+    "3b6d3e9a42d30c6fbdfefaa9a0c0c78d": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:J",
+      "B:false"
+    ],
+    "35548628eda642a16c03163b3fce84a4": [
+      "S:com.android.systemui",
+      "OBJ:J",
+      "B:true"
+    ],
+    "1e5ca62ea451f868f6558583deac6513": [
+      "S:com.android.systemui",
+      "OBJ:J",
+      "B:false"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

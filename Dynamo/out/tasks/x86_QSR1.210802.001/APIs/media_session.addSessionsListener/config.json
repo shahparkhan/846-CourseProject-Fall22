@@ -1,0 +1,41 @@
+{
+  "api": "media_session|addSessionsListener|android.media.session.IActiveSessionsListener,android.content.ComponentName,I|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "2b186ef447836374098f1dc2f77952e0": [
+      "OBJ:android.media.session.IActiveSessionsListener",
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "15d2038af16694396eadc6069b15fcf0": [
+      "OBJ:android.media.session.IActiveSessionsListener",
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "dbef5d0c56bd3e8a5c0d8b21fda5d436": [
+      "OBJ:android.media.session.IActiveSessionsListener",
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "cc20ee6f27a8e19f612fbd7be305b1c4": [
+      "OBJ:android.media.session.IActiveSessionsListener",
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,24 @@
+{
+  "api": "color_display|setNightDisplayCustomStartTime|android.hardware.display.Time|Z|",
+  "parameters_count": 1,
+  "parameters": {
+    "a4108c965e52dd982cae31d38a518ae0": [
+      "OBJ:android.hardware.display.Time"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

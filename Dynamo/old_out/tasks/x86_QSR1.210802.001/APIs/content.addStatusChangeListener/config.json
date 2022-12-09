@@ -1,0 +1,29 @@
+{
+  "api": "content|addStatusChangeListener|I,android.content.ISyncStatusObserver|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "57d87980c44b82360587806b25b1a209": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.content.ISyncStatusObserver"
+    ],
+    "db6db4ce6dcdc42758b4b35881bda80c": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.content.ISyncStatusObserver"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

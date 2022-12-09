@@ -1,0 +1,24 @@
+{
+  "api": "notification|requestUnbindProvider|android.service.notification.IConditionProvider|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "df8bf912be4ec3d3d45de32d2ba0a1b6": [
+      "OBJ:android.service.notification.IConditionProvider"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

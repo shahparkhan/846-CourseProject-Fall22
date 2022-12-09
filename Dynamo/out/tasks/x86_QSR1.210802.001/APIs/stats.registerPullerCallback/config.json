@@ -1,0 +1,41 @@
+{
+  "api": "stats|registerPullerCallback|I,android.os.IStatsPullerCallback,java.lang.String|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "4bfe460ec32108f5ad20946a51ccb190": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.IStatsPullerCallback",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "db95fcf7ebd852121a590c61fa957f6d": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.IStatsPullerCallback",
+      "S:com.android.systemui"
+    ],
+    "188afa9b2a8c24a92a580fd8c09db8e3": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.IStatsPullerCallback",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "39e89d275827cb853288841191d28d09": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.IStatsPullerCallback",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

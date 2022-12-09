@@ -1,0 +1,29 @@
+{
+  "api": "location|addGnssMeasurementsListener|android.location.IGnssMeasurementsListener,java.lang.String|Z|",
+  "parameters_count": 2,
+  "parameters": {
+    "b04400648f64df5f4c4f0cb772eb69f7": [
+      "OBJ:android.location.IGnssMeasurementsListener",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "51bfeada95b6a75ae7ee540bfb9b001a": [
+      "OBJ:android.location.IGnssMeasurementsListener",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

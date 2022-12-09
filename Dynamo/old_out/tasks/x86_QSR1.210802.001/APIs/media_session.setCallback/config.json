@@ -1,0 +1,24 @@
+{
+  "api": "media_session|setCallback|android.media.session.ICallback|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "c7f862a2ac1e5b0fbb3918bc9eb30624": [
+      "OBJ:android.media.session.ICallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,25 @@
+{
+  "api": "app_prediction|registerPredictionUpdates|android.app.prediction.AppPredictionSessionId,android.app.prediction.IPredictionCallback|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "784f65f19bb0f1ff86874ecf7dda9668": [
+      "OBJ:android.app.prediction.AppPredictionSessionId",
+      "OBJ:android.app.prediction.IPredictionCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

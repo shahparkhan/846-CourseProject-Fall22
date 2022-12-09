@@ -1,0 +1,24 @@
+{
+  "api": "window|setDockedStackDividerTouchRegion|android.graphics.Rect|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "16b89cf51df846aa41f2221181af6019": [
+      "OBJ:android.graphics.Rect"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

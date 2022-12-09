@@ -1,0 +1,24 @@
+{
+  "api": "activity|unbindBackupAgent|android.content.pm.ApplicationInfo|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "1de7164090319f622ecb494ca42c0de7": [
+      "OBJ:android.content.pm.ApplicationInfo"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,29 @@
+{
+  "api": "batteryproperties|getProperty|I,android.os.BatteryProperty|I|",
+  "parameters_count": 2,
+  "parameters": {
+    "dc43a9617fb8de96c07c79175d069a39": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.BatteryProperty"
+    ],
+    "ac7c717264a4b254a9dd4f760dbb2228": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.BatteryProperty"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

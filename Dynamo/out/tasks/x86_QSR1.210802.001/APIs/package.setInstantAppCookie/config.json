@@ -1,0 +1,41 @@
+{
+  "api": "package|setInstantAppCookie|java.lang.String,B[],I|Z|",
+  "parameters_count": 4,
+  "parameters": {
+    "d5047e442281c39986d4a36bc41ddda0": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:B[]",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "d4a73f2e006e5f349879b3705395c6d9": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:B[]",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "703c7e50a37a9f6240c145c467dd2474": [
+      "S:com.android.systemui",
+      "OBJ:B[]",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "65e86ddfc12deef8838b74d44a339192": [
+      "S:com.android.systemui",
+      "OBJ:B[]",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

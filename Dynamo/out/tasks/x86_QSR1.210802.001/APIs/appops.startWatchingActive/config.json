@@ -1,0 +1,25 @@
+{
+  "api": "appops|startWatchingActive|I[],com.android.internal.app.IAppOpsActiveCallback|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "521ddabf086a747aa0088e12e9fd9079": [
+      "OBJ:I[]",
+      "OBJ:com.android.internal.app.IAppOpsActiveCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

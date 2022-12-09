@@ -1,0 +1,41 @@
+{
+  "api": "wallpaper|registerWallpaperColorsCallback|android.app.IWallpaperManagerCallback,I,I|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "9d9b41fa5f64aa62e4621a745849e0f1": [
+      "OBJ:android.app.IWallpaperManagerCallback",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "eebb1d2b3f031f4f27f54014133a99a8": [
+      "OBJ:android.app.IWallpaperManagerCallback",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "ecebad69866d5f772b81909c285c768c": [
+      "OBJ:android.app.IWallpaperManagerCallback",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "e1c2e6665ec6bc462eecb1423d4e6392": [
+      "OBJ:android.app.IWallpaperManagerCallback",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

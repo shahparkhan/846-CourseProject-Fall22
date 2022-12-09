@@ -1,0 +1,29 @@
+{
+  "api": "window|setAnimationScale|I,F|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "e64b193393a33bc791f7391c54c76498": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:F"
+    ],
+    "06e1597bc934110e38a2c860f1b08e98": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:F"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

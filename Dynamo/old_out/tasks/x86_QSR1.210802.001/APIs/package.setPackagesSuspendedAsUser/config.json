@@ -1,0 +1,93 @@
+{
+  "api": "package|setPackagesSuspendedAsUser|java.lang.String[],Z,android.os.PersistableBundle,android.os.PersistableBundle,android.content.pm.SuspendDialogInfo,java.lang.String,I|java.lang.String[]|",
+  "parameters_count": 8,
+  "parameters": {
+    "089b03992a43962605ef853b99f478e0": [
+      "OBJ:java.lang.String[]",
+      "B:true",
+      "OBJ:android.os.PersistableBundle",
+      "OBJ:android.os.PersistableBundle",
+      "OBJ:android.content.pm.SuspendDialogInfo",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "8cf164e4dabe8d5d5eeddbebf7fd16ed": [
+      "OBJ:java.lang.String[]",
+      "B:true",
+      "OBJ:android.os.PersistableBundle",
+      "OBJ:android.os.PersistableBundle",
+      "OBJ:android.content.pm.SuspendDialogInfo",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "ea4a3b72072122940e0db018db23e8ec": [
+      "OBJ:java.lang.String[]",
+      "B:true",
+      "OBJ:android.os.PersistableBundle",
+      "OBJ:android.os.PersistableBundle",
+      "OBJ:android.content.pm.SuspendDialogInfo",
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "2c6a5612f6ce8a46fa1a051f21f4d0e5": [
+      "OBJ:java.lang.String[]",
+      "B:true",
+      "OBJ:android.os.PersistableBundle",
+      "OBJ:android.os.PersistableBundle",
+      "OBJ:android.content.pm.SuspendDialogInfo",
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "755d32e358e4abc8cb6fbd3c8b7fd1d7": [
+      "OBJ:java.lang.String[]",
+      "B:false",
+      "OBJ:android.os.PersistableBundle",
+      "OBJ:android.os.PersistableBundle",
+      "OBJ:android.content.pm.SuspendDialogInfo",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "d256833746d02602f81428a5892eb6c4": [
+      "OBJ:java.lang.String[]",
+      "B:false",
+      "OBJ:android.os.PersistableBundle",
+      "OBJ:android.os.PersistableBundle",
+      "OBJ:android.content.pm.SuspendDialogInfo",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "16dfccaf70c5b6a694b6eed0757871a6": [
+      "OBJ:java.lang.String[]",
+      "B:false",
+      "OBJ:android.os.PersistableBundle",
+      "OBJ:android.os.PersistableBundle",
+      "OBJ:android.content.pm.SuspendDialogInfo",
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "f2823acad1803a4187a46fd071a036f9": [
+      "OBJ:java.lang.String[]",
+      "B:false",
+      "OBJ:android.os.PersistableBundle",
+      "OBJ:android.os.PersistableBundle",
+      "OBJ:android.content.pm.SuspendDialogInfo",
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

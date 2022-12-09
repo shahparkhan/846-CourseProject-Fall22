@@ -1,0 +1,41 @@
+{
+  "api": "package|deleteApplicationCacheFilesAsUser|java.lang.String,I,android.content.pm.IPackageDataObserver|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "bcbf84ba20ae763848a5a382dd968c89": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.content.pm.IPackageDataObserver"
+    ],
+    "8fc1f8f2438ef2b54f0275372a58672a": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.content.pm.IPackageDataObserver"
+    ],
+    "058e2cfa7576312eb3baff88f0f3d077": [
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.content.pm.IPackageDataObserver"
+    ],
+    "61306633120eff7c628971c7e849f8ea": [
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.content.pm.IPackageDataObserver"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

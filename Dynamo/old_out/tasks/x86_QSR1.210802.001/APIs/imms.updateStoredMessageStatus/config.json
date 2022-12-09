@@ -1,0 +1,41 @@
+{
+  "api": "imms|updateStoredMessageStatus|java.lang.String,android.net.Uri,android.content.ContentValues|Z|",
+  "parameters_count": 4,
+  "parameters": {
+    "3985004c7a2482965c423ca1f75c312e": [
+      "S:fuzzer.permission.uidchanger",
+      "URI:content://user_dictionary/words",
+      "OBJ:android.content.ContentValues"
+    ],
+    "2b6cbe3468e282310037a4fcf1a628d7": [
+      "S:fuzzer.permission.uidchanger",
+      "URI:content://com.android.contacts/contacts/lookup/0",
+      "OBJ:android.content.ContentValues"
+    ],
+    "86ac2201819f7b7341f50ce1e26c306f": [
+      "S:com.android.systemui",
+      "URI:content://user_dictionary/words",
+      "OBJ:android.content.ContentValues"
+    ],
+    "373729f4ad4c0f9ba627ab790df34b14": [
+      "S:com.android.systemui",
+      "URI:content://com.android.contacts/contacts/lookup/0",
+      "OBJ:android.content.ContentValues"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

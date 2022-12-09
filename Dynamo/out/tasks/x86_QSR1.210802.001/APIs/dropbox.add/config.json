@@ -1,0 +1,24 @@
+{
+  "api": "dropbox|add|android.os.DropBoxManager.Entry|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "597d2e7dac83a88baf0c820380c109bc": [
+      "OBJ:android.os.DropBoxManager.Entry"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

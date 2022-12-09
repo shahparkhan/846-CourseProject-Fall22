@@ -1,0 +1,33 @@
+{
+  "api": "soundtrigger|startRecognitionForService|android.os.ParcelUuid,android.os.Bundle,android.content.ComponentName,android.hardware.soundtrigger.SoundTrigger.RecognitionConfig|I|",
+  "parameters_count": 2,
+  "parameters": {
+    "67cace7b5daf3aa98e208bf76feac09e": [
+      "OBJ:android.os.ParcelUuid",
+      "OBJ:android.os.Bundle",
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.hardware.soundtrigger.SoundTrigger.RecognitionConfig"
+    ],
+    "aecfd1c65f49986d8472b8c1a1e26345": [
+      "OBJ:android.os.ParcelUuid",
+      "OBJ:android.os.Bundle",
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.hardware.soundtrigger.SoundTrigger.RecognitionConfig"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

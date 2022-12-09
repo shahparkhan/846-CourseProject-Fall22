@@ -1,0 +1,49 @@
+{
+  "api": "account|finishSessionAsUser|android.accounts.IAccountManagerResponse,android.os.Bundle,Z,android.os.Bundle,I|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "60e5bc4185aff0590b4649df43d19ab3": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "OBJ:android.os.Bundle",
+      "B:true",
+      "OBJ:android.os.Bundle",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "a8ee3d5ba5724be9f00749a18ace4fc2": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "OBJ:android.os.Bundle",
+      "B:true",
+      "OBJ:android.os.Bundle",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "6c8d7f915fb900e0f3ef57bc22b9a6f7": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "OBJ:android.os.Bundle",
+      "B:false",
+      "OBJ:android.os.Bundle",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "e4c3f08f2fb4d13b9745adb090f87037": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "OBJ:android.os.Bundle",
+      "B:false",
+      "OBJ:android.os.Bundle",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,33 @@
+{
+  "api": "notification|updateNotificationChannelGroupFromPrivilegedListener|android.service.notification.INotificationListener,java.lang.String,android.os.UserHandle,android.app.NotificationChannelGroup|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "9c688595602b98e0e930be3d98124f0d": [
+      "OBJ:android.service.notification.INotificationListener",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.UserHandle",
+      "OBJ:android.app.NotificationChannelGroup"
+    ],
+    "7e87b81fb24142cdc0f9ea6e935bd32d": [
+      "OBJ:android.service.notification.INotificationListener",
+      "S:com.android.systemui",
+      "OBJ:android.os.UserHandle",
+      "OBJ:android.app.NotificationChannelGroup"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

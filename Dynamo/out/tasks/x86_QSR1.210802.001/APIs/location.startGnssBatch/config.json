@@ -1,0 +1,41 @@
+{
+  "api": "location|startGnssBatch|J,Z,java.lang.String|Z|",
+  "parameters_count": 4,
+  "parameters": {
+    "6de88fcc2ddde5d5fcfcdab29bb259f8": [
+      "OBJ:J",
+      "B:true",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "4bebf93c707337b909efb885b8ad6e4d": [
+      "OBJ:J",
+      "B:true",
+      "S:com.android.systemui"
+    ],
+    "bebfefce8a477035696d95693d9bc955": [
+      "OBJ:J",
+      "B:false",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "031245c729ccb2cbd077874787f1dabf": [
+      "OBJ:J",
+      "B:false",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

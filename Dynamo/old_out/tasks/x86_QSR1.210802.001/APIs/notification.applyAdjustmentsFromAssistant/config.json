@@ -1,0 +1,25 @@
+{
+  "api": "notification|applyAdjustmentsFromAssistant|android.service.notification.INotificationListener,java.util.List|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "eaf7dea482fa1f96e896d9342cc65da1": [
+      "OBJ:android.service.notification.INotificationListener",
+      "OBJ:java.util.List"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

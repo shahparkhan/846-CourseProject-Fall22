@@ -1,0 +1,25 @@
+{
+  "api": "wifi|restoreSupplicantBackupData|B[],B[]|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "ab845816eec2fa0d18ea32308029931a": [
+      "OBJ:B[]",
+      "OBJ:B[]"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

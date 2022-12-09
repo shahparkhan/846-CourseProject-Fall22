@@ -1,0 +1,31 @@
+{
+  "api": "lock_settings|importKeyWithMetadata|java.lang.String,B[],B[]|java.lang.String|",
+  "parameters_count": 2,
+  "parameters": {
+    "b75c37d9629cdbc87f338890592bb9cf": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:B[]",
+      "OBJ:B[]"
+    ],
+    "5124f88a515d731aaf9bed2cb029e17d": [
+      "S:com.android.systemui",
+      "OBJ:B[]",
+      "OBJ:B[]"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

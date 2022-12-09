@@ -1,0 +1,41 @@
+{
+  "api": "connectivity|setAcceptUnvalidated|android.net.Network,Z,Z|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "91718de9111458c7c5f466cfd8e5117e": [
+      "OBJ:android.net.Network",
+      "B:true",
+      "B:true"
+    ],
+    "e8ba4b2b38d1bf692f72d2406951103d": [
+      "OBJ:android.net.Network",
+      "B:true",
+      "B:false"
+    ],
+    "a8d6962c8e313075ff41dd31fceb6c59": [
+      "OBJ:android.net.Network",
+      "B:false",
+      "B:true"
+    ],
+    "94942cb23eb39e78af4800205e3999cc": [
+      "OBJ:android.net.Network",
+      "B:false",
+      "B:false"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

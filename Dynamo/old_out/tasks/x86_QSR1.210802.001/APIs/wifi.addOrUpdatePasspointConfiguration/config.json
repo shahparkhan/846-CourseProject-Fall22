@@ -1,0 +1,29 @@
+{
+  "api": "wifi|addOrUpdatePasspointConfiguration|android.net.wifi.hotspot2.PasspointConfiguration,java.lang.String|Z|",
+  "parameters_count": 2,
+  "parameters": {
+    "13f1fcbd638c8ca2e7ae29c99ae86d9b": [
+      "OBJ:android.net.wifi.hotspot2.PasspointConfiguration",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "e25977ba9e7ac723eb68ad2714fc670b": [
+      "OBJ:android.net.wifi.hotspot2.PasspointConfiguration",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

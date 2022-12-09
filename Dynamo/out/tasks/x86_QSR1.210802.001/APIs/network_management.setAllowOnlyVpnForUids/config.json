@@ -1,0 +1,29 @@
+{
+  "api": "network_management|setAllowOnlyVpnForUids|Z,android.net.UidRange[]|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "740725931d3097f1a97270a32ea4743a": [
+      "B:true",
+      "OBJ:android.net.UidRange[]"
+    ],
+    "6ae25e68caafb9cd21155b39362ae74f": [
+      "B:false",
+      "OBJ:android.net.UidRange[]"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

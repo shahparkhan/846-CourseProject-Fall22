@@ -1,0 +1,69 @@
+{
+  "api": "media_session|dispatchMediaKeyEvent|java.lang.String,Z,android.view.KeyEvent,Z|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "bdee48030c07ba520e39dc687190498f": [
+      "S:fuzzer.permission.uidchanger",
+      "B:true",
+      "OBJ:android.view.KeyEvent",
+      "B:true"
+    ],
+    "06ac6b68a3b88ff9337719dc0ca6e5ba": [
+      "S:fuzzer.permission.uidchanger",
+      "B:true",
+      "OBJ:android.view.KeyEvent",
+      "B:false"
+    ],
+    "17849bfa1593c961751b5f0457fc8ad3": [
+      "S:fuzzer.permission.uidchanger",
+      "B:false",
+      "OBJ:android.view.KeyEvent",
+      "B:true"
+    ],
+    "d9e0a9d8d16d24aa2d6731b9e5e13fe9": [
+      "S:fuzzer.permission.uidchanger",
+      "B:false",
+      "OBJ:android.view.KeyEvent",
+      "B:false"
+    ],
+    "e61032dae6af5849c94fe13c3f35f200": [
+      "S:com.android.systemui",
+      "B:true",
+      "OBJ:android.view.KeyEvent",
+      "B:true"
+    ],
+    "5e7f93749699a4d30bb5241e44bf11fe": [
+      "S:com.android.systemui",
+      "B:true",
+      "OBJ:android.view.KeyEvent",
+      "B:false"
+    ],
+    "bb5e902a770ee96c71872aceb8ec390f": [
+      "S:com.android.systemui",
+      "B:false",
+      "OBJ:android.view.KeyEvent",
+      "B:true"
+    ],
+    "8038a501c9fc49376fab39a6801ae075": [
+      "S:com.android.systemui",
+      "B:false",
+      "OBJ:android.view.KeyEvent",
+      "B:false"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

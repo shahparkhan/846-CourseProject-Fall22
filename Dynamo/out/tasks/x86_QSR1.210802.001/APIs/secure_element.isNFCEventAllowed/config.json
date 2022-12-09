@@ -1,0 +1,31 @@
+{
+  "api": "secure_element|isNFCEventAllowed|java.lang.String,B[],java.lang.String[]|b[]|",
+  "parameters_count": 2,
+  "parameters": {
+    "7fc778be75e6ffe0c038170f6e30f677": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:B[]",
+      "OBJ:java.lang.String[]"
+    ],
+    "458d1441960acf76a735540189463077": [
+      "S:com.android.systemui",
+      "OBJ:B[]",
+      "OBJ:java.lang.String[]"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

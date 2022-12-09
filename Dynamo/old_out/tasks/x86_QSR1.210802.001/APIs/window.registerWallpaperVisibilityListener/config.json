@@ -1,0 +1,29 @@
+{
+  "api": "window|registerWallpaperVisibilityListener|android.view.IWallpaperVisibilityListener,I|Z|",
+  "parameters_count": 2,
+  "parameters": {
+    "94239c018e729fc1703a77e3c41d4f2f": [
+      "OBJ:android.view.IWallpaperVisibilityListener",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "b1dfb508be679b6d747ef27ad44396ec": [
+      "OBJ:android.view.IWallpaperVisibilityListener",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

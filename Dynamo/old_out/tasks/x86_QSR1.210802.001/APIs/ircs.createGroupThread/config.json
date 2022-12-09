@@ -1,0 +1,69 @@
+{
+  "api": "ircs|createGroupThread|I[],java.lang.String,android.net.Uri,java.lang.String|I|",
+  "parameters_count": 8,
+  "parameters": {
+    "c12e6b65c4c88dfd742747bfe0ee174d": [
+      "OBJ:I[]",
+      "S:fuzzer.permission.uidchanger",
+      "URI:content://user_dictionary/words",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "1d4022033936243141a6788a3ac7ed42": [
+      "OBJ:I[]",
+      "S:fuzzer.permission.uidchanger",
+      "URI:content://user_dictionary/words",
+      "S:com.android.systemui"
+    ],
+    "7b7f25107c730e7c717b6b2ff7336339": [
+      "OBJ:I[]",
+      "S:fuzzer.permission.uidchanger",
+      "URI:content://com.android.contacts/contacts/lookup/0",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "c50d59269166514cc571fa66af8badd6": [
+      "OBJ:I[]",
+      "S:fuzzer.permission.uidchanger",
+      "URI:content://com.android.contacts/contacts/lookup/0",
+      "S:com.android.systemui"
+    ],
+    "d1e8799af2c61761155bea58f408b293": [
+      "OBJ:I[]",
+      "S:com.android.systemui",
+      "URI:content://user_dictionary/words",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "42f50e14174fd4cd879c904b0ce8dfbd": [
+      "OBJ:I[]",
+      "S:com.android.systemui",
+      "URI:content://user_dictionary/words",
+      "S:com.android.systemui"
+    ],
+    "1531fb68b203a1c9933ed661bfb2bbee": [
+      "OBJ:I[]",
+      "S:com.android.systemui",
+      "URI:content://com.android.contacts/contacts/lookup/0",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "d18596d979def7bff9361cf5763871d7": [
+      "OBJ:I[]",
+      "S:com.android.systemui",
+      "URI:content://com.android.contacts/contacts/lookup/0",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

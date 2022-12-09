@@ -1,0 +1,24 @@
+{
+  "api": "connectivity|startLegacyVpn|com.android.internal.net.VpnProfile|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "511f3ef505b0e2dd64021659aa862c1a": [
+      "OBJ:com.android.internal.net.VpnProfile"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

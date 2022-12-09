@@ -1,0 +1,49 @@
+{
+  "api": "location|requestLocationUpdates|android.location.LocationRequest,android.location.ILocationListener,android.app.PendingIntent,java.lang.String|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "dd206685366b263aad1e43c8454e41bc": [
+      "OBJ:android.location.LocationRequest",
+      "OBJ:android.location.ILocationListener",
+      "OBJ:android.app.PendingIntent",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "71893e59edbb500f5f4861b535aba51a": [
+      "OBJ:android.location.LocationRequest",
+      "OBJ:android.location.ILocationListener",
+      "OBJ:android.app.PendingIntent",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {
+    "None:dd206685366b263aad1e43c8454e41bc": 2,
+    "None:71893e59edbb500f5f4861b535aba51a": 2
+  },
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [
+    null
+  ],
+  "classes": [
+    "com.android.server.LocationManagerService"
+  ],
+  "phase_name": "change_uid",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 1,
+    "historical_service_not_invoked": 15,
+    "no_traces": 0,
+    "historical_no_traces": 0.09999999999999998
+  },
+  "pids": [],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

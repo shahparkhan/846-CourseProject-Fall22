@@ -1,0 +1,41 @@
+{
+  "api": "telecom|placeCall|android.net.Uri,android.os.Bundle,java.lang.String|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "9ff0778c17cd666d06702394d9489496": [
+      "URI:content://user_dictionary/words",
+      "OBJ:android.os.Bundle",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "a0242e080d102f30dd172a908543521b": [
+      "URI:content://user_dictionary/words",
+      "OBJ:android.os.Bundle",
+      "S:com.android.systemui"
+    ],
+    "e69e85ed61240d56d7645783758f6748": [
+      "URI:content://com.android.contacts/contacts/lookup/0",
+      "OBJ:android.os.Bundle",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "7437ed7bc2d260e61e826b9a62ad676c": [
+      "URI:content://com.android.contacts/contacts/lookup/0",
+      "OBJ:android.os.Bundle",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

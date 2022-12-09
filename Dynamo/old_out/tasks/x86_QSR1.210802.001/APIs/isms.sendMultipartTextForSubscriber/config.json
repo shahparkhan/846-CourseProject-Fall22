@@ -1,0 +1,101 @@
+{
+  "api": "isms|sendMultipartTextForSubscriber|I,java.lang.String,java.lang.String,java.lang.String,java.util.List,java.util.List,java.util.List,Z|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "81076f4970cd8a6541dc259e724343c1": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:1",
+      "INDEX:1",
+      "OBJ:java.util.List",
+      "OBJ:java.util.List",
+      "OBJ:java.util.List",
+      "B:true"
+    ],
+    "2bbc3b102f4abb74b02b14c96aab8b12": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:1",
+      "INDEX:1",
+      "OBJ:java.util.List",
+      "OBJ:java.util.List",
+      "OBJ:java.util.List",
+      "B:false"
+    ],
+    "70ef7992fff1fe33f75ed632799d3a77": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "INDEX:1",
+      "INDEX:1",
+      "OBJ:java.util.List",
+      "OBJ:java.util.List",
+      "OBJ:java.util.List",
+      "B:true"
+    ],
+    "ee5b7551e4d22e3e4d4bf9f4e478df14": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "INDEX:1",
+      "INDEX:1",
+      "OBJ:java.util.List",
+      "OBJ:java.util.List",
+      "OBJ:java.util.List",
+      "B:false"
+    ],
+    "00c48a9a886e665038f53e43c511cf7b": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:1",
+      "INDEX:1",
+      "OBJ:java.util.List",
+      "OBJ:java.util.List",
+      "OBJ:java.util.List",
+      "B:true"
+    ],
+    "fb463e62ffe058b497cebd2d6a26d49d": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:1",
+      "INDEX:1",
+      "OBJ:java.util.List",
+      "OBJ:java.util.List",
+      "OBJ:java.util.List",
+      "B:false"
+    ],
+    "22b8be8b75bfbb107c276347e2776dc0": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "INDEX:1",
+      "INDEX:1",
+      "OBJ:java.util.List",
+      "OBJ:java.util.List",
+      "OBJ:java.util.List",
+      "B:true"
+    ],
+    "3ebcc7300200f4a98fa3f09c01f5522e": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "INDEX:1",
+      "INDEX:1",
+      "OBJ:java.util.List",
+      "OBJ:java.util.List",
+      "OBJ:java.util.List",
+      "B:false"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

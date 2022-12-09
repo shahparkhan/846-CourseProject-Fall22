@@ -1,0 +1,41 @@
+{
+  "api": "contexthub|sendMessage|I,I,android.hardware.location.ContextHubMessage|I|",
+  "parameters_count": 4,
+  "parameters": {
+    "490e20576aa45ff29b2b40b1feeb82c0": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.hardware.location.ContextHubMessage"
+    ],
+    "d1ae052ea14b6ba7485fc9417152d464": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.hardware.location.ContextHubMessage"
+    ],
+    "7a26348be9ed865ecfeb2f31bdf891bb": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.hardware.location.ContextHubMessage"
+    ],
+    "bf5d2031c9fc39670e17f2908d3f5aeb": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.hardware.location.ContextHubMessage"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

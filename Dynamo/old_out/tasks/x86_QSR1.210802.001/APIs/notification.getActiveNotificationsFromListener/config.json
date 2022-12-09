@@ -1,0 +1,31 @@
+{
+  "api": "notification|getActiveNotificationsFromListener|android.service.notification.INotificationListener,java.lang.String[],I|android.content.pm.ParceledListSlice|",
+  "parameters_count": 2,
+  "parameters": {
+    "0f927d94435b6c536e3e4455743da4d8": [
+      "OBJ:android.service.notification.INotificationListener",
+      "OBJ:java.lang.String[]",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "7719fa91b3d054dfee632411cf75c292": [
+      "OBJ:android.service.notification.INotificationListener",
+      "OBJ:java.lang.String[]",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

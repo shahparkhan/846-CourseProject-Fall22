@@ -1,0 +1,31 @@
+{
+  "api": "usb|requestDevicePermission|android.hardware.usb.UsbDevice,java.lang.String,android.app.PendingIntent|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "e0a27ec508ff071dd19cd17c34cb1e2f": [
+      "OBJ:android.hardware.usb.UsbDevice",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.app.PendingIntent"
+    ],
+    "560222a3827de3a2181354655860884c": [
+      "OBJ:android.hardware.usb.UsbDevice",
+      "S:com.android.systemui",
+      "OBJ:android.app.PendingIntent"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

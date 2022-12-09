@@ -1,0 +1,69 @@
+{
+  "api": "audio|setVolumeIndexForAttributes|android.media.AudioAttributes,I,I,java.lang.String|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "38c5cf1985f45b641f4ee1c644c43b5e": [
+      "OBJ:android.media.AudioAttributes",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "8c3644fe3b3a1ebfa5994cc566ff4373": [
+      "OBJ:android.media.AudioAttributes",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui"
+    ],
+    "70295be655630aadbe76746cfb1eb5e6": [
+      "OBJ:android.media.AudioAttributes",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "011b54158bbacc77cd36e0bc23d95a49": [
+      "OBJ:android.media.AudioAttributes",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui"
+    ],
+    "b3ba8689f0fe4496f03130b35c29b0a9": [
+      "OBJ:android.media.AudioAttributes",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "ea0736cc172e37d390f4f89f4175e899": [
+      "OBJ:android.media.AudioAttributes",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui"
+    ],
+    "c02093539ccd2b1b805ad568da817a4e": [
+      "OBJ:android.media.AudioAttributes",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "1f3a99370cc6fa3d98f9df7bcb223243": [
+      "OBJ:android.media.AudioAttributes",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

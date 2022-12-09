@@ -1,0 +1,24 @@
+{
+  "api": "activity|registerTaskStackListener|android.app.ITaskStackListener|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "0c6aca04718f9f9714230d9642fda7e8": [
+      "OBJ:android.app.ITaskStackListener"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

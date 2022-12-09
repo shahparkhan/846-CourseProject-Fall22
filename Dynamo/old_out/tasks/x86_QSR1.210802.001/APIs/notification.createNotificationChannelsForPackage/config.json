@@ -1,0 +1,41 @@
+{
+  "api": "notification|createNotificationChannelsForPackage|java.lang.String,I,android.content.pm.ParceledListSlice|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "01dcf770be2ee75a184b147c41fd67d1": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.content.pm.ParceledListSlice"
+    ],
+    "9ba29b79fc19fe9f180ab248b4e2c2d4": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.content.pm.ParceledListSlice"
+    ],
+    "58679c9876da75b25d33ac73b87d7503": [
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.content.pm.ParceledListSlice"
+    ],
+    "ccb5a3e081a1ff705be19804d86075ae": [
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.content.pm.ParceledListSlice"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

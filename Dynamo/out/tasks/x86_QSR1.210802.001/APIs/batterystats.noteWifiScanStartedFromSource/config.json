@@ -1,0 +1,24 @@
+{
+  "api": "batterystats|noteWifiScanStartedFromSource|android.os.WorkSource|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "231a2f09c9eaa7bdc51e2c815d8ce0e2": [
+      "OBJ:android.os.WorkSource"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

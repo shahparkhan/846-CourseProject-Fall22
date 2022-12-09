@@ -1,0 +1,39 @@
+[
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": false,
+    "exception": {
+      "is_security": true,
+      "data": {
+        "type": "java.lang.SecurityException.<init>(Native Method)",
+        "location": "com.android.server.notification.ManagedServices.checkServiceTokenLocked(ManagedServices.java:664)",
+        "message": "Disallowed call from unknown notification assistant: android.service.notification.INotificationListener$Stub$Proxy@b664d58 class android.service.notification.INotificationListener$Stub$Proxy"
+      }
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.notification.NotificationManagerService$10",
+      "com.android.server.notification.NotificationManagerService",
+      "com.android.server.notification.ManagedServices"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "EXCEPTION::Disallowed call from unknown notification assistant: android.service.notification.INotificationListener$Stub$Proxyclass android.service.notification.INotificationListener$Stub$Proxy "
+      ],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "eaf7dea482fa1f96e896d9342cc65da1",
+      "ignored_permissions": []
+    },
+    "processed": true
+  }
+]

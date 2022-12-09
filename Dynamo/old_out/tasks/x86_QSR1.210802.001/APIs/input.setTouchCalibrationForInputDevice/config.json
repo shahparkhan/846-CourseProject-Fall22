@@ -1,0 +1,41 @@
+{
+  "api": "input|setTouchCalibrationForInputDevice|java.lang.String,I,android.hardware.input.TouchCalibration|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "30e87bebde878594e7d17224c70d6472": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.hardware.input.TouchCalibration"
+    ],
+    "2b9c02e4e480f4056909978546673814": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.hardware.input.TouchCalibration"
+    ],
+    "4df171d02580cfde6c53bd6ef2689c6e": [
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.hardware.input.TouchCalibration"
+    ],
+    "6e7753f1b49992c7a2f50de9630e9aef": [
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.hardware.input.TouchCalibration"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

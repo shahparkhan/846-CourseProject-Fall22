@@ -1,0 +1,61 @@
+{
+  "api": "audio|setMicrophoneMute|Z,java.lang.String,I|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "8239af6830d52c05a0d36a29f53681b7": [
+      "B:true",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "8e151cc62243ec285c5390b7711a9ad6": [
+      "B:true",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "0cd78e413425ee9eacc0813d865feead": [
+      "B:true",
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "19d348ceb3af071ebbc4085c6f820561": [
+      "B:true",
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "40104c739c6b44dcc0a7ab59d92e2e0a": [
+      "B:false",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "01ab01335bed6291662f6c99ac9bce2b": [
+      "B:false",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "5b89c104b2b8fa087e2b32793dfb4495": [
+      "B:false",
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "58f67b43097670e745f522cd21315709": [
+      "B:false",
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

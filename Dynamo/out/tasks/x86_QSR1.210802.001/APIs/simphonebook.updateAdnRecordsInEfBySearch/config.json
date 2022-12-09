@@ -1,0 +1,53 @@
+{
+  "api": "simphonebook|updateAdnRecordsInEfBySearch|I,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String|Z|",
+  "parameters_count": 4,
+  "parameters": {
+    "9764b03b46c976e26c179ab6ae4c2771": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1"
+    ],
+    "38ad2dadf511f8506d74891117c98d8b": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1"
+    ],
+    "3dd4b1b9e7009fa51add165df76e067c": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1"
+    ],
+    "b7e74d0f018eebe6d69156557100f2d0": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1",
+      "INDEX:1"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

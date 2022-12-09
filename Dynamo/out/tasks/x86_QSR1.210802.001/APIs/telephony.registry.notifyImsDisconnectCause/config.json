@@ -1,0 +1,43 @@
+{
+  "api": "telephony.registry|notifyImsDisconnectCause|I,android.telephony.ims.ImsReasonInfo|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "ca54af8b4ff6ef31340bd21befd98804": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.telephony.ims.ImsReasonInfo"
+    ],
+    "8bee20995909b53ce2a8004625913c8f": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.telephony.ims.ImsReasonInfo"
+    ]
+  },
+  "parameters_done": {
+    "None:ca54af8b4ff6ef31340bd21befd98804": 2,
+    "None:8bee20995909b53ce2a8004625913c8f": 1
+  },
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [
+    "com.android.server.TelephonyRegistry"
+  ],
+  "phase_name": "change_parameters",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 2,
+    "historical_service_not_invoked": 15,
+    "no_traces": 0,
+    "historical_no_traces": 0
+  },
+  "pids": [],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

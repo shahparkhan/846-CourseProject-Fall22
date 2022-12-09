@@ -1,0 +1,31 @@
+{
+  "api": "role|getSmsMessagesForFinancialApp|java.lang.String,android.os.Bundle,android.telephony.IFinancialSmsCallback|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "61e1a3ee4cb4e4462dbdfab3eb416e5f": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.Bundle",
+      "OBJ:android.telephony.IFinancialSmsCallback"
+    ],
+    "9ee5589fef02cd9a33777c05c7b36aaa": [
+      "S:com.android.systemui",
+      "OBJ:android.os.Bundle",
+      "OBJ:android.telephony.IFinancialSmsCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

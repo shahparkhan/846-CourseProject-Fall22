@@ -1,0 +1,61 @@
+{
+  "api": "incident|getIncidentReport|java.lang.String,java.lang.String,java.lang.String|android.os.IncidentManager.IncidentReport|",
+  "parameters_count": 8,
+  "parameters": {
+    "4886e381fc179ff8a8c1ab3959272253": [
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "e36a762b589a33a92042b8f8f7c36981": [
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui"
+    ],
+    "b74af32ef8b16bc2fe693c251ea4a3f5": [
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "a8a24f0f50ab147784eb184d5e3ac4dd": [
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "S:com.android.systemui"
+    ],
+    "ac161d9535828928bc4aecd7a0200ad3": [
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "79acbfe9312bb8cd645726d8086f187b": [
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui"
+    ],
+    "fac0ad2fa8af66a130264c47a8f99cad": [
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "8fcdcdd580ac26819a885695645f62d6": [
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

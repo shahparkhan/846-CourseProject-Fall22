@@ -1,0 +1,29 @@
+{
+  "api": "activity_task|updateDisplayOverrideConfiguration|android.content.res.Configuration,I|Z|",
+  "parameters_count": 2,
+  "parameters": {
+    "b40fc4219d4b40fe36672f66dadb35c7": [
+      "OBJ:android.content.res.Configuration",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "edfffdb3854ac34cbde33489b33eb760": [
+      "OBJ:android.content.res.Configuration",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

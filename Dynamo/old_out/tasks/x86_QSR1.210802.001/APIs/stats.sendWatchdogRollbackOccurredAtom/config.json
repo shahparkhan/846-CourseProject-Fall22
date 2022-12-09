@@ -1,0 +1,41 @@
+{
+  "api": "stats|sendWatchdogRollbackOccurredAtom|I,java.lang.String,J|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "c3e8bf2755d8d4beecd40e159e7fdee2": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:J"
+    ],
+    "ae7511dad2d7db8ce37755a8f70577bd": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "OBJ:J"
+    ],
+    "87244ed9764e645c5e8c4accf948b93c": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:J"
+    ],
+    "682a1c2e76c553bd51fa609f93be758d": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "OBJ:J"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

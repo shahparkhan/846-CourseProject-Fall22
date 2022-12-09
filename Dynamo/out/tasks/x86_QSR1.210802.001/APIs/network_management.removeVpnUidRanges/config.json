@@ -1,0 +1,29 @@
+{
+  "api": "network_management|removeVpnUidRanges|I,android.net.UidRange[]|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "8e0ab7a1faa878e69ba6ffea10df5322": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.net.UidRange[]"
+    ],
+    "23bdd865f8b534202ea94f6d23cc1829": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.net.UidRange[]"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

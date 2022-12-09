@@ -1,0 +1,41 @@
+{
+  "api": "notification|getActiveNotifications|java.lang.String|android.service.notification.StatusBarNotification[]|",
+  "parameters_count": 2,
+  "parameters": {
+    "02ec0106cef38c9eddf792963a7a228b": [
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "94fe09312b92c4fc013fc7be233bce6d": [
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {
+    "None:02ec0106cef38c9eddf792963a7a228b": 2
+  },
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [
+    "com.android.server.notification.NotificationManagerService$10",
+    "com.android.server.notification.NotificationManagerService"
+  ],
+  "phase_name": "change_parameters",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 2,
+    "historical_service_not_invoked": 15,
+    "no_traces": 0,
+    "historical_no_traces": 0.8
+  },
+  "pids": [],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

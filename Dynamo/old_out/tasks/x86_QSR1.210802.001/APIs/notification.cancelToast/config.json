@@ -1,0 +1,29 @@
+{
+  "api": "notification|cancelToast|java.lang.String,android.app.ITransientNotification|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "8d5f99a5b53c8244a16eaab6a576807e": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.app.ITransientNotification"
+    ],
+    "7af158359a4f59fc9fb2c21bed324ff7": [
+      "S:com.android.systemui",
+      "OBJ:android.app.ITransientNotification"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

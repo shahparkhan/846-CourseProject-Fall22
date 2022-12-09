@@ -1,0 +1,24 @@
+{
+  "api": "activity|getMemoryInfo|android.app.ActivityManager.MemoryInfo|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "9cde6010a60933b4618b2bb37d3c592c": [
+      "OBJ:android.app.ActivityManager.MemoryInfo"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

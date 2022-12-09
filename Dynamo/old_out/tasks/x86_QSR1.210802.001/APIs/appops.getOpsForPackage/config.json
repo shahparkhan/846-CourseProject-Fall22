@@ -1,0 +1,41 @@
+{
+  "api": "appops|getOpsForPackage|I,java.lang.String,I[]|java.util.List|",
+  "parameters_count": 4,
+  "parameters": {
+    "0631c4d9b5b90133577064c9b8cf3c3e": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:I[]"
+    ],
+    "e65890fc311597f0dbf53e61f132414e": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "OBJ:I[]"
+    ],
+    "a38b47cae0c3ddcc7340350903c43494": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:I[]"
+    ],
+    "3e03902e80109e4fae65ecf1a778b832": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "OBJ:I[]"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

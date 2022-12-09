@@ -1,0 +1,28 @@
+{
+  "api": "activity|resizeDockedStack|android.graphics.Rect,android.graphics.Rect,android.graphics.Rect,android.graphics.Rect,android.graphics.Rect|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "a92301cc4771c101122a0a59421f115b": [
+      "OBJ:android.graphics.Rect",
+      "OBJ:android.graphics.Rect",
+      "OBJ:android.graphics.Rect",
+      "OBJ:android.graphics.Rect",
+      "OBJ:android.graphics.Rect"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

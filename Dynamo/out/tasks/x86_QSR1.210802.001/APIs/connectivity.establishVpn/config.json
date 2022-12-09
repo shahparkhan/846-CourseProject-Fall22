@@ -1,0 +1,24 @@
+{
+  "api": "connectivity|establishVpn|com.android.internal.net.VpnConfig|android.os.ParcelFileDescriptor|",
+  "parameters_count": 1,
+  "parameters": {
+    "0ee97b47aca092bf7225da93a1e5130c": [
+      "OBJ:com.android.internal.net.VpnConfig"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,29 @@
+{
+  "api": "location|addGnssBatchingCallback|android.location.IBatchedLocationCallback,java.lang.String|Z|",
+  "parameters_count": 2,
+  "parameters": {
+    "0e8e920cab657506cdcf69212630cd9b": [
+      "OBJ:android.location.IBatchedLocationCallback",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "535f50f007241b4377dd93664870797e": [
+      "OBJ:android.location.IBatchedLocationCallback",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,37 @@
+{
+  "api": "slice|getPinnedSpecs|android.net.Uri,java.lang.String|android.app.slice.SliceSpec[]|",
+  "parameters_count": 4,
+  "parameters": {
+    "15e7c4e531d575d2eb10d856a3567d3d": [
+      "URI:content://user_dictionary/words",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "13a50f7af65da8ea589704b08cd456a3": [
+      "URI:content://user_dictionary/words",
+      "S:com.android.systemui"
+    ],
+    "ed169da55142416a6b934f690ddac2d7": [
+      "URI:content://com.android.contacts/contacts/lookup/0",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "0f04da2f2efced5daae2baeffbcdc4e8": [
+      "URI:content://com.android.contacts/contacts/lookup/0",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

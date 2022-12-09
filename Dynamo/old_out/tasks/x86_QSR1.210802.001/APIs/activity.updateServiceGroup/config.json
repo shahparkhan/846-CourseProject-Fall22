@@ -1,0 +1,41 @@
+{
+  "api": "activity|updateServiceGroup|android.app.IServiceConnection,I,I|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "68b4ee9b9f22276be10c59b8edd367b8": [
+      "OBJ:android.app.IServiceConnection",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "f5260789292fcc4f4299a811c800587a": [
+      "OBJ:android.app.IServiceConnection",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "aeb11ea79e5bd6a0061d79b14bdae0b1": [
+      "OBJ:android.app.IServiceConnection",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "a1f6e246f938418994e9db04d22debaa": [
+      "OBJ:android.app.IServiceConnection",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

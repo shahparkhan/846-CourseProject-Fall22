@@ -1,0 +1,29 @@
+{
+  "api": "package|isPackageSignedByKeySetExactly|java.lang.String,android.content.pm.KeySet|Z|",
+  "parameters_count": 2,
+  "parameters": {
+    "82c789f7fa29454b20595338eb544fc8": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.content.pm.KeySet"
+    ],
+    "bab26f5fc78fea3504d2c126a3159880": [
+      "S:com.android.systemui",
+      "OBJ:android.content.pm.KeySet"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

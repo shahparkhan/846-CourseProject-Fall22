@@ -1,0 +1,31 @@
+{
+  "api": "account|isCredentialsUpdateSuggested|android.accounts.IAccountManagerResponse,android.accounts.Account,java.lang.String|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "a9709f86dec88e87fe7a16ae452911c0": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "OBJ:android.accounts.Account",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "cbaf05f43581eccfbb1ea811d1adf957": [
+      "OBJ:android.accounts.IAccountManagerResponse",
+      "OBJ:android.accounts.Account",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

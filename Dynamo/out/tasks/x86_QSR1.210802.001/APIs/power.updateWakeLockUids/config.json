@@ -1,0 +1,25 @@
+{
+  "api": "power|updateWakeLockUids|android.os.IBinder,I[]|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "39f7e1be202a901a6a35698b79ddd942": [
+      "OBJ:android.os.IBinder",
+      "OBJ:I[]"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

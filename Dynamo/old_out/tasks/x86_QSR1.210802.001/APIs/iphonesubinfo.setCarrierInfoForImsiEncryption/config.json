@@ -1,0 +1,41 @@
+{
+  "api": "iphonesubinfo|setCarrierInfoForImsiEncryption|I,java.lang.String,android.telephony.ImsiEncryptionInfo|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "35fd7598d242989df0f061d529dccf05": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.telephony.ImsiEncryptionInfo"
+    ],
+    "0ec33b41355cdbe76563898f108f0335": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "OBJ:android.telephony.ImsiEncryptionInfo"
+    ],
+    "b326bba8bd0246ee7a54e4bae3045171": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.telephony.ImsiEncryptionInfo"
+    ],
+    "3e54ac58be93c5c5e47b130a4fef4060": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "OBJ:android.telephony.ImsiEncryptionInfo"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

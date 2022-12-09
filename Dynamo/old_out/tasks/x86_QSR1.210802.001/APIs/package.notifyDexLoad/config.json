@@ -1,0 +1,45 @@
+{
+  "api": "package|notifyDexLoad|java.lang.String,java.util.List,java.util.List,java.lang.String|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "00114f426e749c3e88aaa527b42dd73f": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.util.List",
+      "OBJ:java.util.List",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "894c84cd5b4409e06e1a04812fa984a3": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:java.util.List",
+      "OBJ:java.util.List",
+      "S:com.android.systemui"
+    ],
+    "62ec6a9e9324f7ac45f4cbfe37816907": [
+      "S:com.android.systemui",
+      "OBJ:java.util.List",
+      "OBJ:java.util.List",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "41204798ccf2a74507c0383b12ea736a": [
+      "S:com.android.systemui",
+      "OBJ:java.util.List",
+      "OBJ:java.util.List",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

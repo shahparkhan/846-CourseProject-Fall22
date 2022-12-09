@@ -1,0 +1,194 @@
+{
+  "telephony.registry": {
+    "notifyCarrierNetworkChange": {
+      "ordered_iterations": [
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": "null",
+            "exception": "FIRST EXCEPTION CAUGHT\njava.lang.reflect.InvocationTargetException\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat fuzzer.permission.uidchanger.InvokerService.invokeApi(InvokerService.java:318)\n\tat fuzzer.permission.uidchanger.InvokerService.onStartCommand(InvokerService.java:71)\n\tat android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4087)\n\tat android.app.ActivityThread.access$1800(ActivityThread.java:219)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1891)\n\tat android.os.Handler.dispatchMessage(Handler.java:107)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\nCaused by: java.lang.SecurityException: notifyCarrierNetworkChange without carrier privilege\n\tat android.os.Parcel.createException(Parcel.java:2071)\n\tat android.os.Parcel.readException(Parcel.java:2039)\n\tat android.os.Parcel.readException(Parcel.java:1987)\n\tat com.android.internal.telephony.ITelephonyRegistry$Stub$Proxy.notifyCarrierNetworkChange(ITelephonyRegistry.java:1683)\n\t... 12 more\nCaused by: android.os.RemoteException: Remote stack trace:\n\tat com.android.server.TelephonyRegistry.notifyCarrierNetworkChange(TelephonyRegistry.java:1196)\n\tat com.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:816)\n\tat android.os.Binder.execTransactInternal(Binder.java:1021)\n\tat android.os.Binder.execTransact(Binder.java:994)\n\n"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": false,
+          "exception": {
+            "is_security": true,
+            "data": {
+              "type": "java.lang.SecurityException.<init>(Native Method)",
+              "location": "com.android.server.TelephonyRegistry.notifyCarrierNetworkChange(TelephonyRegistry.java:1196)",
+              "message": "notifyCarrierNetworkChange without carrier privilege"
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.TelephonyRegistry",
+            "com.android.server.-$$Lambda$TelephonyRegistry$B6olxgDfuFsbAHNXng6QnHMFZZM"
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "EXCEPTION::notifyCarrierNetworkChange without carrier privilege "
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "b71e20674b7c011a693ffb021dfbac2f",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.internal.telephony.TelephonyPermissions.checkCarrierPrivilegeForSubId(TelephonyPermissions.java:146)\ncom.android.server.TelephonyRegistry.lambda$notifyCarrierNetworkChange$0(TelephonyRegistry.java:1192)\ncom.android.server.-$$Lambda$TelephonyRegistry$B6olxgDfuFsbAHNXng6QnHMFZZM.test(Unknown Source:0)\njava.util.stream.IntPipeline$9$1.accept(IntPipeline.java:359)\njava.util.Spliterators$IntArraySpliterator.forEachRemaining(Spliterators.java:1032)\njava.util.Spliterator$OfInt.forEachRemaining(Spliterator.java:693)\njava.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)\njava.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:475)\njava.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:552)\njava.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:263)\njava.util.stream.IntPipeline.toArray(IntPipeline.java:519)\ncom.android.server.TelephonyRegistry.notifyCarrierNetworkChange(TelephonyRegistry.java:1192)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:816)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.SecurityException.<init>(Native Method)\ncom.android.server.TelephonyRegistry.notifyCarrierNetworkChange(TelephonyRegistry.java:1196)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:816)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(notifyCarrierNetworkChange without carrier privilege) = undefined",
+              "callstack": "$init(n, o, t, i, f, y, C, a, r, r, i, e, r, N, e, t, w, o, r, k, C, h, a, n, g, e,  , w, i, t, h, o, u, t,  , c, a, r, r, i, e, r,  , p, r, i, v, i, l, e, g, e) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.SecurityException.<init>(Native Method)\ncom.android.server.TelephonyRegistry.notifyCarrierNetworkChange(TelephonyRegistry.java:1196)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:816)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": null
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": false,
+          "exception": {
+            "is_security": true,
+            "data": {
+              "type": "java.lang.SecurityException.<init>(Native Method)",
+              "location": "com.android.server.TelephonyRegistry.notifyCarrierNetworkChange(TelephonyRegistry.java:1196)",
+              "message": "notifyCarrierNetworkChange without carrier privilege"
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.TelephonyRegistry",
+            "com.android.server.-$$Lambda$TelephonyRegistry$B6olxgDfuFsbAHNXng6QnHMFZZM"
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "EXCEPTION::notifyCarrierNetworkChange without carrier privilege "
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "b71e20674b7c011a693ffb021dfbac2f",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.internal.telephony.TelephonyPermissions.checkCarrierPrivilegeForSubId(TelephonyPermissions.java:146)\ncom.android.server.TelephonyRegistry.lambda$notifyCarrierNetworkChange$0(TelephonyRegistry.java:1192)\ncom.android.server.-$$Lambda$TelephonyRegistry$B6olxgDfuFsbAHNXng6QnHMFZZM.test(Unknown Source:0)\njava.util.stream.IntPipeline$9$1.accept(IntPipeline.java:359)\njava.util.Spliterators$IntArraySpliterator.forEachRemaining(Spliterators.java:1032)\njava.util.Spliterator$OfInt.forEachRemaining(Spliterator.java:693)\njava.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)\njava.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:475)\njava.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:552)\njava.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:263)\njava.util.stream.IntPipeline.toArray(IntPipeline.java:519)\ncom.android.server.TelephonyRegistry.notifyCarrierNetworkChange(TelephonyRegistry.java:1192)\ncom.android.server.TelephonyRegistry.notifyCarrierNetworkChange(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:816)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.SecurityException.<init>(Native Method)\ncom.android.server.TelephonyRegistry.notifyCarrierNetworkChange(TelephonyRegistry.java:1196)\ncom.android.server.TelephonyRegistry.notifyCarrierNetworkChange(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:816)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(notifyCarrierNetworkChange without carrier privilege) = undefined",
+              "callstack": "$init(n, o, t, i, f, y, C, a, r, r, i, e, r, N, e, t, w, o, r, k, C, h, a, n, g, e,  , w, i, t, h, o, u, t,  , c, a, r, r, i, e, r,  , p, r, i, v, i, l, e, g, e) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.SecurityException.<init>(Native Method)\ncom.android.server.TelephonyRegistry.notifyCarrierNetworkChange(TelephonyRegistry.java:1196)\ncom.android.server.TelephonyRegistry.notifyCarrierNetworkChange(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:816)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": "null",
+            "exception": "FIRST EXCEPTION CAUGHT\njava.lang.reflect.InvocationTargetException\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat fuzzer.permission.uidchanger.InvokerService.invokeApi(InvokerService.java:318)\n\tat fuzzer.permission.uidchanger.InvokerService.onStartCommand(InvokerService.java:71)\n\tat android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4087)\n\tat android.app.ActivityThread.access$1800(ActivityThread.java:219)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1891)\n\tat android.os.Handler.dispatchMessage(Handler.java:107)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\nCaused by: android.os.DeadObjectException\n\tat android.os.BinderProxy.transactNative(Native Method)\n\tat android.os.BinderProxy.transact(BinderProxy.java:510)\n\tat com.android.internal.telephony.ITelephonyRegistry$Stub$Proxy.notifyCarrierNetworkChange(ITelephonyRegistry.java:1678)\n\t... 12 more\n"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": false,
+          "exception": {
+            "is_security": true,
+            "data": {
+              "type": "java.lang.SecurityException.<init>(Native Method)",
+              "location": "com.android.server.TelephonyRegistry.notifyCarrierNetworkChange(TelephonyRegistry.java:1196)",
+              "message": "notifyCarrierNetworkChange without carrier privilege"
+            }
+          },
+          "appops_operations": [],
+          "to_instrument": [
+            "com.android.server.TelephonyRegistry",
+            "com.android.server.-$$Lambda$TelephonyRegistry$B6olxgDfuFsbAHNXng6QnHMFZZM"
+          ],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [
+              "EXCEPTION::notifyCarrierNetworkChange without carrier privilege "
+            ],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "b71e20674b7c011a693ffb021dfbac2f",
+            "ignored_permissions": []
+          },
+          "stacktrace": [
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\ncom.android.internal.telephony.TelephonyPermissions.checkCarrierPrivilegeForSubId(TelephonyPermissions.java:146)\ncom.android.server.TelephonyRegistry.lambda$notifyCarrierNetworkChange$0(TelephonyRegistry.java:1192)\ncom.android.server.-$$Lambda$TelephonyRegistry$B6olxgDfuFsbAHNXng6QnHMFZZM.test(Unknown Source:0)\njava.util.stream.IntPipeline$9$1.accept(IntPipeline.java:359)\njava.util.Spliterators$IntArraySpliterator.forEachRemaining(Spliterators.java:1032)\njava.util.Spliterator$OfInt.forEachRemaining(Spliterator.java:693)\njava.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)\njava.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:475)\njava.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:552)\njava.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:263)\njava.util.stream.IntPipeline.toArray(IntPipeline.java:519)\ncom.android.server.TelephonyRegistry.notifyCarrierNetworkChange(TelephonyRegistry.java:1192)\ncom.android.server.TelephonyRegistry.notifyCarrierNetworkChange(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:816)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "getCallingUid() = 10148",
+              "callstack": "getCallingUid() = 10148\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\nandroid.os.Binder.getCallingUid(Native Method)\njava.lang.SecurityException.<init>(Native Method)\ncom.android.server.TelephonyRegistry.notifyCarrierNetworkChange(TelephonyRegistry.java:1196)\ncom.android.server.TelephonyRegistry.notifyCarrierNetworkChange(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:816)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            },
+            {
+              "uid": 10148,
+              "call_ret": "$init(notifyCarrierNetworkChange without carrier privilege) = undefined",
+              "callstack": "$init(n, o, t, i, f, y, C, a, r, r, i, e, r, N, e, t, w, o, r, k, C, h, a, n, g, e,  , w, i, t, h, o, u, t,  , c, a, r, r, i, e, r,  , p, r, i, v, i, l, e, g, e) = undefined\ndalvik.system.VMStack.getThreadStackTrace(Native Method)\njava.lang.Thread.getStackTrace(Thread.java:1720)\njava.lang.SecurityException.<init>(Native Method)\ncom.android.server.TelephonyRegistry.notifyCarrierNetworkChange(TelephonyRegistry.java:1196)\ncom.android.server.TelephonyRegistry.notifyCarrierNetworkChange(Native Method)\ncom.android.internal.telephony.ITelephonyRegistry$Stub.onTransact(ITelephonyRegistry.java:816)\nandroid.os.Binder.execTransactInternal(Binder.java:1021)\nandroid.os.Binder.execTransact(Binder.java:994)"
+            }
+          ]
+        },
+        {
+          "execution_outcome": {
+            "returns": false,
+            "output": "null",
+            "exception": "FIRST EXCEPTION CAUGHT\njava.lang.reflect.InvocationTargetException\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat fuzzer.permission.uidchanger.InvokerService.invokeApi(InvokerService.java:318)\n\tat fuzzer.permission.uidchanger.InvokerService.onStartCommand(InvokerService.java:71)\n\tat android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4087)\n\tat android.app.ActivityThread.access$1800(ActivityThread.java:219)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1891)\n\tat android.os.Handler.dispatchMessage(Handler.java:107)\n\tat android.os.Looper.loop(Looper.java:214)\n\tat android.app.ActivityThread.main(ActivityThread.java:7356)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)\nCaused by: android.os.DeadObjectException\n\tat android.os.BinderProxy.transactNative(Native Method)\n\tat android.os.BinderProxy.transact(BinderProxy.java:510)\n\tat com.android.internal.telephony.ITelephonyRegistry$Stub$Proxy.notifyCarrierNetworkChange(ITelephonyRegistry.java:1678)\n\t... 12 more\n"
+          },
+          "pid_info": null,
+          "uid_info": null,
+          "uid_works": true,
+          "exception": {
+            "is_security": false,
+            "data": null
+          },
+          "appops_operations": [],
+          "to_instrument": [],
+          "stacktrace": [],
+          "data": {
+            "appOps": [],
+            "methods": [],
+            "permissions": [],
+            "pid": null,
+            "uid": null,
+            "userId": null,
+            "user_restrictions": [],
+            "parameters_hash": "5e9bf3a93a822a9389c14343f6a7da15",
+            "ignored_permissions": []
+          }
+        }
+      ]
+    }
+  }
+}

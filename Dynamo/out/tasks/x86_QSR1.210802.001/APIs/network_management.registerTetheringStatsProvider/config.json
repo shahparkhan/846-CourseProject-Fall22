@@ -1,0 +1,29 @@
+{
+  "api": "network_management|registerTetheringStatsProvider|android.net.ITetheringStatsProvider,java.lang.String|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "5758737c44e0d14ea36372a04875e8aa": [
+      "OBJ:android.net.ITetheringStatsProvider",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "10c098616e72e54c90123f4dee52426f": [
+      "OBJ:android.net.ITetheringStatsProvider",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

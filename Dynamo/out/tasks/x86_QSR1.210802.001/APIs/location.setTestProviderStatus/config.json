@@ -1,0 +1,89 @@
+{
+  "api": "location|setTestProviderStatus|java.lang.String,I,android.os.Bundle,J,java.lang.String|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "43773188a71c7b668d61d972ce30bbae": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.Bundle",
+      "OBJ:J",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "dd16f6289fb7626c6be74d9f24219551": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.Bundle",
+      "OBJ:J",
+      "S:com.android.systemui"
+    ],
+    "8f8eb7fa0ef05bde9b9303dd2a5513af": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.Bundle",
+      "OBJ:J",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "ce2ce56675285519f0608b9a09ff4503": [
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.Bundle",
+      "OBJ:J",
+      "S:com.android.systemui"
+    ],
+    "1bf6b6340303805ef501ff166f0f449f": [
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.Bundle",
+      "OBJ:J",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "1b19f9d16bfb31355b4944fd5f72de33": [
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.os.Bundle",
+      "OBJ:J",
+      "S:com.android.systemui"
+    ],
+    "a83bccd6a8cf2dc8fa6860bfd9d8ec05": [
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.Bundle",
+      "OBJ:J",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "167503e53e425576daa293fb01f60d46": [
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.os.Bundle",
+      "OBJ:J",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {
+    "None:43773188a71c7b668d61d972ce30bbae": 2,
+    "None:dd16f6289fb7626c6be74d9f24219551": 1
+  },
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [
+    "com.android.server.LocationManagerService"
+  ],
+  "phase_name": "change_parameters",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 0,
+    "historical_service_not_invoked": 11,
+    "no_traces": 0,
+    "historical_no_traces": 1
+  },
+  "pids": [],
+  "pids_done": []
+}

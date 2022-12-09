@@ -1,0 +1,29 @@
+{
+  "api": "activity_task|reportActivityFullyDrawn|android.os.IBinder,Z|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "ac00e29517ce262eb5da820397161236": [
+      "OBJ:android.os.IBinder",
+      "B:true"
+    ],
+    "93dd6fe0bc4a1d741725f9d3e2a4afb4": [
+      "OBJ:android.os.IBinder",
+      "B:false"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

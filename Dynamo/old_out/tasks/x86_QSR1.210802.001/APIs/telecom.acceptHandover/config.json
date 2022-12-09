@@ -1,0 +1,41 @@
+{
+  "api": "telecom|acceptHandover|android.net.Uri,I,android.telecom.PhoneAccountHandle|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "a73f3bcbf16eece488e7c81f7820ff3b": [
+      "URI:content://user_dictionary/words",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.telecom.PhoneAccountHandle"
+    ],
+    "9305b2ac739d3fa715bab9c1e7319ae4": [
+      "URI:content://user_dictionary/words",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.telecom.PhoneAccountHandle"
+    ],
+    "d4824865614c1812020aefe11adaf397": [
+      "URI:content://com.android.contacts/contacts/lookup/0",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.telecom.PhoneAccountHandle"
+    ],
+    "59e4d4799fbb8afb922b2adf83c09d65": [
+      "URI:content://com.android.contacts/contacts/lookup/0",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.telecom.PhoneAccountHandle"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,24 @@
+{
+  "api": "activity|unbindService|android.app.IServiceConnection|Z|",
+  "parameters_count": 1,
+  "parameters": {
+    "464a7d2943796c9e35fa315d5d818567": [
+      "OBJ:android.app.IServiceConnection"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

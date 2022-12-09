@@ -1,0 +1,57 @@
+{
+  "api": "notification|snoozeNotificationUntilContextFromListener|android.service.notification.INotificationListener,java.lang.String,java.lang.String|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "7167d62f31801ff090833afb9ae904f4": [
+      "OBJ:android.service.notification.INotificationListener",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "2dcd79d84210383ba74ac2a453a0ddc9": [
+      "OBJ:android.service.notification.INotificationListener",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui"
+    ],
+    "a6538a3ca668904e0c5d9794b7da9f8b": [
+      "OBJ:android.service.notification.INotificationListener",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "d76d052524793e6d50df6140cbcf3740": [
+      "OBJ:android.service.notification.INotificationListener",
+      "S:com.android.systemui",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {
+    "None:7167d62f31801ff090833afb9ae904f4": 2,
+    "None:2dcd79d84210383ba74ac2a453a0ddc9": 1
+  },
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [
+    "com.android.server.notification.NotificationManagerService$10",
+    "com.android.server.notification.NotificationManagerService",
+    "com.android.server.notification.ManagedServices"
+  ],
+  "phase_name": "change_parameters",
+  "errors": {
+    "not_instrumented": 0,
+    "historical_not_instrumented": 0,
+    "service_not_invoked": 2,
+    "historical_service_not_invoked": 15,
+    "no_traces": 0,
+    "historical_no_traces": 0.39999999999999997
+  },
+  "pids": [],
+  "pids_done": [],
+  "done": true,
+  "errored": true
+}

@@ -1,0 +1,24 @@
+{
+  "api": "location|removeGnssNavigationMessageListener|android.location.IGnssNavigationMessageListener|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "484b7a3f1ea3f5ce4f417b58cc53cbbe": [
+      "OBJ:android.location.IGnssNavigationMessageListener"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,41 @@
+{
+  "api": "phone|handleUssdRequest|I,java.lang.String,android.os.ResultReceiver|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "1da8e81adf69d14201e6badab6e03292": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.ResultReceiver"
+    ],
+    "d47c86f29293a4ae76858f4221c74873": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "S:com.android.systemui",
+      "OBJ:android.os.ResultReceiver"
+    ],
+    "572bbbf6d092fe13c2fb5040ee9f8234": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.ResultReceiver"
+    ],
+    "9779ed2d0f237560540e59bc9ecfb766": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "S:com.android.systemui",
+      "OBJ:android.os.ResultReceiver"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

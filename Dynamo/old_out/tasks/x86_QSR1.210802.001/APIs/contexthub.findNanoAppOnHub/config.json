@@ -1,0 +1,29 @@
+{
+  "api": "contexthub|findNanoAppOnHub|I,android.hardware.location.NanoAppFilter|i[]|",
+  "parameters_count": 2,
+  "parameters": {
+    "822d299082602f7ea3a6614c90b7214e": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.hardware.location.NanoAppFilter"
+    ],
+    "fe8b992f02723255fa481a38795b43c7": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.hardware.location.NanoAppFilter"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

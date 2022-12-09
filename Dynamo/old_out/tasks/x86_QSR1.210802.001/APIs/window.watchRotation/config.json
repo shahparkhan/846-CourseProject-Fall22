@@ -1,0 +1,29 @@
+{
+  "api": "window|watchRotation|android.view.IRotationWatcher,I|I|",
+  "parameters_count": 2,
+  "parameters": {
+    "d00118e4cf00653780b377b6857c9065": [
+      "OBJ:android.view.IRotationWatcher",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "80f8fec96e7c739e07322cd851e04edc": [
+      "OBJ:android.view.IRotationWatcher",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

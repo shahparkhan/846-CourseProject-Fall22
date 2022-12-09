@@ -1,0 +1,26 @@
+{
+  "api": "textclassification|onSuggestConversationActions|android.view.textclassifier.TextClassificationSessionId,android.view.textclassifier.ConversationActions.Request,android.service.textclassifier.ITextClassifierCallback|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "658f804ba43ddc4c0369d11deb5b8aed": [
+      "OBJ:android.view.textclassifier.TextClassificationSessionId",
+      "OBJ:android.view.textclassifier.ConversationActions.Request",
+      "OBJ:android.service.textclassifier.ITextClassifierCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

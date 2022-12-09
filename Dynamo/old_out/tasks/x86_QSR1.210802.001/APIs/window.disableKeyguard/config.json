@@ -1,0 +1,41 @@
+{
+  "api": "window|disableKeyguard|android.os.IBinder,java.lang.String,I|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "f96744af89da29017c3daabfd524c1dc": [
+      "OBJ:android.os.IBinder",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "66927f0208b7a90b2d614cf8bd9be4f6": [
+      "OBJ:android.os.IBinder",
+      "S:fuzzer.permission.uidchanger",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "bfd501b0f01a2b5ae188502098fef80d": [
+      "OBJ:android.os.IBinder",
+      "S:com.android.systemui",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "6e36649018822d1eaa2975eaab570548": [
+      "OBJ:android.os.IBinder",
+      "S:com.android.systemui",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

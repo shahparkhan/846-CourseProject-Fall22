@@ -1,0 +1,41 @@
+{
+  "api": "content|setSyncAutomatically|android.accounts.Account,java.lang.String,Z|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "43875a166fba89665ab388fa7974861a": [
+      "OBJ:android.accounts.Account",
+      "S:fuzzer.permission.uidchanger",
+      "B:true"
+    ],
+    "a361fb4e812c0103b7c42a32b58da97c": [
+      "OBJ:android.accounts.Account",
+      "S:fuzzer.permission.uidchanger",
+      "B:false"
+    ],
+    "7198cc2a7a3d508991a528f30a4651d1": [
+      "OBJ:android.accounts.Account",
+      "S:com.android.systemui",
+      "B:true"
+    ],
+    "69a2fa79e075c07a87eb4b83ac5cdac0": [
+      "OBJ:android.accounts.Account",
+      "S:com.android.systemui",
+      "B:false"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

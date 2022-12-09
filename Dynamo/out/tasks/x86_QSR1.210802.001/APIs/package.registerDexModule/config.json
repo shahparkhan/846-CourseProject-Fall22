@@ -1,0 +1,69 @@
+{
+  "api": "package|registerDexModule|java.lang.String,java.lang.String,Z,android.content.pm.IDexModuleRegisterCallback|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "44c27ff18582d3858fed39018957a8cf": [
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "B:true",
+      "OBJ:android.content.pm.IDexModuleRegisterCallback"
+    ],
+    "05a256b7dd6a80ad2047afcdc65e2eda": [
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "B:false",
+      "OBJ:android.content.pm.IDexModuleRegisterCallback"
+    ],
+    "1e0dbd44a5481ca78cd5ef8729047dc0": [
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "B:true",
+      "OBJ:android.content.pm.IDexModuleRegisterCallback"
+    ],
+    "cc8a70d2c903549fbbacc2f13dc30e2b": [
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "B:false",
+      "OBJ:android.content.pm.IDexModuleRegisterCallback"
+    ],
+    "a2adf2a63b4b8de9c99d436814d98f1c": [
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "B:true",
+      "OBJ:android.content.pm.IDexModuleRegisterCallback"
+    ],
+    "653574fe5ea390bc8e9b78d6efe4cf87": [
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "B:false",
+      "OBJ:android.content.pm.IDexModuleRegisterCallback"
+    ],
+    "28e2f9559c9db6b3e29e5d75dd5a816c": [
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "B:true",
+      "OBJ:android.content.pm.IDexModuleRegisterCallback"
+    ],
+    "ba1e4b5f4d57012e7f69f5b14b470fb2": [
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "B:false",
+      "OBJ:android.content.pm.IDexModuleRegisterCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

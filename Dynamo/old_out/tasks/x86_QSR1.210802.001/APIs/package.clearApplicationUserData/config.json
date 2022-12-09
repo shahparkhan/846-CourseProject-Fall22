@@ -1,0 +1,41 @@
+{
+  "api": "package|clearApplicationUserData|java.lang.String,android.content.pm.IPackageDataObserver,I|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "81ba853dcc70404ba000c89ab1541d8c": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.content.pm.IPackageDataObserver",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "6bdcec3499f32e65d13b80badf3dfe2d": [
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.content.pm.IPackageDataObserver",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ],
+    "a79e2ac7a0ee6f036866e96b6a6fb325": [
+      "S:com.android.systemui",
+      "OBJ:android.content.pm.IPackageDataObserver",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService"
+    ],
+    "4adfe19b1ecea6229a4ee22ae16010ae": [
+      "S:com.android.systemui",
+      "OBJ:android.content.pm.IPackageDataObserver",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,29 @@
+{
+  "api": "appwidget|updateAppWidgetProvider|android.content.ComponentName,android.widget.RemoteViews|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "90a0746eab773548812670efa055ad6a": [
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.widget.RemoteViews"
+    ],
+    "8333c71a327d91bf5e9ccad5db90639e": [
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.widget.RemoteViews"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

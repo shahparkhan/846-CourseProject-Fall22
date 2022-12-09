@@ -1,0 +1,24 @@
+{
+  "api": "deviceidle|registerMaintenanceActivityListener|android.os.IMaintenanceActivityListener|Z|",
+  "parameters_count": 1,
+  "parameters": {
+    "9f610c0662f0f2ef2053fac17663b58c": [
+      "OBJ:android.os.IMaintenanceActivityListener"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

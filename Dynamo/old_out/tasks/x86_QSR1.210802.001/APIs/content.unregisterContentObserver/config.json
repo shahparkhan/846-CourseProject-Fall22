@@ -1,0 +1,24 @@
+{
+  "api": "content|unregisterContentObserver|android.database.IContentObserver|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "5f464ccceb654f7015a690e1bb83c5a3": [
+      "OBJ:android.database.IContentObserver"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

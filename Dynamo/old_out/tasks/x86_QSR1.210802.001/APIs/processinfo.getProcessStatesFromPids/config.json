@@ -1,0 +1,25 @@
+{
+  "api": "processinfo|getProcessStatesFromPids|I[],I[]|V|",
+  "parameters_count": 1,
+  "parameters": {
+    "6de5a88ad811060af3f8cfdfc90539f8": [
+      "OBJ:I[]",
+      "OBJ:I[]"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

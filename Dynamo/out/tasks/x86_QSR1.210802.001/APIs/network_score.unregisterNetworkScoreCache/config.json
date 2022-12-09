@@ -1,0 +1,29 @@
+{
+  "api": "network_score|unregisterNetworkScoreCache|I,android.net.INetworkScoreCache|V|",
+  "parameters_count": 2,
+  "parameters": {
+    "1f5870d99ecf8471f368c00aef43d198": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.net.INetworkScoreCache"
+    ],
+    "a36fc2d555bcf25d13c8b61aad2ba79e": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.net.INetworkScoreCache"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

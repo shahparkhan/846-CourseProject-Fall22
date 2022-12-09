@@ -1,0 +1,69 @@
+{
+  "api": "restrictions|requestPermission|java.lang.String,java.lang.String,java.lang.String,android.os.PersistableBundle|V|",
+  "parameters_count": 8,
+  "parameters": {
+    "28cb13fdeb8b33cd36b5aad902831bdf": [
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.PersistableBundle"
+    ],
+    "5a8bde51888804e0e3175f3dfeb46203": [
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "OBJ:android.os.PersistableBundle"
+    ],
+    "1a5f564f8f60d4a9f28d4576a4a3b274": [
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.PersistableBundle"
+    ],
+    "ade43bb5b773dffedf64303ba08efba5": [
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "OBJ:android.os.PersistableBundle"
+    ],
+    "3a573f1398aa6ff8467f9eb10da5fe54": [
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.PersistableBundle"
+    ],
+    "eafe16284144a0a16605ab27a3a987f7": [
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "OBJ:android.os.PersistableBundle"
+    ],
+    "729154dffd69d0fcbefbdb96f6b7bfaa": [
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.os.PersistableBundle"
+    ],
+    "47097b2ad5330f403623199c6132fb42": [
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "OBJ:android.os.PersistableBundle"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

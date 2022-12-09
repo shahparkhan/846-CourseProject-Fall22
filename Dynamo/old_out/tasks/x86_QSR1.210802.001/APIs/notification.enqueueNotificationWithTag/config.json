@@ -1,0 +1,53 @@
+{
+  "api": "notification|enqueueNotificationWithTag|java.lang.String,java.lang.String,java.lang.String,I,android.app.Notification,I|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "be6f4beafd4fe69c67ca04c1c76a08ee": [
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:0",
+      "INDEX:0",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.app.Notification",
+      "INDEX:3"
+    ],
+    "58d8458e9d4609036fa33e3c1dfd5518": [
+      "S:fuzzer.permission.uidchanger",
+      "INDEX:0",
+      "INDEX:0",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.app.Notification",
+      "INDEX:3"
+    ],
+    "657969f82cfcc3d664a8bf0ca486c93e": [
+      "S:com.android.systemui",
+      "INDEX:0",
+      "INDEX:0",
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.app.Notification",
+      "INDEX:3"
+    ],
+    "c375d9a77b077eb32f1bf1cd2847eafd": [
+      "S:com.android.systemui",
+      "INDEX:0",
+      "INDEX:0",
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.app.Notification",
+      "INDEX:3"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

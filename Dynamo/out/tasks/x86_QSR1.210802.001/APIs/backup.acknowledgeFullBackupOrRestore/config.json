@@ -1,0 +1,133 @@
+{
+  "api": "backup|acknowledgeFullBackupOrRestore|I,Z,java.lang.String,java.lang.String,android.app.backup.IFullBackupRestoreObserver|V|",
+  "parameters_count": 16,
+  "parameters": {
+    "d52cdbf94a2a9379ecf48294203ededd": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:true",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.app.backup.IFullBackupRestoreObserver"
+    ],
+    "6641ba31eaf0c866906ce4fc362ce52a": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:true",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "OBJ:android.app.backup.IFullBackupRestoreObserver"
+    ],
+    "23da859a518d7e090ae6a5bbc14b2d47": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:true",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.app.backup.IFullBackupRestoreObserver"
+    ],
+    "9de261dff9b0820a992635b03c2d62ac": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:true",
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "OBJ:android.app.backup.IFullBackupRestoreObserver"
+    ],
+    "73f9455603bb069e3607e437a22bc6e3": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:false",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.app.backup.IFullBackupRestoreObserver"
+    ],
+    "91ecea7d9412dda7b5854ebbd55b7d53": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:false",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "OBJ:android.app.backup.IFullBackupRestoreObserver"
+    ],
+    "14e08fb40d2c363bc4dfacddf1d2fee7": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:false",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.app.backup.IFullBackupRestoreObserver"
+    ],
+    "530820fbd61ef0b1f5fb1316f033801a": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:false",
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "OBJ:android.app.backup.IFullBackupRestoreObserver"
+    ],
+    "8dbd0cc6838cf7a499f204eac22dee40": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:true",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.app.backup.IFullBackupRestoreObserver"
+    ],
+    "250da3623754cfdb6a4e6eecf6de6992": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:true",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "OBJ:android.app.backup.IFullBackupRestoreObserver"
+    ],
+    "9678cd3c731f68be17da54dbd7752ff8": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:true",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.app.backup.IFullBackupRestoreObserver"
+    ],
+    "492c9971f8c67622d5c8df2bfead3dd9": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:true",
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "OBJ:android.app.backup.IFullBackupRestoreObserver"
+    ],
+    "df8087907cb2846f38873a1c497b6cee": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:false",
+      "S:fuzzer.permission.uidchanger",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.app.backup.IFullBackupRestoreObserver"
+    ],
+    "166c04699fe3cce1e34381e5b10bebb2": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:false",
+      "S:fuzzer.permission.uidchanger",
+      "S:com.android.systemui",
+      "OBJ:android.app.backup.IFullBackupRestoreObserver"
+    ],
+    "aede3395fbe1ff17761d356b669bd1dc": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:false",
+      "S:com.android.systemui",
+      "S:fuzzer.permission.uidchanger",
+      "OBJ:android.app.backup.IFullBackupRestoreObserver"
+    ],
+    "490df4a1e96a3e1b3710c2265097f810": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:false",
+      "S:com.android.systemui",
+      "S:com.android.systemui",
+      "OBJ:android.app.backup.IFullBackupRestoreObserver"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,31 @@
+{
+  "api": "ipsec|createTransform|android.net.IpSecConfig,android.os.IBinder,java.lang.String|android.net.IpSecTransformResponse|",
+  "parameters_count": 2,
+  "parameters": {
+    "d8d0439733ea249c01acea6129e2f449": [
+      "OBJ:android.net.IpSecConfig",
+      "OBJ:android.os.IBinder",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "b543d55adfc3755203e573e1feb57679": [
+      "OBJ:android.net.IpSecConfig",
+      "OBJ:android.os.IBinder",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

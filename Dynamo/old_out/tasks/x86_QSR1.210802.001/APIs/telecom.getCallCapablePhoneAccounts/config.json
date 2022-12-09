@@ -1,0 +1,37 @@
+{
+  "api": "telecom|getCallCapablePhoneAccounts|Z,java.lang.String|java.util.List|",
+  "parameters_count": 4,
+  "parameters": {
+    "25d8d6de6f24340226de4745a0c127d6": [
+      "B:true",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "6c908458f1ad6cf601f2acb66c10bd1a": [
+      "B:true",
+      "S:com.android.systemui"
+    ],
+    "24fbb1773204df22986308348a5636b9": [
+      "B:false",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "85cd653d6b779a07bc83affaac9a2531": [
+      "B:false",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

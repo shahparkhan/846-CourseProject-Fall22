@@ -1,0 +1,31 @@
+{
+  "api": "wifi|startLocalOnlyHotspot|android.os.Messenger,android.os.IBinder,java.lang.String|I|",
+  "parameters_count": 2,
+  "parameters": {
+    "bbffcef36f1bfe9f618126cde30d519c": [
+      "OBJ:android.os.Messenger",
+      "OBJ:android.os.IBinder",
+      "S:fuzzer.permission.uidchanger"
+    ],
+    "99c54b8b98ebf6232abbe828544260dc": [
+      "OBJ:android.os.Messenger",
+      "OBJ:android.os.IBinder",
+      "S:com.android.systemui"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

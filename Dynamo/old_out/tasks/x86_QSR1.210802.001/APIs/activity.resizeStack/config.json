@@ -1,0 +1,53 @@
+{
+  "api": "activity|resizeStack|I,android.graphics.Rect,Z,Z,Z,I|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "1f0b602d2eeb17fbcbc3164d105ef94a": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.graphics.Rect",
+      "B:true",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:0"
+    ],
+    "723b52d520e51a252ba629cfb2b4c730": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.graphics.Rect",
+      "B:false",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:0"
+    ],
+    "821a436c0c8b25623f13623af06aeefe": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.graphics.Rect",
+      "B:true",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:0"
+    ],
+    "345e16311774c8c1d876ef47fc3837f7": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.graphics.Rect",
+      "B:false",
+      "INDEX:2",
+      "INDEX:2",
+      "INDEX:0"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

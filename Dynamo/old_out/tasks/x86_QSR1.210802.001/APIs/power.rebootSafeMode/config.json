@@ -1,0 +1,37 @@
+{
+  "api": "power|rebootSafeMode|Z,Z|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "907526110c86dd89f5c8f3e8f950ee14": [
+      "B:true",
+      "B:true"
+    ],
+    "7ab94cb14a4fb59dfc71001a2d36fba8": [
+      "B:true",
+      "B:false"
+    ],
+    "64b3ef35bc12a595b87ef1218b2fc5d8": [
+      "B:false",
+      "B:true"
+    ],
+    "96f0d1ca3edc110a476ffe891c3dde36": [
+      "B:false",
+      "B:false"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

@@ -1,0 +1,41 @@
+{
+  "api": "backup|selectBackupTransportAsyncForUser|I,android.content.ComponentName,android.app.backup.ISelectBackupTransportCallback|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "99230ac7251c8e80d3ddc773c65e40f9": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.app.backup.ISelectBackupTransportCallback"
+    ],
+    "69f1e711e1fa3447aa767322cfb6573e": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.app.backup.ISelectBackupTransportCallback"
+    ],
+    "882163939b498d4444ffde27478da8aa": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "COMPONENT_NAME:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "OBJ:android.app.backup.ISelectBackupTransportCallback"
+    ],
+    "73efa38f22c8d9ca9850cca8ccd6aa8a": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "COMPONENT_NAME:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "OBJ:android.app.backup.ISelectBackupTransportCallback"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

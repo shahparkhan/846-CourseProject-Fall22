@@ -1,0 +1,118 @@
+[
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": null,
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": false,
+      "data": null
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.TelephonyRegistry"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "10148::android.permission.MODIFY_PHONE_STATE"
+      ],
+      "pid": null,
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "cf1a1f9c0bb37e7d66012c84657d3667",
+      "ignored_permissions": []
+    },
+    "processed": true
+  },
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": {
+      "name": null,
+      "id": null,
+      "pid": 1971
+    },
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": true,
+      "data": {
+        "type": "java.lang.SecurityException.<init>(Native Method)",
+        "location": "com.android.server.am.UserController.handleIncomingUser(UserController.java:1647)",
+        "message": "Permission Denial: broadcast from android asks to run as user -1 but is calling from uid u0a148; this requires android.permission.INTERACT_ACROSS_USERS_FULL or android.permission.INTERACT_ACROSS_USERS"
+      }
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.TelephonyRegistry"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "10148::android.permission.INTERACT_ACROSS_USERS_FULL",
+        "10148::android.permission.MODIFY_PHONE_STATE"
+      ],
+      "pid": "fuzzer.permission.uidchanger:InvokerService",
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "cf1a1f9c0bb37e7d66012c84657d3667",
+      "ignored_permissions": [
+        "10148::android.permission.INTERACT_ACROSS_USERS"
+      ]
+    },
+    "id": "eecd4eb2-b6d9-4c99-bb9f-6206cdaa2e83",
+    "processed": true
+  },
+  {
+    "execution_outcome": {
+      "returns": false,
+      "output": null
+    },
+    "pid_info": {
+      "name": null,
+      "id": null,
+      "pid": 1971
+    },
+    "uid_info": null,
+    "uid_works": true,
+    "exception": {
+      "is_security": true,
+      "data": {
+        "type": "java.lang.SecurityException.<init>(Native Method)",
+        "location": "com.android.server.am.UserController.handleIncomingUser(UserController.java:1647)",
+        "message": "Permission Denial: broadcast from android asks to run as user -1 but is calling from uid u0a148; this requires android.permission.INTERACT_ACROSS_USERS_FULL or android.permission.INTERACT_ACROSS_USERS"
+      }
+    },
+    "appops_operations": [],
+    "to_instrument": [
+      "com.android.server.TelephonyRegistry"
+    ],
+    "data": {
+      "appOps": [],
+      "methods": [],
+      "permissions": [
+        "10148::android.permission.INTERACT_ACROSS_USERS",
+        "10148::android.permission.MODIFY_PHONE_STATE"
+      ],
+      "pid": "fuzzer.permission.uidchanger:InvokerService",
+      "uid": null,
+      "userId": null,
+      "user_restrictions": [],
+      "parameters_hash": "cf1a1f9c0bb37e7d66012c84657d3667",
+      "ignored_permissions": [
+        "10148::android.permission.INTERACT_ACROSS_USERS_FULL"
+      ]
+    },
+    "id": "eecd4eb2-b6d9-4c99-bb9f-6206cdaa2e83"
+  }
+]

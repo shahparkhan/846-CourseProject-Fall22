@@ -1,0 +1,37 @@
+{
+  "api": "phone|setVoWiFiSettingEnabled|I,Z|V|",
+  "parameters_count": 4,
+  "parameters": {
+    "f62c9df9e7bfc76c9006492b55048852": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:true"
+    ],
+    "c1ff1221a16cc09b2d9d3e0c82041b2c": [
+      "INTENT:fuzzer.permission.uidchanger:fuzzer.permission.uidchanger.InvokerService",
+      "B:false"
+    ],
+    "2b5888b43ad169b1a028462e4aa1747a": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:true"
+    ],
+    "a2fe38eab8c6292772a9627f276f5191": [
+      "INTENT:com.meraki.sm:com.meraki.sm.DeviceAdmin",
+      "B:false"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}

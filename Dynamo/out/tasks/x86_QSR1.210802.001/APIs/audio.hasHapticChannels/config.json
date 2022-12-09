@@ -1,0 +1,27 @@
+{
+  "api": "audio|hasHapticChannels|android.net.Uri|Z|",
+  "parameters_count": 2,
+  "parameters": {
+    "7c5899ae6540de635d74c1d4ec3d7932": [
+      "URI:content://user_dictionary/words"
+    ],
+    "c67e3dd1263e392be08e31ddff1ba901": [
+      "URI:content://com.android.contacts/contacts/lookup/0"
+    ]
+  },
+  "parameters_done": {},
+  "uids": [
+    null,
+    1000000,
+    1001,
+    2000,
+    1000,
+    0
+  ],
+  "uids_done": [],
+  "classes": [],
+  "phase_name": null,
+  "errors": {},
+  "pids": [],
+  "pids_done": []
+}
